@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Final.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Sci-fi</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="Navbar.js"></script>
+    <script src="Scrolling.js"></script>
+    <link rel="icon" href="Logo.jpg">
+    
+</head>
+<body class  = "scifi">
+   
+    <div class = "topnav">
+        <!-- mobile version of nav bar -->
+        <div id="mobile">
+            <nav>
+                <ul class = "menu">
+                    <!-- logo followed by all of the links to other pages -->
+                    <li class = "DieLogo"><img src = "Logo.jpg" alt = "D20 Symbol" width="50"></li>
+                    <li class = "item hidden"><a class= "main active" href=MainPage.html>Home</a></li>
+                    <li class = "item hidden"><a class = "moontop" href=Moon.html>Moon</a></li>
+                    <li class = "item hidden"><a class = "scifitop" href=Scifi.html>Scifi</a></li>
+                    <li class = "item hidden"><a class = "hyliantop" href=Hylian.html>Hylian</a></li>
+                    <li class = "item hidden"><a class = "nauticaltop" href=Nautical.html>Nautical</a></li>
+                    <li class = "item hidden"><a class = "fantasytop" href="resources.html">Resources</a></li>
+                    <li class = "item hidden"><a class = "charactertop" href="Character_Tracker.html">My Characters</a></li>
+                    <li class = "item hidden"><a class = "abouttop" href="About.html">About</a></li>
+                    <li class = "item hidden"><a class = "contacttop" href="Contact.html">Contact</a></li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    
+    
+        <!-- Desktop nav bar -->
+        <div class = "desktop">
+            <div class="navbar" >
+                <!-- Image logo  -->
+                <img src = "Logo.jpg" alt = "D20 Symbol" width="50">
+                <!-- home link -->
+                <a class= "main" href=MainPage.html>Home</a>
+                <div class="dropdown">
+                    <!-- Active campaign "folder" links -->
+                    <button class="dropbtn">Active
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <!-- Active campaign links -->
+                        <a class = "moontop" href=Moon.html>Moon</a>
+                        <a class = "scifitop" href=Scifi.html>Scifi</a>
+                        <a class = "hyliantop" href=Hylian.html>Hylian</a>
+                        <a class = "nauticaltop" href=Nautical.html>Nautical</a>
+                    </div>
+                </div>
+                <!-- Other links -->
+                <a class = "fantasytop" href="resources.html">Resources</a>
+                <a class = "charactertop" href="Character_Tracker.html">My Characters</a>
+                <a class = "abouttop" href="About.html">About</a>
+                <a class = "contacttop" href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="output"></div>
+
+    <div class = "centered scifibody"> 
+        <h1>Welcome to Sci-fi!</h1>
+        <p></p>
+
+        <h1>What races are avaliable?</h1>
+        <p>There is a whole slew of alien like races that you can chose from. The races range from humanoid races, to more beastial races. For further information on the races avaliable, please look in the <a href="fantasyresources.html">resources</a> page. </p>
+
+        <h1>What classes are avaliable?</h1>
+        <p>There are only four classes or specifications (specs) avaliable for now.</p>
+        <h2>TECH(Technology & Hacking)</h2>
+        <p>There are two wonderful things that you get with this class. A <b>Drone</b> and <b>Holographic Matter Emitters</b>.</p> 
+        <p>There are several different types of drone. There are combat drones that specialize in dealing damage but lack armor and will easily go down if hit directly. Utility drones specialize in things like automated hacking and can be mildly armored. Then you have protection drones. These are the drones that are decked out in plating to ensure that if they are hit, they don't die. They usually protect their controller from harm but can't do much of anything else.</p>
+        <p>Holographic matter emitters are like little projections that can be mildly interacted with. Although they don't have physical matter, the holographic matter they do have can do simple things like create a distraction for just long enough for you and your crew to run away. They aren't the cheapest things but they have a very little damage they can take before the chips are damaged to the point of no repair.</p>
+
+        <h2>CBT(Combat)</h2>
+        <p></p>
+        
+        <h2>RCN(Reconnaissance)</h2>
+        <p></p>
+
+        <h2>HCHM(Heavy combat & Hazardous Materials)</h2>
+        <p></p>
+
+        <h1>What kind of combat will we be looking at?</h1>
+        <p>If you have seen any kind of Star Wars movie, you can start to get a good picture of what kind of combat you are looking at. Take a western style shoot out movie and 
+        </p>
+
+        <h1>Do I need to have previous experience to join the campaign?</h1>
+        <p>Previous experience is always nice but never needed. If you have never played in a campaign of Tree's, don't worry, you always have one veteran player that is willing to help you. Tree's wife, Riley, is in each campaign and is more than happy to help new players learn. She will help you learn the combat system, how the magic works and any nuances that are associated with the campaigns.</p>
+
+        <h1>Is there any requirements to get into the campaign?</h1>
+        <p>The only requirement for this campaing would be that you need to have a very basic understanding of the setting lore. Beyond this, there is not much else.</p>
+
+    </div>
+    <script>
+        // <meta name = "viewport" content="initial-scale=1.0, width = device-width"/>
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+        canvas.setAttribute("width", window.screen.width-25);
+        canvas.setAttribute("height", window.screen.height-115);
+        document.body.prepend(canvas);
+        const colVal = [];
+        //falling text
+        for(let x=0;x<window.screen.width;x++){
+            colVal.push(0);
+        }
+        function matrix() {
+            ctx.fillStyle = "rgba(0,0,0,.05)";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            //text color
+            ctx.fillStyle = "lightblue";
+            colVal.map((posY, index) => {
+                //1 or 0
+                let output = Math.random()<0.5?0:1;
+                let posX = (index * 10) + 10;
+                ctx.fillText(output, posX, posY);
+                //how far the numbers fall
+                if (posY > 400 + Math.random() * 2400) {
+                    colVal[index] = 0;
+                } else {
+                    colVal[index] = posY + 10;
+                }
+            });
+        }
+        setInterval(matrix, 50);
+    </script>
+
+</body>
+<footer></footer>

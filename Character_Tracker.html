@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Final.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Resources</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="Navbar.js"></script>
+    <link rel="icon" href="Logo.jpg">
+</head>
+
+<body class = 'character'>
+    <div class = "topnav">
+        <!-- mobile version of nav bar -->
+        <div id="mobile">
+            <nav>
+                <ul class = "menu">
+                    <!-- logo followed by all of the links to other pages -->
+                    <li class = "DieLogo"><img src = "Logo.jpg" alt = "D20 Symbol" width="50"></li>
+                    <li class = "item hidden"><a class= "main active" href=MainPage.html>Home</a></li>
+                    <li class = "item hidden"><a class = "moontop" href=Moon.html>Moon</a></li>
+                    <li class = "item hidden"><a class = "scifitop" href=Scifi.html>Scifi</a></li>
+                    <li class = "item hidden"><a class = "hyliantop" href=Hylian.html>Hylian</a></li>
+                    <li class = "item hidden"><a class = "nauticaltop" href=Nautical.html>Nautical</a></li>
+                    <li class = "item hidden"><a class = "fantasytop" href="resources.html">Resources</a></li>
+                    <li class = "item hidden"><a class = "charactertop" href="Character_Tracker.html">My Characters</a></li>
+                    <li class = "item hidden"><a class = "abouttop" href="About.html">About</a></li>
+                    <li class = "item hidden"><a class = "contacttop" href="Contact.html">Contact</a></li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    
+    
+        <!-- Desktop nav bar -->
+        <div class = "desktop">
+            <div class="navbar" >
+                <!-- Image logo  -->
+                <img src = "Logo.jpg" alt = "D20 Symbol" width="50">
+                <!-- home link -->
+                <a class= "main" href=MainPage.html>Home</a>
+                <div class="dropdown">
+                    <!-- Active campaign "folder" links -->
+                    <button class="dropbtn">Active
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <!-- Active campaign links -->
+                        <a class = "moontop" href=Moon.html>Moon</a>
+                        <a class = "scifitop" href=Scifi.html>Scifi</a>
+                        <a class = "hyliantop" href=Hylian.html>Hylian</a>
+                        <a class = "nauticaltop" href=Nautical.html>Nautical</a>
+                    </div>
+                </div>
+                <!-- Other links -->
+                <a class = "fantasytop" href="resources.html">Resources</a>
+                <a class = "charactertop" href="Character_Tracker.html">My Characters</a>
+                <a class = "abouttop" href="About.html">About</a>
+                <a class = "contacttop" href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <h1>This is where you can store your characters and ideas for characters.</h1>
+    <form action="newcharacter.php" method="GET">
+        <p>Name: <input type="text">
+        <p>Campaign: <input type="text" onclick= "update()" list="campaignLevel" name="campaign"></p> <datalist id="campaignLevel">  <option value="Sci-fi">  <option value="Hylian">  <option value="Moon">  <option value="Nautical"></datalist>
+        
+        <script>
+            function update(){
+                
+                // foreach()
+                // document.getElementById("classinput").
+
+            }
+        </script>
+            <p>Class: <input type="text" id = "classinput" list="campaignLevel" name="campaign"></p> <datalist id="campaignLevel">  <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi">  <option value="Sci-fi"> <option value="Sci-fi"> <option value="Sci-fi">  <option value="Sci-fi"></datalist>
+        <p>Race: <input type="text" id="raceinput" list="campaignLevel" name="campaign"></p> <datalist id="campaignLevel">  <option value="Sci-fi">  <option value="Hylian">  <option value="Moon">  <option value="Nautical"></datalist>
+        
+            <!-- <p>Class: <input type="text" list ="classlevel" name = "class"></p><datalist id= "</p> -->
+        <button>Submit a character</button>
+    </form>
+    <!-- <form action = "/mycharacters.html" method="POST"><button>My characters</button></form> -->
+</body>

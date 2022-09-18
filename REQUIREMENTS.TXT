@@ -1,0 +1,41 @@
+
+at least 10 different html element types
+Done. Main. 
+Head, body, header, link, nav, img, button, div, p, h1 
+ 
+at least 10 different html attribute names
+Wrap, width, value, type, style, src, alt, height, name, href
+ 
+at least one image with correct alt attribute
+On both Main page as well as Contact Us
+ 
+at least 10 css rules
+This is done. There is more than 10 rules
+ 
+css flexbox
+The Desktop Navbar
+ 
+css grid
+Used in Main
+ 
+at least 2 media queries (to support mobile and tablet sized displays) on a page
+Used with both Navigation and any of the campaign pages separately. A total of 4 media queries.
+ 
+at least 2 instances where you use javascript add event listener
+Completed in the Nav bar alone. 
+ 
+at least 2 instances where you use document. querySelector or querySelectorAll
+Completed in the Nav bar alone.
+ 
+ajax to interact with an API
+Used in Resources.js for the Resources page 
+ 
+a javascript class or javascript modules
+Used for the Nav bar and resources. 
+
+EXTRAS: 
+
+Frameworks: Cloud Flare: used for the mobile version of nav bar
+Custom API and intigration:Used for my resources page.
+
+https://medium.com/@umar66655/store-user-input-into-localstorage-and-create-the-table-into-another-page-using-javascript-abcb55202cd4

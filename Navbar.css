@@ -1,0 +1,182 @@
+/* Top nav for main using flex box */
+
+
+nav a {
+color: white;
+text-decoration: none;
+}
+.menu, .submenu {   
+list-style-type: none;
+}
+.DieLogo {
+align-items: center;
+font-size: 20px;
+padding: 7.5px 10px 7.5px 10px;
+}
+.item {
+padding: 10px;
+}
+.item:not(.button) a:hover, .item a:hover::after {
+color: rgb(204, 204, 204);
+}
+
+.topnav {
+position: sticky;
+top: 8px;
+}
+
+
+
+.hidden{
+display:none;
+}
+
+
+
+/*mobile nav bar*/
+nav{
+background: #222;
+padding: 0 15px;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+nav a{
+color:white;
+text-decoration: none;
+}
+.desktop{
+    display:none;
+}
+.menu {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+.menu li a {
+display: block;
+padding: 15px 5px;
+}
+.toggle {
+order: 1;
+font-size: 20px;
+padding: 10px;
+}
+.item.button {
+order: 2;
+}
+.item {
+order: 3;
+width: 100%;
+text-align: center;
+/* display: none; */
+}
+.active .item {
+display: block;
+}
+.button.secondary { /* divider between buttons and menu links */
+border-bottom: 1px #444 solid;
+}
+
+
+
+  /* tablet Nav*/
+@media all and (min-width: 700px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+    .desktop{
+        display:none;
+    }
+}
+  
+/* desktop Nav */
+@media all and (min-width: 960px) {
+
+    #mobile{
+        display:none;
+    }
+    .desktop{
+        display:initial;
+    }
+    .navbar {
+        overflow: hidden;
+        background-color: #111;
+        
+    }
+        
+        .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 21.8px 16px;
+        text-decoration: none;
+    }
+        
+    .dropdown {
+    float: left;
+    overflow: hidden;
+    }
+        
+    .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 21.8px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #222;
+    }
+        
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        color:aliceblue;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 17px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+        
+    .dropdown-content a:hover {
+        background-color: #222;
+        color:white;
+    }
+        
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+        
+    .navbar img{
+        padding:6px;
+        float:left;
+    }
+}

@@ -1,7 +1,122 @@
+
+
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+
+    <head>
+        <!-- attribute names here -->
+        <link rel="stylesheet" href="Carousel.css">
+        <link rel="stylesheet" href="Final.css">
+        <link rel="stylesheet" href="Navbar.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Crypts & Creatures</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="Navbar.js"></script>
+        <link rel="icon" href="Logo.jpg">
+    </head>
+    
+    
+    <body class = "mainpage">
+        <!-- REQUIREMENT all of the navigation bar stuff both mobile and desktop. -->
+        <div class = "topnav">
+            <!-- mobile version of nav bar -->
+            <div id="mobile">
+                <nav>
+                    <ul class = "menu">
+                        <!-- logo followed by all of the links to other pages -->
+                        <li class = "DieLogo"><img src = "Logo.jpg" alt = "D20 Symbol" width="50"></li>
+                        <li class = "item hidden"><a class= "main active" href=MainPage.html>Home</a></li>
+                        <li class = "item hidden"><a class = "moontop" href=Moon.html>Moon</a></li>
+                        <li class = "item hidden"><a class = "scifitop" href=Scifi.html>Scifi</a></li>
+                        <li class = "item hidden"><a class = "hyliantop" href=Hylian.html>Hylian</a></li>
+                        <li class = "item hidden"><a class = "nauticaltop" href=Nautical.html>Nautical</a></li>
+                        <li class = "item hidden"><a class = "fantasytop" href="resources.html">Resources</a></li>
+                        <li class = "item hidden"><a class = "charactertop" href="Character_Tracker.html">My Characters</a></li>
+                        <li class = "item hidden"><a class = "abouttop" href="About.html">About</a></li>
+                        <li class = "item hidden"><a class = "contacttop" href="Contact.html">Contact</a></li>
+                        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            
+            
+            <!-- Desktop nav bar -->
+            <div class = "desktop">
+                <div class="navbar" >
+                    <!-- Image logo  -->
+                    <img src = "Logo.jpg" alt = "D20 Symbol" width="50">
+                    <!-- home link -->
+                    <a class= "main" href=MainPage.html>Home</a>
+                    <div class="dropdown">
+                        <!-- Active campaign "folder" links -->
+                        <button class="dropbtn">Active
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <!-- Active campaign links -->
+                            <a class = "moontop" href=Moon.html>Moon</a>
+                            <a class = "scifitop" href=Scifi.html>Scifi</a>
+                            <a class = "hyliantop" href=Hylian.html>Hylian</a>
+                            <a class = "nauticaltop" href=Nautical.html>Nautical</a>
+                        </div>
+                    </div>
+                    <!-- Other links -->
+                    <a class = "fantasytop" href="resources.html">Resources</a>
+                    <a class = "charactertop" href="Character_Tracker.html">My Characters</a>
+                    <a class = "abouttop" href="About.html">About</a>
+                    <a class = "contacttop" href="Contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id = "main">
+            <div id = "ImageCarousel">
+                <!-- REQUIREMENT attribute types here -->
+                <!-- REQUIREMENT image with alt attribute -->
+                <img src = "Friends.jpg" alt = "Friends.jpg" class = "pic">
+                <img src = "Setofdice1.jpg" alt = "Friends.jpg" class = "pic">
+                <img src = "Setofdice2.jpg" alt = "Friends.jpg" class = "pic">
+                <img src = "Setofdice3.jpg" alt = "Friends.jpg" class = "pic">
+            </div>
+
+
+            <!-- REQUIREMENT final of the 10 html element types in just main alone -->
+            <h1 id = "T">Welcome to Tree's campaigns website</h1>
+            <p id = "F">This is a website that Tree's loving wife created so that he could keep track of all of the campaigns he has going on. It also allows for advertising of his campaigns and promotion of the resources that the two have worked so hard.</p>
+            <p id = "A">This is a bunch of friends who love playing dnd on a weekly basis. A bunch of dice from a bunch of fun and friendly people. They all love to look at their shiny click clacks and roll them. </p>
+            <p id = "L">When there are campiangs that happen, friends come together to build a world unlike any other. They live and love by the temper of their dice.</p>
+            
+        </div>
+        
+        
+    </body>
+    
+    <!-- an archive of what I originally had for the nav bar. -->
+    <!-- <nav>
+        <ul class = "menu">
+            <li class = "DieLogo"></li>
+            <li class = "item"><a class= "main active" href=MainPage.html>Home</a></li>
+            <li class = "item has-submenu">
+                <a tabindex="0">Avaliable Campaigns</a>
+                <ul class = "submenu">
+                    <li><a class = "moontop" href=Moon.html>Moon</a></li>
+                    <li><a class = "scifitop" href=Scifi.html>Scifi</a></li>
+                    <li><a class = "hyliantop" href=Hylian.html>Hylian</a></li>
+                    <li><a class = "nauticaltop" href=Nautical.html>Nautical</a></li>
+                </ul>
+            </li>
+            <li class = "item "><a class = "fantasytop" href="fantasyresources.html">Resources</a></li>
+            <li class = "item"><a class = "charactertop" href="Character_Tracker.html">My Characters</a></li>
+            <li class = "item"><a class = "abouttop" href="About.html">About</a></li>
+            <li class = "item"><a class = "contacttop" href="Contact.html">Contact</a></li>
+            
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            
+            
+            
+        </ul>
+    </nav> -->
 </html>

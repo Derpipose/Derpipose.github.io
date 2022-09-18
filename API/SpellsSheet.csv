@@ -1,0 +1,378 @@
+Celestia,Celestia,Ward,1,Self,,,10 rounds or until hit,"Cancel magic on successful roll, is shaped like a shield"
+Celestia,Celestia,Detect,3,Sight,,,10 rounds,See alignment of things
+Celestia,Celestia,Purify,3,Touch,1D10,Radiant,1 round,Purifies items or people
+Celestia,Celestia,Light,1,Self,,,5 minutes,Create an orb of light that follows you
+Celestia,Blessing,Vision,5,Self,,,30 seconds,"Detect life, You can see life signs through walls"
+Celestia,Blessing,Smite,4,On weapon,2D10,Radiant,One attack,Coats weapon in radiant magic
+Celestia,Blessing,Faith,3,Projectile ,1D8,Radiant,1 round,Create a holy damage projectile
+Celestia,Blessing,Bless,2,Target,,,Until used,Have advantage on your next check
+Celestia,Strength,Strength,3,Touch,,,,
+Celestia,Strength,Regen,4,Target,,,,
+Celestia,Strength,Focus,3,Target,,,,
+Celestia,Strength,Relax,2,Target,,,,
+Celestia,White,Seraphim,8,Summon,,,,Summons a Valkyrie to assist you
+Celestia,White,The White,7,Self,,,,
+Celestia,White,Retribution,15,10x10 AoE,3d10 per square,Radiant,,A massive holy blast centered on yourself.
+Celestia,White,Heaven,13,Summon,,Radiant,1d6 rounds,Summons a semblance of the Blade Heavens gate in your hand. 
+Life,Life,Healing,2,Touch,1D20,,1 Round,Heals wounds to an extent. Can't heal large wounds.
+Life,Life,Cure,3,Touch,,,1 Round,"Cures poison, acid and disease"
+Life,Life,Protect,4,Touch,,,5 minutes or until hit,Bonus AC +2
+Life,Life,Aura,1,5x5,2D4,,As long as caster wants,AOE healing of 2D4 per round
+Life,Valor,Valor,3,Target,,,1D6 Rounds,Passive attack buff for 1D6 rounds
+Life,Valor,Bestow ,3,Line of sight,,,Combined spell durration,Gives spells to others
+Life,Valor,Morale,3,Target,,,1D6 Rounds,Passive saving throw advantage for 1D6 rounds
+Life,Valor,Salve,4,6 Squares proj,1D12,,1 Round,Ranged Healing
+Life,Restore,Boon,4,Target,,,,
+Life,Restore,Turn,6,3x3 & 5x5,,Blast,,
+Life,Restore,Restore,5,Target,,,,
+Life,Restore,Manifest,5,Target,,,,
+Life,Chance,Chance,9,Target,,,,
+Life,Chance,Wish,30,anything,,,,
+Life,Chance,Queen,15,summon,,,,
+Life,Chance,Bulwark,15,Touch,,,1d6,
+Earth,Earth,Stonefist ,1,Self/Touch,1D10,Blunt,,Encases fist in rock
+Earth,Earth,Rise,3,Touch,,,,Creates a stone pillar
+Earth,Earth,Rock,1,40ft,2D6,Projectile ,,Summon a rock projectile
+Earth,Earth,Rock Wall,5,Ambient,,,,Creates a rock wall
+Earth,Sand,Sand,2,20ft,2D6,Ray,,Softens earth
+Earth,Sand,Quick Sand,3,Ambient,,,,Creates a pool of quicksand. Can only be cast on soft earth.
+Earth,Sand,Sand Whip,4,Melee,1D8,Slashing,,Creates a whip of sand 
+Earth,Sand,Repair,1,Object,,,,Allows user to repair small items made of earthen material(rock & metal)
+Earth,Chasm,Shower,,,,,,
+Earth,Chasm,Shard,,,,,,
+Earth,Chasm,Spike,,,,,,
+Earth,Chasm,Crystallize ,,,,,,
+Earth,Fissure,Quake,,,,,,
+Earth,Fissure,Boulder ,,,,,,
+Earth,Fissure,Terra,,,,,,
+Earth,Fissure,Crystal,,,,,,
+Growth,Growth,Growth,Variant,3x3,,,,Grows plants from nothing in a 3X3
+Growth,Growth,Whip ,2,30ft,1D8,Slash,,Creates a whip from plants with 30 ft of reach
+Growth,Growth,Tangle ,3,4x4,,,,Ensnares living creatures
+Growth,Growth,Poison ,4,Touch,1D12 per round,Poison,,Touch poison that lasts until the creature makes con save
+Growth,Seed,Thorn,4,5x5,1D8,Slash,,Creates a thorn grove that inflicts damage per square
+Growth,Seed,Fruit,1,15ft,,,,Grows a fruit that heals 1D10 upon consumption 
+Growth,Seed,Seed,2,,2D6,Leech,,Leeches life from the creature hit
+Growth,Seed,Infest,,,,,,
+Growth,Bloom,Root,,,,,,
+Growth,Bloom,Stem,,,,,,
+Growth,Bloom,Leaf,,,,,,
+Growth,Bloom,Petal Dance,,,,,,
+Growth,Mother,Mother,,,,,,
+Growth,Mother,Nature,,,,,,
+Growth,Mother,Solar,,,,,,
+Growth,Mother,Tree Speak,,,,,,
+Fire,Fire,Fire,2,15ft,2D6,Ray,1 round,Fire ray
+Fire,Fire,Ignite,1,Line of sight,,,,Ignites flamable object
+Fire,Fire,Boil ,1,Room,,,,Boils liquids not in a living entity
+Fire,Fire,Burn,3,Touch,1D10+(1D6*1D4),,1D4,Touch and set on fire (deals 1D6 each round) for 1D4 rounds
+Fire,Flame,Flame Shot,3,Proj,1D6,Proj,1Round,Cast a fireball
+Fire,Flame,Steam,5,25ft Cone,3D4,,1Round,"Blast of steam, either out of impliment or mouth"
+Fire,Flame,Heat,1,Small room,,,5 minutes,Heats an area
+Fire,Flame,Flame Guard,5,Self,,,10 Rounds,Resist 10 fire damage
+Fire,Pyre,Fire Dance,Var ,,,,,
+Fire,Pyre,Flame Sphere,8,,,,,
+Fire,Pyre,Fireball,6,,,,,
+Fire,Pyre,Pyre,6,,,,,
+Fire,Eruption,Inferno,12,,,,,
+Fire,Eruption,Blaze,9,,,,,
+Fire,Eruption,Erupt,9,,,,,
+Fire,Eruption,Molten,15,,,,,
+Seas,Seas,Swim,1,Touch,,,5 Minutes,Turn into a merfolk
+Seas,Seas,Ink,2,15 ft,,Ray,,Temp blindness
+Seas,Seas,Fountain,3,Close,1D10,,,Create a gyser of water
+Seas,Seas,Breathe,1,Touch,,,5 Minutes,Allows underwater breathing
+Seas,Ocean,Claw,3,Self,1D10 ,Crushing/blud,Casting modifier,Gives caster a large crab claw inplace of hand
+Seas,Ocean,Shell,3,Self,,,Encounter ,Envelops caster in a shell until dispelled or shattered
+Seas,Ocean,Urchin,Var,Self,,,Depending,Covers in urchin armor spikes
+Seas,Ocean,Douse,5,30 ft,3D6,Line,1 Round,ACreat a beam of water + 20 ft push back
+Seas,The Deep,Sting,4,Self,1d10 ,"Poison, Stun",1d6 rounds,"Sting ray tail, can attack an extra time with it, it can deliver a dangerous lingering stunning poison "
+Seas,The Deep,Jaws,6,Self,3d10,,1 Round,"Grow a set of Shark jaws, "
+Seas,The Deep,Constrict,4,Self,2d10,Crushing,3 Rounds,"Gives caster 4 tentacles in place of one of their arms, can crush oponents or restrict them"
+Seas,The Deep,Fluidity ,6,Self,,,,"Turns the Caster into water for a limited time, making them invulnerable, but not allowed to attack"
+Seas,The Abyss,Saw,8,Self,3d12,Slash/Pierce,1 Round,"ignores Ac, leaves opponent crippled"
+Seas,The Abyss,Thresher,7,Self,2d12,Break/Blunt,1d6+Casting Mod,"grow a thresher shark tail, which can attack and cause Break, also moves target 1d4 squares"
+Seas,The Abyss,Trench,9,Area,,,,
+Seas,The Abyss,Release,12,Summon,,,4 Rounds,Summons a Kraken to the batlefield
+Wind,Wind,Gust,2,15ft,2D6,Ray,1 Round,Push back 1D4 spaces
+Wind,Wind,Buffer,2,Self,,,1 round,Catch a projectile
+Wind,Wind,Stream ,2,Close,1D8 ,Slash,1 round,Create a wind blade that slashes enemy
+Wind,Wind,Float,2,Sight,,,5 minutes,Catch things on a plane
+Wind,Gale,Gale,3,25 ft,1D12,,,Wind ball that pushes back 1D8 squares
+Wind,Gale,Feather Fall,1,Self/Target,,,,Glides things down to ground or surface
+Wind,Gale,Tailwind,2,Self,,,1D6+casting mod,plus 10 movement for 1D6+casting stat rounds
+Wind,Gale,Wind Shield ,2,,,,,Shield of wind
+Wind,Cyclone,Wind Burst,,,,,,
+Wind,Cyclone,Cyclone,,,,,,
+Wind,Cyclone,Wind Waltz,,,,,,
+Wind,Cyclone,Suffocate,,,,,,
+Wind,Zepher,Zephyr,,,,,,
+Wind,Zepher,Tempest,,,,,,
+Wind,Zepher,Flight,,,,,,
+Wind,Zepher,Maelstrom ,,,,,,
+Winter,Winter,Snowball,1,25ft,5d2,Proj,,Summons snowballs that shoot from your hands/impliment
+Winter,Winter,Frost,2,15ft,2D6,Ray,,Icey Ray spell
+Winter,Winter,Winter,5,Room/10*10,,,,Covers the battlefield in a foot of snow. Gain a +3 for Winter spells. Enemies slowed and Allys unaffected. 
+Winter,Winter,Freeze,3,Touch,1D10,,,Freezes whatever is touched. Can cause frostbite to creatures if used enough.
+Winter,Chill,Chill,1-2,Var,,Area,,Cools an area down
+Winter,Chill,Frigid,4,,,,,Creates an ice wall that can be in an occupied square.
+Winter,Chill,Icicle ,3,25ft,5D6,Proj,,Creates 5 icicles that can be fired from your hand.
+Winter,Chill,Bolt,3,15ft,1D12*1D8,Proj,,Creates 1D12 Ice spears that can be fired.
+Winter,Tundra,Ice,,,,,,
+Winter,Tundra,Snowfall,,,,,,
+Winter,Tundra,Tundra,,,,,,
+Winter,Tundra,Flake,,,,,,
+Winter,Zero Degrees,Blizzard,,,,,,
+Winter,Zero Degrees,Zero,,,,,,
+Winter,Zero Degrees,Wendigo,,,,,,
+Winter,Zero Degrees,Glacier ,,,,,,
+Sparks,Sparks,Shockwave,4,3*3,1D8,Blast,,Sends out a shockwave that deals damage to each square it hits.
+Sparks,Sparks,Sparks,2,15ft,2D6,Ray,,Control a small bolt of electricity
+Sparks,Sparks,Static,2,Self/Touch,1D6,Static armor,,Create a coating on your armor that shocks your opponent on a successful mele attack against you.
+Sparks,Sparks,Shock,3,Touch,1D10,,,Your hand acts like a tazer
+Sparks,Thunder,Thunder,4,3*3,,Blast,,Deafening blast in a 3*3 area. 
+Sparks,Thunder,Clap,4,5*5,1D12,Blast,,5*5 centered around you creating a shockwave that stuns as well as damages.
+Sparks,Thunder,Direct,1,,,,,Direct electricity.
+Sparks,Thunder,Jolt,3,25ft,2D8,Proj,,A bolt of electricity that can reach further than sparks.
+Sparks,Charge,Charge,,,,,,
+Sparks,Charge,Pillar,,,,,,
+Sparks,Charge,Thunder Dance,,,,,,
+Sparks,Charge,Rod,,,,,,
+Sparks,Blitz,Chain,,,,,,
+Sparks,Blitz,Pulse,,,,,,
+Sparks,Blitz,Switch,,,,,,
+Sparks,Blitz,Blitz,,,,,,
+Force,Force,Force,4,,,,,Pushes your target 1D6 ft
+Force,Force,Balance,1,,,,,Balance and stablize yourself or your target.
+Force,Force,Hold,4,,,,,"Stops your target, heavier items can be held for less time"
+Force,Force,Pull,3,,,,,Pulls target towards you
+Force,Lift,Lift,2,,,,,Lifts objects and creatures
+Force,Lift,Throw,2,,,,,Forces an object away from you centered on your hand.
+Force,Lift,Jump,1,,,,,Add your spell modifier to your jump 
+Force,Lift,Magic Missile,4,,3D4*2D6,,,MAGIC MISSILES!!!
+Force,Shapes,Prison,,,,,,
+Force,Shapes,Guard,,,,,,
+Force,Shapes,Sphere,,,,,,
+Force,Shapes,Force Field,,,,,,
+Force,Pressure,Pressure,,,,,,
+Force,Pressure,Crush,,,,,,
+Force,Pressure,Suit,,,,,,
+Force,Pressure,Wall,,,,,,
+Sky,Sky,Calm,Var,,,,,Calms sorms or weather
+Sky,Sky,Rain,4,,,,,Creates a rainstorm
+Sky,Sky,Fog,4,,,,,Creates fog in your area
+Sky,Sky,Hail,3,15ft,2D6,Ray,,Cast 1D6 ray of hail
+Sky,Weather,Smog,3,,,,,Modifier of fog for poison damage
+Sky,Weather,Sleet,3,,,,,Modifier of rain that slows
+Sky,Weather,Oil,3,,,,,Modifier of rain that makes the rain oil. Can also be a ray of oil that deals no damage
+Sky,Weather,Lightning,5,3*3 ,2D12,Blast,,Direct this blast of lighting to a spot of your chosing for an AOE adjcent to the center of the blast. 
+Sky,Natural,Nitro,,,,,,
+Sky,Natural,Mist,,,,,,
+Sky,Natural,Ash,,,,,,
+Sky,Natural,Cinder,,,,,,
+Sky,Disaster,Brimstorm ,,,,,,
+Sky,Disaster,Noxious,,,,,,
+Sky,Disaster,Darkness,,,,,,
+Sky,Disaster,Storm,,,,,,
+Disease,Disease,Venom,3,Touch,1D10,,,Deal poison damage on a touch.
+Disease,Disease,Slow,5,,,,,Slows target
+Disease,Disease,Vermin,2,,,,,"Summons either three small rats, or one large rat"
+Disease,Disease,Disease,10,,,,,"Infects target with a disease, roll a d20 to dertermine the disease."
+Disease,Slime,Acid,2,15ft,2d6,Ray,,Spit a  ray of caustic acid at opponent.
+Disease,Slime,Slime,4,,,Summon,,Summon a medium green slime.
+Disease,Slime,Splash,3,3*3,1D12,Blast,,A blast of acid for 1D12 per square
+Disease,Slime,Goo,4,,,,,2 square wall of sticky goo.
+Disease,Monster,Weaken,,,,,,
+Disease,Monster,Swarm,,,,,,
+Disease,Monster,Vampire,,,,,,
+Disease,Monster,Lycanthropy ,,,,,,
+Disease,Petrify,Petrify,,,,,,
+Disease,Petrify,Pain,,,,,,
+Disease,Petrify,Scourge,,,,,,
+Disease,Petrify,Plague,,,,,,
+Mind,The Mind,Brain Bolt,,,,,,
+Mind,The Mind,Mind Read,,,,,,Read Target's mind
+Mind,The Mind,Check,,,,,,
+Mind,The Mind,Telekinesis ,,,,,,
+Mind,The States,Confuse,,Touch,,,1D10 Rounds,Affected person is unreasonable for durration.
+Mind,The States,Charm,,,,,,
+Mind,The States,Fury,,,,,,
+Mind,The States,Sleep,,,,,,
+Mind,Illusion,Telepathy,,,,,,
+Mind,Illusion,Illusion,,,,,,
+Mind,Illusion,Invisibility,,,,,,
+Mind,Illusion,Paralyze ,,,,,,
+Mind,Control,Seizure,,,,,,
+Mind,Control,Control,,,,,,
+Mind,Control,Eye,,,,,,
+Mind,Control,Think,,,,,,
+Dead,Book of the Dead 1,Animate,3,Sight,,,,"Raises an amount of skeletons or one large skeleton, bones must be provided"
+Dead,Book of the Dead 1,Brittle,2,,,,,Reduces the durability of affected item
+Dead,Book of the Dead 1,Sixth Sense,2,Proximity,,,,Allows user to talk to dead 
+Dead,Book of the Dead 1,Life Drain,3,15ft,2D6,Ray,,Drains life from opponent and gives half to the caster
+Dead,Book of the Dead 2,Decay,3,15ft,2D6 ,Ray,,Necrotic ray of flesh rot.
+Dead,Book of the Dead 2,Pass,2,,,,,Force any nearby undead to pass back into death.
+Dead,Book of the Dead 2,Touch,3,Touch,1D10,,,Cause the target to have their flesh painfully start to decay
+Dead,Book of the Dead 2,Incorporeal ,4+2,,,,,"Become incorporeal for a time, and return to a corporeal form with a secondary casting of the spell for less mana. "
+Dead,Book of the Dead 3,Wraith,,,,,,
+Dead,Book of the Dead 3,Blight,,,,,,
+Dead,Book of the Dead 3,Soultrap,,,,,,
+Dead,Book of the Dead 3,Death Ray,,,,,,
+Dead,Book of the Dead 4,Waste,,,,,,
+Dead,Book of the Dead 4,Death Bolt,,,,,,
+Dead,Book of the Dead 4,Scythe,,,,,,
+Dead,Book of the Dead 4,Corpse,,,,,,
+Black,The Black Curse,Curse,4,,,,,Dissadvantage on next roll or check
+Black,The Black Curse,Delluminate,2,,,,,Puts out lights in an area
+Black,The Black Curse,Fear,4,,,,,"Instills fear, targets must make will save or move away from caster"
+Black,The Black Curse,Corrode,2,15ft,2D6,Armor,,Deteriorates armor and weapons
+Black,The Black Hex,Hex,5,,,,,Gives the target a random painful event
+Black,The Black Hex,Devour,8,,1D20 Mana,,,Drain 1D20 of Mana from target and regain 1/2 for yourself
+Black,The Black Hex,Dispel ,6,,,,,Kills any other spells. 
+Black,The Black Hex,Stygian,4,25ft,3D8,Proj,,Shoots 6 spikes of Stygian metal from your hand
+Black,The Black Beast,Beast,,,,,,
+Black,The Black Beast,Corrupt,,,,,,
+Black,The Black Beast,Split,,,,,,
+Black,The Black Beast,Reverse,,,,,,
+Black,The Monolith,The Monolith,,,,,,
+Black,The Monolith,Mold,,,,,,
+Black,The Monolith,The Black,,,,,,
+Black,The Monolith,The Doom,,,,,,
+Enchantment,Enchantment 1,Edge,2,Touch,,,Next successful attack,Add caster's int modifier to either hit or damage. 
+Enchantment,Enchantment 1,Enforce,Var,,,,,Add +2 to AC
+Enchantment,Enchantment 1,Rune,1,,,,,Longer spells or apply to weapons or armor to briefly enchant with a spell.
+Enchantment,Enchantment 1,Mend,3,,,,,"Mends natural things, not wood."
+Enchantment,Enchantment 2,Blade,4,,,,,Summons an animated sword
+Enchantment,Enchantment 2,Bound,1,,,,,sumons a weapon of your chosing
+Enchantment,Enchantment 2,Enhance,4,,,,,Enhances everything except to hit. 
+Enchantment,Enchantment 2,Enchant,10,,,,,Longer version of Rune. 
+Summons,Summons 1,Ursa ,6,,,,,Summon a Bear
+Summons,Summons 1,Viper,2,,,,,Summon a snake + stealth
+Summons,Summons 1,Cancer,Var,,,,,Summon a crab of varying size
+Summons,Summons 1,Wya,4,,,,,Summon 1 big wolf or 4 small wolves. 
+Summons,Summons 2,Leo,,,,,,
+Summons,Summons 2,Hawk,,,,,,
+Summons,Summons 2,Rhino,,,,,,
+Summons,Summons 2,Shark,,,,,,
+Summons,Summons 2,Leopard,,,,,,
+Summons,Summons 2,Elephant ,,,,,,
+Summons,Summons 2,Multi Summon,,,,,,
+Summons,Summons 3,Centipede ,,,,,,
+Summons,Summons 3,Arachne ,,,,,,
+Summons,Summons 3,Scorpio ,,,,,,
+Summons,Summons 3,Mantis,,,,,,
+Summons,Summons 3,Stag,,,,,,
+Summons,Summons 3,Wasp,,,,,,
+Summons,Summons 3,Sandworm,,,,,,
+Summons,Summons 3,Dragonfly,,,,,,
+Summons,Summons 4,Elemental,,,,,,
+Summons,Summons 4,Mimic,,,,,,
+Summons,Summons 4,Otygh ,,,,,,
+Summons,Summons 4,Gargoyle,,,,,,
+Summons,Summons 4,Doppelgänger ,,,,,,
+Summons,Summons 4,Jackal,,,,,,
+Summons,Summons 4,Thunderbird,,,,,,
+Summons,Summons 4,Serpent,,,,,,
+Summons,Summons 4,Drake ,,,,,,
+Summons,Summons 4,Harpy,,,,,,
+Summons,Summons 5,Balor,,,,,,
+Summons,Summons 5,Leviathan,,,,,,
+Summons,Summons 5,Wurm,,,,,,
+Summons,Summons 5,Archangel,,,,,,
+Summons,Summons 5,Cherubim ,,,,,,
+Summons,Summons 5,Cyclops,,,,,,
+Summons,Summons 5,Hydra,,,,,,
+Summons,Summons 5,Naga,,,,,,
+Summons,Summons 5,Griffin,,,,,,
+Summons,Summons 5,Succubus,,,,,,
+Summons,Summons 5,Roc,,,,,,
+Summons,Summons 5,Beholder ,,,,,,
+Summons,Summons 5,Shapeshifter,,,,,,
+Cantrips,Celestia,Radiant,-,,,,,Hand based flash light.
+Cantrips,Celestia,Ambrosia,-,,,,,"Small prayer beads that deal 1D6. Can ""bless"" water to be holy water. "
+Cantrips,Celestia,Spirit,-,,,,,Halo of detection for warning. An identifying circle of detection.
+Cantrips,Celestia,Galliant,-,,,,,Summons a barricade of holy light. 
+Cantrips,Life,Soothe ,-,,,,,Takes away soreness and aches. 
+Cantrips,Life,Splint,-,,,,,Allows bracing of broken bones using magic. 
+Cantrips,Life,Linen ,-,,,,,Conjure a strip of linen to wrap a wound. 
+Cantrips,Life,Poultice ,-,,,,,Minor healing 1D6
+Cantrips,Earth,Flint,-,,,,,Can Knapp flint if a large enough piece is in hand or it can condense knapped chunks of flint.  
+Cantrips,Earth,Ore,-,,,,,Can detect ores in a 15m radius. Precision is questionable. 
+Cantrips,Earth,Pebble,-,,,,,Launches a pebble at target. 
+Cantrips,Earth,Rhinestone ,-,,,,,Crystallizes magic to adorn items. Non magical in nature. Also used to quickly attune to magical items. 
+Cantrips,Growth ,Moss,-,,,,,Creates a blanket of moss on touch. Used to temporarily bind or hide items
+Cantrips,Growth ,Herb,-,,,,,Can detect herbs in 15m radius. Allows a higher success rate in alchemy. 
+Cantrips,Growth ,Tree,-,,,,,Can slightly age a tree. Can make plants sturdy as wood for climbing purposes. Can somewhat alter the shape of trees to allow for platforms. 
+Cantrips,Growth ,Fungus,-,,,,,Helps identify mushrooms. Can be cast on dead animals to grow mushrooms on it. Can be cast on faerie circles for a fun effect. 
+Cantrips,Fire,Ember,-,,,,,Creates a handful of embers that can be thrown
+Cantrips,Fire,Smoke,-,,,,,Smoke bomb meant more for startle and doesn't obscure vision. OR it allows for smoking in cooking
+Cantrips,Fire,Aflame,-,,,,,Creates small wick flame. Used for light or to start a fire. Centered in palm. 
+Cantrips,Fire,Flare,-,,,,,It creates a flare that is launched upon casting. 
+Cantrips,Seas,Brine,-,,,,,"Creates brine solution, namely used in cooking. Can be cast for pocket salt. Super effective against slug based creatures "
+Cantrips,Seas,Coconut,-,,,,,Allows for coconut to be cracked in half perfectly. Can summon a temporary coconut for a thrown attack before disappearing. 
+Cantrips,Seas,Shore,-,,,,,Allows for land detection in foggy or low light conditions when sailing. Can condense and harden sand into soft sandstone. 
+Cantrips,Seas,Crusty,-,,,,,Summons Crusty the lobster. Can cook. 
+Cantrips,Wind,Breeze,-,,,,,Creates the thematic wind effect. 
+Cantrips,Wind,Wiff ,-,,,,,"Creates broom made of air, a vacuum if you will. "
+Cantrips,Wind,Puff,-,,,,,"Air move whilest in air, allows for slight direction change. "
+Cantrips,Wind,Bow ,-,,,,,Can fire one arrow when you don’t have a bow. 
+Cantrips,Winter,Cold,-,,,,,Can cool down whatever is touched. 
+Cantrips,Winter,Pine,-,,,,,Temporarily damage with a flare of pine needles 1D20 needles worth 1 damage each.
+Cantrips,Winter,Sled,-,,,,,Creates a sled / skiis / snowboard out of wood.
+Cantrips,Winter,Igloo,-,,,,,Creates a shelter out of snow. Can create a cold chest. Can create ice cubes.
+Cantrips,Sparks,Zap,-,,,,,Drawing connection circuits for traps
+Cantrips,Sparks,Snap,-,,,,,A trigger point for a trap to be set off. Create a spark bolt for 1D4 
+Cantrips,Sparks,Battery,-,,,,,Storing electricity to allow a trap to function. Store magical energy in gemstones. 
+Cantrips,Sparks,Energy,-,,,,,"Seals and combined with elemental magic, empowers a trap."
+Cantrips,Force,Throw,-,,,,,YEET!
+Cantrips,Force,Hammer,-,,,,,Summons a temporary mallet for woodwork or thowing at morons for 1D4 damage. 
+Cantrips,Force,Shove,-,,,,,Shoves someone either out of the way or off a cliff. 
+Cantrips,Force,Disk,-,,,,,Creates a diskus that can be thrown for 1D6.
+Cantrips,Sky,Cloud,-,,,,,Acts like a paraglider to help ease down from heights. 
+Cantrips,Sky,Rainbow,-,,,,,Roll 1D6 for what light of rainbow is cast. Target takes 1D4 elemental damage based on light.
+Cantrips,Sky,Squall ,-,,,,,Small personal rain cloud.
+Cantrips,Sky,Vortex,-,,,,,"Creates a vortex of wind to restrain someone, pulls targets in from 5ft around it, does no damage."
+Cantrips,Mind,Imagry,-,,,,,Allows you to take a picture of what you are currently looking at. 
+Cantrips,Mind,Slap,-,,,,,Allows for distanced slapping of target. 
+Cantrips,Mind,Trick,-,,,,,Mental trickery of auditory or visual senses. 
+Cantrips,Mind,Marbles,-,,,,,Summons a small bag's worth of marbles that can be scattered about. 
+Cantrips,Disease,Fever,-,,,,,Use in combination with healing magic to target curing
+Cantrips,Disease,Canker,-,,,,,Use in combination with healing magic to target curing
+Cantrips,Disease,Malady,-,,,,,Use in combination with healing magic to target curing
+Cantrips,Disease,Vaccine,-,,,,,Use in combination with healing magic to target curing
+Cantrips,Dead,Haunt,-,,,,,Creates a Will'O'Wisp that can do lots of small things like haunting or minor tricks.
+Cantrips,Dead,Candle,-,,,,,Creates a candle for light.
+Cantrips,Dead,Poltergheist ,-,,,,,Can move small objects around. 
+Cantrips,Dead,Raise,-,,,,,Raise an animal skeleton for a period of time. 
+Cantrips,Summons,Rope,-,,,,,Creates a temporary length of rope.
+Cantrips,Summons,Torch,-,,,,,Creates a temporary torch
+Cantrips,Summons,Bedroll,-,,,,,Creates a bedroll that lasts 12 hours. 
+Cantrips,Summons,Tent,-,,,,,Creates a 2 man tent that lasts 12 hours. 
+Lost Books,Frozen,Froth,WIP,,,,,
+Lost Books,Frozen,Needle,WIP,,,,,
+Lost Books,Frozen,Sheet,WIP,,,,,
+Lost Books,Frozen,Frozen,WIP,,,,,
+Lost Books,Book of Tombs,Urn,WIP,,,,,
+Lost Books,Book of Tombs,Flyphs,WIP,,,,,
+Lost Books,Book of Tombs,Sarcophagus,WIP,,,,,
+Lost Books,Book of Tombs,Tomb,WIP,,,,,"Creates a Tomb entrance which after the casting modifier of turns begins to spit out monsters, of a certain variety."
+Lost Books,Dusk,Dusk,WIP,,,,,
+Lost Books,Dusk,Night,WIP,,,,,
+Lost Books,Dusk,Shadows,WIP,,,,,
+Lost Books,Dusk,Whispers,WIP,,,,,
+Lost Books,Crystal,Cleave,WIP,,1D6,,,3 Dagger crystals that shoot at a target
+Lost Books,Crystal,Glisten,WIP,,,,,
+Lost Books,Crystal,Scatter,WIP,15 ft,,Ray,,Tiny crystal shards that pepper a target
+Lost Books,Crystal,Crystal,WIP,,,,,
+Lost Books,Riptide,Riptide,WIP,,,,,
+Lost Books,Riptide,Wave,WIP,,,,,
+Lost Books,Riptide,Detritus,WIP,,,,,
+Lost Books,Riptide,Foam,WIP,,,,,
+Lost Books,Values,Mercy,WIP,,,,,
+Lost Books,Values,Truth,WIP,,,,,
+Lost Books,Values,Justice,WIP,,,,,
+Lost Books,Values,Hope,WIP,,,,,
+Elements of War,Elements of War 1,Flames,1,,1D6,,,Coats weapon in fire for 1D6 extra damage. 
+Elements of War,Elements of War 1,Cold,1,,1D6,,,Coats weapon in ice for 1D6 extra damage. 
+Elements of War,Elements of War 1,Surge,1,30ft,,,,Create a beam of damage that extends your weapon's range
+Elements of War,Elements of War 1,Stone,2,,,,,Stick your weapon in the ground to coat it in stone to increment the weapon's damage die.

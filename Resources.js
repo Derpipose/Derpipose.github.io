@@ -22,7 +22,7 @@ function Races(){
     wipeRow(row5);
 
     // REQUIREMENT use ajax to interact with api
-    fetch(`http://localhost:${localHostNum}/races`)
+    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
     .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];

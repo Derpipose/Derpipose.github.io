@@ -22,8 +22,8 @@ function Races(){
     wipeRow(row5);
 
     // REQUIREMENT use ajax to interact with api
-    fetch(`http://localhost:${localHostNum}/races`)
-    .then((result) => result.json() 
+    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
+    // .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];
             sheet.forEach(element => {if(campaigns.includes(element.campaign)){}else{campaigns.push(element.campaign);}});
@@ -70,7 +70,7 @@ function Races(){
             });
             console.log(campaigns);
         })
-    );
+    // );
 }
 
 function Campaigns(campaign){
@@ -89,7 +89,7 @@ function Campaigns(campaign){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/racescampaign?campaign=${campaign}`)
+    fetch(`${localHostNum}/racescampaign?campaign=${campaign}`)
     .then((result) => result.json()
         .then((sheet) =>{
             const subraces = [];
@@ -128,7 +128,7 @@ function Subraces(campaign, subrace){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/racescampaignsubraces?campaign=${campaign}&faction=${subrace}`)
+    fetch(`${localHostNum}/racescampaignsubraces?campaign=${campaign}&faction=${subrace}`)
     .then((result) => result.json()
         .then((sheet) =>{
             const subraces = [];
@@ -164,7 +164,7 @@ function RaceInformation(campaign, subrace, name){
     var row5 = document.getElementById("row5");
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/racescampaignsubracesdescription?campaign=${campaign}&faction=${subrace}&raceName=${name}`)
+    fetch(`${localHostNum}/racescampaignsubracesdescription?campaign=${campaign}&faction=${subrace}&raceName=${name}`)
     .then((result) => result.json()
         .then((element) =>{
             
@@ -179,7 +179,7 @@ function RaceInformation(campaign, subrace, name){
 }
 
 // function CampaignRaces(campaign){
-//     fetch(`http://localhost:${localHostNum}/races`)
+//     fetch(`${localHostNum}/races`)
 //         .then((result) => result.json() 
 //         .then((sheet) => {
             
@@ -203,7 +203,7 @@ function Spells(){
     wipeRow(row5);
 
 
-    fetch(`http://localhost:${localHostNum}/spells`)
+    fetch(`${localHostNum}/spells`)
         .then((result) => result.json() 
             .then((sheet) => {
                 
@@ -242,7 +242,7 @@ function Branches(branch){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/spellsbranches?branch=${branch}`)
+    fetch(`${localHostNum}/spellsbranches?branch=${branch}`)
         .then((result) => result.json() 
             .then((sheet) => {
                 
@@ -279,7 +279,7 @@ function Books(branch, book){
     wipeRow(row4);
     wipeRow(row5);
     
-    fetch(`http://localhost:${localHostNum}/spellsbranchesspells?branch=${branch}&book=${book}`)
+    fetch(`${localHostNum}/spellsbranchesspells?branch=${branch}&book=${book}`)
         .then((result) => result.json() 
             .then((sheet) => {
                 const spells = [];
@@ -313,7 +313,7 @@ function SpellInfo(branch, book, spell){
     var row5 = document.getElementById("row5");
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/spellsbranchesspellsdescription?branch=${branch}&book=${book}&spellName=${spell}`)
+    fetch(`${localHostNum}/spellsbranchesspellsdescription?branch=${branch}&book=${book}&spellName=${spell}`)
         .then((result) => result.json() 
             .then((element) => {
                 
@@ -362,7 +362,7 @@ function Classes(){
     wipeRow(row5);
 
 
-    fetch(`http://localhost:${localHostNum}/class`)
+    fetch(`${localHostNum}/class`)
         .then((result) => result.json() 
         .then((sheet) => {
             
@@ -403,7 +403,7 @@ function Types(type){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/classtypes?type=${type}`)
+    fetch(`${localHostNum}/classtypes?type=${type}`)
         .then((result) => result.json() 
         .then((sheet) => {
             
@@ -441,7 +441,7 @@ function ClassInformation(type, className){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/classtypesinformation?type=${type}&name=${className}`)
+    fetch(`${localHostNum}/classtypesinformation?type=${type}&name=${className}`)
         .then((result) => result.json() 
         .then((element) => {
             

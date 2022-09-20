@@ -26,7 +26,7 @@ function Races(){
     .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];
-            sheet.forEach(element => {if(campaigns.includes(element.campaign)){}else{campaigns.push(element.campaign);}});
+            sheet.forEach(element => {if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign);}});
             // Just a test to see if my event listener was working
             // var myDiv = document.getElementById("row2");
             // var button = document.createElement("BUTTON");
@@ -89,11 +89,11 @@ function Campaigns(campaign){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/racescampaign?campaign=${campaign}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
     .then((result) => result.json()
         .then((sheet) =>{
             const subraces = [];
-            sheet.forEach(element=> {if(subraces.includes(element.subtype)){}else{subraces.push(element.subtype);}});
+            sheet.forEach(element=> {if(subraces.includes(element.SubType)){}else if(element.Campaign == campaign){subraces.push(element.SubType);}});
             var myDiv = document.getElementById("row3");
                 subraces.forEach(element => {
 
@@ -128,11 +128,11 @@ function Subraces(campaign, subrace){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/racescampaignsubraces?campaign=${campaign}&faction=${subrace}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
     .then((result) => result.json()
         .then((sheet) =>{
             const subraces = [];
-            sheet.forEach(element=> {if(subraces.includes(element.name)){}else{subraces.push(element.name);}});
+            sheet.forEach(element=> {if(subraces.includes(element.Name)){}else if(element.Campaign == campaign &&element.SubType == subrace){subraces.push(element.Name);}});
             var myDiv = document.getElementById("row4");
                 subraces.forEach(element => {
                     let label = document.createElement("label");
@@ -149,7 +149,7 @@ function Subraces(campaign, subrace){
                     // button.innerHTML = element;
                     // myDiv.appendChild(button);
                 });
-            console.log(sheet);
+            console.log(subraces);
         })
     );
 }
@@ -164,14 +164,16 @@ function RaceInformation(campaign, subrace, name){
     var row5 = document.getElementById("row5");
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/racescampaignsubracesdescription?campaign=${campaign}&faction=${subrace}&raceName=${name}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
     .then((result) => result.json()
         .then((element) =>{
-            
-            var myDiv = document.getElementById("row5");
+            sheet.forEach(element=> {if(element.Name == name){var myDiv = document.getElementById("row5");
             var p = document.createElement("p");
-            p.innerHTML = element.description;
+            p.innerHTML = element.Description;
             myDiv.appendChild(p);
+        }else {}});
+            
+            
             
             console.log(element);
         })

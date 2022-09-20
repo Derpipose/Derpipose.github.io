@@ -402,7 +402,7 @@ function Types(type){
         .then((sheet) => {
             
             const classes = [];
-            sheet.forEach(element => {if(classes.includes(element.Class_Name)){}else if(element.Classification == type){classes.push(element.Class_Name);}});
+            sheet.forEach(element => {if(classes.includes(element.ClassName)){}else if(element.Classification == type){classes.push(element.ClassName);}});
             var myDiv = document.getElementById("row3");
             classes.forEach(element => {
                 let label = document.createElement("label");
@@ -435,38 +435,41 @@ function ClassInformation(type, className){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/classtypesinformation?type=${type}&name=${className}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
         .then((result) => result.json() 
-        .then((element) => {
-            
-            var myDiv = document.getElementById("row4");
-            var p = document.createElement("p");
-            p.innerHTML = "Name: " + element.name;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Mana Die: " + element.manaDie;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Hit Die: " + element.hitDie;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Magic Books: " + element.magicBooks;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Cantrips: " + element.cantrips;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Chances: " + element.chances;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Proficiency Count: " + element.proficiencyCount;
-            myDiv.appendChild(p);
-            var p = document.createElement("p");
-            p.innerHTML = "Description: " + element.description;
-            myDiv.appendChild(p);
-            
-            
-            console.log(element);
+        .then((sheet) => {
+            sheet.forEach(element => { if(element.Classification == type && element.ClassName==className){
+
+                
+                var myDiv = document.getElementById("row4");
+                var p = document.createElement("p");
+                p.innerHTML = "Name: " + element.name;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Mana Die: " + element.manaDie;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Hit Die: " + element.hitDie;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Magic Books: " + element.magicBooks;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Cantrips: " + element.cantrips;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Chances: " + element.chances;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Proficiency Count: " + element.proficiencyCount;
+                myDiv.appendChild(p);
+                var p = document.createElement("p");
+                p.innerHTML = "Description: " + element.description;
+                myDiv.appendChild(p);
+                
+                
+                console.log(element);
+            }});
         })
     );
 }

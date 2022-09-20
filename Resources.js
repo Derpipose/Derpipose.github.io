@@ -171,12 +171,12 @@ function RaceInformation(campaign, subrace, name){
             var p = document.createElement("p");
             p.innerHTML = element.Description;
             myDiv.appendChild(p);
-            
+            console.log(element);
         }else {}});
             
             
             
-            console.log(element);
+            
         })
     );
 }

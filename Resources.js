@@ -166,11 +166,12 @@ function RaceInformation(campaign, subrace, name){
 
     fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
     .then((result) => result.json()
-        .then((element) =>{
-            sheet.forEach(element=> {if(element.Name == name){var myDiv = document.getElementById("row5");
+        .then((sheet) =>{
+            sheet.forEach(element=> {if(element.Name == name && campaign == element.Campaign && subrace==element.SubType){var myDiv = document.getElementById("row5");
             var p = document.createElement("p");
             p.innerHTML = element.Description;
             myDiv.appendChild(p);
+            
         }else {}});
             
             

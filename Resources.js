@@ -443,28 +443,28 @@ function ClassInformation(type, className){
                 
                 var myDiv = document.getElementById("row4");
                 var p = document.createElement("p");
-                p.innerHTML = "Name: " + element.name;
+                p.innerHTML = "Name: " + element.ClassName;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Mana Die: " + element.manaDie;
+                p.innerHTML = "Mana Die: " + element.ManaDie;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Hit Die: " + element.hitDie;
+                p.innerHTML = "Hit Die: " + element.HitDie;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Magic Books: " + element.magicBooks;
+                p.innerHTML = "Magic Books: " + element.MagicBooks;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Cantrips: " + element.cantrips;
+                p.innerHTML = "Cantrips: " + element.Cantrips;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Chances: " + element.chances;
+                p.innerHTML = "Chances: " + element.Chances;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Proficiency Count: " + element.proficiencyCount;
+                p.innerHTML = "Proficiency Count: " + element.ProficiencyCount;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Description: " + element.description;
+                p.innerHTML = "Description: " + element.Description;
                 myDiv.appendChild(p);
                 
                 

@@ -181,18 +181,9 @@ function RaceInformation(campaign, subrace, name){
     );
 }
 
-// function CampaignRaces(campaign){
-//     fetch(`http://localhost:${localHostNum}/races`)
-//         .then((result) => result.json() 
-//         .then((sheet) => {
-            
-//             const campaigns = [];
-//             sheet.forEach(element => {if(campaigns.includes(element.campaign)){}else{campaigns.push(element.campaign);}});
-//             console.log(campaigns);
-//         })
-//     );
-// }
 
+
+//spells
 function Spells(){
     //row 1
     //clearing the lower rows
@@ -365,12 +356,12 @@ function Classes(){
     wipeRow(row5);
 
 
-    fetch(`http://localhost:${localHostNum}/class`)
+    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
         .then((result) => result.json() 
         .then((sheet) => {
             
             const type = [];
-            sheet.forEach(element => {if(type.includes(element.subClass)){}else{type.push(element.subClass);}});
+            sheet.forEach(element => {if(type.includes(element.Classification)){}else{type.push(element.Classification);}});
             var myDiv = document.getElementById("row2");
             // var attribute = 0;
             type.forEach(element => {
@@ -406,12 +397,12 @@ function Types(type){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/classtypes?type=${type}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
         .then((result) => result.json() 
         .then((sheet) => {
             
             const classes = [];
-            sheet.forEach(element => {if(classes.includes(element.name)){}else{classes.push(element.name);}});
+            sheet.forEach(element => {if(classes.includes(element.Class_Name)){}else if(element.Classification == type){classes.push(element.Class_Name);}});
             var myDiv = document.getElementById("row3");
             classes.forEach(element => {
                 let label = document.createElement("label");
@@ -431,7 +422,7 @@ function Types(type){
             });
             
             
-            console.log(sheet);
+            console.log(classes);
         })
     );
 }

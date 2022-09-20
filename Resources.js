@@ -241,7 +241,7 @@ function Branches(branch){
             .then((sheet) => {
                 
                 const book = [];
-                sheet.forEach(element => {if(book.includes(element.book)){}else{book.push(element.book);}});
+                sheet.forEach(element => {if(book.includes(element.book)){}else if(element.Classification == type){book.push(element.book);}});
                 var myDiv = document.getElementById("row3")
                 book.forEach(element => {
 
@@ -277,7 +277,7 @@ function Books(branch, book){
         .then((result) => result.json() 
             .then((sheet) => {
                 const spells = [];
-                sheet.forEach(element => {if(spells.includes(element.name)){}else{spells.push(element.name);}});
+                sheet.forEach(element => {if(spells.includes(element.name)){}else if(element.Classification == type){spells.push(element.name);}});
                 var myDiv = document.getElementById("row4")
                 spells.forEach(element => {
 
@@ -309,7 +309,7 @@ function SpellInfo(branch, book, spell){
 
     fetch(`http://localhost:${localHostNum}/spellsbranchesspellsdescription?branch=${branch}&book=${book}&spellName=${spell}`)
         .then((result) => result.json() 
-            .then((element) => {
+            .then((sheet) => {
                 
                 var myDiv = document.getElementById("row5");
                 var p = document.createElement("p");

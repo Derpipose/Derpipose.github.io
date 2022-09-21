@@ -197,12 +197,12 @@ function Spells(){
     wipeRow(row5);
 
 
-    fetch(`http://localhost:${localHostNum}/spells`)
+    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
         .then((result) => result.json() 
             .then((sheet) => {
                 
                 const branch = [];
-                sheet.forEach(element => {if(branch.includes(element.branch)){}else{branch.push(element.branch);}});
+                sheet.forEach(element => {if(branch.includes(element.SpellBranch)){}else{branch.push(element.SpellBranch);}});
                 var myDiv = document.getElementById("row2")
                 branch.forEach(element => {
 
@@ -236,12 +236,12 @@ function Branches(branch){
     wipeRow(row4);
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/spellsbranches?branch=${branch}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
         .then((result) => result.json() 
             .then((sheet) => {
                 
                 const book = [];
-                sheet.forEach(element => {if(book.includes(element.book)){}else if(element.Classification == type){book.push(element.book);}});
+                sheet.forEach(element => {if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}});
                 var myDiv = document.getElementById("row3")
                 book.forEach(element => {
 
@@ -273,11 +273,11 @@ function Books(branch, book){
     wipeRow(row4);
     wipeRow(row5);
     
-    fetch(`http://localhost:${localHostNum}/spellsbranchesspells?branch=${branch}&book=${book}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
         .then((result) => result.json() 
             .then((sheet) => {
                 const spells = [];
-                sheet.forEach(element => {if(spells.includes(element.name)){}else if(element.Classification == type){spells.push(element.name);}});
+                sheet.forEach(element => {if(spells.includes(element.SpellName)){}else if(element.SpellBranch == branch && element.SpellBook == book){spells.push(element.SpellName);}});
                 var myDiv = document.getElementById("row4")
                 spells.forEach(element => {
 
@@ -307,35 +307,38 @@ function SpellInfo(branch, book, spell){
     var row5 = document.getElementById("row5");
     wipeRow(row5);
 
-    fetch(`http://localhost:${localHostNum}/spellsbranchesspellsdescription?branch=${branch}&book=${book}&spellName=${spell}`)
+    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
         .then((result) => result.json() 
             .then((sheet) => {
-                
-                var myDiv = document.getElementById("row5");
-                var p = document.createElement("p");
-                p.innerHTML = "Name: " + element.name;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Mana Cost: " + element.manaCost;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Range: " + element.range;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Hit Die: " + element.hitDie;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Type: " + element.damage;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Durration: " + element.durration;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Description: " + element.description;
-                myDiv.appendChild(p);
-            
-                
-                console.log(element);
+                sheet.forEach(element => {if(element.SpellBranch == branch && element.SpellBook == book && element.SpellName == spell){
+
+                    
+                    var myDiv = document.getElementById("row5");
+                    var p = document.createElement("p");
+                    p.innerHTML = "Name: " + element.SpellName;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Mana Cost: " + element.ManaCost;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Range: " + element.Range;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Hit Die: " + element.HitDie;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Type: " + element.Damage;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Durration: " + element.Durration;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Description: " + element.Description;
+                    myDiv.appendChild(p);
+                    
+                    
+                    console.log(element);
+                }});
         })
     );
 }

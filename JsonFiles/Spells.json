@@ -4158,7 +4158,7 @@
     "Description": "Stick your weapon in the ground to coat it in stone to increment the weapon's damage die."
   },
   {
-    "SpellBranch": "Lost books",
+    "SpellBranch": "Lost Books",
     "SpellBook": "Bio",
     "SpellName": "Vine",
     "ManaCost": "",
@@ -4169,8 +4169,8 @@
     "Description": ""
   },
   {
-    "SpellBranch": "",
-    "SpellBook": "",
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Bio",
     "SpellName": "Log",
     "ManaCost": "",
     "Range": "",
@@ -4180,8 +4180,8 @@
     "Description": ""
   },
   {
-    "SpellBranch": "",
-    "SpellBook": "",
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Bio",
     "SpellName": "Gas",
     "ManaCost": "",
     "Range": "",
@@ -4191,8 +4191,8 @@
     "Description": ""
   },
   {
-    "SpellBranch": "",
-    "SpellBook": "",
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Bio",
     "SpellName": "Bramble",
     "ManaCost": "",
     "Range": "",

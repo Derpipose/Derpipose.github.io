@@ -205,10 +205,10 @@ function Spells(){
                 sheet.forEach(element => {if(branch.includes(element.SpellBranch)){}else{branch.push(element.SpellBranch);}});
                 var myDiv = document.getElementById("row2")
                 branch.forEach(element => {
-
+                    
                     let label = document.createElement("label");
                     label.innerText = element;
-                    label.htmlFor = element + "row1";
+                    label.htmlFor = element;
                     let input = document.createElement("input");
                     input.type = "radio";
                     input.name = "row1";
@@ -216,6 +216,18 @@ function Spells(){
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){Branches(element)});
                     myDiv.appendChild(label);
+
+
+                    // let label = document.createElement("label");
+                    // label.innerText = element;
+                    // label.htmlFor = element + "row1";
+                    // let input = document.createElement("input");
+                    // input.type = "radio";
+                    // input.name = "row1";
+                    // input.id = element;
+                    // myDiv.appendChild(input);
+                    // label.addEventListener("click", function(){Branches(element)});
+                    // myDiv.appendChild(label);
                     // var button = document.createElement("BUTTON");
                     // button.innerHTML = element;
                     // myDiv.appendChild(button);

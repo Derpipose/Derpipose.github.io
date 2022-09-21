@@ -339,7 +339,7 @@ function SpellInfo(branch, book, spell){
                     p.innerHTML = "Hit Die: " + element.HitDie;
                     myDiv.appendChild(p);
                     var p = document.createElement("p");
-                    p.innerHTML = "Type: " + element.Damage;
+                    p.innerHTML = "Type: " + element.DamageType;
                     myDiv.appendChild(p);
                     var p = document.createElement("p");
                     p.innerHTML = "Durration: " + element.Durration;

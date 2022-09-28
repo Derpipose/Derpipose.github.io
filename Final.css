@@ -29,6 +29,10 @@
     src: url("daedric.ttf");
   }
   @font-face {
+    font-family: grimlord;
+    src: url("grimlord.ttf");
+  }
+  @font-face {
     font-family: Hylian;
     src: url("botw-hylian.ttf");
   }
@@ -97,6 +101,27 @@
   }
   /* This gives the text a background that is faintly there, enough to see the text clearly but not completely obscure the background */
   .nauticalbody{
+    background-color:rgba(200, 200, 200, 0.3);
+    border-radius: 30px;
+  }
+
+  
+  /* The css that governs the Dark age page */
+  .darkage{
+    background-image: url("DarkAgeBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* This makes it so that if you hover over the top nav nautical tab, the font and background change */
+  .topnav .darktop:hover{
+    font-family: grimlord;
+    color: white;
+    background-image: url(DarkAgeBackground.jpg);
+    background-size:cover;
+    font-size: 18px;
+  }
+  /* This gives the text a background that is faintly there, enough to see the text clearly but not completely obscure the background */
+  .darkagebody{
     background-color:rgba(200, 200, 200, 0.3);
     border-radius: 30px;
   }

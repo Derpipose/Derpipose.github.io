@@ -123,7 +123,7 @@
     "Campaign": "Fantasy",
     "SubType": "Beastial",
     "Name": "Dragonborn",
-    "Description": "A noble race famed for their kinship with the Dragons, none know exactly how the dragonborn came to be but they persist and survive despite the world's constant tumultuous periods. They are one of the toughest races, and are blessed with wings or dragon breathe, and in very rare cases both. They are a race that seeks to help the other nations of the world, rarely enough dragonborn around to have their own civilization."
+    "Description": "A noble race famed for their kinship with the Dragons, none know exactly how the dragonborn came to be but they persist and survive despite the world's constant tumultuous periods. They are one of the toughest races, and are blessed with wings or dragon breathe, and in very rare cases both. They are a race that seeks to help the other nations of the world, rarely enough dragonborn around to have their own civilization. They tend to have one of two naming schemes. The first is reserved for nobles. Roll a D20 and come up with that many middle names that have some meaning to you or your family. These are your ancestors leading up to you. When writing your name, it is your first name, your parent's name and then your last name. If you are not noble, you only need one name. It can be very simple, like John or Mike."
   },
   {
     "Campaign": "Fantasy",
@@ -356,12 +356,6 @@
   {
     "Campaign": "Fantasy",
     "SubType": "Oriental",
-    "Name": "Anubi",
-    "Description": "The Anubi, a regal race of jackals who prowl the deserts. They pride themselves on their knowledge and their skill in manipulating precious metals into something magical. Standing about the height of a tall human these Beastfolk adorn themselves in gold and silk, and build monuments to outlive the world. They have gained notoriety in their time as the builders of wonders, makers of artifacts, and the oracles of the future. Though this all comes at a cost, their nobility has led them to be shortsighted in terms of war, and have had many unnecessary losses over the years they’ve reigned the deserts, leaving them few in number."
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oriental",
     "Name": "Jinko",
     "Description": "A Reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life."
   },
@@ -370,6 +364,12 @@
     "SubType": "Oriental",
     "Name": "Okami",
     "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go."
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Rare",
+    "Name": "Anubi",
+    "Description": "The Anubi, a regal race of jackals who prowl the deserts. They pride themselves on their knowledge and their skill in manipulating precious metals into something magical. Standing about the height of a tall human these Beastfolk adorn themselves in gold and silk, and build monuments to outlive the world. They have gained notoriety in their time as the builders of wonders, makers of artifacts, and the oracles of the future. Though this all comes at a cost, their nobility has led them to be shortsighted in terms of war, and have had many unnecessary losses over the years they’ve reigned the deserts, leaving them few in number."
   },
   {
     "Campaign": "Fantasy",

@@ -476,7 +476,7 @@ function ClassInformation(type, className){
                 p.innerHTML = "Chances: " + element.Chances;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Proficiency Count: " + element.ProficiencyCount;
+                p.innerHTML = "Skills: " + element.ProficiencyCount;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
                 p.innerHTML = "Description: " + element.Description;

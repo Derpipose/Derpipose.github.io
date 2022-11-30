@@ -22,23 +22,23 @@
   /* This is all of the fonts */
   @font-face {
     font-family: Atlantean;
-    src: url("Atlantean.ttf");
+    src: url("TextFonts/Atlantean.ttf");
   }
   @font-face {
     font-family: Daedric;
-    src: url("daedric.ttf");
+    src: url("TextFonts/daedric.ttf");
   }
   @font-face {
     font-family: grimlord;
-    src: url("grimlord.ttf");
+    src: url("TextFonts/grimlord.ttf");
   }
   @font-face {
     font-family: Hylian;
-    src: url("botw-hylian.ttf");
+    src: url("TextFonts/botw-hylian.ttf");
   }
   @font-face {
     font-family: Scififont;
-    src: url(Scifi\ Adventure.otf);
+    src: url(TextFonts/Scifi\ Adventure.otf);
   }
   
   
@@ -52,7 +52,7 @@
   .scifitop:hover{
     font-family: Scififont;
     font-size: 15px;
-    background-image: url(ScifiHoverBackground.jpg);
+    background-image: url(Backgrounds/ScifiHoverBackground.jpg);
     background-size: contain;
   }
   .scifibody{
@@ -87,7 +87,7 @@
   
   /* The css that governs the nautical page */
   .nautical{
-    background-image: url("NauticalBackground.jpg");
+    background-image: url("Backgrounds/NauticalBackground.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -95,7 +95,7 @@
   .topnav .nauticaltop:hover{
     font-family: Atlantean;
     color: white;
-    background-image: url(NauticalBackground.jpg);
+    background-image: url(Backgrounds/NauticalBackground.jpg);
     background-size:cover;
     font-size: 18px;
   }
@@ -108,7 +108,7 @@
   
   /* The css that governs the Dark age page */
   .darkage{
-    background-image: url("DarkAgeBackground.jpg");
+    background-image: url("Backgrounds/DarkAgeBackground.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -116,7 +116,7 @@
   .topnav .darktop:hover{
     font-family: grimlord;
     color: white;
-    background-image: url(DarkAgeBackground.jpg);
+    background-image: url(Backgrounds/DarkAgeBackground.jpg);
     background-size:cover;
     font-size: 18px;
   }
@@ -129,7 +129,7 @@
   
   /* The css that governs the Hylian page */
   .hylian{
-    background-image: url("Hylianbackground.jpg");
+    background-image: url("Backgrounds/Hylianbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -139,7 +139,7 @@
     color:black;
     background-color: white;
     font-size: 14px;
-    background-image:url(Hylianbackground.jpg);
+    background-image:url(Backgrounds/Hylianbackground.jpg);
     background-size: cover;
   }
   /* This gives the text a background that is faintly there, enough to see the text clearly but not completely obscure the background */
@@ -152,7 +152,7 @@
   
   /* The css that governs the moon page */
   .moon{
-    background-image: url("MoonBackground.jpg");
+    background-image: url("Backgrounds/MoonBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -163,7 +163,7 @@
     color: black;
     background-color: white;
     font-size: 18px;
-    background-image:url(MoonBackground.jpg);
+    background-image:url(Backgrounds/MoonBackground.jpg);
     background-size: cover;
   }
   /* This gives the text a background that is faintly there, enough to see the text clearly but not completely obscure the background */
@@ -179,7 +179,7 @@
     overflow-y: scroll;
   }
   .fantasytop:hover{
-    background-image: url("sword.jpg");
+    background-image: url("Backgrounds/sword.jpg");
     background-size: contain;
   }
   /* The css to govern the button styling. */
@@ -189,21 +189,13 @@
     flex-flow: row wrap;
   
   }
-  .fantasy button{
-    font-size: 20px;
-    border:2px solid black ;
-    border-radius: 13px;
-    padding:20px 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+  
   .fantasy label{
     font-size: 20px;
-    font-family: sans-serif;
+    color: black;
     border:2px solid black ;
-    background-color: #EFEFEF;
-    border-radius: 13px;
-    padding:20px 50px;
+    border-radius: 17px;
+    padding:15px 30px;
     margin-top: 10px;
     margin-bottom: 10px;
     cursor:pointer;
@@ -212,6 +204,7 @@
     background-color: lightblue ;
     font-weight: bold;
   }
+  
   .fantasy input{
     display:none;
   }

@@ -1,14 +1,12 @@
 window.onload = function (){
-    // REQUIREMENT Event listeners
     document.getElementById("races").addEventListener("click", function(){Races()});
     document.getElementById("spells").addEventListener("click", function(){Spells()});
     document.getElementById("classes").addEventListener("click", function(){Classes()});
 
 }
-let localHostNum = 5084
 
 
-
+// Races
 function Races(){
     //row 1
     //clearing the lower rows
@@ -21,28 +19,14 @@ function Races(){
     wipeRow(row4);
     wipeRow(row5);
 
-    // REQUIREMENT use ajax to interact with api
     fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
     .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];
             sheet.forEach(element => {if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign);}});
-            // Just a test to see if my event listener was working
-            // var myDiv = document.getElementById("row2");
-            // var button = document.createElement("BUTTON");
-            // button.innerHTML = "Button";
-            // myDiv.appendChild(button);
+            
             var myDiv = document.getElementById("row2");
             campaigns.forEach(element => {
-
-                // let label = document.createElement("label");
-                // label.innerText = element;
-                // let input = document.createElement("input");
-                // input.type = "radio";
-                // input.name = "races";
-                // label.appendChild(input);
-                // label.addEventListener("click", function(){Campaigns(element)});
-                // myDiv.appendChild(label);
 
                 let label = document.createElement("label");
                 label.innerText = element;
@@ -55,18 +39,6 @@ function Races(){
                 label.addEventListener("click", function(){Campaigns(element)});
                 myDiv.appendChild(label);
 
-
-                // var buttoninput = '<input type="radio" name= "races" id="'+ element +'">';
-                // var button = document.createElement(buttoninput);
-                // // var button = document.createElement("BUTTON");
-                // // button.innerHTML = element;
-                // button.addEventListener("click", function(){Campaigns(element)});
-                // myDiv.appendChild(button);
-                // myDiv.appendChild(label);
-                // var button = document.createElement("BUTTON");
-                // button.innerHTML = element;
-                // button.addEventListener("click", function(){Campaigns(element)});
-                // myDiv.appendChild(button);
             });
             console.log(campaigns);
         })
@@ -76,12 +48,6 @@ function Races(){
 function Campaigns(campaign){
     //row 2
     //clearing the lower rows
-    // const row2 = document.getElementById('row2')
-    // Array.from(row2.elements).forEach(element => {
-    // element.style.backgroundColor = 'white';
-    // });
-    // event.target.style.backgroundColor = 'lightgreen';
-
     var row3 = document.getElementById("row3");
     var row4 = document.getElementById("row4");
     var row5 = document.getElementById("row5");
@@ -107,9 +73,6 @@ function Campaigns(campaign){
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){Subraces(campaign, element)});
                     myDiv.appendChild(label);
-                    // var button = document.createElement("BUTTON");
-                    // button.innerHTML = element;
-                    // myDiv.appendChild(button);
                 });
             console.log(subraces);
         })
@@ -117,10 +80,6 @@ function Campaigns(campaign){
 }
 
 function Subraces(campaign, subrace){
-    //this tells what button has just been pressed
-    // event.target.style.backgroundColor = 'lightgreen';
-
-
     //row 3
     //clearing the lower rows
     var row4 = document.getElementById("row4");
@@ -145,9 +104,6 @@ function Subraces(campaign, subrace){
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){RaceInformation(campaign, subrace, element)});
                     myDiv.appendChild(label);
-                    // var button = document.createElement("BUTTON");
-                    // button.innerHTML = element;
-                    // myDiv.appendChild(button);
                 });
             console.log(subraces);
         })
@@ -155,10 +111,6 @@ function Subraces(campaign, subrace){
 }
 
 function RaceInformation(campaign, subrace, name){
-    //this tells what button you have just pressed
-    // event.target.style.backgroundColor = 'lightgreen';
-
-
     //row 4
     //clearing the lower rows
     var row5 = document.getElementById("row5");
@@ -267,9 +219,6 @@ function Branches(branch){
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){Books(branch, element)});
                     myDiv.appendChild(label);
-                    // var button = document.createElement("BUTTON");
-                    // button.innerHTML = element;
-                    // myDiv.appendChild(button);
                 })
                 
                 console.log(book);
@@ -303,9 +252,6 @@ function Books(branch, book){
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){SpellInfo(branch, book, element)});
                     myDiv.appendChild(label);
-                    // var button = document.createElement("BUTTON");
-                    // button.innerHTML = element;
-                    // myDiv.appendChild(button);
                 })
                 
                 console.log(sheet);
@@ -356,7 +302,7 @@ function SpellInfo(branch, book, spell){
 }
 
 
-
+//Classes
 
 function Classes(){
     //row 1
@@ -391,9 +337,6 @@ function Classes(){
                 myDiv.appendChild(input);
                 label.addEventListener("click", function(){Types(element)});
                 myDiv.appendChild(label);
-                // var button = document.createElement("BUTTON");
-                // button.innerHTML = element;
-                // myDiv.appendChild(button);
             });
             
             
@@ -430,10 +373,6 @@ function Types(type){
                 myDiv.appendChild(input);
                 label.addEventListener("click", function(){ClassInformation(type, element)});
                 myDiv.appendChild(label);
-
-                // var button = document.createElement("BUTTON");
-                // button.innerHTML = element;
-                // myDiv.appendChild(button);
             });
             
             
@@ -454,8 +393,6 @@ function ClassInformation(type, className){
         .then((result) => result.json() 
         .then((sheet) => {
             sheet.forEach(element => { if(element.Classification == type && element.ClassName==className){
-
-                
                 var myDiv = document.getElementById("row4");
                 var p = document.createElement("p");
                 p.innerHTML = "Name: " + element.ClassName;
@@ -481,8 +418,6 @@ function ClassInformation(type, className){
                 var p = document.createElement("p");
                 p.innerHTML = "Description: " + element.Description;
                 myDiv.appendChild(p);
-                
-                
                 console.log(element);
             }});
         })
@@ -494,8 +429,6 @@ function ClassInformation(type, className){
 
 
 
-
-//With help from Josh
 function wipeRow(row){
     while(row.firstChild){
         row.removeChild(row.lastChild);

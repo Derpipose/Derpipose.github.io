@@ -9,7 +9,9 @@
     "DamageType": "",
     "Durration": "10 rounds or until hit",
     "Description": "Cancel magic on successful roll, is shaped like a shield",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -21,7 +23,9 @@
     "DamageType": "",
     "Durration": "10 rounds",
     "Description": "See alignment of things",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -33,7 +37,9 @@
     "DamageType": "Radiant",
     "Durration": "1 round",
     "Description": "Purifies items or people",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -45,7 +51,9 @@
     "DamageType": "",
     "Durration": "5 minutes",
     "Description": "Create an orb of light that follows you",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -57,7 +65,9 @@
     "DamageType": "",
     "Durration": "30 seconds",
     "Description": "Detect life, You can see life signs through walls",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -69,7 +79,9 @@
     "DamageType": "Radiant",
     "Durration": "One attack",
     "Description": "Coats weapon in radiant magic",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -81,7 +93,9 @@
     "DamageType": "Radiant",
     "Durration": "1 round",
     "Description": "Create a holy damage projectile",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -93,7 +107,9 @@
     "DamageType": "",
     "Durration": "Until used",
     "Description": "Have advantage on your next check",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Crusaders"
   },
   {
     "SpellBranch": "Celestia",
@@ -105,7 +121,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -117,7 +135,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -129,7 +149,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -141,7 +163,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -153,7 +177,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summons a Valkyrie to assist you",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -165,7 +191,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -177,7 +205,9 @@
     "DamageType": "Radiant",
     "Durration": "",
     "Description": "A massive holy blast centered on yourself.",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Celestia",
@@ -189,7 +219,9 @@
     "DamageType": "Radiant",
     "Durration": "1d6 rounds",
     "Description": "Summons a semblance of the Blade Heavens gate in your hand.",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -201,7 +233,9 @@
     "DamageType": "",
     "Durration": "1 Round",
     "Description": "Heals wounds to an extent. Can't heal large wounds.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -213,7 +247,9 @@
     "DamageType": "",
     "Durration": "1 Round",
     "Description": "Cures poison, acid and disease",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -225,7 +261,9 @@
     "DamageType": "",
     "Durration": "5 minutes or until hit",
     "Description": "Bonus AC +2",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -237,7 +275,9 @@
     "DamageType": "",
     "Durration": "As long as caster wants",
     "Description": "AOE healing of 2D4 per round",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -249,7 +289,9 @@
     "DamageType": "",
     "Durration": "1D6 Rounds",
     "Description": "Passive attack buff for 1D6 rounds",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -261,7 +303,9 @@
     "DamageType": "",
     "Durration": "Combined spell durration",
     "Description": "Gives spells to others",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -273,7 +317,9 @@
     "DamageType": "",
     "Durration": "1D6 Rounds",
     "Description": "Passive saving throw advantage for 1D6 rounds",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -285,7 +331,9 @@
     "DamageType": "",
     "Durration": "1 Round",
     "Description": "Ranged Healing",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "Cleric",
+    "ClassSpec2": "Healer"
   },
   {
     "SpellBranch": "Life",
@@ -297,7 +345,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -309,7 +359,9 @@
     "DamageType": "Blast",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -321,7 +373,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -333,7 +387,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -345,7 +401,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -357,7 +415,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -369,7 +429,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Life",
@@ -381,7 +443,9 @@
     "DamageType": "",
     "Durration": "1d6",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -393,7 +457,9 @@
     "DamageType": "Blunt",
     "Durration": "",
     "Description": "Encases fist in rock",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -405,7 +471,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Creates a stone pillar",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -417,7 +485,9 @@
     "DamageType": "Projectile",
     "Durration": "",
     "Description": "Summon a rock projectile",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -429,7 +499,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Creates a rock wall",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -441,7 +513,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Softens earth",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -453,7 +527,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Creates a pool of quicksand. Can only be cast on soft earth.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -465,7 +541,9 @@
     "DamageType": "Slashing",
     "Durration": "",
     "Description": "Creates a whip of sand",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -477,7 +555,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Allows user to repair small items made of earthen material(rock & metal)",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -489,7 +569,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -501,7 +583,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -513,7 +597,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -525,7 +611,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -537,7 +625,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -549,7 +639,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -561,7 +653,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Earth",
@@ -573,7 +667,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -585,7 +681,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Grows plants from nothing in a 3X3",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -597,7 +695,9 @@
     "DamageType": "Slash",
     "Durration": "",
     "Description": "Creates a whip from plants with 30 ft of reach",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -609,7 +709,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Ensnares living creatures",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -621,7 +723,9 @@
     "DamageType": "Poison",
     "Durration": "",
     "Description": "Touch poison that lasts until the creature makes con save",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -633,7 +737,9 @@
     "DamageType": "Slash",
     "Durration": "",
     "Description": "Creates a thorn grove that inflicts damage per square",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -645,7 +751,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Grows a fruit that heals 1D10 upon consumption",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -657,7 +765,9 @@
     "DamageType": "Leech",
     "Durration": "",
     "Description": "Leeches life from the creature hit",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -669,7 +779,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -681,7 +793,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -693,7 +807,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -705,7 +821,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -717,7 +835,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -729,7 +849,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -741,7 +863,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -753,7 +877,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Growth",
@@ -765,7 +891,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -777,7 +905,9 @@
     "DamageType": "Ray",
     "Durration": "1 round",
     "Description": "Fire ray",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -789,7 +919,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Ignites flamable object",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -801,7 +933,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Boils liquids not in a living entity",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -813,7 +947,9 @@
     "DamageType": "",
     "Durration": "1D4",
     "Description": "Touch and set on fire (deals 1D6 each round) for 1D4 rounds",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -825,7 +961,9 @@
     "DamageType": "Proj",
     "Durration": "1Round",
     "Description": "Cast a fireball",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -837,7 +975,9 @@
     "DamageType": "",
     "Durration": "1Round",
     "Description": "Blast of steam, either out of impliment or mouth",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -849,7 +989,9 @@
     "DamageType": "",
     "Durration": "5 minutes",
     "Description": "Heats an area",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -861,7 +1003,9 @@
     "DamageType": "",
     "Durration": "10 Rounds",
     "Description": "Resist 10 fire damage",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -873,7 +1017,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -885,7 +1031,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -897,7 +1045,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -909,7 +1059,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -921,7 +1073,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -933,7 +1087,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -945,7 +1101,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Fire",
@@ -957,7 +1115,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -969,7 +1129,9 @@
     "DamageType": "",
     "Durration": "5 Minutes",
     "Description": "Turn into a merfolk",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -981,7 +1143,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Temp blindness",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -993,7 +1157,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Create a gyser of water",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1005,7 +1171,9 @@
     "DamageType": "",
     "Durration": "5 Minutes",
     "Description": "Allows underwater breathing",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1017,7 +1185,9 @@
     "DamageType": "Crushing/blud",
     "Durration": "Casting modifier",
     "Description": "Gives caster a large crab claw inplace of hand",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1029,7 +1199,9 @@
     "DamageType": "",
     "Durration": "Encounter",
     "Description": "Envelops caster in a shell until dispelled or shattered",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1041,7 +1213,9 @@
     "DamageType": "",
     "Durration": "Depending",
     "Description": "Covers in urchin armor spikes",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1053,7 +1227,9 @@
     "DamageType": "Line",
     "Durration": "1 Round",
     "Description": "ACreat a beam of water + 20 ft push back",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1065,7 +1241,9 @@
     "DamageType": "Poison, Stun",
     "Durration": "1d6 rounds",
     "Description": "Sting ray tail, can attack an extra time with it, it can deliver a dangerous lingering stunning poison",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1077,7 +1255,9 @@
     "DamageType": "",
     "Durration": "1 Round",
     "Description": "Grow a set of Shark jaws,",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1089,7 +1269,9 @@
     "DamageType": "Crushing",
     "Durration": "3 Rounds",
     "Description": "Gives caster 4 tentacles in place of one of their arms, can crush oponents or restrict them",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1101,7 +1283,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Turns the Caster into water for a limited time, making them invulnerable, but not allowed to attack",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1113,7 +1297,9 @@
     "DamageType": "Slash/Pierce",
     "Durration": "1 Round",
     "Description": "ignores Ac, leaves opponent crippled",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1125,7 +1311,9 @@
     "DamageType": "Break/Blunt",
     "Durration": "1d6+Casting Mod",
     "Description": "grow a thresher shark tail, which can attack and cause Break, also moves target 1d4 squares",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1137,7 +1325,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Seas",
@@ -1149,7 +1339,9 @@
     "DamageType": "",
     "Durration": "4 Rounds",
     "Description": "Summons a Kraken to the batlefield",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1161,7 +1353,9 @@
     "DamageType": "Ray",
     "Durration": "1 Round",
     "Description": "Push back 1D4 spaces",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1173,7 +1367,9 @@
     "DamageType": "",
     "Durration": "1 round",
     "Description": "Catch a projectile",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1185,7 +1381,9 @@
     "DamageType": "Slash",
     "Durration": "1 round",
     "Description": "Create a wind blade that slashes enemy",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1197,7 +1395,9 @@
     "DamageType": "",
     "Durration": "5 minutes",
     "Description": "Catch things on a plane",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1209,7 +1409,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Wind ball that pushes back 1D8 squares",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1221,7 +1423,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Glides things down to ground or surface",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1233,7 +1437,9 @@
     "DamageType": "",
     "Durration": "1D6+casting mod",
     "Description": "plus 10 movement for 1D6+casting stat rounds",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1245,7 +1451,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Shield of wind",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1257,7 +1465,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1269,7 +1479,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1281,7 +1493,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1293,7 +1507,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1305,7 +1521,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1317,7 +1535,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1329,7 +1549,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Wind",
@@ -1341,7 +1563,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1353,7 +1577,9 @@
     "DamageType": "Proj",
     "Durration": "",
     "Description": "Summons snowballs that shoot from your hands/impliment",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1365,7 +1591,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Icey Ray spell",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1377,7 +1605,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Covers the battlefield in a foot of snow. Gain a +3 for Winter spells. Enemies slowed and Allys unaffected.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1389,7 +1619,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Freezes whatever is touched. Can cause frostbite to creatures if used enough.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1401,7 +1633,9 @@
     "DamageType": "Area",
     "Durration": "",
     "Description": "Cools an area down",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1413,7 +1647,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Creates an ice wall that can be in an occupied square.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1425,7 +1661,9 @@
     "DamageType": "Proj",
     "Durration": "",
     "Description": "Creates 4 icicles that can be fired from your hand.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1437,7 +1675,9 @@
     "DamageType": "Proj",
     "Durration": "",
     "Description": "Creates 1D12 Ice spears that can be fired.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1449,7 +1689,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1461,7 +1703,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1473,7 +1717,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1485,7 +1731,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1497,7 +1745,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1509,7 +1759,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1521,7 +1773,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Winter",
@@ -1533,7 +1787,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1545,7 +1801,9 @@
     "DamageType": "Blast",
     "Durration": "",
     "Description": "Sends out a shockwave that deals damage to each square it hits.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1557,7 +1815,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Control a small bolt of electricity",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1569,7 +1829,9 @@
     "DamageType": "Static armor",
     "Durration": "",
     "Description": "Create a coating on your armor that shocks your opponent on a successful mele attack against you.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1581,7 +1843,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Your hand acts like a tazer",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1593,7 +1857,9 @@
     "DamageType": "Blast",
     "Durration": "",
     "Description": "Deafening blast in a 3*3 area.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1605,7 +1871,9 @@
     "DamageType": "Blast",
     "Durration": "",
     "Description": "5*5 centered around you creating a shockwave that stuns as well as damages.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1617,7 +1885,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Direct electricity.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1629,7 +1899,9 @@
     "DamageType": "Proj",
     "Durration": "",
     "Description": "A bolt of electricity that can reach further than sparks.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1641,7 +1913,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1653,7 +1927,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1665,7 +1941,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1677,7 +1955,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1689,7 +1969,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1701,7 +1983,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1713,7 +1997,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sparks",
@@ -1725,7 +2011,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1737,7 +2025,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Pushes your target 1D6 ft",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1749,7 +2039,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Balance and stablize yourself or your target.",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1761,7 +2053,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Stops your target, heavier items can be held for less time",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1773,7 +2067,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Pulls target towards you",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1785,7 +2081,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Lifts objects and creatures",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1797,7 +2095,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Forces an object away from you centered on your hand.",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1809,7 +2109,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Add your spell modifier to your jump",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1821,7 +2123,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "MAGIC MISSILES!!!",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1833,7 +2137,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1845,7 +2151,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1857,7 +2165,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1869,7 +2179,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1881,7 +2193,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1893,7 +2207,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1905,7 +2221,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Force",
@@ -1917,7 +2235,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -1929,7 +2249,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Calms sorms or weather",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -1941,7 +2263,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Creates a rainstorm",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -1953,7 +2277,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Creates fog in your area",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -1965,7 +2291,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Cast 1D6 ray of hail",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -1977,7 +2305,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Modifier of fog for poison damage",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -1989,7 +2319,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Modifier of rain that slows",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2001,7 +2333,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Modifier of rain that makes the rain oil. Can also be a ray of oil that deals no damage",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2013,7 +2347,9 @@
     "DamageType": "Blast",
     "Durration": "",
     "Description": "Direct this blast of lighting to a spot of your chosing for an AOE adjcent to the center of the blast.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2025,7 +2361,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2037,7 +2375,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2049,7 +2389,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2061,7 +2403,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2073,7 +2417,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2085,7 +2431,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2097,7 +2445,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Sky",
@@ -2109,7 +2459,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2121,7 +2473,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Deal poison damage on a touch.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2133,7 +2487,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Slows target",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2145,7 +2501,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summons either three small rats, or one large rat",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2157,7 +2515,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Infects target with a disease, roll a d20 to dertermine the disease.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2169,7 +2529,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Spit a  ray of caustic acid at opponent.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2181,7 +2543,9 @@
     "DamageType": "Summon",
     "Durration": "",
     "Description": "Summon a medium green slime.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2193,7 +2557,9 @@
     "DamageType": "Blast",
     "Durration": "",
     "Description": "A blast of acid for 1D12 per square",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2205,7 +2571,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "2 square wall of sticky goo.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2217,7 +2585,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2229,7 +2599,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2241,7 +2613,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2253,7 +2627,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2265,7 +2641,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2277,7 +2655,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2289,7 +2669,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Disease",
@@ -2301,7 +2683,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2313,7 +2697,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2325,7 +2711,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Read Target's mind",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2337,7 +2725,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2349,7 +2739,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2361,7 +2753,9 @@
     "DamageType": "",
     "Durration": "1D10 Rounds",
     "Description": "Affected person is unreasonable for durration.",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2373,7 +2767,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2385,7 +2781,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2397,7 +2795,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2409,7 +2809,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2421,7 +2823,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2433,7 +2837,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2445,7 +2851,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2457,7 +2865,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2469,7 +2879,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2481,7 +2893,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Mind",
@@ -2493,7 +2907,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2505,7 +2921,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Raises an amount of skeletons or one large skeleton, bones must be provided",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2517,7 +2935,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Reduces the durability of affected item",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2529,7 +2949,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Allows user to talk to dead",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2541,7 +2963,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Drains life from opponent and gives half to the caster",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2553,7 +2977,9 @@
     "DamageType": "Ray",
     "Durration": "",
     "Description": "Necrotic ray of flesh rot.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2565,7 +2991,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Force any nearby undead to pass back into death.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2577,7 +3005,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Cause the target to have their flesh painfully start to decay",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2589,7 +3019,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Become incorporeal for a time, and return to a corporeal form with a secondary casting of the spell for less mana.",
-    "Starter": "Yes"
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2601,7 +3033,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2613,7 +3047,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2625,7 +3061,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2637,7 +3075,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2649,7 +3089,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2661,7 +3103,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2673,7 +3117,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Dead",
@@ -2685,7 +3131,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2697,7 +3145,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Dissadvantage on next roll or check",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2709,7 +3159,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Puts out lights in an area",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2721,7 +3173,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Instills fear, targets must make will save or move away from caster",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2733,7 +3187,9 @@
     "DamageType": "Armor",
     "Durration": "",
     "Description": "Deteriorates armor and weapons",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2745,7 +3201,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Gives the target a random painful event",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2757,7 +3215,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Drain 1D20 of Mana from target and regain 1/2 for yourself",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2769,7 +3229,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Kills any other spells.",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2781,7 +3243,9 @@
     "DamageType": "Proj",
     "Durration": "",
     "Description": "Shoots 6 spikes of Stygian metal from your hand",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "Witch Hunter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2793,7 +3257,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2805,7 +3271,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2817,7 +3285,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2829,7 +3299,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2841,7 +3313,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2853,7 +3327,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2865,7 +3341,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Black",
@@ -2877,7 +3355,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "No"
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2889,7 +3369,9 @@
     "DamageType": "",
     "Durration": "Next successful attack",
     "Description": "Add caster's int modifier to either hit or damage.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2901,7 +3383,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Add +2 to AC",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2913,7 +3397,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Longer spells or apply to weapons or armor to briefly enchant with a spell.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2925,7 +3411,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Mends natural things, not wood.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2937,7 +3425,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summons an animated sword",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2949,7 +3439,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "sumons a weapon of your chosing",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2961,7 +3453,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Enhances everything except to hit.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Enchantment",
@@ -2973,7 +3467,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Longer version of Rune.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -2985,7 +3481,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summon a Bear",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -2997,7 +3495,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summon a snake + stealth",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3009,7 +3509,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summon a crab of varying size",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3021,7 +3523,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Summon 1 big wolf or 4 small wolves.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3033,7 +3537,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3045,7 +3551,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3057,7 +3565,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3069,7 +3579,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3081,7 +3593,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3093,7 +3607,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3105,7 +3621,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Summoner",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3117,7 +3635,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3129,7 +3649,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3141,7 +3663,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3153,7 +3677,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3165,7 +3691,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3177,7 +3705,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3189,7 +3719,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3201,7 +3733,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3213,7 +3747,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3225,7 +3761,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3237,7 +3775,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3249,7 +3789,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3261,7 +3803,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3273,7 +3817,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3285,7 +3831,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3297,7 +3845,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3309,7 +3859,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3321,7 +3873,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3333,7 +3887,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3345,7 +3901,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3357,7 +3915,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3369,7 +3929,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3381,7 +3943,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3393,7 +3957,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3405,7 +3971,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3417,7 +3985,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3429,7 +3999,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3441,7 +4013,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3453,7 +4027,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3465,7 +4041,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Summons",
@@ -3477,1015 +4055,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Celestia",
-    "SpellName": "Radiant",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Hand based flash light.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Celestia",
-    "SpellName": "Ambrosia",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Small prayer beads that deal 1D6. Can \"bless\" water to be holy water.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Celestia",
-    "SpellName": "Spirit",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Halo of detection for warning. An identifying circle of detection.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Celestia",
-    "SpellName": "Galliant",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Summons a barricade of holy light.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Life",
-    "SpellName": "Soothe",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Takes away soreness and aches.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Life",
-    "SpellName": "Splint",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Allows bracing of broken bones using magic.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Life",
-    "SpellName": "Linen",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Conjure a strip of linen to wrap a wound.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Life",
-    "SpellName": "Poultice",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Minor healing 1D6",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Earth",
-    "SpellName": "Flint",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can Knapp flint if a large enough piece is in hand or it can condense knapped chunks of flint.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Earth",
-    "SpellName": "Ore",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can detect ores in a 15m radius. Precision is questionable.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Earth",
-    "SpellName": "Pebble",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Launches a pebble at target.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Earth",
-    "SpellName": "Rhinestone",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Crystallizes magic to adorn items. Non magical in nature. Also used to quickly attune to magical items.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Growth",
-    "SpellName": "Moss",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a blanket of moss on touch. Used to temporarily bind or hide items",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Growth",
-    "SpellName": "Herb",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can detect herbs in 15m radius. Allows a higher success rate in alchemy.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Growth",
-    "SpellName": "Tree",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can slightly age a tree. Can make plants sturdy as wood for climbing purposes. Can somewhat alter the shape of trees to allow for platforms.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Growth",
-    "SpellName": "Fungus",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Helps identify mushrooms. Can be cast on dead animals to grow mushrooms on it. Can be cast on faerie circles for a fun effect.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Fire",
-    "SpellName": "Ember",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a handful of embers that can be thrown",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Fire",
-    "SpellName": "Smoke",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Smoke bomb meant more for startle and doesn't obscure vision. OR it allows for smoking in cooking",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Fire",
-    "SpellName": "Aflame",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates small wick flame. Used for light or to start a fire. Centered in palm.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Fire",
-    "SpellName": "Flare",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "It creates a flare that is launched upon casting.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Seas",
-    "SpellName": "Brine",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates brine solution, namely used in cooking. Can be cast for pocket salt. Super effective against slug based creatures",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Seas",
-    "SpellName": "Coconut",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Allows for coconut to be cracked in half perfectly. Can summon a temporary coconut for a thrown attack before disappearing.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Seas",
-    "SpellName": "Shore",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Allows for land detection in foggy or low light conditions when sailing. Can condense and harden sand into soft sandstone.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Seas",
-    "SpellName": "Crusty",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Summons Crusty the lobster. Can cook.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Wind",
-    "SpellName": "Breeze",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates the thematic wind effect.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Wind",
-    "SpellName": "Wiff",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates broom made of air, a vacuum if you will.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Wind",
-    "SpellName": "Puff",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Air move whilest in air, allows for slight direction change.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Wind",
-    "SpellName": "Bow",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can fire one arrow when you don’t have a bow.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Winter",
-    "SpellName": "Cold",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can cool down whatever is touched.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Winter",
-    "SpellName": "Pine",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Temporarily damage with a flare of pine needles 1D20 needles worth 1 damage each.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Winter",
-    "SpellName": "Sled",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a sled / skiis / snowboard out of wood.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Winter",
-    "SpellName": "Igloo",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a shelter out of snow. Can create a cold chest. Can create ice cubes.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sparks",
-    "SpellName": "Zap",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Drawing connection circuits for traps",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sparks",
-    "SpellName": "Snap",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "A trigger point for a trap to be set off. Create a spark bolt for 1D4",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sparks",
-    "SpellName": "Battery",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Storing electricity to allow a trap to function. Store magical energy in gemstones.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sparks",
-    "SpellName": "Energy",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Seals and combined with elemental magic, empowers a trap.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Force",
-    "SpellName": "Throw",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "YEET!",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Force",
-    "SpellName": "Hammer",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Summons a temporary mallet for woodwork or thowing at morons for 1D4 damage.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Force",
-    "SpellName": "Shove",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Shoves someone either out of the way or off a cliff.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Force",
-    "SpellName": "Disk",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a diskus that can be thrown for 1D6.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sky",
-    "SpellName": "Cloud",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Acts like a paraglider to help ease down from heights.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sky",
-    "SpellName": "Rainbow",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Roll 1D6 for what light of rainbow is cast. Target takes 1D4 elemental damage based on light.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sky",
-    "SpellName": "Squall",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Small personal rain cloud.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Sky",
-    "SpellName": "Vortex",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a vortex of wind to restrain someone, pulls targets in from 5ft around it, does no damage.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Mind",
-    "SpellName": "Imagry",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Allows you to take a picture of what you are currently looking at.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Mind",
-    "SpellName": "Slap",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Allows for distanced slapping of target.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Mind",
-    "SpellName": "Trick",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Mental trickery of auditory or visual senses.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Mind",
-    "SpellName": "Marbles",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Summons a small bag's worth of marbles that can be scattered about.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Disease",
-    "SpellName": "Fever",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Use in combination with healing magic to target curing",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Disease",
-    "SpellName": "Canker",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Use in combination with healing magic to target curing",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Disease",
-    "SpellName": "Malady",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Use in combination with healing magic to target curing",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Disease",
-    "SpellName": "Vaccine",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Use in combination with healing magic to target curing",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Dead",
-    "SpellName": "Haunt",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a Will'O'Wisp that can do lots of small things like haunting or minor tricks.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Dead",
-    "SpellName": "Candle",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a candle for light.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Dead",
-    "SpellName": "Poltergheist",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Can move small objects around.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Dead",
-    "SpellName": "Raise",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Raise an animal skeleton for a period of time.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Summons",
-    "SpellName": "Rope",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a temporary length of rope.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Summons",
-    "SpellName": "Torch",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a temporary torch",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Summons",
-    "SpellName": "Bedroll",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a bedroll that lasts 12 hours.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Cantrips",
-    "SpellBook": "Summons",
-    "SpellName": "Tent",
-    "ManaCost": "-",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a 2 man tent that lasts 12 hours.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Frozen",
-    "SpellName": "Froth",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Frozen",
-    "SpellName": "Needle",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Frozen",
-    "SpellName": "Sheet",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Frozen",
-    "SpellName": "Frozen",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Book of Tombs",
-    "SpellName": "Urn",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Book of Tombs",
-    "SpellName": "Flyphs",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Book of Tombs",
-    "SpellName": "Sarcophagus",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Book of Tombs",
-    "SpellName": "Tomb",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "Creates a Tomb entrance which after the casting modifier of turns begins to spit out monsters, of a certain variety.",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Dusk",
-    "SpellName": "Dusk",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Dusk",
-    "SpellName": "Night",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Dusk",
-    "SpellName": "Shadows",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Dusk",
-    "SpellName": "Whispers",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Crystal",
-    "SpellName": "Cleave",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "1D6",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "3 Dagger crystals that shoot at a target",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Crystal",
-    "SpellName": "Glisten",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Crystal",
-    "SpellName": "Scatter",
-    "ManaCost": "WIP",
-    "Range": "15 ft",
-    "HitDie": "",
-    "DamageType": "Ray",
-    "Durration": "",
-    "Description": "Tiny crystal shards that pepper a target",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Crystal",
-    "SpellName": "Crystal",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Riptide",
-    "SpellName": "Riptide",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Riptide",
-    "SpellName": "Wave",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Riptide",
-    "SpellName": "Detritus",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Riptide",
-    "SpellName": "Foam",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Values",
-    "SpellName": "Mercy",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Values",
-    "SpellName": "Truth",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Values",
-    "SpellName": "Justice",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
-  },
-  {
-    "SpellBranch": "Lost Books",
-    "SpellBook": "Values",
-    "SpellName": "Hope",
-    "ManaCost": "WIP",
-    "Range": "",
-    "HitDie": "",
-    "DamageType": "",
-    "Durration": "",
-    "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Elements of War",
@@ -4497,7 +4069,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Coats weapon in fire for 1D6 extra damage.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Elements of War",
@@ -4509,7 +4083,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Coats weapon in ice for 1D6 extra damage.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Elements of War",
@@ -4521,7 +4097,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Create a beam of damage that extends your weapon's range",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Elements of War",
@@ -4533,7 +4111,401 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Stick your weapon in the ground to coat it in stone to increment the weapon's damage die.",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Elements of War",
+    "SpellBook": "Elements of War 2",
+    "SpellName": "Green",
+    "ManaCost": "",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Elements of War",
+    "SpellBook": "Elements of War 2",
+    "SpellName": "Fang",
+    "ManaCost": "",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Elements of War",
+    "SpellBook": "Elements of War 2",
+    "SpellName": "Acid",
+    "ManaCost": "",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Elements of War",
+    "SpellBook": "Elements of War 2",
+    "SpellName": "Stone",
+    "ManaCost": "",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Spell Sword/ Enchanter",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Frozen",
+    "SpellName": "Froth",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Frozen",
+    "SpellName": "Needle",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Frozen",
+    "SpellName": "Sheet",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Frozen",
+    "SpellName": "Frozen",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Book of Tombs",
+    "SpellName": "Urn",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates an urn that has something inside",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Book of Tombs",
+    "SpellName": "Glyphs",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Book of Tombs",
+    "SpellName": "Sarcophagus",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Book of Tombs",
+    "SpellName": "Tomb",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a Tomb entrance which, after the casting modifier of turns, begins to spit out monsters of a certain variety.",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Dusk",
+    "SpellName": "Dusk",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Dusk",
+    "SpellName": "Night",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Dusk",
+    "SpellName": "Shadows",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Dusk",
+    "SpellName": "Whispers",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Crystal",
+    "SpellName": "Cleave",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "1D6",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "3 Dagger crystals that shoot at a target",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Crystal",
+    "SpellName": "Glisten",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Crystal",
+    "SpellName": "Scatter",
+    "ManaCost": "WIP",
+    "Range": "15 ft",
+    "HitDie": "",
+    "DamageType": "Ray",
+    "Durration": "",
+    "Description": "Tiny crystal shards that pepper a target",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Crystal",
+    "SpellName": "Crystal",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Riptide",
+    "SpellName": "Riptide",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Riptide",
+    "SpellName": "Wave",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Riptide",
+    "SpellName": "Detritus",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Riptide",
+    "SpellName": "Foam",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Values",
+    "SpellName": "Mercy",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Values",
+    "SpellName": "Truth",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Values",
+    "SpellName": "Justice",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Lost Books",
+    "SpellBook": "Values",
+    "SpellName": "Hope",
+    "ManaCost": "WIP",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "",
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Lost Books",
@@ -4545,7 +4517,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Lost Books",
@@ -4557,7 +4531,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Lost Books",
@@ -4569,7 +4545,9 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
   },
   {
     "SpellBranch": "Lost Books",
@@ -4581,6 +4559,848 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": ""
+    "Starter": "No",
+    "ClassSpec1": "Vigilant",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Celestia",
+    "SpellName": "Radiant",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Hand based flash light.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Celestia",
+    "SpellName": "Ambrosia",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Small prayer beads that deal 1D6. Can \"bless\" water to be holy water.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Celestia",
+    "SpellName": "Spirit",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Halo of detection for warning. An identifying circle of detection.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Celestia",
+    "SpellName": "Galliant",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Summons a barricade of holy light.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Life",
+    "SpellName": "Soothe",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Takes away soreness and aches.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Life",
+    "SpellName": "Splint",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Allows bracing of broken bones using magic.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Life",
+    "SpellName": "Linen",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Conjure a strip of linen to wrap a wound.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Life",
+    "SpellName": "Poultice",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Minor healing 1D6",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Earth",
+    "SpellName": "Flint",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can Knapp flint if a large enough piece is in hand or it can condense knapped chunks of flint.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Earth",
+    "SpellName": "Ore",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can detect ores in a 15m radius. Precision is questionable.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Earth",
+    "SpellName": "Pebble",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Launches a pebble at target.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Earth",
+    "SpellName": "Rhinestone",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Crystallizes magic to adorn items. Non magical in nature. Also used to quickly attune to magical items.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Growth",
+    "SpellName": "Moss",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a blanket of moss on touch. Used to temporarily bind or hide items",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Growth",
+    "SpellName": "Herb",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can detect herbs in 15m radius. Allows a higher success rate in alchemy.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Growth",
+    "SpellName": "Tree",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can slightly age a tree. Can make plants sturdy as wood for climbing purposes. Can somewhat alter the shape of trees to allow for platforms.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Growth",
+    "SpellName": "Fungus",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Helps identify mushrooms. Can be cast on dead animals to grow mushrooms on it. Can be cast on faerie circles for a fun effect.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Fire",
+    "SpellName": "Ember",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a handful of embers that can be thrown",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Fire",
+    "SpellName": "Smoke",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Smoke bomb meant more for startle and doesn't obscure vision. OR it allows for smoking in cooking",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Fire",
+    "SpellName": "Aflame",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates small wick flame. Used for light or to start a fire. Centered in palm.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Fire",
+    "SpellName": "Flare",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "It creates a flare that is launched upon casting.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Seas",
+    "SpellName": "Brine",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates brine solution, namely used in cooking. Can be cast for pocket salt. Super effective against slug based creatures",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Seas",
+    "SpellName": "Coconut",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Allows for coconut to be cracked in half perfectly. Can summon a temporary coconut for a thrown attack before disappearing.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Seas",
+    "SpellName": "Shore",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Allows for land detection in foggy or low light conditions when sailing. Can condense and harden sand into soft sandstone.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Seas",
+    "SpellName": "Crusty",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Summons Crusty the lobster. Can cook.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Wind",
+    "SpellName": "Breeze",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates the thematic wind effect.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Wind",
+    "SpellName": "Wiff",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates broom made of air, a vacuum if you will.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Wind",
+    "SpellName": "Puff",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Air move whilest in air, allows for slight direction change.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Wind",
+    "SpellName": "Bow",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can fire one arrow when you don’t have a bow.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Winter",
+    "SpellName": "Cold",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can cool down whatever is touched.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Winter",
+    "SpellName": "Pine",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Temporarily damage with a flare of pine needles 1D20 needles worth 1 damage each.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Winter",
+    "SpellName": "Sled",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a sled / skiis / snowboard out of wood.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Winter",
+    "SpellName": "Igloo",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a shelter out of snow. Can create a cold chest. Can create ice cubes.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sparks",
+    "SpellName": "Zap",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Drawing connection circuits for traps",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sparks",
+    "SpellName": "Snap",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "A trigger point for a trap to be set off. Create a spark bolt for 1D4",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sparks",
+    "SpellName": "Battery",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Storing electricity to allow a trap to function. Store magical energy in gemstones.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sparks",
+    "SpellName": "Energy",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Seals and combined with elemental magic, empowers a trap.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Force",
+    "SpellName": "Throw",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "YEET!",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Force",
+    "SpellName": "Hammer",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Summons a temporary mallet for woodwork or thowing at morons for 1D4 damage.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Force",
+    "SpellName": "Shove",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Shoves someone either out of the way or off a cliff.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Force",
+    "SpellName": "Disk",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a diskus that can be thrown for 1D6.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sky",
+    "SpellName": "Cloud",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Acts like a paraglider to help ease down from heights.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sky",
+    "SpellName": "Rainbow",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Roll 1D6 for what light of rainbow is cast. Target takes 1D4 elemental damage based on light.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sky",
+    "SpellName": "Squall",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Small personal rain cloud.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Sky",
+    "SpellName": "Vortex",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a vortex of wind to restrain someone, pulls targets in from 5ft around it, does no damage.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Mind",
+    "SpellName": "Imagry",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Allows you to take a picture of what you are currently looking at.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Mind",
+    "SpellName": "Slap",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Allows for distanced slapping of target.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Mind",
+    "SpellName": "Trick",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Mental trickery of auditory or visual senses.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Mind",
+    "SpellName": "Marbles",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Summons a small bag's worth of marbles that can be scattered about.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Disease",
+    "SpellName": "Fever",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Use in combination with healing magic to target curing",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Disease",
+    "SpellName": "Canker",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Use in combination with healing magic to target curing",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Disease",
+    "SpellName": "Malady",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Use in combination with healing magic to target curing",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Disease",
+    "SpellName": "Vaccine",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Use in combination with healing magic to target curing",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Dead",
+    "SpellName": "Haunt",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a Will'O'Wisp that can do lots of small things like haunting or minor tricks.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Dead",
+    "SpellName": "Candle",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a candle for light.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Dead",
+    "SpellName": "Poltergheist",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Can move small objects around.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Dead",
+    "SpellName": "Raise",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Raise an animal skeleton for a period of time.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Summons",
+    "SpellName": "Rope",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a temporary length of rope.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Summons",
+    "SpellName": "Torch",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a temporary torch",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Summons",
+    "SpellName": "Bedroll",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a bedroll that lasts 12 hours.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
+  },
+  {
+    "SpellBranch": "Cantrips",
+    "SpellBook": "Summons",
+    "SpellName": "Tent",
+    "ManaCost": "-",
+    "Range": "",
+    "HitDie": "",
+    "DamageType": "",
+    "Durration": "",
+    "Description": "Creates a 2 man tent that lasts 12 hours.",
+    "Starter": "Yes",
+    "ClassSpec1": "",
+    "ClassSpec2": ""
   }
 ]

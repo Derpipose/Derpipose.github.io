@@ -23,7 +23,8 @@ function Races(){
     .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];
-            sheet.forEach(element => {if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign);}});
+            console.log("I am updated");
+            sheet.forEach(element => {if(element.Starter == "Yes"){ if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign)}}});
             
             var myDiv = document.getElementById("row2");
             campaigns.forEach(element => {
@@ -59,7 +60,7 @@ function Campaigns(campaign){
     .then((result) => result.json()
         .then((sheet) =>{
             const subraces = [];
-            sheet.forEach(element=> {if(subraces.includes(element.SubType)){}else if(element.Campaign == campaign){subraces.push(element.SubType);}});
+            sheet.forEach(element=> {if(element.Starter == "Yes"){if(subraces.includes(element.SubType)){}else if(element.Campaign == campaign){subraces.push(element.SubType);}}});
             var myDiv = document.getElementById("row3");
                 subraces.forEach(element => {
 
@@ -91,7 +92,13 @@ function Subraces(campaign, subrace){
     .then((result) => result.json()
         .then((sheet) =>{
             const subraces = [];
-            sheet.forEach(element=> {if(subraces.includes(element.Name)){}else if(element.Campaign == campaign &&element.SubType == subrace){subraces.push(element.Name);}});
+            sheet.forEach(element=> {if(element.Starter == "Yes"){if(subraces.includes(element.Name)){}else if(element.Campaign == campaign && element.SubType == subrace){subraces.push(element.Name);}}
+            //     if(subraces.includes(element.Name)){}
+            // else if(element.Starter == "Yes"){
+            //     if(element.Campaign == campaign &&element.SubType == subrace)
+            //     {subraces.push(element.Name);}}
+            }
+                );
             var myDiv = document.getElementById("row4");
                 subraces.forEach(element => {
                     let label = document.createElement("label");
@@ -105,7 +112,7 @@ function Subraces(campaign, subrace){
                     label.addEventListener("click", function(){RaceInformation(campaign, subrace, element)});
                     myDiv.appendChild(label);
                 });
-            console.log(subraces);
+            console.log(subraces.Starter);
         })
     );
 }
@@ -154,7 +161,7 @@ function Spells(){
             .then((sheet) => {
                 
                 const branch = [];
-                sheet.forEach(element => {if(branch.includes(element.SpellBranch)){}else{branch.push(element.SpellBranch);}});
+                sheet.forEach(element => {if(element.Starter == "Yes"){if(branch.includes(element.SpellBranch)){}else{branch.push(element.SpellBranch);}}});
                 var myDiv = document.getElementById("row2")
                 branch.forEach(element => {
                     
@@ -205,7 +212,7 @@ function Branches(branch){
             .then((sheet) => {
                 
                 const book = [];
-                sheet.forEach(element => {if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}});
+                sheet.forEach(element => {if(element.Starter == "Yes"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}}});
                 var myDiv = document.getElementById("row3")
                 book.forEach(element => {
 

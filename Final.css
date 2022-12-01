@@ -267,6 +267,13 @@
     flex-flow: row wrap;
     background-color: #555;
   }
+  .fantasy #row6{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #444;
+  }
   .fantasy p{
     background-color:beige;
     border-radius: 10px;

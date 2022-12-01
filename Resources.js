@@ -680,8 +680,8 @@ function VetBranches(branch){
             .then((sheet) => {
                 
                 const book = [];
-                sheet.forEach(element => {if(element.Starter == "No"){if(element.Starter == "Yes"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}}}});
-                var myDiv = document.getElementById("row4")
+                sheet.forEach(element => {if(element.Starter == "No"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}}});
+                var myDiv = document.getElementById("row4") 
                 book.forEach(element => {
 
                     let label = document.createElement("label");
@@ -713,7 +713,7 @@ function VetBooks(branch, book){
         .then((result) => result.json() 
             .then((sheet) => {
                 const spells = [];
-                sheet.forEach(element => {if(spells.includes(element.SpellName)){}else if(element.SpellBranch == branch && element.SpellBook == book){spells.push(element.SpellName);}});
+                sheet.forEach(element => {if(element.Starter == "No"){if(spells.includes(element.SpellName)){}else if(element.SpellBranch == branch && element.SpellBook == book){spells.push(element.SpellName);}}});
                 var myDiv = document.getElementById("row5")
                 spells.forEach(element => {
 
@@ -780,52 +780,13 @@ function VetSpellInfo(branch, book, spell){
 //Classes
 
 function VetClasses(){
-    //row 1
+    //row 3
     //clearing the lower rows
-    var row3 = document.getElementById("row3");
+    var row4 = document.getElementById("row3");
     var row4 = document.getElementById("row4");
     var row5 = document.getElementById("row5");
     var row6 = document.getElementById("row6");
     wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-
-    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
-        .then((result) => result.json() 
-        .then((sheet) => {
-            
-            const type = [];
-            sheet.forEach(element => {if(element.Starter == "No"){if(type.includes(element.Classification)){}else{type.push(element.Classification);}}});
-            var myDiv = document.getElementById("row3");
-            // var attribute = 0;
-            type.forEach(element => {
-
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row2";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){VetTypes(element)});
-                myDiv.appendChild(label);
-            });
-            
-            
-            console.log(type);
-        })
-    );
-}
-
-function VetTypes(type){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
     wipeRow(row4);
     wipeRow(row5);
     wipeRow(row6);
@@ -835,8 +796,8 @@ function VetTypes(type){
         .then((sheet) => {
             
             const classes = [];
-            sheet.forEach(element => {if(classes.includes(element.ClassName)){}else if(element.Classification == type){classes.push(element.ClassName);}});
-            var myDiv = document.getElementById("row4");
+            sheet.forEach(element => {if(element.Starter == "No"){if(classes.includes(element.ClassName)){}else {classes.push(element.ClassName);}}});
+            var myDiv = document.getElementById("row3");
             classes.forEach(element => {
                 let label = document.createElement("label");
                 label.innerText = element;
@@ -846,8 +807,9 @@ function VetTypes(type){
                 input.name = "row3";
                 input.id = element;
                 myDiv.appendChild(input);
-                label.addEventListener("click", function(){VetClassInformation(type, element)});
+                label.addEventListener("click", function(){VetTypes(element)});
                 myDiv.appendChild(label);
+                console.log(element);
             });
             
             
@@ -856,19 +818,21 @@ function VetTypes(type){
     );
 }
 
-function VetClassInformation(type, className){
+function VetTypes(className){
     //row 4
     //clearing the lower rows
-    var row4 = document.getElementById("row6");
+    var row4 = document.getElementById("row4");
     var row5 = document.getElementById("row5");
-    wipeRow(row6);
+    var row6 = document.getElementById("row6");
+    wipeRow(row4);
     wipeRow(row5);
+    wipeRow(row6);
 
     fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
         .then((result) => result.json() 
         .then((sheet) => {
-            sheet.forEach(element => { if(element.Classification == type && element.ClassName==className){
-                var myDiv = document.getElementById("row5");
+            sheet.forEach(element => { if(element.ClassName==className){
+                var myDiv = document.getElementById("row4");
                 var p = document.createElement("p");
                 p.innerHTML = "Name: " + element.ClassName;
                 myDiv.appendChild(p);
@@ -898,6 +862,7 @@ function VetClassInformation(type, className){
         })
     );
 }
+
 
 
 

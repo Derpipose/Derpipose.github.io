@@ -226,6 +226,9 @@
   .fantasy #spells{
     background-color: gold;
   }
+  .fantasy #veterans{
+    background-color: seagreen;
+  }
   .fantasy .disabled{
     opacity:0.6;
   }

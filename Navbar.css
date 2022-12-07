@@ -44,6 +44,9 @@ width: 100%;
 padding: 0px;
 margin: 0px;
 }
+.topnav{
+    background: #222;
+}
 
 nav a{
 color:white;

@@ -414,10 +414,10 @@ function ClassInformation(type, className){
                 p.innerHTML = "Name: " + element.ClassName;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Mana Die: " + element.ManaDie;
+                p.innerHTML = "Mana Die: D" + element.ManaDie;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
-                p.innerHTML = "Hit Die: " + element.HitDie;
+                p.innerHTML = "Hit Die: D" + element.HitDie;
                 myDiv.appendChild(p);
                 var p = document.createElement("p");
                 p.innerHTML = "Magic Books: " + element.MagicBooks;

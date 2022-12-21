@@ -10,14 +10,14 @@
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Greater",
     "Name": "Feathered",
-    "Description": "Feathered Lizardfolk are some of the most regal of the lizardfolk. These are often trained in magery as they have a large surplus of mana and pick up on spells quickly. They are adorned with feathers all over, tucked between scale patches. They usually have a colorful array of feathers.",
+    "Description": "Feathered lizardfolk are some of the most regal of the lizardfolk. These are often trained in magery as they have a large surplus of mana and pick up on spells quickly. They are adorned with feathers all over, tucked between scale patches. They usually have a colorful array of feathers.",
     "Starter": "No"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Greater",
-    "Name": "Flattail",
-    "Description": "Flattails are by far the most magically aligned of the lizardfolk. They range in appearance in their standard form from mostly human to mostly lizardfolk. The thing that they all have in common is a large mana filled flat lizard tail. Because of the amount of mana that flows through them, they are able to magically change their entire dna at will, meaning that they are excellent shape shifters, where their only limit is their imagination. It takes time for them to gain certain shifting skills though, upwards of 300 years, so make sure you ask the DM what you can and can not do beforehand. As a flattail, there is an unsatiated curiosity that instills their mind. They want to learn as much as they can. They also constantly have an itch to shift as they constantly fear that they will be caught and sniffed out if they stay in one form for too long.",
+    "Name": "Runetail",
+    "Description": "Runetails are by far the most magically aligned of the lizardfolk. They range in appearance in their standard form from mostly human to mostly lizardfolk. The thing that they all have in common is a large mana filled flat lizard tail. Because of the amount of mana that flows through them, they are able to magically change their entire dna at will, meaning that they are excellent shape shifters, where their only limit is their imagination. It takes time for them to gain certain shifting skills though, upwards of 300 years, so make sure you ask the DM what you can and can not do beforehand. As a flattail, there is an unsatiated curiosity that instills their mind. They want to learn as much as they can. They also constantly have an itch to shift as they constantly fear that they will be caught and sniffed out if they stay in one form for too long.",
     "Starter": "No"
   },
   {
@@ -79,63 +79,63 @@
   {
     "Campaign": "Fantasy",
     "SubType": "Dwarven",
-    "Name": "Canyon",
-    "Description": "The Hardy canyon dwarves make themselves a bastion for dwarven kind, they guard the paths to the mountains keeping orcs, and other beasts away. They are the tallest and they heft the mighty Crax or Swaxe in defense of their fellow dwarves and are excellent warriors.",
+    "Name": "Canyon Dwarf",
+    "Description": "The hardy canyon dwarves make themselves a bastion for dwarven kind, they guard the paths to the mountains keeping orcs, and other beasts away. They are the tallest and they heft the mighty Crax or Swaxe in defense of their fellow dwarves and are excellent warriors.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Dwarven",
-    "Name": "Chasm",
+    "Name": "Chasm Dwarf",
     "Description": "The thin and lithe Canyon dwarves, they are the dextrous miners and delvers of their kin, descending into the deepest reaches of the world, to find ore and gems. Armed with a chain ax to defend themselves they are a force to be reckoned with, despite being a simple ‘miner’.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Dwarven",
-    "Name": "Mountain",
+    "Name": "Mountain Dwarf",
     "Description": "One of the oldest and most stalwart races, The dwarves have roamed the mines and mountains for eons, they are the sons and Daughters of Turvin the first dwarf. They are strong smiths forging their beloved Stone Mauls, a signature weapon of the Mountain dwarves, all of dwarvenkind has a type of weapon that they call their own.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
-    "Name": "Desert",
+    "Name": "Desert Elf",
     "Description": "The Strongest of the Elven races, The desert Elve’s are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, who’s jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
-    "Name": "Forest",
+    "Name": "Forest Elf",
     "Description": "The Forest elves are one of the most iconic groups of elves, Claiming wild forests, their homes and cities, they patrol them hunting monsters, and bandits with their trusted bows. These Elves have struggled to adapt with time but they’ve endured through sheer skill and Courage.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
-    "Name": "High",
-    "Description": "Of all Elven kinds the most powerful mages to have walked the world come from the High elves, their immense natural magic reserves make them more than capable of unleashing volleys of spells constantly. They have survived and molded the environment to suit themselves, instead of changing themselves to their environment. It’s said no other race is blessed with such intelligence or magical prowess. While physically weaker than their brethren the sheer power of their magic can’t be contested or trifled with.",
+    "Name": "High Elf",
+    "Description": "Of all elven kinds the most powerful mages to have walked the world come from the high elves, their immense natural magic reserves make them more than capable of unleashing volleys of spells constantly. They have survived and molded the environment to suit themselves, instead of changing themselves to their environment. It’s said no other race is blessed with such intelligence or magical prowess. While physically weaker than their brethren, the sheer power of their magic can’t be contested or trifled with.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
-    "Name": "Ocean",
+    "Name": "Ocean Elf",
     "Description": "The ocean elves, silver tongued sailors and pirates, born to sail the seas and to rule its waves, are known for their profound beauty and charm. Though make no mistake they are magical just like their kin, and will send you to the depths if you underestimate their mischievous tactics and ploys. They occupy coastal towns, floating cities and even the occasional City ship.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
-    "Name": "Plains",
+    "Name": "Plains Elf",
     "Description": "The Plains elf is the simplest easy going and most friendly kind of elves, having persevered the test of time through friendly negotiations with other races, namely with dwarves, humans, dragonborn, and just about anyone else willing to eat their produce. Plains elves are natural farmers and have a way with growing herbs and crops most people assume to be a type of magic. In all reality most plains elves are just born with green thumbs, not all are some tend to get into alchemy instead of growing plants.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
-    "Name": "Winter",
+    "Name": "Winter Elf",
     "Description": "The Winter elves Known for their innate winter magic, and their tolerance for the cold. Thrive in the coldest places, using their wisdom to guide and preserve their clans through toil and strive, they keep old tomes of history and wisdom to remind themselves of who they are, and what other races before them have tried and failed.",
     "Starter": "Yes"
   },
@@ -150,7 +150,14 @@
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Half-elf",
-    "Description": "Helf’s are hybrid between elves and other races, some take various forms since Elf’s are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
+    "Description": "Helfs are hybrid between elves and other races, some take various forms since elves are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Human",
+    "Name": "Half-human",
+    "Description": "Half humans are hybrid between humans and other races, some take various forms since humans are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
     "Starter": "Yes"
   },
   {
@@ -163,35 +170,35 @@
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
-    "Name": "Black",
+    "Name": "Black Lizardfolk",
     "Description": "Black scales are incredibly hearty, large and brutish. They might not be super intelligent but they can back their hissing with a powerful punch. They are known for their strength and resilience in battle. They are cousins to the nigh impenetrable iron scales, just larger and often more cunning.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
-    "Name": "Blue",
+    "Name": "Blue Lizardfolk",
     "Description": "Blue Lizardfolk are the swimmers of the Lizardfolk. There’s jet Lizardfolk that can shoot jets of water so they can travel faster in the water.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
-    "Name": "Green",
+    "Name": "Green Lizardfolk",
     "Description": "Green Lizardfolk are the most basic but the most diverse. They have so many more variants than any other lesser Lizardfolk. There are Axetails, whose tails are sharp and bony with what looks like an axe head made of bone. Frilled Lizardfolk that look like frilled lizards who have a hood they can raise to increase intimidation and gives a free soft fall, allowing survival from extreme heights. Whiptails have long slender tails that can be whipped to deal a little more ranged damage. Sickleclaws have long front claws that can act like blades when it comes to combat.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
-    "Name": "Red",
+    "Name": "Red Lizardfolk",
     "Description": "Red Lizardfolk are fire resistant. They can melt things in their mouth from sheer heat. They are great smiths as they can refine their own metals and work with them immediately.",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
-    "Name": "White",
+    "Name": "White Lizardfolk",
     "Description": "White Scales are also known as Albino Lizardfolk, they have a peculiar resilience to lightning and are capable of channeling it in a very unique capacity. Their body has the capacity to conduct and flow electricity through it, though are incapable of generating the power themselves, so must rely on exterior sources, such as lightning or Sparks magic to use their abilities.",
     "Starter": "Yes"
   },
@@ -199,7 +206,7 @@
     "Campaign": "Fantasy",
     "SubType": "Oriental",
     "Name": "Jinko",
-    "Description": "A Reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
+    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
     "Starter": "Yes"
   },
   {
@@ -227,7 +234,14 @@
     "Campaign": "Fantasy",
     "SubType": "Rare",
     "Name": "Goliath",
-    "Description": "The children of the giants and humanity, they live in the reaches far away from the populated places, they don’t want to deal with the many people staring at their tremendous height for their tribes are few in number and large groups of people tend to frighten them. They associate with Winter elves and fight against Ulfgar constantly, having a friendly rivalry with the Wolf men. Occasionally a Goliath will leave their tribe and wander among the other races, making it known that the goliaths still walk the mountains and far reaches.",
+    "Description": "The children of the giants and humanity, they live in the reaches far away from the populated places, they don’t want to deal with the many people staring at their tremendous height for their tribes are few in number and large groups of people tend to frighten them. They associate with Winter elves and fight against Ulfgar constantly, having a friendly rivalry with the wolf men. Occasionally a goliath will leave their tribe and wander among the other races, making it known that the goliaths still walk the mountains and far reaches.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Rare",
+    "Name": "Half Orc",
+    "Description": "",
     "Starter": "Yes"
   },
   {

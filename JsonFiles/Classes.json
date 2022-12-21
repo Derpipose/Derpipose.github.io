@@ -151,7 +151,7 @@
   },
   {
     "Classification": "Magic",
-    "ClassName": "Battlemage Mana",
+    "ClassName": "Battlemage",
     "HitDie": "10/12",
     "ManaDie": "10/12",
     "ProficiencyCount": 4,

@@ -10,8 +10,9 @@
     "Durration": "10 rounds or until hit",
     "Description": "Cancel magic on successful roll, is shaped like a shield",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -24,8 +25,9 @@
     "Durration": "10 rounds",
     "Description": "See alignment of things",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -38,8 +40,9 @@
     "Durration": "1 round",
     "Description": "Purifies items or people",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -52,8 +55,9 @@
     "Durration": "5 minutes",
     "Description": "Create an orb of light that follows you",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -66,8 +70,9 @@
     "Durration": "30 seconds",
     "Description": "Detect life, You can see life signs through walls",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -80,8 +85,9 @@
     "Durration": "One attack",
     "Description": "Coats weapon in radiant magic",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -94,8 +100,9 @@
     "Durration": "1 round",
     "Description": "Create a holy damage projectile",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -108,8 +115,9 @@
     "Durration": "Until used",
     "Description": "Have advantage on your next check",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
-    "ClassSpec2": "Crusaders"
+    "ClassSpec2": "Crusader"
   },
   {
     "SpellBranch": "Celestia",
@@ -122,6 +130,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -136,6 +145,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -150,6 +160,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -164,6 +175,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -178,6 +190,7 @@
     "Durration": "",
     "Description": "Summons a Valkyrie to assist you",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -192,6 +205,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -206,6 +220,7 @@
     "Durration": "",
     "Description": "A massive holy blast centered on yourself.",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -220,6 +235,7 @@
     "Durration": "1d6 rounds",
     "Description": "Summons a semblance of the Blade Heavens gate in your hand.",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -234,6 +250,7 @@
     "Durration": "1 Round",
     "Description": "Heals wounds to an extent. Can't heal large wounds.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -248,6 +265,7 @@
     "Durration": "1 Round",
     "Description": "Cures poison, acid and disease",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -262,6 +280,7 @@
     "Durration": "5 minutes or until hit",
     "Description": "Bonus AC +2",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -276,6 +295,7 @@
     "Durration": "As long as caster wants",
     "Description": "AOE healing of 2D4 per round",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -290,6 +310,7 @@
     "Durration": "1D6 Rounds",
     "Description": "Passive attack buff for 1D6 rounds",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -304,6 +325,7 @@
     "Durration": "Combined spell durration",
     "Description": "Gives spells to others",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -318,6 +340,7 @@
     "Durration": "1D6 Rounds",
     "Description": "Passive saving throw advantage for 1D6 rounds",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -332,6 +355,7 @@
     "Durration": "1 Round",
     "Description": "Ranged Healing",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -346,6 +370,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -360,6 +385,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -374,6 +400,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -388,6 +415,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -402,6 +430,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -416,6 +445,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -430,6 +460,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -444,6 +475,7 @@
     "Durration": "1d6",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -458,6 +490,7 @@
     "Durration": "",
     "Description": "Encases fist in rock",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -472,6 +505,7 @@
     "Durration": "",
     "Description": "Creates a stone pillar",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -486,6 +520,7 @@
     "Durration": "",
     "Description": "Summon a rock projectile",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -500,6 +535,7 @@
     "Durration": "",
     "Description": "Creates a rock wall",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -514,6 +550,7 @@
     "Durration": "",
     "Description": "Softens earth",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -528,6 +565,7 @@
     "Durration": "",
     "Description": "Creates a pool of quicksand. Can only be cast on soft earth.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -542,6 +580,7 @@
     "Durration": "",
     "Description": "Creates a whip of sand",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -556,6 +595,7 @@
     "Durration": "",
     "Description": "Allows user to repair small items made of earthen material(rock & metal)",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -570,6 +610,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -584,6 +625,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -598,6 +640,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -612,6 +655,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -626,6 +670,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -640,6 +685,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -654,6 +700,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -668,6 +715,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -682,6 +730,7 @@
     "Durration": "",
     "Description": "Grows plants from nothing in a 3X3",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -696,6 +745,7 @@
     "Durration": "",
     "Description": "Creates a whip from plants with 30 ft of reach",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -710,6 +760,7 @@
     "Durration": "",
     "Description": "Ensnares living creatures",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -724,6 +775,7 @@
     "Durration": "",
     "Description": "Touch poison that lasts until the creature makes con save",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -738,6 +790,7 @@
     "Durration": "",
     "Description": "Creates a thorn grove that inflicts damage per square",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -752,6 +805,7 @@
     "Durration": "",
     "Description": "Grows a fruit that heals 1D10 upon consumption",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -766,6 +820,7 @@
     "Durration": "",
     "Description": "Leeches life from the creature hit",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -780,6 +835,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -794,6 +850,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -808,6 +865,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -822,6 +880,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -836,6 +895,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -850,6 +910,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -864,6 +925,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -878,6 +940,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -892,6 +955,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -906,6 +970,7 @@
     "Durration": "1 round",
     "Description": "Fire ray",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -920,6 +985,7 @@
     "Durration": "",
     "Description": "Ignites flamable object",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -934,6 +1000,7 @@
     "Durration": "",
     "Description": "Boils liquids not in a living entity",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -948,6 +1015,7 @@
     "Durration": "1D4",
     "Description": "Touch and set on fire (deals 1D6 each round) for 1D4 rounds",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -962,6 +1030,7 @@
     "Durration": "1Round",
     "Description": "Cast a fireball",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -976,6 +1045,7 @@
     "Durration": "1Round",
     "Description": "Blast of steam, either out of impliment or mouth",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -990,6 +1060,7 @@
     "Durration": "5 minutes",
     "Description": "Heats an area",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1004,6 +1075,7 @@
     "Durration": "10 Rounds",
     "Description": "Resist 10 fire damage",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1018,6 +1090,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1032,6 +1105,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1046,6 +1120,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1060,6 +1135,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1074,6 +1150,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1088,6 +1165,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1102,6 +1180,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1116,6 +1195,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1130,6 +1210,7 @@
     "Durration": "5 Minutes",
     "Description": "Turn into a merfolk",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1144,6 +1225,7 @@
     "Durration": "",
     "Description": "Temp blindness",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1158,6 +1240,7 @@
     "Durration": "",
     "Description": "Create a gyser of water",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1172,6 +1255,7 @@
     "Durration": "5 Minutes",
     "Description": "Allows underwater breathing",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1186,6 +1270,7 @@
     "Durration": "Casting modifier",
     "Description": "Gives caster a large crab claw inplace of hand",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1200,6 +1285,7 @@
     "Durration": "Encounter",
     "Description": "Envelops caster in a shell until dispelled or shattered",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1214,6 +1300,7 @@
     "Durration": "Depending",
     "Description": "Covers in urchin armor spikes",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1228,6 +1315,7 @@
     "Durration": "1 Round",
     "Description": "ACreat a beam of water + 20 ft push back",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1242,6 +1330,7 @@
     "Durration": "1d6 rounds",
     "Description": "Sting ray tail, can attack an extra time with it, it can deliver a dangerous lingering stunning poison",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1256,6 +1345,7 @@
     "Durration": "1 Round",
     "Description": "Grow a set of Shark jaws,",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1270,6 +1360,7 @@
     "Durration": "3 Rounds",
     "Description": "Gives caster 4 tentacles in place of one of their arms, can crush oponents or restrict them",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1284,6 +1375,7 @@
     "Durration": "",
     "Description": "Turns the Caster into water for a limited time, making them invulnerable, but not allowed to attack",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1298,6 +1390,7 @@
     "Durration": "1 Round",
     "Description": "ignores Ac, leaves opponent crippled",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1312,6 +1405,7 @@
     "Durration": "1d6+Casting Mod",
     "Description": "grow a thresher shark tail, which can attack and cause Break, also moves target 1d4 squares",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1326,6 +1420,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1340,6 +1435,7 @@
     "Durration": "4 Rounds",
     "Description": "Summons a Kraken to the batlefield",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1354,6 +1450,7 @@
     "Durration": "1 Round",
     "Description": "Push back 1D4 spaces",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1368,6 +1465,7 @@
     "Durration": "1 round",
     "Description": "Catch a projectile",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1382,6 +1480,7 @@
     "Durration": "1 round",
     "Description": "Create a wind blade that slashes enemy",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1396,6 +1495,7 @@
     "Durration": "5 minutes",
     "Description": "Catch things on a plane",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1410,6 +1510,7 @@
     "Durration": "",
     "Description": "Wind ball that pushes back 1D8 squares",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1424,6 +1525,7 @@
     "Durration": "",
     "Description": "Glides things down to ground or surface",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1438,6 +1540,7 @@
     "Durration": "1D6+casting mod",
     "Description": "plus 10 movement for 1D6+casting stat rounds",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1452,6 +1555,7 @@
     "Durration": "",
     "Description": "Shield of wind",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1466,6 +1570,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1480,6 +1585,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1494,6 +1600,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1508,6 +1615,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1522,6 +1630,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1536,6 +1645,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1550,6 +1660,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1564,6 +1675,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1578,6 +1690,7 @@
     "Durration": "",
     "Description": "Summons snowballs that shoot from your hands/impliment",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1592,6 +1705,7 @@
     "Durration": "",
     "Description": "Icey Ray spell",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1606,6 +1720,7 @@
     "Durration": "",
     "Description": "Covers the battlefield in a foot of snow. Gain a +3 for Winter spells. Enemies slowed and Allys unaffected.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1620,6 +1735,7 @@
     "Durration": "",
     "Description": "Freezes whatever is touched. Can cause frostbite to creatures if used enough.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1634,6 +1750,7 @@
     "Durration": "",
     "Description": "Cools an area down",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1648,6 +1765,7 @@
     "Durration": "",
     "Description": "Creates an ice wall that can be in an occupied square.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1662,6 +1780,7 @@
     "Durration": "",
     "Description": "Creates 4 icicles that can be fired from your hand.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1676,6 +1795,7 @@
     "Durration": "",
     "Description": "Creates 1D12 Ice spears that can be fired.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1690,6 +1810,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1704,6 +1825,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1718,6 +1840,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1732,6 +1855,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1746,6 +1870,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1760,6 +1885,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1774,6 +1900,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1788,6 +1915,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1802,6 +1930,7 @@
     "Durration": "",
     "Description": "Sends out a shockwave that deals damage to each square it hits.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1816,6 +1945,7 @@
     "Durration": "",
     "Description": "Control a small bolt of electricity",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1830,6 +1960,7 @@
     "Durration": "",
     "Description": "Create a coating on your armor that shocks your opponent on a successful mele attack against you.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1844,6 +1975,7 @@
     "Durration": "",
     "Description": "Your hand acts like a tazer",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1858,6 +1990,7 @@
     "Durration": "",
     "Description": "Deafening blast in a 3*3 area.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1872,6 +2005,7 @@
     "Durration": "",
     "Description": "5*5 centered around you creating a shockwave that stuns as well as damages.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1886,6 +2020,7 @@
     "Durration": "",
     "Description": "Direct electricity.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1900,6 +2035,7 @@
     "Durration": "",
     "Description": "A bolt of electricity that can reach further than sparks.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1914,6 +2050,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1928,6 +2065,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1942,6 +2080,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1956,6 +2095,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1970,6 +2110,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1984,6 +2125,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1998,6 +2140,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2012,6 +2155,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2026,6 +2170,7 @@
     "Durration": "",
     "Description": "Pushes your target 1D6 ft",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2040,6 +2185,7 @@
     "Durration": "",
     "Description": "Balance and stablize yourself or your target.",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2054,6 +2200,7 @@
     "Durration": "",
     "Description": "Stops your target, heavier items can be held for less time",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2068,6 +2215,7 @@
     "Durration": "",
     "Description": "Pulls target towards you",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2082,6 +2230,7 @@
     "Durration": "",
     "Description": "Lifts objects and creatures",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2096,6 +2245,7 @@
     "Durration": "",
     "Description": "Forces an object away from you centered on your hand.",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2110,6 +2260,7 @@
     "Durration": "",
     "Description": "Add your spell modifier to your jump",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2124,6 +2275,7 @@
     "Durration": "",
     "Description": "MAGIC MISSILES!!!",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2138,6 +2290,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2152,6 +2305,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2166,6 +2320,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2180,6 +2335,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2194,6 +2350,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2208,6 +2365,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2222,6 +2380,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2236,6 +2395,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2250,6 +2410,7 @@
     "Durration": "",
     "Description": "Calms sorms or weather",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2264,6 +2425,7 @@
     "Durration": "",
     "Description": "Creates a rainstorm",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2278,6 +2440,7 @@
     "Durration": "",
     "Description": "Creates fog in your area",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2292,6 +2455,7 @@
     "Durration": "",
     "Description": "Cast 1D6 ray of hail",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2306,6 +2470,7 @@
     "Durration": "",
     "Description": "Modifier of fog for poison damage",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2320,6 +2485,7 @@
     "Durration": "",
     "Description": "Modifier of rain that slows",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2334,6 +2500,7 @@
     "Durration": "",
     "Description": "Modifier of rain that makes the rain oil. Can also be a ray of oil that deals no damage",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2348,6 +2515,7 @@
     "Durration": "",
     "Description": "Direct this blast of lighting to a spot of your chosing for an AOE adjcent to the center of the blast.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2362,6 +2530,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2376,6 +2545,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2390,6 +2560,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2404,6 +2575,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2418,6 +2590,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2432,6 +2605,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2446,6 +2620,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2460,6 +2635,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2474,6 +2650,7 @@
     "Durration": "",
     "Description": "Deal poison damage on a touch.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2488,6 +2665,7 @@
     "Durration": "",
     "Description": "Slows target",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2502,6 +2680,7 @@
     "Durration": "",
     "Description": "Summons either three small rats, or one large rat",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2516,6 +2695,7 @@
     "Durration": "",
     "Description": "Infects target with a disease, roll a d20 to dertermine the disease.",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2530,6 +2710,7 @@
     "Durration": "",
     "Description": "Spit a  ray of caustic acid at opponent.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2544,6 +2725,7 @@
     "Durration": "",
     "Description": "Summon a medium green slime.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2558,6 +2740,7 @@
     "Durration": "",
     "Description": "A blast of acid for 1D12 per square",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2572,6 +2755,7 @@
     "Durration": "",
     "Description": "2 square wall of sticky goo.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2586,6 +2770,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2600,6 +2785,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2614,6 +2800,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2628,6 +2815,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2642,6 +2830,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2656,6 +2845,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2670,6 +2860,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2684,6 +2875,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2698,6 +2890,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2712,6 +2905,7 @@
     "Durration": "",
     "Description": "Read Target's mind",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2726,6 +2920,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2740,6 +2935,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2754,6 +2950,7 @@
     "Durration": "1D10 Rounds",
     "Description": "Affected person is unreasonable for durration.",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2768,6 +2965,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2782,6 +2980,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2796,6 +2995,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2810,6 +3010,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2824,6 +3025,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2838,6 +3040,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2852,6 +3055,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2866,6 +3070,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2880,6 +3085,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2894,6 +3100,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2908,6 +3115,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2922,6 +3130,7 @@
     "Durration": "",
     "Description": "Raises an amount of skeletons or one large skeleton, bones must be provided",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2936,6 +3145,7 @@
     "Durration": "",
     "Description": "Reduces the durability of affected item",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2950,6 +3160,7 @@
     "Durration": "",
     "Description": "Allows user to talk to dead",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2964,6 +3175,7 @@
     "Durration": "",
     "Description": "Drains life from opponent and gives half to the caster",
     "Starter": "Yes",
+    "BookLevel": "Book1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2978,6 +3190,7 @@
     "Durration": "",
     "Description": "Necrotic ray of flesh rot.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2992,6 +3205,7 @@
     "Durration": "",
     "Description": "Force any nearby undead to pass back into death.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3006,6 +3220,7 @@
     "Durration": "",
     "Description": "Cause the target to have their flesh painfully start to decay",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3020,6 +3235,7 @@
     "Durration": "",
     "Description": "Become incorporeal for a time, and return to a corporeal form with a secondary casting of the spell for less mana.",
     "Starter": "Yes",
+    "BookLevel": "Book2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3034,6 +3250,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3048,6 +3265,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3062,6 +3280,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3076,6 +3295,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3090,6 +3310,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3104,6 +3325,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3118,6 +3340,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3132,6 +3355,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3146,6 +3370,7 @@
     "Durration": "",
     "Description": "Dissadvantage on next roll or check",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3160,6 +3385,7 @@
     "Durration": "",
     "Description": "Puts out lights in an area",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3174,6 +3400,7 @@
     "Durration": "",
     "Description": "Instills fear, targets must make will save or move away from caster",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3188,6 +3415,7 @@
     "Durration": "",
     "Description": "Deteriorates armor and weapons",
     "Starter": "No",
+    "BookLevel": "Book1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3202,6 +3430,7 @@
     "Durration": "",
     "Description": "Gives the target a random painful event",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3216,6 +3445,7 @@
     "Durration": "",
     "Description": "Drain 1D20 of Mana from target and regain 1/2 for yourself",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3230,6 +3460,7 @@
     "Durration": "",
     "Description": "Kills any other spells.",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3244,6 +3475,7 @@
     "Durration": "",
     "Description": "Shoots 6 spikes of Stygian metal from your hand",
     "Starter": "No",
+    "BookLevel": "Book2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -3258,6 +3490,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3272,6 +3505,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3286,6 +3520,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3300,6 +3535,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book3",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3314,6 +3550,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3328,6 +3565,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3342,6 +3580,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3356,6 +3595,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "Book4",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3370,6 +3610,7 @@
     "Durration": "Next successful attack",
     "Description": "Add caster's int modifier to either hit or damage.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3384,6 +3625,7 @@
     "Durration": "",
     "Description": "Add +2 to AC",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3398,6 +3640,7 @@
     "Durration": "",
     "Description": "Longer spells or apply to weapons or armor to briefly enchant with a spell.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3412,6 +3655,7 @@
     "Durration": "",
     "Description": "Mends natural things, not wood.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3426,6 +3670,7 @@
     "Durration": "",
     "Description": "Summons an animated sword",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3440,6 +3685,7 @@
     "Durration": "",
     "Description": "sumons a weapon of your chosing",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3454,6 +3700,7 @@
     "Durration": "",
     "Description": "Enhances everything except to hit.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3468,6 +3715,7 @@
     "Durration": "",
     "Description": "Longer version of Rune.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -3482,6 +3730,7 @@
     "Durration": "",
     "Description": "Summon a Bear",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3496,6 +3745,7 @@
     "Durration": "",
     "Description": "Summon a snake + stealth",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3510,6 +3760,7 @@
     "Durration": "",
     "Description": "Summon a crab of varying size",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3524,6 +3775,7 @@
     "Durration": "",
     "Description": "Summon 1 big wolf or 4 small wolves.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3538,6 +3790,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3552,6 +3805,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3566,6 +3820,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3580,6 +3835,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3594,6 +3850,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3608,6 +3865,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3622,6 +3880,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3636,6 +3895,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3650,6 +3910,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3664,6 +3925,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3678,6 +3940,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3692,6 +3955,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3706,6 +3970,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3720,6 +3985,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3734,6 +4000,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3748,6 +4015,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3762,6 +4030,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3776,6 +4045,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3790,6 +4060,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3804,6 +4075,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3818,6 +4090,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3832,6 +4105,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3846,6 +4120,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3860,6 +4135,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3874,6 +4150,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3888,6 +4165,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3902,6 +4180,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3916,6 +4195,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3930,6 +4210,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3944,6 +4225,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3958,6 +4240,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3972,6 +4255,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3986,6 +4270,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4000,6 +4285,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4014,6 +4300,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4028,6 +4315,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4042,6 +4330,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4056,6 +4345,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4070,6 +4360,7 @@
     "Durration": "",
     "Description": "Coats weapon in fire for 1D6 extra damage.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4084,6 +4375,7 @@
     "Durration": "",
     "Description": "Coats weapon in ice for 1D6 extra damage.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4098,6 +4390,7 @@
     "Durration": "",
     "Description": "Create a beam of damage that extends your weapon's range",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4112,6 +4405,7 @@
     "Durration": "",
     "Description": "Stick your weapon in the ground to coat it in stone to increment the weapon's damage die.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4126,6 +4420,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4140,6 +4435,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4154,6 +4450,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4168,6 +4465,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -4182,6 +4480,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4196,6 +4495,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4210,6 +4510,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4224,6 +4525,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4238,6 +4540,7 @@
     "Durration": "",
     "Description": "Creates an urn that has something inside",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4252,6 +4555,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4266,6 +4570,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4280,6 +4585,7 @@
     "Durration": "",
     "Description": "Creates a Tomb entrance which, after the casting modifier of turns, begins to spit out monsters of a certain variety.",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4294,6 +4600,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4308,6 +4615,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4322,6 +4630,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4336,6 +4645,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4350,6 +4660,7 @@
     "Durration": "",
     "Description": "3 Dagger crystals that shoot at a target",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4364,6 +4675,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4378,6 +4690,7 @@
     "Durration": "",
     "Description": "Tiny crystal shards that pepper a target",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4392,6 +4705,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4406,6 +4720,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4420,6 +4735,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4434,6 +4750,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4448,6 +4765,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4462,6 +4780,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4476,6 +4795,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4490,6 +4810,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4504,6 +4825,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4518,6 +4840,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4532,6 +4855,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4546,6 +4870,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4560,6 +4885,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
+    "BookLevel": "",
     "ClassSpec1": "Vigilant",
     "ClassSpec2": ""
   },
@@ -4574,6 +4900,7 @@
     "Durration": "",
     "Description": "Hand based flash light.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4588,6 +4915,7 @@
     "Durration": "",
     "Description": "Small prayer beads that deal 1D6. Can \"bless\" water to be holy water.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4602,6 +4930,7 @@
     "Durration": "",
     "Description": "Halo of detection for warning. An identifying circle of detection.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4616,6 +4945,7 @@
     "Durration": "",
     "Description": "Summons a barricade of holy light.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4630,6 +4960,7 @@
     "Durration": "",
     "Description": "Takes away soreness and aches.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4644,6 +4975,7 @@
     "Durration": "",
     "Description": "Allows bracing of broken bones using magic.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4658,6 +4990,7 @@
     "Durration": "",
     "Description": "Conjure a strip of linen to wrap a wound.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4672,6 +5005,7 @@
     "Durration": "",
     "Description": "Minor healing 1D6",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4686,6 +5020,7 @@
     "Durration": "",
     "Description": "Can Knapp flint if a large enough piece is in hand or it can condense knapped chunks of flint.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4700,6 +5035,7 @@
     "Durration": "",
     "Description": "Can detect ores in a 15m radius. Precision is questionable.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4714,6 +5050,7 @@
     "Durration": "",
     "Description": "Launches a pebble at target.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4728,6 +5065,7 @@
     "Durration": "",
     "Description": "Crystallizes magic to adorn items. Non magical in nature. Also used to quickly attune to magical items.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4742,6 +5080,7 @@
     "Durration": "",
     "Description": "Creates a blanket of moss on touch. Used to temporarily bind or hide items",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4756,6 +5095,7 @@
     "Durration": "",
     "Description": "Can detect herbs in 15m radius. Allows a higher success rate in alchemy.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4770,6 +5110,7 @@
     "Durration": "",
     "Description": "Can slightly age a tree. Can make plants sturdy as wood for climbing purposes. Can somewhat alter the shape of trees to allow for platforms.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4784,6 +5125,7 @@
     "Durration": "",
     "Description": "Helps identify mushrooms. Can be cast on dead animals to grow mushrooms on it. Can be cast on faerie circles for a fun effect.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4798,6 +5140,7 @@
     "Durration": "",
     "Description": "Creates a handful of embers that can be thrown",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4812,6 +5155,7 @@
     "Durration": "",
     "Description": "Smoke bomb meant more for startle and doesn't obscure vision. OR it allows for smoking in cooking",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4826,6 +5170,7 @@
     "Durration": "",
     "Description": "Creates small wick flame. Used for light or to start a fire. Centered in palm.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4840,6 +5185,7 @@
     "Durration": "",
     "Description": "It creates a flare that is launched upon casting.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4854,6 +5200,7 @@
     "Durration": "",
     "Description": "Creates brine solution, namely used in cooking. Can be cast for pocket salt. Super effective against slug based creatures",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4868,6 +5215,7 @@
     "Durration": "",
     "Description": "Allows for coconut to be cracked in half perfectly. Can summon a temporary coconut for a thrown attack before disappearing.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4882,6 +5230,7 @@
     "Durration": "",
     "Description": "Allows for land detection in foggy or low light conditions when sailing. Can condense and harden sand into soft sandstone.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4896,6 +5245,7 @@
     "Durration": "",
     "Description": "Summons Crusty the lobster. Can cook.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4910,6 +5260,7 @@
     "Durration": "",
     "Description": "Creates the thematic wind effect.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4924,6 +5275,7 @@
     "Durration": "",
     "Description": "Creates broom made of air, a vacuum if you will.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4938,6 +5290,7 @@
     "Durration": "",
     "Description": "Air move whilest in air, allows for slight direction change.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4952,6 +5305,7 @@
     "Durration": "",
     "Description": "Can fire one arrow when you don’t have a bow.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4966,6 +5320,7 @@
     "Durration": "",
     "Description": "Can cool down whatever is touched.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4980,6 +5335,7 @@
     "Durration": "",
     "Description": "Temporarily damage with a flare of pine needles 1D20 needles worth 1 damage each.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4994,6 +5350,7 @@
     "Durration": "",
     "Description": "Creates a sled / skiis / snowboard out of wood.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5008,6 +5365,7 @@
     "Durration": "",
     "Description": "Creates a shelter out of snow. Can create a cold chest. Can create ice cubes.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5022,6 +5380,7 @@
     "Durration": "",
     "Description": "Drawing connection circuits for traps",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5036,6 +5395,7 @@
     "Durration": "",
     "Description": "A trigger point for a trap to be set off. Create a spark bolt for 1D4",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5050,6 +5410,7 @@
     "Durration": "",
     "Description": "Storing electricity to allow a trap to function. Store magical energy in gemstones.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5064,6 +5425,7 @@
     "Durration": "",
     "Description": "Seals and combined with elemental magic, empowers a trap.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5078,6 +5440,7 @@
     "Durration": "",
     "Description": "YEET!",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5092,6 +5455,7 @@
     "Durration": "",
     "Description": "Summons a temporary mallet for woodwork or thowing at morons for 1D4 damage.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5106,6 +5470,7 @@
     "Durration": "",
     "Description": "Shoves someone either out of the way or off a cliff.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5120,6 +5485,7 @@
     "Durration": "",
     "Description": "Creates a diskus that can be thrown for 1D6.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5134,6 +5500,7 @@
     "Durration": "",
     "Description": "Acts like a paraglider to help ease down from heights.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5148,6 +5515,7 @@
     "Durration": "",
     "Description": "Roll 1D6 for what light of rainbow is cast. Target takes 1D4 elemental damage based on light.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5162,6 +5530,7 @@
     "Durration": "",
     "Description": "Small personal rain cloud.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5176,6 +5545,7 @@
     "Durration": "",
     "Description": "Creates a vortex of wind to restrain someone, pulls targets in from 5ft around it, does no damage.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5190,6 +5560,7 @@
     "Durration": "",
     "Description": "Allows you to take a picture of what you are currently looking at.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5204,6 +5575,7 @@
     "Durration": "",
     "Description": "Allows for distanced slapping of target.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5218,6 +5590,7 @@
     "Durration": "",
     "Description": "Mental trickery of auditory or visual senses.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5232,6 +5605,7 @@
     "Durration": "",
     "Description": "Summons a small bag's worth of marbles that can be scattered about.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5246,6 +5620,7 @@
     "Durration": "",
     "Description": "Use in combination with healing magic to target curing",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5260,6 +5635,7 @@
     "Durration": "",
     "Description": "Use in combination with healing magic to target curing",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5274,6 +5650,7 @@
     "Durration": "",
     "Description": "Use in combination with healing magic to target curing",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5288,6 +5665,7 @@
     "Durration": "",
     "Description": "Use in combination with healing magic to target curing",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5302,6 +5680,7 @@
     "Durration": "",
     "Description": "Creates a Will'O'Wisp that can do lots of small things like haunting or minor tricks.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5316,6 +5695,7 @@
     "Durration": "",
     "Description": "Creates a candle for light.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5330,6 +5710,7 @@
     "Durration": "",
     "Description": "Can move small objects around.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5344,6 +5725,7 @@
     "Durration": "",
     "Description": "Raise an animal skeleton for a period of time.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5358,6 +5740,7 @@
     "Durration": "",
     "Description": "Creates a temporary length of rope.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5372,6 +5755,7 @@
     "Durration": "",
     "Description": "Creates a temporary torch",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5386,6 +5770,7 @@
     "Durration": "",
     "Description": "Creates a bedroll that lasts 12 hours.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -5400,6 +5785,7 @@
     "Durration": "",
     "Description": "Creates a 2 man tent that lasts 12 hours.",
     "Starter": "Yes",
+    "BookLevel": "Cantrip",
     "ClassSpec1": "",
     "ClassSpec2": ""
   }

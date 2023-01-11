@@ -106,6 +106,7 @@
   }
 
   
+
   /* The css that governs the Dark age page */
   .darkage{
     background-image: url("Backgrounds/DarkAgeBackground.jpg");
@@ -284,6 +285,13 @@
   }
   .fantasy .active{
     background-color: lightgreen;
+  }
+
+  .fantasy #Book1{
+    background-color:#09a91f;
+  }
+  .fantasy #Book2{
+    background-color:rgb(216, 231, 11);
   }
   
   

@@ -219,19 +219,21 @@ function Branches(branch){
             .then((sheet) => {
                 
                 const book = [];
-                sheet.forEach(element => {if(element.Starter == "Yes"){if(element.Starter == "Yes"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}}}});
+                const working = [];
+                sheet.forEach(element => {if(element.Starter == "Yes"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook); working.push(element);}}});
                 var myDiv = document.getElementById("row3")
-                book.forEach(element => {
+                working.forEach(element => {
 
                     let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row2";
+                    label.innerText = element.SpellBook;
+                    label.id = element.BookLevel;
+                    label.htmlFor = element.SpellBook + "_row2";
                     let input = document.createElement("input");
                     input.type = "radio";
                     input.name = "row2";
-                    input.id = element + "_row2";
+                    input.id = element.SpellBook + "_row2";
                     myDiv.appendChild(input);
-                    label.addEventListener("click", function(){Books(branch, element)});
+                    label.addEventListener("click", function(){Books(branch, element.SpellBook)});
                     myDiv.appendChild(label);
                 })
                 

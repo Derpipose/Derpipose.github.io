@@ -304,7 +304,7 @@ function SpellInfo(branch, book, spell){
                     p.innerHTML = "Type: " + element.DamageType;
                     myDiv.appendChild(p);
                     var p = document.createElement("p");
-                    p.innerHTML = "Durration: " + element.Durration;
+                    p.innerHTML = "Duration: " + element.Durration;
                     myDiv.appendChild(p);
                     var p = document.createElement("p");
                     p.innerHTML = "Description: " + element.Description;
@@ -765,7 +765,7 @@ function VetSpellInfo(branch, book, spell){
                     p.innerHTML = "Type: " + element.DamageType;
                     myDiv.appendChild(p);
                     var p = document.createElement("p");
-                    p.innerHTML = "Durration: " + element.Durration;
+                    p.innerHTML = "Duration: " + element.Durration;
                     myDiv.appendChild(p);
                     var p = document.createElement("p");
                     p.innerHTML = "Description: " + element.Description;

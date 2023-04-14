@@ -149,7 +149,27 @@
     border-radius: 30px;
   }
   
-  
+  /*The css that governs the Seekers page*/
+  .seekers{
+    background-image: url("Backgrounds/PostApocBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .seekerstop:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    background-color: white;
+    font-size: 14px;
+    background-image:url(Backgrounds/PostApocBackground.jpg);
+    background-size: cover;
+  }
+  .seekersbody{
+    background-color:rgba(235, 235, 235, 0.508);
+    border-radius: 30px;
+  }
+
+
   
   /* The css that governs the moon page */
   .moon{

@@ -1,0 +1,85 @@
+/* Style for the buttons */
+button {
+    background-color: #0f74c6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  
+  /* Style for the active button */
+  button.active {
+    background-color: #15258e;
+  }
+  
+  /* Style for the drop-down sections */
+  section {
+    display: none;
+  }
+  
+  section.active {
+    display: block;
+  }
+  
+  /* Style for the PriceSheet section */
+  #PriceSheet p {
+    margin: 5px 0;
+  }
+  
+  .heading {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(89, 200, 255);
+    display:inline-block;
+    font-size: larger;
+  }
+  
+  /* Style for the TermsOfService section */
+  #TermsOfService p {
+    margin: 5px 0;
+  }
+
+  section{
+    background-color: rgb(24, 154, 241);
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  #PriceSheet :first-child{
+    border-radius: 5px;
+    background-color: rgb(200, 200, 230);
+    padding: 10px 0px;
+  }
+
+  #PriceSheet{
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(24, 154, 241);
+    border-radius: 25px;
+  }
+
+  #TermsOfService :first-child{
+    padding-bottom: 35px;
+  }
+  #TermsOfService p{
+    padding: 10px 0px;
+  }
+
+  body{
+    background-image: linear-gradient(to bottom, rgb(6, 175, 247) , rgb(83, 15, 228));
+    /* background-color: #0fb1c6; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  

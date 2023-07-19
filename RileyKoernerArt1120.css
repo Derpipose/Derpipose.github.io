@@ -1,0 +1,58 @@
+/*Css for the art 1120 page*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: lightskyblue;
+    padding: 20px;
+    color: black;
+    align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.artwork {
+    text-align: center;
+    position: relative;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.3s ease-in-out;
+}
+
+.artwork .title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.artwork .caption {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    color: black;
+    font-size: large;
+    padding: 5px 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.artwork:hover img {
+    filter: blur(10px) opacity(0.5);
+}
+
+.artwork:hover .caption {
+    opacity: 1;
+}

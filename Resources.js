@@ -108,11 +108,11 @@ function Subraces(campaign, subrace){
                 subraces.forEach(element => {
                     let label = document.createElement("label");
                     label.innerText = element;
-                    label.htmlFor = element;
+                    label.htmlFor = element + "_row3";
                     let input = document.createElement("input");
                     input.type = "radio";
                     input.name = "row3";
-                    input.id = element;
+                    input.id = element + "_row3";
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){RaceInformation(campaign, subrace, element)});
                     myDiv.appendChild(label);
@@ -460,11 +460,11 @@ function Vet(){
     var myDiv = document.getElementById("row2");
     let races = document.createElement("label");
     races.innerText = "Races";
-    races.htmlFor = "Races";
+    races.htmlFor = "VetRaces";
     let raceinput = document.createElement("input");
     raceinput.type = "radio";
     raceinput.name = "row1";
-    raceinput.id = "element";
+    raceinput.id = "VetRaces";
     myDiv.appendChild(raceinput);
     races.addEventListener("click", function(){VetRaces()});
     myDiv.appendChild(races);
@@ -472,22 +472,22 @@ function Vet(){
 
     let spells = document.createElement("label");
     spells.innerText = "Spells";
-    spells.htmlFor = "Spells";
+    spells.htmlFor = "VetSpells";
     let spellinput = document.createElement("input");
     spellinput.type = "radio";
     spellinput.name = "row1";
-    spellinput.id = "element";
+    spellinput.id = "VetSpells";
     myDiv.appendChild(spellinput);
     spells.addEventListener("click", function(){VetSpells()});
     myDiv.appendChild(spells);
 
     let classes = document.createElement("label");
     classes.innerText = "Classes";
-    classes.htmlFor = "Classes";
+    classes.htmlFor = "VetClasses";
     let classinput = document.createElement("input");
     classinput.type = "radio";
     classinput.name = "row1";
-    classinput.id = "element";
+    classinput.id = "VetClasses";
     myDiv.appendChild(classinput);
     classes.addEventListener("click", function(){VetClasses()});
     myDiv.appendChild(classes);classes

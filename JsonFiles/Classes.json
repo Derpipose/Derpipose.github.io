@@ -83,7 +83,7 @@
     "MagicBooks": 2,
     "Cantrips": 15,
     "Chances": 4,
-    "Description": "Bow and arrow in hand, quiver at the ready! With three paths to choose, you are sure to find your fit. Scouts can shoot while moving, allowing you to get out of cover, shoot and return in one turn. Snipers like to stay put and shoot, dealing more damage than the other types of marksman. Projectile archers love to create odd amunition to shoot from their weapons, from elemental arrows to a clutch of marbles.",
+    "Description": "Bow and arrow in hand, quiver at the ready! With three paths to choose, you are sure to find your fit. Scouts can shoot while moving, allowing you to get out of cover, shoot and return in one turn. Snipers like to stay put and shoot, dealing more damage than the other types of marksman. Projectile marksmen love to create odd amunition to shoot from their weapons, from elemental arrows to a clutch of marbles.",
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",

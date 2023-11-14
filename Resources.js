@@ -446,7 +446,7 @@ function ClassInformation(type, className){
 //Vet Stuff
 
 function Vet(){
-    var row3 = document.getElementById("row2");
+    var row2 = document.getElementById("row2");
     var row3 = document.getElementById("row3");
     var row4 = document.getElementById("row4");
     var row5 = document.getElementById("row5");
@@ -655,7 +655,7 @@ function VetSpells(){
                     label.htmlFor = element;
                     let input = document.createElement("input");
                     input.type = "radio";
-                    input.name = "row1";
+                    input.name = "row2";
                     input.id = element;
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){VetBranches(element)});
@@ -688,11 +688,11 @@ function VetBranches(branch){
 
                     let label = document.createElement("label");
                     label.innerText = element;
-                    label.htmlFor = element + "_row2";
+                    label.htmlFor = element + "_row3";
                     let input = document.createElement("input");
                     input.type = "radio";
-                    input.name = "row2";
-                    input.id = element + "_row2";
+                    input.name = "row3";
+                    input.id = element + "_row3";
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){VetBooks(branch, element)});
                     myDiv.appendChild(label);
@@ -721,11 +721,11 @@ function VetBooks(branch, book){
 
                     let label = document.createElement("label");
                     label.innerText = element;
-                    label.htmlFor = element + "_row3";
+                    label.htmlFor = element + "_row4";
                     let input = document.createElement("input");
                     input.type = "radio";
-                    input.name = "row3";
-                    input.id = element + "_row3";
+                    input.name = "row4";
+                    input.id = element + "_row4";
                     myDiv.appendChild(input);
                     label.addEventListener("click", function(){VetSpellInfo(branch, book, element)});
                     myDiv.appendChild(label);

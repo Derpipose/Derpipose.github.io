@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="Navbar.js"></script>
+    <script src="BuildCharacter.js"></script>
 </head>
 <body>
     <div id="nav-placeholder"></div>
@@ -28,33 +29,33 @@
             <label for="PlayerName">Player Name</label>
             <input type="text" id="PlayerName" name="PlayerName" required>
             <p>Are you a new or returning player?</p>
-            <input type="radio" id="Newb" name = "select">
+            <input type="radio" id="Newb" name = "select" value="Newb">
             <label for="Newb" id="Newb">Newby</label>
-            <input type="radio" id="Vet" name = "select">
+            <input type="radio" id="Vet" name = "select" value="Vet">
             <label for="Vet" id = "Vet">Veteran</label>
 
             <label for="Character">Character Name</label>
             <input type="text" id="CharacterName" name="CharacterName">
 
-            <div id="CampaignWarn"><p>You have not selected a race yet!!!</p></div>
-            <label for="Campaign">Campaign</label>
+            <div id="CampaignWarn"><p>You have not selected a campaign setting yet!!!</p></div>
+            <label for="Campaign">Campaign Setting</label>
             <select id="Campaign">
-                <option value="NOTCAMPAIGN">Select A Campaign</option>
-                <option value="Fantasy">Fantasy</option>
-                <option value="Fantasy">Oriental</option>
+                <option value="NOTCAMPAIGN">Select A Campaign Setting</option>
+                <option value="Fantasy" id="campaignFantasy">Fantasy</option>
+                <option value="Oriental" id="campaignOriental">Oriental</option>
             </select>
 
 
             <div id="CampaignSelected">
 
                 <div id="WarnRace"><p>You have not selected a race yet!!!</p></div>
-                <label for="Race">Race Type</label>
-                <select id="Race">
+                <label for="RaceType">Race Type</label>
+                <select id="RaceType">
                     <option value="NOTRACETYPE">Select A Race Type</option>
                     <div id="RaceTypeOptions"></div>
                 </select>
                 
-                <div id="RaceSelect">
+                <div id="RaceSelector">
                     <label for="RaceSelect">Race</label>
                     <select id="RaceSelect">
                         <option value="NOTRACE">Select A Race</option>

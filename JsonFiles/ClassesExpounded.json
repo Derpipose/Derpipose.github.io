@@ -16,7 +16,7 @@
     "ClassSpecific": "",
     "LanguageCount": 1,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -38,7 +38,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -60,7 +60,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -82,7 +82,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "2*con score+hitdie+mod",
     "VeteranTag": ""
@@ -104,7 +104,7 @@
     "ClassSpecific": "Yes",
     "LanguageCount": 3,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "highest+2*manadie+highest mod + racemod",
     "Note hp": "",
     "VeteranTag": ""
@@ -126,7 +126,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -148,7 +148,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "Highest*racemod+2*manadie+highestmod",
     "Note hp": "",
     "VeteranTag": ""
@@ -170,7 +170,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -192,7 +192,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -214,7 +214,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Caster",
+    "EasternClassType": "Caster",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -236,7 +236,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Utility",
+    "EasternClassType": "Utility",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -258,7 +258,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Utility",
+    "EasternClassType": "Utility",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -280,7 +280,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Utility",
+    "EasternClassType": "Utility",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -302,7 +302,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Caster",
+    "EasternClassType": "Caster",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -324,7 +324,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Combat",
+    "EasternClassType": "Combat",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -346,7 +346,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Utility",
+    "EasternClassType": "Utility",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -368,7 +368,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Combat",
+    "EasternClassType": "Combat",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -390,7 +390,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Caster",
+    "EasternClassType": "Caster",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -412,7 +412,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Combat",
+    "EasternClassType": "Combat",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -434,7 +434,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Combat",
+    "EasternClassType": "Combat",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -456,7 +456,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "Caster",
+    "EasternClassType": "Caster",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -478,7 +478,7 @@
     "ClassSpecific": "",
     "LanguageCount": 3,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "2*hitdie+ conscore+mod",
     "VeteranTag": ""
@@ -500,7 +500,7 @@
     "ClassSpecific": "",
     "LanguageCount": 3,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -522,7 +522,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -544,7 +544,7 @@
     "ClassSpecific": "",
     "LanguageCount": 3,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "int+wis+manadie+highestmod+racemod",
     "Note hp": "",
     "VeteranTag": ""
@@ -566,7 +566,7 @@
     "ClassSpecific": "",
     "LanguageCount": 3,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "Highest stat * Racemod + other+manadie+highest mod",
     "Note hp": "",
     "VeteranTag": ""
@@ -588,7 +588,7 @@
     "ClassSpecific": "Yes",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -610,7 +610,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -632,7 +632,7 @@
     "ClassSpecific": "",
     "LanguageCount": 2,
     "ProficiencyStart": "Animal Handling",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -654,7 +654,7 @@
     "ClassSpecific": "",
     "LanguageCount": 1,
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -676,7 +676,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -698,7 +698,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -720,7 +720,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -742,7 +742,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -764,7 +764,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "Stealth",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -786,7 +786,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -808,7 +808,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -830,7 +830,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": ""
@@ -852,7 +852,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": "Utility"
@@ -874,7 +874,7 @@
     "ClassSpecific": "",
     "LanguageCount": "",
     "ProficiencyStart": "",
-    "Eastern Class Type": "",
+    "EasternClassType": "",
     "Note mana": "",
     "Note hp": "",
     "VeteranTag": "Magic"

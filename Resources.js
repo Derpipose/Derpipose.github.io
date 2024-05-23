@@ -67,19 +67,19 @@ function Campaigns(campaign){
             const subraces = [];
             sheet.forEach(element=> {if(element.Starter == "Yes"){if(subraces.includes(element.SubType)){}else if(element.Campaign == campaign){subraces.push(element.SubType);}}});
             var myDiv = document.getElementById("row3");
-                subraces.forEach(element => {
 
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element;
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row2";
-                    input.id = element;
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){Subraces(campaign, element)});
-                    myDiv.appendChild(label);
-                });
+            subraces.forEach(element => {
+                let label = document.createElement("label");
+                label.innerText = element;
+                label.htmlFor = element;
+                let input = document.createElement("input");
+                input.type = "radio";
+                input.name = "row2";
+                input.id = element;
+                myDiv.appendChild(input);
+                label.addEventListener("click", function(){Subraces(campaign, element)});
+                myDiv.appendChild(label);
+            });
             console.log(subraces);
         })
     );

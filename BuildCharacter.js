@@ -1,6 +1,5 @@
 window.onload = function (){
     initializeEventListeners();
-    console.log("I initialized!");
 }
 
 function initializeEventListeners() {
@@ -10,6 +9,13 @@ function initializeEventListeners() {
     const raceinfo = document.getElementById("RaceSelect");
     const classinfo = document.getElementById("Class");
     const createbutton = document.getElementById("CreateCharacter");
+    const str = document.getElementById("Str");
+    const dex = document.getElementById("Dex");
+    const con = document.getElementById("Con");
+    const wis = document.getElementById("Wis");
+    const int = document.getElementById("Int");
+    const cha = document.getElementById("Cha");
+    
     
     campaignSelect.addEventListener("change", checkConditions);
     radioButtons.forEach(radio => {
@@ -19,8 +25,14 @@ function initializeEventListeners() {
     raceinfo.addEventListener("change", raceInfo);
     classinfo.addEventListener("change", classInfo);
     createbutton.addEventListener("click", checkBuildConditions);
+    str.addEventListener("change", () => regulateStat("Str"));
+    dex.addEventListener("change", () => regulateStat("Dex"));
+    con.addEventListener("change", () => regulateStat("Con"));
+    wis.addEventListener("change", () => regulateStat("Wis"));
+    int.addEventListener("change", () => regulateStat("Int"));
+    cha.addEventListener("change", () => regulateStat("Cha"));
 
-    
+    // Statcheck to ssee if they are at or above max, or below min either. 
     
     console.log("Event Listeners Ready to go!");
 }
@@ -362,7 +374,7 @@ function clearStatSpans(){
     var cha = document.getElementById("Cha-add");
     var age = document.getElementById("age-range");
     var race = document.getElementById("chosenRace");
-
+    
     str.textContent = "";
     dex.textContent = "";
     con.textContent = "";
@@ -372,6 +384,19 @@ function clearStatSpans(){
     age.textContent = "";
     race.textContent = "";
     console.log("StatSpan wiped");
+
+    var Str = document.getElementById("Str");
+    var Dex = document.getElementById("Dex");
+    var Con = document.getElementById("Con");
+    var Int = document.getElementById("Int");
+    var Wis = document.getElementById("Wis");
+    var Cha = document.getElementById("Cha");
+    Str.max = 8;
+    Dex.max = 8;
+    Con.max = 8;
+    Int.max = 8;
+    Wis.max = 8;
+    Cha.max = 8;
 }
 
 function clearRadioButtons(){
@@ -381,7 +406,6 @@ function clearRadioButtons(){
     wipeDiv(radio1);
     wipeDiv(radio2);
 }
-
 
 function updatePicks() {
     console.log("I have been picked!");
@@ -445,6 +469,7 @@ function checkBuildConditions(){
 
     if(campaign.value != "NOTCAMAPIGN" && race.value != "NOTRACETYPE" && playerclass.value != "NOTCLASS" && stats){
         console.log("Character ready to build captain!!!");
+        BuildTheCharacter();
     }else{ 
         console.log("Something is missing. Will find out what later.");
     }
@@ -453,10 +478,13 @@ function checkBuildConditions(){
 function SetStat(stat, num, statchoices){
 
     var StatInQuestion = document.getElementById(stat+"-add");
+    var maxstat = document.getElementById(stat);
     if (num < 0){
         StatInQuestion.textContent = "- "+ Math.abs(num);
+        maxstat.max = 8-num;
     }else{
         StatInQuestion.textContent = "+ " + num;
+        maxstat.max = 8-num;
     }
     var index = statchoices.indexOf(stat);
     if (index !== -1) {
@@ -466,17 +494,17 @@ function SetStat(stat, num, statchoices){
 }
 
 function SetStatSpecific(stat, num){
-    statchoices  = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+    // statchoices  = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
     var StatInQuestion = document.getElementById(stat+"-add");
     if (num < 0){
         StatInQuestion.textContent = "- "+ Math.abs(num);
     }else{
         StatInQuestion.textContent = "+ " + num;
     }
-    var index = statchoices.indexOf(stat);
-    if (index !== -1) {
-        statchoices.splice(index, 1);
-    }
+    // var index = statchoices.indexOf(stat);
+    // if (index !== -1) {
+    //     statchoices.splice(index, 1);
+    // }
 }
 
 function updateStatCalculations(){
@@ -518,4 +546,20 @@ function updateStatCalculations(){
         );
     
     
+}
+
+function regulateStat(Stat){
+    
+    var workingstat = document.getElementById(Stat);
+    if(workingstat.value > workingstat.max){
+        workingstat.value = workingstat.max;
+        console.log("The number was too big. Sorry. Making you just a little nerfed there.");
+    }else if(workingstat.value < workingstat.min){
+        workingstat.value = 0;
+        console.log("Chaotic stupid isn't an alignment.");
+    }
+}
+
+function BuildTheCharacter(){
+
 }

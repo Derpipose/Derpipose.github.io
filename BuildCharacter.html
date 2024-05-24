@@ -85,19 +85,30 @@
                 </div>
                 
                 <div id="Stats">
+                    <p>Please enter your stats. These are made from rolling 6 d8s and ones are allowed to be rerolled.</p>
+                    <p>Two lower stats may be rerolled once if desired but the outcome MUST be kept, unless it is a one.</p>
+                    <p>Enter just the number, we will do the calculations for you.</p><div id="WarnStats"><p>Stats are not completed!!!!!</p></div>
                     <!-- the stat-add is only for if there's a +1 or 2 due to race and should be noted and instructed not to add that to the number being stated -->
-                    <label for="Str">Str <span id="str-add"></span></label>
-                    <input type="number" id="Str" min="0" name="Str">
-                    <label for="Dex">Dex <span id="dex-add"></span></label>
-                    <input type="number" id="Dex" min="0" name="Dex">
-                    <label for="Con">Con <span id="con-add"></span></label>
-                    <input type="number" id="Con" min="0" name="Con">
-                    <label for="Int">Int <span id="int-add"></span></label>
-                    <input type="number" id="Int" min="0" name="Int">
-                    <label for="Wis">Wis <span id="wis-add"></span></label>
-                    <input type="number" id="Wis" min="0" name="Wis">
-                    <label for="Cha">Cha <span id="cha-add"></span></label>
-                    <input type="number" id="Cha" min="0" name="Cha">
+                    <label for="Str">Str:</label>
+                    <input type="number" id="Str" min="0" max="8" name="Str"> <span id="Str-add"></span><br>
+                    <label for="Dex">Dex:</label>
+                    <input type="number" id="Dex" min="0" max="8" name="Dex"> <span id="Dex-add"></span><br>
+                    <label for="Con">Con:</label>
+                    <input type="number" id="Con" min="0" max="8" name="Con"> <span id="Con-add"></span><br>
+                    <label for="Int">Int:</label>
+                    <input type="number" id="Int" min="0" max="8" name="Int"> <span id="Int-add"></span><br>
+                    <label for="Wis">Wis:</label>
+                    <input type="number" id="Wis" min="0" max="8" name="Wis"> <span id="Wis-add"></span><br>
+                    <label for="Cha">Cha:</label>
+                    <input type="number" id="Cha" min="0" max="8" name="Cha"> <span id="Cha-add"></span><br>
+                </div>
+
+                <br>
+                <div id="pick1-container">
+                    <p>Pick 1:</p>
+                </div>
+                <div id="pick2-container">
+                    <p>Pick 2:</p>
                 </div>
 
                 <button id="CreateCharacter">Create Character</button>

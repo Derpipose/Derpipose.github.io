@@ -154,9 +154,9 @@ function raceInfo(){
                     Special.textContent = "Special: " + element.Special;
                     myDiv.appendChild(Special);
                 }
-                console.log("RaceInfo Clearing Statspan");
+                console.log("RaceInfo Clearing Statspan and radio");
                 clearStatSpans();
-                
+                clearRadioButtons();
                 
                 var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
                 
@@ -362,8 +362,6 @@ function clearStatSpans(){
     var cha = document.getElementById("Cha-add");
     var age = document.getElementById("age-range");
     var race = document.getElementById("chosenRace");
-    var radio1 = document.getElementById("pick1-container")
-    var radio2 = document.getElementById("pick2-container")
 
     str.textContent = "";
     dex.textContent = "";
@@ -373,14 +371,21 @@ function clearStatSpans(){
     cha.textContent = "";
     age.textContent = "";
     race.textContent = "";
+    console.log("StatSpan wiped");
+}
+
+function clearRadioButtons(){
+    
+    var radio1 = document.getElementById("pick1-container");
+    var radio2 = document.getElementById("pick2-container");
     wipeDiv(radio1);
     wipeDiv(radio2);
-    console.log("StatSpan wiped");
 }
 
 
 function updatePicks() {
     console.log("I have been picked!");
+    clearStatSpans();
 
     let pick1 = document.querySelector('input[name="pick1"]:checked') ? document.querySelector('input[name="pick1"]:checked').value : null;
     let pick2 = document.querySelector('input[name="pick2"]:checked') ? document.querySelector('input[name="pick2"]:checked').value : null;
@@ -414,6 +419,7 @@ function updatePicks() {
     if(pick2 !== null){
         SetStatSpecific(pick2, 2);
     }
+    updateStatCalculations();
 }
 
 function checkBuildConditions(){
@@ -474,5 +480,42 @@ function SetStatSpecific(stat, num){
 }
 
 function updateStatCalculations(){
+        const raceChosen = document.getElementById("RaceSelect");
+        const Race = raceChosen.value;
+        const campaignChosen = document.getElementById("Campaign");
+        const Campaign = campaignChosen.value;
+        var AgeSpan = document.getElementById("age-range");
+        var raceNameForAge = document.getElementById("chosenRace");
+        var pick1 = "";
+        var pick2 = "";
+        
+        fetch(`https://derpipose.github.io/JsonFiles/RacesExpounded.json`)
+        .then((result) => result.json() 
+            .then((sheet) => {
+                sheet.forEach(element=> {if(element.Campaign == Campaign && element.Name == Race){
+                    var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+                    
+                    var statchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+                    basestatchoices.forEach(playerstat => {
+                        if(element[playerstat] != 0){
+    
+                            statchoices = SetStat(playerstat, element[playerstat], statchoices);
+                        }
+                    });
+                    let Picking1 = document.createElement("p");
+                    Picking1.textContent = "You get a +1 stat bonus to: " + pick1;
+                    myDiv.appendChild(Picking1);
+                    let Picking2 = document.createElement("p");
+                    Picking2.textContent = "You get a +2 stat bonus to: " + pick2;
+                    myDiv.appendChild(Picking2);
+                    
+                    AgeSpan.textContent = element.AdventuringAgeStart + " - " + element.AgeMax;
+                    raceNameForAge.textContent = element.Name;
+    
+                }});
+    
+            })
+        );
+    
     
 }

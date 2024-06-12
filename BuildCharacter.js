@@ -174,11 +174,8 @@ function raceInfo(){
                 
                 var statchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
                 basestatchoices.forEach(playerstat => {
-                    if(element[playerstat] != 0){
 
-                        statchoices = SetStat(playerstat, element[playerstat], statchoices);
-                    }
-                    
+                    statchoices = SetStat(playerstat, element[playerstat], statchoices);
 
                 });
                 
@@ -482,13 +479,18 @@ function SetStat(stat, num, statchoices){
     if (num < 0){
         StatInQuestion.textContent = "- "+ Math.abs(num);
         maxstat.max = 8-num;
-    }else{
+    }else if( num > 0){
         StatInQuestion.textContent = "+ " + num;
         maxstat.max = 8-num;
+    } else {
+        StatInQuestion.textContent = "+ " + num;
     }
-    var index = statchoices.indexOf(stat);
-    if (index !== -1) {
-        statchoices.splice(index, 1);
+    if(num != 0){
+
+        var index = statchoices.indexOf(stat);
+        if (index !== -1) {
+            statchoices.splice(index, 1);
+        }
     }
     return statchoices;
 }

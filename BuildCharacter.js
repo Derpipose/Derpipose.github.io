@@ -48,7 +48,7 @@ function checkConditions() {
         const playerStatus = selectedRadio.value;
         LoadRaces(selectedCampaign, playerStatus);
         LoadClasses(selectedCampaign, playerStatus);
-        console.log("Conditions Met!");
+        console.log("Conditions met, allowing access to main builder!");
     }
 }
 
@@ -72,7 +72,6 @@ function LoadRaces(Campaign, playerStatus){
             }
             
 
-            console.log(RaceTypes);
             wipeDiv(myDiv);
             wipeDiv(racediv);
             clearDiv(raceinfodiv);
@@ -113,10 +112,10 @@ function RaceSpecific(){
             
             if(playerStatus == "Vet"){
                 sheet.forEach(element=> {if(Races.includes(element.Name)){}else if(element.Campaign == Campaign && element.SubType == SubRace){Races.push(element.Name);}});
-                console.log("Added " + SubRace + " races");
+                // console.log("Added " + SubRace + " races");
             }else{
                 sheet.forEach(element=> {if(Races.includes(element.Name)){}else if(element.Campaign == Campaign && element.SubType == SubRace && element.Starter == "Yes"){Races.push(element.Name);}});
-                console.log("Added " + SubRace + " races");
+                // console.log("Added " + SubRace + " races");
             }
             
 
@@ -176,7 +175,26 @@ function raceInfo(){
                 basestatchoices.forEach(playerstat => {
 
                     statchoices = SetStat(playerstat, element[playerstat], statchoices);
+                    if(element[playerstat] == 1){
+                        pick1 = playerstat;
+                        console.log("I set pick1");
+                    }
+                    if(element[playerstat] == 2){
+                        pick2 = playerstat;
+                        console.log("I set pick2");
+                    }
+                    if(element[playerstat] != 0){
 
+                        let Picking = document.createElement("p");
+                        if(element[playerstat] > 0){
+
+                            Picking.textContent = "You get a +" + element[playerstat] +" stat bonus to: " + playerstat;
+                        }else{
+                            Picking.textContent = "You get a " + element[playerstat] +" stat bonus to: " + playerstat;
+
+                        }
+                        myDiv.appendChild(Picking);
+                    }
                 });
                 
                 
@@ -233,7 +251,7 @@ function raceInfo(){
                     });
 
                 }else if(element.Pick == 2){
-                    pick1 = "Player can choose";
+                    pick2 = "Player can choose";
                     statchoices.forEach(element => {
                         let label = document.createElement("label");
                         label.innerText = element;
@@ -249,12 +267,12 @@ function raceInfo(){
                     });
                 }
 
-                let Picking1 = document.createElement("p");
-                Picking1.textContent = "You get a +1 stat bonus to: " + pick1;
-                myDiv.appendChild(Picking1);
-                let Picking2 = document.createElement("p");
-                Picking2.textContent = "You get a +2 stat bonus to: " + pick2;
-                myDiv.appendChild(Picking2);
+                // let Picking1 = document.createElement("p");
+                // Picking1.textContent = "You get a +1 stat bonus to: " + pick1;
+                // myDiv.appendChild(Picking1);
+                // let Picking2 = document.createElement("p");
+                // Picking2.textContent = "You get a +2 stat bonus to: " + pick2;
+                // myDiv.appendChild(Picking2);
                 
                 AgeSpan.textContent = element.AdventuringAgeStart + " - " + element.AgeMax;
                 raceNameForAge.textContent = element.Name;
@@ -299,7 +317,7 @@ function LoadClasses(Campaign, playerStatus){
 
             });
         
-            console.log("Got the " + Campaign + "classes!");
+            console.log("Got the " + Campaign + " classes!");
 
         })
     );
@@ -396,6 +414,36 @@ function clearStatSpans(){
     Cha.max = 8;
 }
 
+function clearOnlyStats(){
+    var str = document.getElementById("Str-add");
+    var dex = document.getElementById("Dex-add");
+    var con = document.getElementById("Con-add");
+    var int = document.getElementById("Int-add");
+    var wis = document.getElementById("Wis-add");
+    var cha = document.getElementById("Cha-add");
+    
+    str.textContent = "";
+    dex.textContent = "";
+    con.textContent = "";
+    int.textContent = "";
+    wis.textContent = "";
+    cha.textContent = "";
+    console.log("StatSpan wiped");
+
+    var Str = document.getElementById("Str");
+    var Dex = document.getElementById("Dex");
+    var Con = document.getElementById("Con");
+    var Int = document.getElementById("Int");
+    var Wis = document.getElementById("Wis");
+    var Cha = document.getElementById("Cha");
+    Str.max = 8;
+    Dex.max = 8;
+    Con.max = 8;
+    Int.max = 8;
+    Wis.max = 8;
+    Cha.max = 8;
+}
+
 function clearRadioButtons(){
     
     var radio1 = document.getElementById("pick1-container");
@@ -434,12 +482,20 @@ function updatePicks() {
         }
     }
     
+    var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+
+
     if(pick1 !== null){
-        SetStatSpecific(pick1, 1);
+        basestatchoices = SetStat(pick1, 1, basestatchoices);
     }
     if(pick2 !== null){
-        SetStatSpecific(pick2, 2);
+        basestatchoices = SetStat(pick2, 2, basestatchoices);
     }
+    var statsleft = basestatchoices;
+    basestatchoices.forEach(element => {
+        statsleft = SetStat(element, 0, statsleft);
+    });
+
     updateStatCalculations();
 }
 
@@ -495,73 +551,81 @@ function SetStat(stat, num, statchoices){
     return statchoices;
 }
 
-function SetStatSpecific(stat, num){
-    // statchoices  = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
-    var StatInQuestion = document.getElementById(stat+"-add");
-    if (num < 0){
-        StatInQuestion.textContent = "- "+ Math.abs(num);
-    }else{
-        StatInQuestion.textContent = "+ " + num;
-    }
-    // var index = statchoices.indexOf(stat);
-    // if (index !== -1) {
-    //     statchoices.splice(index, 1);
-    // }
-}
+function updateStatCalculations(Stat){
+    if(document.getElementById(Stat)){
 
-function updateStatCalculations(){
-        const raceChosen = document.getElementById("RaceSelect");
-        const Race = raceChosen.value;
-        const campaignChosen = document.getElementById("Campaign");
-        const Campaign = campaignChosen.value;
-        var AgeSpan = document.getElementById("age-range");
-        var raceNameForAge = document.getElementById("chosenRace");
-        var pick1 = "";
-        var pick2 = "";
+        const statValue = parseInt(document.getElementById(Stat).value, 10) || 0;
         
-        fetch(`https://derpipose.github.io/JsonFiles/RacesExpounded.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                sheet.forEach(element=> {if(element.Campaign == Campaign && element.Name == Race){
-                    var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
-                    
-                    var statchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
-                    basestatchoices.forEach(playerstat => {
-                        if(element[playerstat] != 0){
-    
-                            statchoices = SetStat(playerstat, element[playerstat], statchoices);
-                        }
-                    });
-                    let Picking1 = document.createElement("p");
-                    Picking1.textContent = "You get a +1 stat bonus to: " + pick1;
-                    myDiv.appendChild(Picking1);
-                    let Picking2 = document.createElement("p");
-                    Picking2.textContent = "You get a +2 stat bonus to: " + pick2;
-                    myDiv.appendChild(Picking2);
-                    
-                    AgeSpan.textContent = element.AdventuringAgeStart + " - " + element.AgeMax;
-                    raceNameForAge.textContent = element.Name;
-    
-                }});
-    
-            })
-        );
-    
+        // Get the Cha-add value and convert to an integer
+        const statAddText = document.getElementById(Stat + '-add').textContent.trim();
+        const statAddValue = parseInt(statAddText.replace(/[^\d-]/g, ''), 10) || 0;
+        // console.log("Add Text = " + statAddText);
+        // console.log("Add Value = " + statAddValue);
+        // Calculate the final value
+        const finalValue = statValue + statAddValue;
+        
+        // Update the stat-final span
+        document.getElementById(Stat + '-final').textContent = ` = ${finalValue}`;
+    }
     
 }
 
 function regulateStat(Stat){
-    
     var workingstat = document.getElementById(Stat);
-    if(workingstat.value > workingstat.max){
-        workingstat.value = workingstat.max;
-        console.log("The number was too big. Sorry. Making you just a little nerfed there.");
-    }else if(workingstat.value < workingstat.min){
-        workingstat.value = 0;
+    var max = parseFloat(workingstat.max); // Convert max to a number
+    var min = parseFloat(workingstat.min); // Convert min to a number
+    var value = parseFloat(workingstat.value); // Convert value to a number
+    
+    if(value > max){
+        workingstat.value = max;
+        console.log("The number was too big. Sorry. Gotta nerf you just a bit. There, now you are good to go.");
+    }else if(value < min){
+        workingstat.value = min; 
         console.log("Chaotic stupid isn't an alignment.");
     }
+    updateStatCalculations(Stat);
+}
+
+function wipeCharacter(span){
+    document.getElementById(span).textContent = '';
 }
 
 function BuildTheCharacter(){
+    const spanIDs = [
+        "Charname-show",
+        "PlayerName-show",
+        "CharClass-show",
+        "Race-show",
+        "Books-show",
+        "Speed-show",
+        "Languages-show",
+        "Hit-Die-show",
+        "Mana-Die-show",
+        "Skills-show",
+        "Str-show",
+        "Con-show",
+        "Dex-show",
+        "Int-show",
+        "Wis-show",
+        "Cha-show",
+        "Initive-show",
+        "AC-show",
+        "Health-show",
+        "Mana-show"
+    ];
+    spanIDs.forEach(element => {
+        wipeCharacter(element);
+    });
 
+    document.getElementById("playerName-show").textContent = document.getElementById("CharacterName").value;
+
+    var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+    basestatchoices.forEach(Stat => {
+
+        const statText = document.getElementById(Stat + '-final').textContent.trim();
+        const statfinalValue = parseInt(statText.replace(/[^\d-]/g, ''), 10) || 0;
+        var bonus = statfinalValue / 2;
+        statfinalValue = statfinalValue + 10;
+        document.getElementById(Stat + '-show').textContent = statfinalValue + "(+" + bonus + ")";
+    });
 }

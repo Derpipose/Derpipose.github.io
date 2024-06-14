@@ -263,7 +263,7 @@
     "MagicBooks": 5,
     "Cantrips": 30,
     "Chances": 2,
-    "Description": "Having friends is useful, but summons and conjurers are always there to back you up. Summoners can work in a few ways. Either they have formed a unique bond with each summon they possess or they managed to get their hands on a very rare Summons spell book. On the flip side, Conjurers summon constructions that they build from their own mana. Conjurers can imbue their contsructs with another spell to give the construct special effects.",
+    "Description": "Having friends is useful, but summons and conjurs are always there to back you up. Summoners can work in a few ways. Either they have formed a unique bond with each summon they possess or they managed to get their hands on a very rare Summons spell book. On the flip side, Conjurers summon constructions that they build from their own mana. Conjurers can imbue their contsructs with another spell to give the construct special effects.",
     "Starter": "Yes",
     "SpellCastingModifier": "Wis/Int",
     "StatFavor1": "Wis/Int",

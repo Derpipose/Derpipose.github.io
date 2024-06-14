@@ -1,23 +1,9 @@
 [
   {
     "Campaign": "Fantasy",
-    "SubType": "General",
-    "Name": "Ulfgar",
-    "Description": "Ulfgar are the wolven cousins of the houndsmen. They are often brutish and tend to be more barbaric than the other races. They honestly couldn’t care more about what crosses their path, they’d gladly take it out and use their bones as a nice chew toy. Their demeanor tends to trend more towards viking culture than anything else. It’s rare to have a socialized and friendly ulfgar.",
-    "Starter": "No"
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Lizardfolk Greater",
-    "Name": "Feathered",
-    "Description": "Feathered lizardfolk are some of the most regal of the lizardfolk. These are often trained in magery as they have a large surplus of mana and pick up on spells quickly. They are adorned with feathers all over, tucked between scale patches. They usually have a colorful array of feathers.",
-    "Starter": "No"
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Lizardfolk Greater",
-    "Name": "Runetail",
-    "Description": "Runetails are by far the most magically aligned of the lizardfolk. They range in appearance in their standard form from mostly human to mostly lizardfolk. The thing that they all have in common is a large mana filled flat lizard tail. Because of the amount of mana that flows through them, they are able to magically change their entire dna at will, meaning that they are excellent shape shifters, where their only limit is their imagination. It takes time for them to gain certain shifting skills though, upwards of 300 years, so make sure you ask the DM what you can and can not do beforehand. As a runetail, there is an unsatiated curiosity that instills their mind. They want to learn as much as they can. They also constantly have an itch to shift as they constantly fear that they will be caught and sniffed out if they stay in one form for too long.",
+    "SubType": "Ancient",
+    "Name": "Aedir",
+    "Description": "Aedir are angelfolk that are decendants from the great Justice herself. In modern times it is near impossible to find one unless some strange circumstance happened that somehow displaced them from their time. They were around during the time of the Fjordians.",
     "Starter": "No"
   },
   {
@@ -78,6 +64,13 @@
   },
   {
     "Campaign": "Fantasy",
+    "SubType": "Beastial",
+    "Name": "Ulfgar",
+    "Description": "Ulfgar are the wolven cousins of the houndsmen. They are often brutish and tend to be more barbaric than the other races. They honestly couldn’t care more about what crosses their path, they’d gladly take it out and use their bones as a nice chew toy. Their demeanor tends to trend more towards viking culture than anything else. It’s rare to have a socialized and friendly ulfgar.",
+    "Starter": "No"
+  },
+  {
+    "Campaign": "Fantasy",
     "SubType": "Dwarven",
     "Name": "Canyon Dwarf",
     "Description": "The hardy canyon dwarves make themselves a bastion for dwarven kind, they guard the paths to the mountains keeping orcs, and other beasts away. They are the tallest and they heft the mighty Crax or Swaxe in defense of their fellow dwarves and are excellent warriors.",
@@ -87,7 +80,7 @@
     "Campaign": "Fantasy",
     "SubType": "Dwarven",
     "Name": "Chasm Dwarf",
-    "Description": "The thin and lithe Canyon dwarves, they are the dextrous miners and delvers of their kin, descending into the deepest reaches of the world, to find ore and gems. Armed with a chain ax to defend themselves they are a force to be reckoned with, despite being a simple ‘miner’.",
+    "Description": "The thin and lithe Chasm dwarves, they are the dextrous miners and delvers of their kin, descending into the deepest reaches of the world, to find ore and gems. Armed with a chain ax to defend themselves they are a force to be reckoned with, despite being a simple ‘miner’.",
     "Starter": "Yes"
   },
   {
@@ -148,7 +141,7 @@
   },
   {
     "Campaign": "Fantasy",
-    "SubType": "Elven",
+    "SubType": "Human",
     "Name": "Half-elf",
     "Description": "Helfs are hybrid between elves and other races, some take various forms since elves are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
     "Starter": "Yes"
@@ -166,6 +159,27 @@
     "Name": "Human",
     "Description": "Standard, basic but not really. Humans are versatile and adaptive. One of the greatest things about them is the fact that they adapt and change to whatever situation they find themselves in. They are highly proficient with spears, and can use them as if it was second nature to them, they have several special spears they've made and use; Glaives,, Boar Spears, and Longspears. Each has their own uses but all are deadly in the hands of a human who’s put the time and effort into mastering them.",
     "Starter": "Yes"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Human",
+    "Name": "Tiefling",
+    "Description": "Much like the Dragonborns, Tieflings are divided into two groups, noble and not noble tieflings. The noble Tieflings are usually quite polite, though they can be fairly snooty if they want to be. They have",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Lizardfolk Greater",
+    "Name": "Feathered",
+    "Description": "Feathered lizardfolk are some of the most regal of the lizardfolk. These are often trained in magery as they have a large surplus of mana and pick up on spells quickly. They are adorned with feathers all over, tucked between scale patches. They usually have a colorful array of feathers.",
+    "Starter": "No"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Lizardfolk Greater",
+    "Name": "Runetail",
+    "Description": "Runetails are by far the most magically aligned of the lizardfolk. They range in appearance in their standard form from mostly human to mostly lizardfolk. The thing that they all have in common is a large mana filled flat lizard tail. Because of the amount of mana that flows through them, they are able to magically change their entire dna at will, meaning that they are excellent shape shifters, where their only limit is their imagination. It takes time for them to gain certain shifting skills though, upwards of 300 years, so make sure you ask the DM what you can and can not do beforehand. As a runetail, there is an unsatiated curiosity that instills their mind. They want to learn as much as they can. They also constantly have an itch to shift as they constantly fear that they will be caught and sniffed out if they stay in one form for too long.",
+    "Starter": "No"
   },
   {
     "Campaign": "Fantasy",
@@ -204,20 +218,6 @@
   },
   {
     "Campaign": "Fantasy",
-    "SubType": "Oriental",
-    "Name": "Jinko",
-    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
-    "Starter": "Yes"
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oriental",
-    "Name": "Okami",
-    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
-    "Starter": "Yes"
-  },
-  {
-    "Campaign": "Fantasy",
     "SubType": "Rare",
     "Name": "Anubi",
     "Description": "The Anubi, a regal race of jackals who prowl the deserts. They pride themselves on their knowledge and their skill in manipulating precious metals into something magical. Standing about the height of a tall human these Beastfolk adorn themselves in gold and silk, and build monuments to outlive the world. They have gained notoriety in their time as the builders of wonders, makers of artifacts, and the oracles of the future. Though this all comes at a cost, their nobility has led them to be shortsighted in terms of war, and have had many unnecessary losses over the years they’ve reigned the deserts, leaving them few in number.",
@@ -242,6 +242,90 @@
     "SubType": "Rare",
     "Name": "Half Orc",
     "Description": "",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Avian",
+    "Name": "Kenku",
+    "Description": "These avians lack the ability to fly, with the lack of wings, but they are covered in feathers and take appearances from corvids. Kenku are often much shorter than aarakocra, around 4.5-5.5 foot tall. They love their shiny things and often can let that distract them from their work.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Alvi",
+    "Description": "Korea. Best smiths in the land. Elven in appearance",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Cakukin",
+    "Description": "China. Caste system but reverse and most numerous. Builders. Apes of the land.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Fusoan",
+    "Description": "Japan. The main tinkerers of the east. Don’t fuck with.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Hobgoblin",
+    "Description": "Mongolia. Brawn of the East but a pain in the ass.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Jinko",
+    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Kapsa",
+    "Description": "Turtle folk. Long lived scholars",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Kitsune",
+    "Description": "Multi tailed fox folk. They can be fox folk or beastman like.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Okami",
+    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Oniri",
+    "Description": "Mountain dwelling ogres.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Tanuki",
+    "Description": "Racoonfolk. Goblins of East. Pests most of the time.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Tengu",
+    "Description": "Bandits. Big angry Aarakocra but stronger.",
     "Starter": "Yes"
   },
   {

@@ -336,20 +336,21 @@ function classInfo(){
                 
                 clearDiv(myDiv);
 
+                let type = document.createElement("p");
+                type.id = "ClassType";
                 if(element.Classification == "Eastern"){
-                    let type = document.createElement("p");
                     type.textContent = "Type: " + element.EasternClassType;
-                    myDiv.appendChild(type);
+                    // myDiv.appendChild(type);
                 }else if(element.Classification == "Veteran"){
-                    let type = document.createElement("p");
+                    // let type = document.createElement("p");
                     type.textContent = "Type: " + element.VeteranTag;
-                    myDiv.appendChild(type);
+                    // myDiv.appendChild(type);
                 }else{
-                    let type = document.createElement("p");
+                    // let type = document.createElement("p");
                     type.textContent = "Type: " + element.Classification;
-                    myDiv.appendChild(type);
                 }
-
+                myDiv.appendChild(type);
+                
                 let HitDie = document.createElement("p");
                 HitDie.textContent = "Hit Die: 1D" + element.HitDie;
                 myDiv.appendChild(HitDie);
@@ -415,33 +416,32 @@ function clearStatSpans(){
 }
 
 function clearOnlyStats(){
-    var str = document.getElementById("Str-add");
-    var dex = document.getElementById("Dex-add");
-    var con = document.getElementById("Con-add");
-    var int = document.getElementById("Int-add");
-    var wis = document.getElementById("Wis-add");
-    var cha = document.getElementById("Cha-add");
+    const raceChosen = document.getElementById("RaceSelect");
+    const Race = raceChosen.value;
+    const campaignChosen = document.getElementById("Campaign");
+    const Campaign = campaignChosen.value;
+    var StatsAvaliable = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+    const StatsComplete = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
     
-    str.textContent = "";
-    dex.textContent = "";
-    con.textContent = "";
-    int.textContent = "";
-    wis.textContent = "";
-    cha.textContent = "";
-    console.log("StatSpan wiped");
+    fetch(`https://derpipose.github.io/JsonFiles/RacesExpounded.json`)
+    .then((result) => result.json() 
+        .then((sheet) => {
+            sheet.forEach(element=> {if(element.Campaign == Campaign && element.Name == Race){
+                StatsComplete.forEach(stat => {
+                    if(element[stat] != 0){
+                        StatsAvaliable = SetStat(stat, element[stat], StatsAvaliable);
+                    }
+                });
+            }})}));
+    
+    StatsAvaliable.forEach(stat => {
+        var docstat = document.getElementById(stat + "-add");
+        docstat.textContent = "";
+        var docstatmax = document.getElementById(stat);
+        docstatmax.max = 8;
+    });
 
-    var Str = document.getElementById("Str");
-    var Dex = document.getElementById("Dex");
-    var Con = document.getElementById("Con");
-    var Int = document.getElementById("Int");
-    var Wis = document.getElementById("Wis");
-    var Cha = document.getElementById("Cha");
-    Str.max = 8;
-    Dex.max = 8;
-    Con.max = 8;
-    Int.max = 8;
-    Wis.max = 8;
-    Cha.max = 8;
+    console.log("StatOnlySpan wiped");
 }
 
 function clearRadioButtons(){
@@ -454,7 +454,7 @@ function clearRadioButtons(){
 
 function updatePicks() {
     console.log("I have been picked!");
-    clearStatSpans();
+    clearOnlyStats();
 
     let pick1 = document.querySelector('input[name="pick1"]:checked') ? document.querySelector('input[name="pick1"]:checked').value : null;
     let pick2 = document.querySelector('input[name="pick2"]:checked') ? document.querySelector('input[name="pick2"]:checked').value : null;
@@ -487,16 +487,20 @@ function updatePicks() {
 
     if(pick1 !== null){
         basestatchoices = SetStat(pick1, 1, basestatchoices);
+        regulateStat(pick1);
     }
     if(pick2 !== null){
         basestatchoices = SetStat(pick2, 2, basestatchoices);
+        regulateStat(pick2);
     }
     var statsleft = basestatchoices;
     basestatchoices.forEach(element => {
         statsleft = SetStat(element, 0, statsleft);
+        updateStatCalculations(element);
+
     });
 
-    updateStatCalculations();
+    // updateStatCalculations();
 }
 
 function checkBuildConditions(){
@@ -548,6 +552,7 @@ function SetStat(stat, num, statchoices){
             statchoices.splice(index, 1);
         }
     }
+    updateStatCalculations(stat);
     return statchoices;
 }
 
@@ -556,11 +561,10 @@ function updateStatCalculations(Stat){
 
         const statValue = parseInt(document.getElementById(Stat).value, 10) || 0;
         
-        // Get the Cha-add value and convert to an integer
+        // Get the stat-add value and convert to an integer
         const statAddText = document.getElementById(Stat + '-add').textContent.trim();
         const statAddValue = parseInt(statAddText.replace(/[^\d-]/g, ''), 10) || 0;
-        // console.log("Add Text = " + statAddText);
-        // console.log("Add Value = " + statAddValue);
+
         // Calculate the final value
         const finalValue = statValue + statAddValue;
         
@@ -592,39 +596,23 @@ function wipeCharacter(span){
 
 function BuildTheCharacter(){
     const spanIDs = [
-        "Charname-show",
-        "PlayerName-show",
-        "CharClass-show",
-        "Race-show",
-        "Books-show",
-        "Speed-show",
-        "Languages-show",
-        "Hit-Die-show",
-        "Mana-Die-show",
-        "Skills-show",
-        "Str-show",
-        "Con-show",
-        "Dex-show",
-        "Int-show",
-        "Wis-show",
-        "Cha-show",
-        "Initive-show",
-        "AC-show",
-        "Health-show",
-        "Mana-show"
+        "Charname-show","PlayerName-show","CharClass-show","Race-show","Books-show","Speed-show","Languages-show","Hit-Die-show","Mana-Die-show","Skills-show","Str-show","Con-show","Dex-show","Int-show","Wis-show","Cha-show","Initive-show","AC-show","Health-show","Mana-show"
     ];
     spanIDs.forEach(element => {
         wipeCharacter(element);
     });
 
-    document.getElementById("playerName-show").textContent = document.getElementById("CharacterName").value;
+    document.getElementById("Charname-show").textContent = document.getElementById("CharacterName").value;
+    document.getElementById("PlayerName-show").textContent = document.getElementById("PlayerName").value;
+    document.getElementById("CharClass-show").textContent = document.getElementById("Class").value;
+    
 
     var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
     basestatchoices.forEach(Stat => {
 
-        const statText = document.getElementById(Stat + '-final').textContent.trim();
-        const statfinalValue = parseInt(statText.replace(/[^\d-]/g, ''), 10) || 0;
-        var bonus = statfinalValue / 2;
+        var statText = document.getElementById(Stat + '-final').textContent.trim();
+        var statfinalValue = parseInt(statText.replace(/[^\d-]/g, ''), 10) || 0;
+        var bonus = Math.floor(statfinalValue / 2);
         statfinalValue = statfinalValue + 10;
         document.getElementById(Stat + '-show').textContent = statfinalValue + "(+" + bonus + ")";
     });

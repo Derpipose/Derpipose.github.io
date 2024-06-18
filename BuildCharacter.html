@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Navbar.css">
     <link rel="stylesheet" href="Final.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="BuildCharacter.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="Navbar.js"></script>
     <script src="BuildCharacter.js"></script>
@@ -14,7 +15,7 @@
     <div id="nav-placeholder"></div>
     <script>
     $(function(){
-      $("#nav-placeholder").load("navbar.html");
+        $("#nav-placeholder").load("navbar.html");
     });
     </script>
 
@@ -76,7 +77,7 @@
                 </select>
 
                 <div id="ClassInfo">
-                    <span id="ClassType"></span>
+                    <p>Type: <span id="ClassType"></span></p>
                     <!-- This will include a description and show the different hit and mana dies avaliable -->
                 </div>
                 
@@ -92,17 +93,17 @@
                     <p>Don't add any of the bonuses to the numbers rolled. Numbers may not exceed 8 with bonuses added.</p>
                     <!-- the stat-add is only for if there's a +1 or 2 due to race and should be noted and instructed not to add that to the number being stated -->
                     <label for="Str">Str:</label>
-                    <input type="number" id="Str" min="0" max="8" name="Str"> <span id="Str-add"></span><span id="Str-final"></span><br>
+                    <input type="number" id="Str" min="0" max="8" name="Str"> <span id="Str-add"></span><span id="Str-final"></span><span id="Str-prefer"></span><br>
                     <label for="Dex">Dex:</label>
-                    <input type="number" id="Dex" min="0" max="8" name="Dex"> <span id="Dex-add"></span><span id="Dex-final"></span><br>
+                    <input type="number" id="Dex" min="0" max="8" name="Dex"> <span id="Dex-add"></span><span id="Dex-final"></span><span id="Dex-prefer"></span><br>
                     <label for="Con">Con:</label>
-                    <input type="number" id="Con" min="0" max="8" name="Con"> <span id="Con-add"></span><span id="Con-final"></span><br>
+                    <input type="number" id="Con" min="0" max="8" name="Con"> <span id="Con-add"></span><span id="Con-final"></span><span id="Con-prefer"></span><br>
                     <label for="Int">Int:</label>
-                    <input type="number" id="Int" min="0" max="8" name="Int"> <span id="Int-add"></span><span id="Int-final"></span><br>
+                    <input type="number" id="Int" min="0" max="8" name="Int"> <span id="Int-add"></span><span id="Int-final"></span><span id="Int-prefer"></span><br>
                     <label for="Wis">Wis:</label>
-                    <input type="number" id="Wis" min="0" max="8" name="Wis"> <span id="Wis-add"></span><span id="Wis-final"></span><br>
+                    <input type="number" id="Wis" min="0" max="8" name="Wis"> <span id="Wis-add"></span><span id="Wis-final"></span><span id="Wis-prefer"></span><br>
                     <label for="Cha">Cha:</label>
-                    <input type="number" id="Cha" min="0" max="8" name="Cha"> <span id="Cha-add"></span><span id="Cha-final"></span><br>
+                    <input type="number" id="Cha" min="0" max="8" name="Cha"> <span id="Cha-add"></span><span id="Cha-final"></span><span id="Cha-prefer"></span><br>
                 </div>
 
                 <br>

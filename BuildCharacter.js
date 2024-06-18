@@ -75,7 +75,7 @@ function LoadRaces(Campaign, playerStatus){
             wipeDiv(myDiv);
             wipeDiv(racediv);
             clearDiv(raceinfodiv);
-            clearDiv(classinfodiv);
+            wipeDiv(classinfodiv);
             clearStatSpans();
             
             
@@ -309,6 +309,10 @@ function LoadClasses(Campaign, playerStatus){
 
 
             wipeDiv(myDiv);
+            var classtype = document.getElementById("ClassType");
+            classtype.textContent = "";
+            
+
 
             ClassList.forEach(element =>{
                 let option = document.createElement("option");                
@@ -334,22 +338,21 @@ function classInfo(){
         .then((sheet) => {
             sheet.forEach(element=> {if(element.ClassName == className){
                 
-                clearDiv(myDiv);
+                wipeDiv(myDiv);
 
-                let type = document.createElement("p");
-                type.id = "ClassType";
+                let type = document.getElementById("ClassType");
                 if(element.Classification == "Eastern"){
-                    type.textContent = "Type: " + element.EasternClassType;
+                    type.textContent = element.EasternClassType;
                     // myDiv.appendChild(type);
                 }else if(element.Classification == "Veteran"){
                     // let type = document.createElement("p");
-                    type.textContent = "Type: " + element.VeteranTag;
+                    type.textContent = element.VeteranTag;
                     // myDiv.appendChild(type);
                 }else{
                     // let type = document.createElement("p");
-                    type.textContent = "Type: " + element.Classification;
+                    type.textContent = element.Classification;
                 }
-                myDiv.appendChild(type);
+                // myDiv.appendChild(type);
                 
                 let HitDie = document.createElement("p");
                 HitDie.textContent = "Hit Die: 1D" + element.HitDie;
@@ -382,37 +385,25 @@ function clearDiv(div){
 }
 
 function clearStatSpans(){
-    var str = document.getElementById("Str-add");
-    var dex = document.getElementById("Dex-add");
-    var con = document.getElementById("Con-add");
-    var int = document.getElementById("Int-add");
-    var wis = document.getElementById("Wis-add");
-    var cha = document.getElementById("Cha-add");
+    var stats = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+    stats.forEach(stat =>{
+        var statadd = document.getElementById(stat + "-add");
+        statadd.textContent = "";
+        var statfinal = document.getElementById(stat + "-final")
+        statfinal.textContent = "";
+        var statprefer = document.getElementById(stat + "-prefer");
+        statprefer.textContent = "";
+        var statmax = document.getElementById(stat);
+        statmax.max = 8;
+    });
+
     var age = document.getElementById("age-range");
     var race = document.getElementById("chosenRace");
+
     
-    str.textContent = "";
-    dex.textContent = "";
-    con.textContent = "";
-    int.textContent = "";
-    wis.textContent = "";
-    cha.textContent = "";
     age.textContent = "";
     race.textContent = "";
     console.log("StatSpan wiped");
-
-    var Str = document.getElementById("Str");
-    var Dex = document.getElementById("Dex");
-    var Con = document.getElementById("Con");
-    var Int = document.getElementById("Int");
-    var Wis = document.getElementById("Wis");
-    var Cha = document.getElementById("Cha");
-    Str.max = 8;
-    Dex.max = 8;
-    Con.max = 8;
-    Int.max = 8;
-    Wis.max = 8;
-    Cha.max = 8;
 }
 
 function clearOnlyStats(){
@@ -596,7 +587,7 @@ function wipeCharacter(span){
 
 function BuildTheCharacter(){
     const spanIDs = [
-        "Charname-show","PlayerName-show","CharClass-show","Race-show","Books-show","Speed-show","Languages-show","Hit-Die-show","Mana-Die-show","Skills-show","Str-show","Con-show","Dex-show","Int-show","Wis-show","Cha-show","Initive-show","AC-show","Health-show","Mana-show"
+        "Charname-show", "PlayerName-show", "CharClass-show", "Race-show", "Books-show", "Speed-show", "Languages-show", "Hit-Die-show", "Mana-Die-show", "Skills-show", "Str-show", "Con-show", "Dex-show", "Int-show", "Wis-show", "Cha-show", "Initive-show", "AC-show", "Health-show", "Mana-show"
     ];
     spanIDs.forEach(element => {
         wipeCharacter(element);
@@ -605,15 +596,129 @@ function BuildTheCharacter(){
     document.getElementById("Charname-show").textContent = document.getElementById("CharacterName").value;
     document.getElementById("PlayerName-show").textContent = document.getElementById("PlayerName").value;
     document.getElementById("CharClass-show").textContent = document.getElementById("Class").value;
-    
 
-    var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
-    basestatchoices.forEach(Stat => {
+    var classtype = document.getElementById("ClassType").value;
+    var race = document.getElementById("RaceSelect").value;
 
-        var statText = document.getElementById(Stat + '-final').textContent.trim();
-        var statfinalValue = parseInt(statText.replace(/[^\d-]/g, ''), 10) || 0;
-        var bonus = Math.floor(statfinalValue / 2);
-        statfinalValue = statfinalValue + 10;
-        document.getElementById(Stat + '-show').textContent = statfinalValue + "(+" + bonus + ")";
+    // var intelegence = document.getElementById("Int-final").value;
+
+    var intelegencetext = document.getElementById('Int-final').textContent.trim();
+    var intelegence = parseInt(intelegencetext.replace(/[^\d-]/g, ''), 10) || 0;
+    intelegence = intelegence + 10;
+
+    var Constitutiontext = document.getElementById('Con-final').textContent.trim();
+    var constitution = parseInt(Constitutiontext.replace(/[^\d-]/g, ''), 10) || 0;
+    constitution = constitution + 10;
+
+    var WisdomText = document.getElementById('Wis-final').textContent.trim();
+    var wisdom = parseInt(WisdomText.replace(/[^\d-]/g, ''), 10) || 0;
+    wisdom = wisdom + 10;
+
+    var health = 0;
+    var mana = 0;
+    var manadie = 0;
+    var hitdie = 0;
+    var manabonus = 0;
+    var manamod = "Add";
+
+    //getting class stuff
+    fetch(`https://derpipose.github.io/JsonFiles/ClassesExpounded.json`)
+        .then((result) => result.json())
+            .then((sheet) => {
+                sheet.forEach(element => {
+                    if (element.ClassName == document.getElementById("Class").value) {
+                        console.log("You are a(n) " + element.ClassName);
+                        document.getElementById("Books-show").textContent = element.MagicBooks;
+                        document.getElementById("Languages-show").textContent = element.LanguageCount;
+                        document.getElementById("Hit-Die-show").textContent = element.HitDie;
+                        document.getElementById("Mana-Die-show").textContent = element.ManaDie;
+                        document.getElementById("Skills-show").textContent = element.ProficiencyCount;
+
+                        manadie = element.ManaDie;
+                        hitdie = element.HitDie;
+                    }
+                });
+
+        return fetch(`https://derpipose.github.io/JsonFiles/RacesExpounded.json`);
+    })
+    .then((result) => result.json())
+        .then((sheet) => {
+            sheet.forEach(element => {
+                if (element.Name == race && element.Campaign == document.getElementById("Campaign").value) {
+                    console.log("You are a(n) " + element.Name);
+                    document.getElementById("Race-show").textContent = element.Name;
+                    document.getElementById("Speed-show").textContent = element.Speed;
+
+                    if (element.AddOrMultMana != "") {
+                        manamod = element.AddOrMultMana;
+                        manabonus = element.BonusMana;
+                    }
+                }
+            });
+
+        console.log("Manadie = " + manadie);
+        console.log("Intelegece = " + intelegence);
+        console.log("wisdom = " + wisdom);
+        console.log("manabonus = " + manabonus);
+        console.log("manamod = " + manamod);
+        
+        // Calculate health
+        if (classtype == "Combat") {
+            health = 2 * constitution + 10 + hitdie + Math.floor((constitution - 10) / 2);
+        } else {
+            health = 2 * hitdie + constitution + 10 + Math.floor((constitution - 10) / 2);
+        }
+
+        // Calculate mana
+        if (classtype == "Magic") {
+            console.log ("Magic class selected");
+            if (manamod != "Mult") {
+                if (intelegence <= wisdom) {
+                    mana = intelegence + wisdom + Math.floor((wisdom - 10) / 2) + manabonus + manadie;
+                } else {
+                    mana = intelegence + wisdom + Math.floor((intelegence - 10) / 2) + manabonus + manadie;
+                }
+            } else {
+                if (intelegence <= wisdom) {
+                    mana = intelegence + (wisdom * manabonus) + Math.floor((wisdom - 10) / 2) + manadie;
+                } else {
+                    mana = (intelegence * manabonus) + wisdom + Math.floor((intelegence - 10) / 2) + manadie;
+                }
+            }
+        } else {
+            console.log ("Not Magic class selected");
+
+            if (manamod == "Mult") {
+                if (intelegence <= wisdom) {
+                    mana = (wisdom * manabonus) + (2 * manadie) + Math.floor((wisdom - 10) / 2);
+                } else {
+                    mana = (intelegence * manabonus) + (2 * manadie) + Math.floor((intelegence - 10) / 2);
+                }
+            } else {
+                if (intelegence <= wisdom) {
+                    mana = wisdom + 2 * manadie + Math.floor((wisdom - 10) / 2) + manabonus;
+                } else {
+                    mana = intelegence + 2 * manadie + Math.floor((intelegence - 10) / 2) + manabonus;
+                }
+            }
+        }
+
+        document.getElementById("Health-show").textContent = health;
+        document.getElementById("Mana-show").textContent = mana;
+        document.getElementById("Initive-show").textContent = "+ " + (document.getElementById("Dex").value - 10);
+        document.getElementById("AC-show").textContent = (Math.floor((document.getElementById("Dex").value - 10) / 2) + 10);
+
+        var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+        basestatchoices.forEach(Stat => {
+            var statText = document.getElementById(Stat + '-final').textContent.trim();
+            var statfinalValue = parseInt(statText.replace(/[^\d-]/g, ''), 10) || 0;
+            var bonus = Math.floor(statfinalValue / 2);
+            statfinalValue = statfinalValue + 10;
+            document.getElementById(Stat + '-show').textContent = statfinalValue + "(+" + bonus + ")";
+        });
+    })
+    .catch(error => {
+        console.error('Error:', error);
     });
 }
+

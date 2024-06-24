@@ -29,6 +29,7 @@
         <div id="BuildCharacter">
             <label for="PlayerName">Player Name</label>
             <input type="text" id="PlayerName" name="PlayerName" required>
+            
             <p>Are you a new or returning player?</p>
             <input type="radio" id="Newb" name = "select" value="Newb">
             <label for="Newb" id="Newb">Newby</label>
@@ -38,7 +39,6 @@
             <label for="Character">Character Name</label>
             <input type="text" id="CharacterName" name="CharacterName">
 
-            <div id="CampaignWarn"><p>You have not selected a campaign setting yet!!!</p></div>
             <label for="Campaign">Campaign Setting</label>
             <select id="Campaign">
                 <option value="NOTCAMPAIGN">Select A Campaign Setting</option>
@@ -89,7 +89,7 @@
                 <div id="Stats">
                     <p>Please enter your stats. These are made from rolling 6 d8s and ones are allowed to be rerolled.</p>
                     <p>Two lower stats may be rerolled once if desired but the outcome MUST be kept, unless it is a one.</p>
-                    <p>Enter just the number, we will do the calculations for you.</p><div id="WarnStats"><p>Stats are not completed!!!!!</p></div>
+                    <p>Enter just the number, we will do the calculations for you.</p>
                     <p>Don't add any of the bonuses to the numbers rolled. Numbers may not exceed 8 with bonuses added.</p>
                     <!-- the stat-add is only for if there's a +1 or 2 due to race and should be noted and instructed not to add that to the number being stated -->
                     <label for="Str">Str:</label>
@@ -104,6 +104,7 @@
                     <input type="number" id="Wis" min="0" max="8" name="Wis"> <span id="Wis-add"></span><span id="Wis-final"></span><span id="Wis-prefer"></span><br>
                     <label for="Cha">Cha:</label>
                     <input type="number" id="Cha" min="0" max="8" name="Cha"> <span id="Cha-add"></span><span id="Cha-final"></span><span id="Cha-prefer"></span><br>
+                    <div id="WarnStats"><p>Stats are not completed!!!!!</p></div>
                 </div>
 
                 <br>

@@ -128,6 +128,11 @@ function RaceSpecific(){
             wipeDiv(myDiv);
             clearStatSpans();
             
+            if(Races.length > 0){
+                showRaces();
+            }else{
+                hideRaces();
+            }
 
             Races.forEach(element =>{
                 let option = document.createElement("option");                
@@ -139,7 +144,7 @@ function RaceSpecific(){
         })
     );
 
-    showRaces();
+    
 }
 
 function raceInfo(){
@@ -519,15 +524,29 @@ function checkBuildConditions(){
     if(str.value == 0 || dex.value == 0 || con.value == 0 || int.value == 0 || wis.value == 0 || cha.value == 0){
         stats = false;
         console.log("There were blanks in the stats");
+        showStatWarn();
     }else {
         console.log("Stats look good cap!");
         stats = true;
+        hideStatWarn();
     }
 
-    if(campaign.value != "NOTCAMAPIGN" && race.value != "NOTRACETYPE" && playerclass.value != "NOTCLASS" && stats){
+    if(race.value != "NOTRACETYPE" && playerclass.value != "NOTCLASS" && stats){
         console.log("Character ready to build captain!!!");
+        hideRaceWarn();
+        hideClassWarn();
         BuildTheCharacter();
     }else{ 
+        if(race.value == "NOTRACETYPE"){
+            showRaceWarn();
+            console.log("Race Missing.");
+
+        }
+        if(playerclass.value == "NOTCLASS"){
+            showClassWarn();
+            console.log("Class Missing.");
+
+        }
         console.log("Something is missing. Will find out what later.");
     }
 }
@@ -761,5 +780,35 @@ function showRaces(){
 
 function hideRaces(){
     var element = document.getElementById("RaceSelector");
+    element.style.display = "none";
+}
+
+function showStatWarn(){
+    var element = document.getElementById("WarnStats");
+    element.style.display = "block";
+}
+
+function hideStatWarn(){
+    var element = document.getElementById("WarnStats");
+    element.style.display = "none";
+}
+
+
+function showRaceWarn(){
+    var element = document.getElementById("WarnRace");
+    element.style.display = "block";
+}
+
+function hideRaceWarn(){
+    var element = document.getElementById("WarnRace");
+    element.style.display = "none";
+}
+function showClassWarn(){
+    var element = document.getElementById("WarnClass");
+    element.style.display = "block";
+}
+
+function hideClassWarn(){
+    var element = document.getElementById("WarnClass");
     element.style.display = "none";
 }

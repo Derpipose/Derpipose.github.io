@@ -13,3 +13,15 @@
 #RaceSelector{
     display: none;
 }
+
+#WarnStats{
+    display: none;
+}
+
+#WarnRace{
+    display: none;
+}
+
+#WarnClass{
+    display: none;
+}

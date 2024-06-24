@@ -1,0 +1,15 @@
+#CampaignSelected{
+    display: none;
+}
+
+#FinishedCharacter{
+    display: none;
+}
+
+#BuildCharacter{
+    display: block;
+}
+
+#RaceSelector{
+    display: none;
+}

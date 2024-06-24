@@ -9,6 +9,7 @@ function initializeEventListeners() {
     const raceinfo = document.getElementById("RaceSelect");
     const classinfo = document.getElementById("Class");
     const createbutton = document.getElementById("CreateCharacter");
+    const backbutton = document.getElementById("BackToBuild");
     const str = document.getElementById("Str");
     const dex = document.getElementById("Dex");
     const con = document.getElementById("Con");
@@ -25,6 +26,7 @@ function initializeEventListeners() {
     raceinfo.addEventListener("change", raceInfo);
     classinfo.addEventListener("change", classInfo);
     createbutton.addEventListener("click", checkBuildConditions);
+    backbutton.addEventListener("click", showAllBuilder);
     str.addEventListener("change", () => regulateStat("Str"));
     dex.addEventListener("change", () => regulateStat("Dex"));
     con.addEventListener("change", () => regulateStat("Con"));
@@ -49,6 +51,8 @@ function checkConditions() {
         LoadRaces(selectedCampaign, playerStatus);
         LoadClasses(selectedCampaign, playerStatus);
         console.log("Conditions met, allowing access to main builder!");
+        showLowerBuilder();
+        hideRaces();
     }
 }
 
@@ -91,6 +95,7 @@ function LoadRaces(Campaign, playerStatus){
 
         })
     );
+
 }
 
 function RaceSpecific(){
@@ -103,7 +108,7 @@ function RaceSpecific(){
     
     var raceDiv = document.getElementById("RaceInfo");
     clearDiv(raceDiv);
-        
+    
     fetch(`https://derpipose.github.io/JsonFiles/RacesExpounded.json`)
     .then((result) => result.json() 
         .then((sheet) => {
@@ -133,6 +138,8 @@ function RaceSpecific(){
 
         })
     );
+
+    showRaces();
 }
 
 function raceInfo(){
@@ -281,6 +288,8 @@ function raceInfo(){
 
         })
     );
+
+    
 
 }
 
@@ -705,8 +714,8 @@ function BuildTheCharacter(){
 
         document.getElementById("Health-show").textContent = health;
         document.getElementById("Mana-show").textContent = mana;
-        document.getElementById("Initive-show").textContent = "+ " + (document.getElementById("Dex").value - 10);
-        document.getElementById("AC-show").textContent = (Math.floor((document.getElementById("Dex").value - 10) / 2) + 10);
+        document.getElementById("Initive-show").textContent = "+ " + (Math.floor((document.getElementById("Dex").value) / 2));
+        document.getElementById("AC-show").textContent = (Math.floor((document.getElementById("Dex").value) / 2) + 10);
 
         var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
         basestatchoices.forEach(Stat => {
@@ -716,9 +725,41 @@ function BuildTheCharacter(){
             statfinalValue = statfinalValue + 10;
             document.getElementById(Stat + '-show').textContent = statfinalValue + "(+" + bonus + ")";
         });
+
+        hideAllBuilder();
     })
     .catch(error => {
         console.error('Error:', error);
     });
 }
 
+function showLowerBuilder(){
+
+    var element = document.getElementById("CampaignSelected");
+    element.style.display = "block";
+}
+
+function hideAllBuilder(){
+    // console.log("Attempting to hide the builder.");
+    var element = document.getElementById("BuildCharacter");
+    element.style.display = "none";
+    var element = document.getElementById("FinishedCharacter");
+    element.style.display = "block";
+}
+
+function showAllBuilder(){
+    var element = document.getElementById("BuildCharacter");
+    element.style.display = "block";
+    var element = document.getElementById("FinishedCharacter");
+    element.style.display = "none";
+}
+
+function showRaces(){
+    var element = document.getElementById("RaceSelector");
+    element.style.display = "block";
+}
+
+function hideRaces(){
+    var element = document.getElementById("RaceSelector");
+    element.style.display = "none";
+}

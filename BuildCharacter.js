@@ -148,6 +148,8 @@ function RaceSpecific(){
 }
 
 function raceInfo(){
+
+    hideRadios();
     const raceChosen = document.getElementById("RaceSelect");
     const Race = raceChosen.value;
     const campaignChosen = document.getElementById("Campaign");
@@ -228,6 +230,10 @@ function raceInfo(){
                         pick1div.appendChild(input);
                         pick1div.appendChild(label);
 
+                        var element = document.getElementById("pick1-container");
+                        element.style.display = "block";
+                        console.log("show pick 1");
+
                     });
                     statchoices.forEach(element => {
                         let label = document.createElement("label");
@@ -241,6 +247,10 @@ function raceInfo(){
                         input.addEventListener("click",updatePicks);
                         pick2div.appendChild(input);
                         pick2div.appendChild(label);
+
+                        var element = document.getElementById("pick2-container");
+                        element.style.display = "block";
+                        console.log("show pick 2");
 
                     });
 
@@ -260,6 +270,10 @@ function raceInfo(){
                         input.addEventListener("click", updatePicks);
                         pick1div.appendChild(input);
                         pick1div.appendChild(label);
+
+                        var element = document.getElementById("pick1-container");
+                        element.style.display = "block";
+                        console.log("show pick 1");
                     });
 
                 }else if(element.Pick == 2){
@@ -276,15 +290,12 @@ function raceInfo(){
                         input.addEventListener("click",updatePicks);
                         pick2div.appendChild(input);
                         pick2div.appendChild(label);
+
+                        var element = document.getElementById("pick2-container");
+                        element.style.display = "block";
+                        console.log("show pick 2");
                     });
                 }
-
-                // let Picking1 = document.createElement("p");
-                // Picking1.textContent = "You get a +1 stat bonus to: " + pick1;
-                // myDiv.appendChild(Picking1);
-                // let Picking2 = document.createElement("p");
-                // Picking2.textContent = "You get a +2 stat bonus to: " + pick2;
-                // myDiv.appendChild(Picking2);
                 
                 AgeSpan.textContent = element.AdventuringAgeStart + " - " + element.AgeMax;
                 raceNameForAge.textContent = element.Name;
@@ -450,7 +461,7 @@ function clearOnlyStats(){
 }
 
 function clearRadioButtons(){
-    
+    hideRadios();
     var radio1 = document.getElementById("pick1-container");
     var radio2 = document.getElementById("pick2-container");
     wipeDiv(radio1);
@@ -475,12 +486,14 @@ function updatePicks() {
 
     // Disable the selected option in the opposite set
     if (pick1) {
+        
         let pick2Element = document.querySelector(`#pick2-${pick1}`);
         if (pick2Element) {
             pick2Element.disabled = true;
         }
     }
     if (pick2) {
+        
         let pick1Element = document.querySelector(`#pick1-${pick2}`);
         if (pick1Element) {
             pick1Element.disabled = true;
@@ -491,10 +504,12 @@ function updatePicks() {
 
 
     if(pick1 !== null){
+        
         basestatchoices = SetStat(pick1, 1, basestatchoices);
         regulateStat(pick1);
     }
     if(pick2 !== null){
+        
         basestatchoices = SetStat(pick2, 2, basestatchoices);
         regulateStat(pick2);
     }
@@ -810,5 +825,12 @@ function showClassWarn(){
 
 function hideClassWarn(){
     var element = document.getElementById("WarnClass");
+    element.style.display = "none";
+}
+
+function hideRadios(){
+    var element = document.getElementById("pick1-container");
+    element.style.display = "none";
+    var element = document.getElementById("pick2-container");
     element.style.display = "none";
 }

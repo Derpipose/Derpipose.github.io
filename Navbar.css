@@ -37,8 +37,8 @@ display:none;
 nav{
 background: #111;
 padding: 0 15px;
-position: -webkit-sticky;
-position: sticky;
+/* position: -webkit-sticky;
+position: sticky; */
 top: 0;
 width: 100%;
 padding: 0px;

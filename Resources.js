@@ -26,7 +26,7 @@ function Races(){
     .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];
-            console.log("I am updated");
+            // console.log("I am updated");
             sheet.forEach(element => {if(element.Starter == "Yes"){ if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign)}}});
             
             var myDiv = document.getElementById("row2");
@@ -512,7 +512,7 @@ function VetRaces(){
     .then((result) => result.json() 
         .then((sheet) => {
             const campaigns = [];
-            console.log("I am updated");
+            // console.log("I am updated");
             sheet.forEach(element => {if(element.Starter == "No"){ if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign)}}});
             
             var myDiv = document.getElementById("row3");

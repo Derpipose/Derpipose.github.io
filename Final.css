@@ -304,6 +304,9 @@
     margin-left: 10px;
     margin-right: 10px; 
   }
+  .fantasy .active{
+    background-color: rgb(36, 37, 43);
+  }
 
   .fantasy #Book1{
     background-color:#09a91f;

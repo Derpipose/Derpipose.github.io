@@ -226,7 +226,7 @@ function Branches(branch){
 
                     let label = document.createElement("label");
                     label.innerText = element.SpellBook + " : " + element.BookLevel;
-                    label.id = element.BookLevel;
+                    label.id = element.BookLevel.match(/\S+/g).join("");
                     label.htmlFor = element.SpellBook + "_row2";
                     let input = document.createElement("input");
                     input.type = "radio";

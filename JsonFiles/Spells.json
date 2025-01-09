@@ -10,7 +10,7 @@
     "Durration": "",
     "Description": "Dissadvantage on next roll or check",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -25,7 +25,7 @@
     "Durration": "",
     "Description": "Puts out lights in an area",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -40,7 +40,7 @@
     "Durration": "",
     "Description": "Instills fear, targets must make will save or move away from caster",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -55,7 +55,7 @@
     "Durration": "",
     "Description": "Deteriorates armor and weapons",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -70,7 +70,7 @@
     "Durration": "",
     "Description": "Gives the target a random painful event",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -85,7 +85,7 @@
     "Durration": "",
     "Description": "Drain 1D20 of Mana from target and regain 1/2 for yourself",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -100,7 +100,7 @@
     "Durration": "",
     "Description": "Kills any other spells.",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -115,7 +115,7 @@
     "Durration": "",
     "Description": "Shoots 6 spikes of Stygian metal from your hand",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Witch Hunter",
     "ClassSpec2": ""
   },
@@ -250,7 +250,7 @@
     "Durration": "10 rounds or until hit",
     "Description": "Cancel magic on successful roll, is shaped like a shield",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -265,7 +265,7 @@
     "Durration": "10 rounds",
     "Description": "See alignment of things",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -280,7 +280,7 @@
     "Durration": "1 round",
     "Description": "Purifies items or people",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -295,7 +295,7 @@
     "Durration": "5 minutes",
     "Description": "Create an orb of light that follows you",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -310,7 +310,7 @@
     "Durration": "30 seconds",
     "Description": "Detect life, You can see life signs through walls",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -325,7 +325,7 @@
     "Durration": "One attack",
     "Description": "Coats weapon in radiant magic",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -340,7 +340,7 @@
     "Durration": "1 round",
     "Description": "Create a holy damage projectile",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -355,7 +355,7 @@
     "Durration": "Until used",
     "Description": "Have advantage on your next check",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Crusader"
   },
@@ -490,7 +490,7 @@
     "Durration": "",
     "Description": "Cantrip:summons an sprite of random elemental flavor 4 at a time",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -505,7 +505,7 @@
     "Durration": "",
     "Description": "Summons lesser elemental inkarnate elemental cheap and simple but can summon more than one at a time. .5 summon slot cost. Dex type",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -520,7 +520,7 @@
     "Durration": "",
     "Description": "Summons golem style elemental. These are your tanks. 3 summon slots. Con type",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -535,7 +535,7 @@
     "Durration": "",
     "Description": "Summons a higher elemental versatile and useful a good mix of health, defense and offense. 2 summon slots. Wis type",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -550,7 +550,7 @@
     "Durration": "",
     "Description": "Summons a spell casting turret. 1 summon slot. Int type",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -565,7 +565,7 @@
     "Durration": "",
     "Description": "Summons an elemental humanoid homunculus, a helping hand of many ways, partially to fully sapient. 1 summon slot. Cha type",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -580,7 +580,7 @@
     "Durration": "",
     "Description": "Summons a serpentine/draconic elemental, large and menacing heavy hitter. 4 summon slots. Str type",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -595,7 +595,7 @@
     "Durration": "",
     "Description": "Raises an amount of skeletons or one large skeleton, bones must be provided",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -610,7 +610,7 @@
     "Durration": "",
     "Description": "Reduces the durability of affected item",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -625,7 +625,7 @@
     "Durration": "",
     "Description": "Allows user to talk to dead",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -640,7 +640,7 @@
     "Durration": "",
     "Description": "Drains life from opponent and gives half to the caster",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -655,7 +655,7 @@
     "Durration": "",
     "Description": "Necrotic ray of flesh rot.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -670,7 +670,7 @@
     "Durration": "",
     "Description": "Force any nearby undead to pass back into death.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -685,7 +685,7 @@
     "Durration": "",
     "Description": "Cause the target to have their flesh painfully start to decay",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -700,7 +700,7 @@
     "Durration": "",
     "Description": "Become incorporeal for a time, and return to a corporeal form with a secondary casting of the spell for less mana.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -835,7 +835,7 @@
     "Durration": "",
     "Description": "Deal poison damage on a touch.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -850,7 +850,7 @@
     "Durration": "",
     "Description": "Slows target",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -865,7 +865,7 @@
     "Durration": "",
     "Description": "Summons either three small rats, or one large rat",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -880,7 +880,7 @@
     "Durration": "",
     "Description": "Infects target with a disease, roll a d20 to dertermine the disease.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -895,7 +895,7 @@
     "Durration": "",
     "Description": "Spit a  ray of caustic acid at opponent.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -910,7 +910,7 @@
     "Durration": "",
     "Description": "Summon a medium green slime.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -925,7 +925,7 @@
     "Durration": "",
     "Description": "A blast of acid for 1D12 per square",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -940,7 +940,7 @@
     "Durration": "",
     "Description": "2 square wall of sticky goo.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1075,7 +1075,7 @@
     "Durration": "",
     "Description": "Encases fist in rock",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1090,7 +1090,7 @@
     "Durration": "",
     "Description": "Creates a stone pillar",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1105,7 +1105,7 @@
     "Durration": "",
     "Description": "Summon a rock projectile",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1120,7 +1120,7 @@
     "Durration": "",
     "Description": "Creates a rock wall",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1135,7 +1135,7 @@
     "Durration": "",
     "Description": "Softens earth",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1150,7 +1150,7 @@
     "Durration": "",
     "Description": "Creates a pool of quicksand. Can only be cast on soft earth.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1165,7 +1165,7 @@
     "Durration": "",
     "Description": "Creates a whip of sand",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1180,7 +1180,7 @@
     "Durration": "",
     "Description": "Allows user to repair small items made of earthen material(rock & metal)",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1315,7 +1315,7 @@
     "Durration": "",
     "Description": "Coats weapon in fire for 1D6 extra damage.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1330,7 +1330,7 @@
     "Durration": "",
     "Description": "Coats weapon in ice for 1D6 extra damage.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1345,7 +1345,7 @@
     "Durration": "",
     "Description": "Create a beam of damage that extends your weapon's range",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1360,7 +1360,7 @@
     "Durration": "",
     "Description": "Stick your weapon in the ground to coat it in stone to increment the weapon's damage die.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1375,7 +1375,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1390,7 +1390,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1405,7 +1405,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1420,7 +1420,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1435,7 +1435,7 @@
     "Durration": "Next successful attack",
     "Description": "Add caster's int modifier to either hit or damage.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1450,7 +1450,7 @@
     "Durration": "",
     "Description": "Add +2 to AC",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1465,7 +1465,7 @@
     "Durration": "",
     "Description": "Longer spells or apply to weapons or armor to briefly enchant with a spell.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1480,7 +1480,7 @@
     "Durration": "",
     "Description": "Mends natural things, not wood.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1495,7 +1495,7 @@
     "Durration": "",
     "Description": "Summons an animated sword",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1510,7 +1510,7 @@
     "Durration": "",
     "Description": "sumons a weapon of your chosing",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1525,7 +1525,7 @@
     "Durration": "",
     "Description": "Enhances everything except to hit.",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1540,7 +1540,7 @@
     "Durration": "",
     "Description": "Longer version of Rune.",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Spell Sword/ Enchanter",
     "ClassSpec2": ""
   },
@@ -1555,7 +1555,7 @@
     "Durration": "1 round",
     "Description": "Fire ray",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1570,7 +1570,7 @@
     "Durration": "",
     "Description": "Ignites flammable object",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1585,7 +1585,7 @@
     "Durration": "",
     "Description": "Boils liquids not in a living entity",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1600,7 +1600,7 @@
     "Durration": "1D4",
     "Description": "Touch and set on fire (deals 1D6 each round) for 1D4 rounds",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1615,7 +1615,7 @@
     "Durration": "1Round",
     "Description": "Cast a fireball",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1630,7 +1630,7 @@
     "Durration": "1Round",
     "Description": "Blast of steam, either out of impliment or mouth",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1645,7 +1645,7 @@
     "Durration": "5 minutes",
     "Description": "Heats an area",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1660,7 +1660,7 @@
     "Durration": "10 Rounds",
     "Description": "Resist 10 fire damage",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1795,7 +1795,7 @@
     "Durration": "",
     "Description": "Pushes your target 1D6 ft",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1810,7 +1810,7 @@
     "Durration": "",
     "Description": "Balance and stablize yourself or your target.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1825,7 +1825,7 @@
     "Durration": "",
     "Description": "Stops your target, heavier items can be held for less time",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1840,7 +1840,7 @@
     "Durration": "",
     "Description": "Pulls target towards you",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1855,7 +1855,7 @@
     "Durration": "",
     "Description": "Lifts objects and creatures",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1870,7 +1870,7 @@
     "Durration": "",
     "Description": "Forces an object away from you centered on your hand.",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1885,7 +1885,7 @@
     "Durration": "",
     "Description": "Add your spell modifier to your jump",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -1900,7 +1900,7 @@
     "Durration": "",
     "Description": "MAGIC MISSILES!!!",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2035,7 +2035,7 @@
     "Durration": "",
     "Description": "Grows plants from nothing in a 3X3",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2050,7 +2050,7 @@
     "Durration": "",
     "Description": "Creates a whip from plants with 30 ft of reach",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2065,7 +2065,7 @@
     "Durration": "",
     "Description": "Ensnares living creatures",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2080,7 +2080,7 @@
     "Durration": "",
     "Description": "Touch poison that lasts until the creature makes con save",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2095,7 +2095,7 @@
     "Durration": "",
     "Description": "Creates a thorn grove that inflicts damage per square",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2110,7 +2110,7 @@
     "Durration": "",
     "Description": "Grows a fruit that heals 1D10 upon consumption",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2125,7 +2125,7 @@
     "Durration": "",
     "Description": "Leeches life from the creature hit",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2140,7 +2140,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2275,7 +2275,7 @@
     "Durration": "1 Round",
     "Description": "Heals wounds to an extent. Can't heal large wounds.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2290,7 +2290,7 @@
     "Durration": "1 Round",
     "Description": "Cures poison, acid and disease",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2305,7 +2305,7 @@
     "Durration": "5 minutes or until hit",
     "Description": "Bonus AC +2",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2320,7 +2320,7 @@
     "Durration": "As long as caster wants",
     "Description": "AOE healing of 2D4 per round",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2335,7 +2335,7 @@
     "Durration": "1D6 Rounds",
     "Description": "Passive attack buff for 1D6 rounds",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2350,7 +2350,7 @@
     "Durration": "Combined spell durration",
     "Description": "Gives spells to others",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2365,7 +2365,7 @@
     "Durration": "1D6 Rounds",
     "Description": "Passive saving throw advantage for 1D6 rounds",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2380,7 +2380,7 @@
     "Durration": "1 Round",
     "Description": "Ranged Healing",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Cleric",
     "ClassSpec2": "Healer"
   },
@@ -2515,7 +2515,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2530,7 +2530,7 @@
     "Durration": "",
     "Description": "Read Target's mind",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2545,7 +2545,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2560,7 +2560,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2575,7 +2575,7 @@
     "Durration": "1D10 Rounds",
     "Description": "Affected person is unreasonable for durration.",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2590,7 +2590,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2605,7 +2605,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2620,7 +2620,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2755,7 +2755,7 @@
     "Durration": "5 Minutes",
     "Description": "Turn into a merfolk",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2770,7 +2770,7 @@
     "Durration": "",
     "Description": "Temp blindness",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2785,7 +2785,7 @@
     "Durration": "",
     "Description": "Create a gyser of water",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2800,7 +2800,7 @@
     "Durration": "5 Minutes",
     "Description": "Allows underwater breathing",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2815,7 +2815,7 @@
     "Durration": "Casting modifier",
     "Description": "Gives caster a large crab claw inplace of hand",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2830,7 +2830,7 @@
     "Durration": "Encounter",
     "Description": "Envelops caster in a shell until dispelled or shattered",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2845,7 +2845,7 @@
     "Durration": "Depending",
     "Description": "Covers in urchin armor spikes",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2860,7 +2860,7 @@
     "Durration": "1 Round",
     "Description": "ACreat a beam of water + 20 ft push back",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -2995,7 +2995,7 @@
     "Durration": "",
     "Description": "Calms storms or weather",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3010,7 +3010,7 @@
     "Durration": "",
     "Description": "Creates a rainstorm",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3025,7 +3025,7 @@
     "Durration": "",
     "Description": "Creates fog in your area",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3040,7 +3040,7 @@
     "Durration": "",
     "Description": "Cast 1D6 ray of hail",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3055,7 +3055,7 @@
     "Durration": "",
     "Description": "Modifier of fog for poison damage",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3070,7 +3070,7 @@
     "Durration": "",
     "Description": "Modifier of rain that slows",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3085,7 +3085,7 @@
     "Durration": "",
     "Description": "Modifier of rain that makes the rain oil. Can also be a ray of oil that deals no damage",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3100,7 +3100,7 @@
     "Durration": "",
     "Description": "Direct this blast of lighting to a spot of your chosing for an AOE adjcent to the center of the blast.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3235,7 +3235,7 @@
     "Durration": "",
     "Description": "Sends out a shockwave that deals damage to each square it hits.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3250,7 +3250,7 @@
     "Durration": "",
     "Description": "Control a small bolt of electricity",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3265,7 +3265,7 @@
     "Durration": "",
     "Description": "Create a coating on your armor that shocks your opponent on a successful melee attack against you.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3280,7 +3280,7 @@
     "Durration": "",
     "Description": "Your hand acts like a tazer.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3295,7 +3295,7 @@
     "Durration": "",
     "Description": "Deafening blast in a 3*3 area.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3310,7 +3310,7 @@
     "Durration": "",
     "Description": "5*5 centered around you creating a shockwave that stuns as well as damages.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3325,7 +3325,7 @@
     "Durration": "",
     "Description": "Direct electricity.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3340,7 +3340,7 @@
     "Durration": "",
     "Description": "A bolt of electricity that can reach further than sparks.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -3475,7 +3475,7 @@
     "Durration": "",
     "Description": "Summon a Bear",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3490,7 +3490,7 @@
     "Durration": "",
     "Description": "Summon a snake + stealth",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3505,7 +3505,7 @@
     "Durration": "",
     "Description": "Summon a crab of varying size",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3520,7 +3520,7 @@
     "Durration": "",
     "Description": "Summon 1 big wolf or 4 small wolves.",
     "Starter": "No",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3535,7 +3535,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3550,7 +3550,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3565,7 +3565,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3580,7 +3580,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3595,7 +3595,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3610,7 +3610,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -3625,7 +3625,7 @@
     "Durration": "",
     "Description": "",
     "Starter": "No",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "Summoner",
     "ClassSpec2": ""
   },
@@ -4105,7 +4105,7 @@
     "Durration": "1 Round",
     "Description": "Push back 1D4 spaces",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4120,7 +4120,7 @@
     "Durration": "1 round",
     "Description": "Catch a projectile",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4135,7 +4135,7 @@
     "Durration": "1 round",
     "Description": "Create a wind blade that slashes enemy",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4150,7 +4150,7 @@
     "Durration": "5 minutes",
     "Description": "Catch things on a plane",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4165,7 +4165,7 @@
     "Durration": "",
     "Description": "Wind ball that pushes back 1D8 squares",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4180,7 +4180,7 @@
     "Durration": "",
     "Description": "Glides things down to ground or surface",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4195,7 +4195,7 @@
     "Durration": "1D6+casting mod",
     "Description": "plus 10 movement for 1D6+casting stat rounds",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4210,7 +4210,7 @@
     "Durration": "",
     "Description": "Shield of wind",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4345,7 +4345,7 @@
     "Durration": "",
     "Description": "Summons snowballs that shoot from your hands/impliment",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4360,7 +4360,7 @@
     "Durration": "",
     "Description": "Icy Ray spell",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4375,7 +4375,7 @@
     "Durration": "10 rounds",
     "Description": "Covers the battlefield in a foot of snow. Gain a +3 for Winter spells. Enemies slowed and Allies unaffected.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4390,7 +4390,7 @@
     "Durration": "",
     "Description": "Freezes whatever is touched. Can cause frostbite to creatures if used enough.",
     "Starter": "Yes",
-    "BookLevel": "Book1",
+    "BookLevel": "Book 1",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4405,7 +4405,7 @@
     "Durration": "",
     "Description": "Cools an area down",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4420,7 +4420,7 @@
     "Durration": "",
     "Description": "Creates an ice wall that can be in an occupied square.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4435,7 +4435,7 @@
     "Durration": "",
     "Description": "Creates 4 icicles that can be fired from your hand.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },
@@ -4450,7 +4450,7 @@
     "Durration": "",
     "Description": "Creates 1D4 Ice spears that can be fired.",
     "Starter": "Yes",
-    "BookLevel": "Book2",
+    "BookLevel": "Book 2",
     "ClassSpec1": "",
     "ClassSpec2": ""
   },

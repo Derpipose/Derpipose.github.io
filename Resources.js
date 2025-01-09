@@ -225,7 +225,7 @@ function Branches(branch){
                 working.forEach(element => {
 
                     let label = document.createElement("label");
-                    label.innerText = element.SpellBook;
+                    label.innerText = element.SpellBook + " : " + element.BookLevel;
                     label.id = element.BookLevel;
                     label.htmlFor = element.SpellBook + "_row2";
                     let input = document.createElement("input");
@@ -257,7 +257,7 @@ function Books(branch, book){
                 sheet.forEach(element => {if(spells.includes(element.SpellName)){}else if(element.SpellBranch == branch && element.SpellBook == book){spells.push(element.SpellName);}});
                 var myDiv = document.getElementById("row4")
                 spells.forEach(element => {
-
+                    
                     let label = document.createElement("label");
                     label.innerText = element;
                     label.htmlFor = element + "_row3";
@@ -471,7 +471,7 @@ function Vet(){
 
 
     let spells = document.createElement("label");
-    spells.innerText = "Spells";
+    spells.innerText = "Spells 3-4";
     spells.htmlFor = "VetSpells";
     let spellinput = document.createElement("input");
     spellinput.type = "radio";

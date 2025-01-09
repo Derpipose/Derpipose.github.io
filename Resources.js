@@ -471,7 +471,7 @@ function Vet(){
 
 
     let spells = document.createElement("label");
-    spells.innerText = "Spells 3-4";
+    spells.innerText = "Spells";
     spells.htmlFor = "VetSpells";
     let spellinput = document.createElement("input");
     spellinput.type = "radio";

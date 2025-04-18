@@ -5,32 +5,49 @@
   <script type="text/javascript" src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
 </head>
 <body>
+  <div id="loading-message">Loading...</div>
   <div id="card-container"></div>
-  <button id="pay-button">Pay $25</button>
+
+  <button id="pay-button">Pay $</button>
 
   <script>
     const appId = 'sandbox-sq0idb-EL8D8rTRhp9vdmd50FUArQ';
     const locationId = 'LWBD603H2V1Z2';
 
+    //getting the price for the order from the URL
+    // Example URL: https://derpipose.github.io/Payment.html?price=25.00
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParam = urlParams.get('price'); 
+    console.log("Paying a total of $" + myParam);
+
+    //get the pay-button and add the price to it
+    const payButton = document.getElementById('pay-button');
+    payButton.innerText = "Pay $" + myParam;
+
+    //center the pay button in the middle of the screen
+    payButton.style.position = "absolute";
+    payButton.style.left = "50%";
+
     async function initSquare() {
       const payments = window.Square.payments(appId, locationId);
       const card = await payments.card();
       await card.attach('#card-container');
-
+      //make the loading message disappear once the card is attached
+      document.getElementById('loading-message').style.display = 'none';
       document.getElementById('pay-button').addEventListener('click', async () => {
         const result = await card.tokenize();
         if (result.status === 'OK') {
           const data = {
             nonce: result.token,
-            amount: 2500 // $25.00 in cents
+            amount: myParam
           };
 
-          // OPTION 1 — Direct backend call
-          fetch('https://your-api.example.com/api/payments', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
-          });
+          // // OPTION 1 — Direct backend call
+          // fetch('https://your-api.example.com/api/payments', {
+          //   method: 'POST',
+          //   headers: { 'Content-Type': 'application/json' },
+          //   body: JSON.stringify(data)
+          // });
 
           // OPTION 2 — Send to MAUI
           if (window.invokeCSharpAction) {

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pay with Square</title>
+  <script type="text/javascript" src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
+</head>
+<body>
+  <div id="card-container"></div>
+  <button id="pay-button">Pay $25</button>
+
+  <script>
+    const appId = 'sandbox-sq0idb-EL8D8rTRhp9vdmd50FUArQ';
+    const locationId = 'LWBD603H2V1Z2';
+
+    async function initSquare() {
+      const payments = window.Square.payments(appId, locationId);
+      const card = await payments.card();
+      await card.attach('#card-container');
+
+      document.getElementById('pay-button').addEventListener('click', async () => {
+        const result = await card.tokenize();
+        if (result.status === 'OK') {
+          const data = {
+            nonce: result.token,
+            amount: 2500 // $25.00 in cents
+          };
+
+          // OPTION 1 — Direct backend call
+          fetch('https://your-api.example.com/api/payments', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+          });
+
+          // OPTION 2 — Send to MAUI
+          if (window.invokeCSharpAction) {
+            window.invokeCSharpAction(JSON.stringify(data));
+          }
+        } else {
+          alert("Payment failed: " + result.errors?.[0]?.message);
+        }
+      });
+    }
+
+    window.onload = initSquare;
+  </script>
+</body>
+</html>

@@ -463,7 +463,7 @@ function Vet(){
     races.htmlFor = "VetRaces";
     let raceinput = document.createElement("input");
     raceinput.type = "radio";
-    raceinput.name = "row1";
+    raceinput.name = "VetRow";
     raceinput.id = "VetRaces";
     myDiv.appendChild(raceinput);
     races.addEventListener("click", function(){VetRaces()});

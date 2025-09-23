@@ -748,8 +748,15 @@ function BuildTheCharacter(){
 
         document.getElementById("Health-show").textContent = health;
         document.getElementById("Mana-show").textContent = mana;
-        document.getElementById("Initive-show").textContent = "+ " + (Math.floor((document.getElementById("Dex").value) / 2));
-        document.getElementById("AC-show").textContent = (Math.floor((document.getElementById("Dex").value) / 2) + 10);
+        
+        // Get the final Dex value (including racial bonuses)
+        var dexText = document.getElementById('Dex-final').textContent.trim();
+        var finalDex = parseInt(dexText.replace(/[^\d-]/g, ''), 10) || 0;
+        finalDex = finalDex + 10; // Convert to D&D stat format
+        var dexModifier = Math.floor((finalDex - 10) / 2);
+        
+        document.getElementById("Initive-show").textContent = "+ " + dexModifier;
+        document.getElementById("AC-show").textContent = (dexModifier + 10);
 
         var basestatchoices = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
         basestatchoices.forEach(Stat => {

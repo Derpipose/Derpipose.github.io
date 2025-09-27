@@ -94,7 +94,7 @@
     "Campaign": "Fantasy",
     "SubType": "Elven",
     "Name": "Desert Elf",
-    "Description": "The Strongest of the Elven races, The desert Elve’s are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, who’s jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
+    "Description": "The Strongest of the Elven races, The desert Elves are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, who’s jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
     "Starter": "Yes"
   },
   {
@@ -136,7 +136,7 @@
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Beastman",
-    "Description": "A race that branched off of humanity many many years ago, they are mostly human with animal features that adorn their bodies, tails ears, stripes, wings, claws etc. They are humans who have an animal spirit bonded to them and it shows. They can be any land mammal, avian and rarely reptile and are just as capable as humans are, but their animal likeness gives them some benefits that normal humans don’t have. They do have an issue with a disease that only targets their race, known as the Feral syndrome, which makes them forced to fight the animal they’re bonded with. It's a painful brutal process and most come out of it fine. Though some lose themselves and become feral beastfolk.",
+    "Description": "A race that branched off of humanity many, many years ago, they are mostly human with animal features that adorn their bodies, tails ears, stripes, wings, claws etc. They are humans who have an animal spirit bonded to them and it shows. They can be any land mammal, avian and rarely reptile and are just as capable as humans are, but their animal likeness gives them some benefits that normal humans don’t have. They do have an issue with a disease that only targets their race, known as the Feral syndrome, which forces them to fight the animal they’re bonded with. It's a painful brutal process and most come out of it fine. Though, some lose themselves and become feral beastfolk.",
     "Starter": "Yes"
   },
   {
@@ -241,7 +241,7 @@
     "Campaign": "Fantasy",
     "SubType": "Rare",
     "Name": "Half Orc",
-    "Description": "These are still under work. Please check back later.",
+    "Description": "",
     "Starter": "Yes"
   },
   {
@@ -269,7 +269,7 @@
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Fusoan",
-    "Description": "Japan. The main tinkerers of the east. Don’t fuck with.",
+    "Description": "Japan. The main tinkerers of the east. Don’t fuck with. Very similar to beastman mixed with elves.",
     "Starter": "Yes"
   },
   {
@@ -436,8 +436,8 @@
   {
     "Campaign": "Scifi",
     "SubType": "Animalistic",
-    "Name": "Protogen",
-    "Description": "These are a doglike race that are more than obsessed with technology. Their houndlike demeanor gives them a dog’s features including a tail, ears and fur. One of the most distinctive things that is visible with the Protogen is their visors. They have a black visor that covers their entire face that kinda looks like their snout. It acts as a display screen for both those looking at the Protogen and the Protogen themself. For the protogen, the visor acts like a small personal computer that they can use like a HUD, with a basic scanner, minor data base or other such uses. Their love of technology doesn’t stop there though. They will constantly augment themselves with different stat augments. Some choose to have mobility upgrades that enhance their movement and speed, others will have intelligence augments that increase their memory and recall ability. The last thing about the Protogen is that they choose a symbol, like a rune. Usually it is something simple that has some meaning to the pup in question. They very rarely change it after they pick it when they are younger, mid to late teens.",
+    "Name": "Protis",
+    "Description": "These are a doglike race that are more than obsessed with technology. Their houndlike demeanor gives them a dog’s features including a tail, ears and fur. One of the most distinctive things that is visible with the Protis is their visors. They have a black visor that covers their entire face that kinda looks like their snout. It acts as a display screen for both those looking at the Protis and the Protis themself. For the Protis, the visor acts like a small personal computer that they can use like a HUD, with a basic scanner, minor data base or other such uses. Their love of technology doesn’t stop there though. They will constantly augment themselves with different stat augments. Some choose to have mobility upgrades that enhance their movement and speed, others will have intelligence augments that increase their memory and recall ability. The last thing about the Protis is that they choose a symbol, like a rune. Usually it is something simple that has some meaning to the pup in question. They very rarely change it after they pick it when they are younger, mid to late teens.",
     "Starter": "Yes"
   },
   {
@@ -598,14 +598,91 @@
     "Campaign": "Fantasy",
     "SubType": "Oceanic",
     "Name": "Merfolk",
-    "Description": "These are still under work. Please check back later",
+    "Description": "",
     "Starter": "Yes"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Oceanic",
     "Name": "Marrow",
-    "Description": "These are still under work. Please check back later",
+    "Description": "",
     "Starter": "No"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Alvi",
+    "Description": "Korea. Best smiths in the land. Elven in appearance",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Cakukin",
+    "Description": "China. Caste system but reverse and most numerous. Builders. Apes of the land.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Fusoan",
+    "Description": "Japan. The main tinkerers of the east. Don’t fuck with.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Hobgoblin",
+    "Description": "Mongolia. Brawn of the East but a pain in the ass.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Jinko",
+    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Kapsa",
+    "Description": "Turtle folk. Long lived scholars",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Kitsune",
+    "Description": "Multi tailed fox folk. They can be fox folk or beastman like.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Okami",
+    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Oniri",
+    "Description": "Mountain dwelling ogres.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Tanuki",
+    "Description": "Racoonfolk. Goblins of East. Pests most of the time.",
+    "Starter": "Yes"
+  },
+  {
+    "Campaign": "Oriental",
+    "SubType": "Civilized",
+    "Name": "Tengu",
+    "Description": "Bandits. Big angry Aarakocra but stronger.",
+    "Starter": "Yes"
   }
 ]

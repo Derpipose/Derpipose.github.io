@@ -134,7 +134,7 @@ function RaceInformation(campaign, subrace, name){
             sheet.forEach(element=> {if(element.Name == name && campaign == element.Campaign && subrace==element.SubType){var myDiv = document.getElementById("row5");
             var p = document.createElement("p");
             if(element.Pinterest_Inspo_Board != "") {
-                var a = document.createElement("a");
+                var a = document.createElement("p");
                 a.href = element.Pinterest_Inspo_Board;
                 a.innerText = "Pinterest Inspiration Board Link";
                 myDiv.appendChild(a);

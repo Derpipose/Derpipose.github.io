@@ -137,7 +137,7 @@ function RaceInformation(campaign, subrace, name){
                 var a = document.createElement("a");
                 a.href = element.Pinterest_Inspo_Board;
                 a.innerText = "Pinterest Inspiration Board Link";
-                p.appendChild(a);
+                myDiv.appendChild(a);
             }
             p.innerHTML = element.Description;
             myDiv.appendChild(p);

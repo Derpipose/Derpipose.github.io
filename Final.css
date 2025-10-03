@@ -296,6 +296,17 @@
     flex-flow: row wrap;
     background-color: #444;
   }
+
+  .fantasy .Row5-a-tag{
+    background-color: beige;
+    border-radius: 10px;
+    padding:10px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .fantasy p{
     background-color:beige;
     border-radius: 10px;

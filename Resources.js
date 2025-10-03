@@ -140,7 +140,11 @@ function RaceInformation(campaign, subrace, name){
                 a.className = "Row5-a-tag";
                 myDiv.appendChild(a);
             }
-            p.innerHTML = element.Description;
+            if(element.Description != "") {
+                p.innerHTML = element.Description;
+            } else {
+                p.innerHTML = "Race not yet worked on fully..... Please check back later. Thanks pal!";
+            }
             myDiv.appendChild(p);
             console.log(element);
         }else {}});

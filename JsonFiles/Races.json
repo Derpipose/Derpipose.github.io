@@ -3,7 +3,7 @@
     "Campaign": "Fantasy",
     "SubType": "Ancient",
     "Name": "Aedir",
-    "Description": "Aedir are angelfolk that are decendants from the great Justice herself. In modern times it is near impossible to find one unless some strange circumstance happened that somehow displaced them from their time. They were around during the time of the Fjordians.",
+    "Description": "Aedir are angelfolk that are descendants from the great Justice herself. In modern times it is near impossible to find one unless some strange circumstance happened that somehow displaced them from their time. They were around during the time of the Fjordians.",
     "Starter": "No",
     "Special": "Holy Children: start with Celestia and healing",
     "Pinterest_Inspo_Board": ""
@@ -32,7 +32,7 @@
     "Name": "Aarakocra",
     "Description": "The noble aarakocra. These avians descend from the true avians in the world as you know it. There is every bird under the sun that the aarakocra can wear the feathers of. These birds are equipped with flight but usually can’t fight. Their hollow bones allow for flight but in return, they are easily broken. There are some exceptions to this and those are the hawks and eagles who are usually protectors and defenders. Another thing to note is they tend to adhere to a hierarchy where the more noble birds, owls and eagles, lead, showy birds and songbirds follow. Along the bottom of the barrel corvids rank highest followed by vultures and finally the lowest of the birds, as far as the aarakocra are concerned, the pigeons and seagulls, sky rats. Although some of the aarakocra don’t care about this code, the highest avians see themselves as better than the rest.",
     "Starter": "Yes",
-    "Special": "Hollow bones mean that you should avoid combat, unless you are a raptor species. Mele will see your bones broken.",
+    "Special": "Hollow bones mean that you should avoid combat, unless you are a raptor species. Melee will see your bones broken.",
     "Pinterest_Inspo_Board": "https://pin.it/2VYZlDwxG"
   },
   {
@@ -131,7 +131,7 @@
     "Name": "Forest Elf",
     "Description": "The Forest elves are one of the most iconic groups of elves, Claiming wild forests, their homes and cities, they patrol them hunting monsters, and bandits with their trusted bows. These Elves have struggled to adapt with time but they’ve endured through sheer skill and Courage.",
     "Starter": "Yes",
-    "Special": "Forest Walkers: Gains profiency in most bow type weapons. Gains Hunting & Nature Skills .",
+    "Special": "Forest Walkers: Gains proficiency in most bow type weapons. Gains Hunting & Nature Skills.",
     "Pinterest_Inspo_Board": ""
   },
   {
@@ -149,7 +149,7 @@
     "Name": "Ocean Elf",
     "Description": "The ocean elves, silver tongued sailors and pirates, born to sail the seas and to rule its waves, are known for their profound beauty and charm. Though make no mistake they are magical just like their kin, and will send you to the depths if you underestimate their mischievous tactics and ploys. They occupy coastal towns, floating cities and even the occasional City ship.",
     "Starter": "Yes",
-    "Special": "Ocean's Chosen: Gain mariner profiencies like acrobatics to climb ropes, Swimming, and one more of your choosing that makes sense on a ship.",
+    "Special": "Ocean's Chosen: Gain mariner proficiencies like acrobatics to climb ropes, Swimming, and one more of your choosing that makes sense on a ship.",
     "Pinterest_Inspo_Board": ""
   },
   {
@@ -167,7 +167,7 @@
     "Name": "Winter Elf",
     "Description": "The Winter elves Known for their innate winter magic, and their tolerance for the cold. Thrive in the coldest places, using their wisdom to guide and preserve their clans through toil and strive, they keep old tomes of history and wisdom to remind themselves of who they are, and what other races before them have tried and failed.",
     "Starter": "Yes",
-    "Special": "Children of Winter: Starts with Winter book, and Handle animal & Mytho's Skills.",
+    "Special": "Children of Winter: Starts with Winter book, and Handle animal & Mythos Skills.",
     "Pinterest_Inspo_Board": ""
   },
   {
@@ -183,7 +183,7 @@
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Half-elf",
-    "Description": "Helfs are hybrid between elves and other races, some take various forms since elves are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
+    "Description": "Half-elves are hybrids between elves and other races, some take various forms since elves are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
     "Starter": "Yes",
     "Special": "Half Breed: Gains the special ability of one parent and the physical stats of the other.",
     "Pinterest_Inspo_Board": ""
@@ -203,7 +203,7 @@
     "Name": "Human",
     "Description": "Standard, basic but not really. Humans are versatile and adaptive. One of the greatest things about them is the fact that they adapt and change to whatever situation they find themselves in. They are highly proficient with spears, and can use them as if it was second nature to them, they have several special spears they've made and use; Glaives,, Boar Spears, and Longspears. Each has their own uses but all are deadly in the hands of a human who’s put the time and effort into mastering them.",
     "Starter": "Yes",
-    "Special": "Primal weapon; Gains profieceny with spears and is allowed to start with either a Glaive, a Longspear,or a Boarspear They also get to pick a region for their culture which diversifies them.",
+    "Special": "Primal weapon; Gains proficiency with spears and is allowed to start with either a Glaive, a Longspear, or a Boarspear. They also get to pick a region for their culture which diversifies them.",
     "Pinterest_Inspo_Board": ""
   },
   {
@@ -221,7 +221,7 @@
     "Name": "Feathered",
     "Description": "Feathered lizardfolk are some of the most regal of the lizardfolk. These are often trained in magery as they have a large surplus of mana and pick up on spells quickly. They are adorned with feathers all over, tucked between scale patches. They usually have a colorful array of feathers.",
     "Starter": "No",
-    "Special": "Feathered Landing: Feathered lizardfolk can use their copoous amounts of feathers to slow themselves mid-fall reducing fall damage greatly.",
+    "Special": "Feathered Landing: Feathered lizardfolk can use their copious amounts of feathers to slow themselves mid-fall reducing fall damage greatly.",
     "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
@@ -714,9 +714,9 @@
     "Campaign": "Steampunk",
     "SubType": "Factioned Races",
     "Name": "Tiefling",
-    "Description": "These guys are the Germans of the world, from their accent to their culture, they like their control. Alongside them in this world, are the Strathund, who usually act as their engineers and builders. The tieflings are rather military inclined. On the matter of appearances, Tieflings are mostly shades of red but can be ther shades as well. Their horns can also say a lot about an individual. A tiefling’s horns are smooth until they meet a point in life where they make a large change with themselves, this creates a branch in their horns. The more branches and chaos in the horns, the more decisions they’ve had to make.",
+    "Description": "These guys are the Germans of the world, from their accent to their culture, they like their control. Alongside them in this world, are the Strathund, who usually act as their engineers and builders. The tieflings are rather military inclined. On the matter of appearances, Tieflings are mostly shades of red but can be other shades as well. Their horns can also say a lot about an individual. A tiefling’s horns are smooth until they meet a point in life where they make a large change with themselves, this creates a branch in their horns. The more branches and chaos in the horns, the more decisions they’ve had to make.",
     "Starter": "Yes",
-    "Special": "Fiendish Heritage; gets to pick 3 feindish spells from a list provided by the DM.",
+    "Special": "Fiendish Heritage; gets to pick 3 fiendish spells from a list provided by the DM.",
     "Pinterest_Inspo_Board": ""
   },
   {

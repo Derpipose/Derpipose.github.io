@@ -12,7 +12,7 @@
     "Campaign": "Fantasy",
     "SubType": "Ancient",
     "Name": "Sauran",
-    "Description": "One of the oldest and most historic races of the world, the Suran or Trogs as they’ve been called, are one of the predecessor races. They are the only still living race that wears that title, they are few in number and are spread thin. They cling to the wild untamed jungles, these monsters of strength and brute force in ages past made mockeries of mages and magic through sheer brute strength and power. Though era’s and ages have passed they remain, as a living reminder that Strength can fight magic.",
+    "Description": "One of the oldest and most historic races of the world, the Suran or Trogs as they’ve been called, are one of the predecessor races. They are the only still living race that wears that title, they are few in number and are spread thin. They cling to the wild untamed jungles, these monsters of strength and brute force in ages past made mockeries of mages and magic through sheer brute strength and power. Though eras and ages have passed they remain, as a living reminder that Strength can fight magic.",
     "Starter": "No",
     "Special": "Sauran Resilience, + 3 to one save and they take one dice less bleeding damage",
     "Pinterest_Inspo_Board": "https://pin.it/y8czP8tsB"
@@ -39,7 +39,7 @@
     "Campaign": "Fantasy",
     "SubType": "Beastial",
     "Name": "Dragonborn",
-    "Description": "A noble race famed for their kinship with the Dragons, no one know exactly how the dragonborn came to be but they persist and survive despite the world's constant tumultuous periods. They are one of the toughest races, and are blessed with wings or dragon breath, and in very rare cases both. They are a race that seeks to help the other nations of the world, rarely enough dragonborn around to have their own civilization. They tend to have one of two naming schemes. The first is reserved for nobles. Roll a D20 and come up with that many middle names that have some meaning to you or your family. These are your ancestors leading up to you. When writing your name, it is your first name, your parent's name and then your last name. If you are not noble, you only need one name. It can be very simple, like John or Millie.",
+    "Description": "A noble race famed for their kinship with the Dragons, no one knows exactly how the dragonborn came to be but they persist and survive despite the world's constant tumultuous periods. They are one of the toughest races, and are blessed with wings or dragon breath, and in very rare cases both. They are a race that seeks to help the other nations of the world, rarely enough dragonborn around to have their own civilization. They tend to have one of two naming schemes. The first is reserved for nobles. Roll a D20 and come up with that many middle names that have some meaning to you or your family. These are your ancestors leading up to you. When writing your name, it is your first name, your parent's name and then your last name. If you are not noble, you only need one name. It can be very simple, like John or Millie.",
     "Starter": "Yes",
     "Special": "Dragonkin: Dragonbreath & resistance",
     "Pinterest_Inspo_Board": ""
@@ -120,7 +120,7 @@
     "Campaign": "Fantasy",
     "SubType": "Elven",
     "Name": "Desert Elf",
-    "Description": "The Strongest of the Elven races, The desert Elves are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, who’s jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
+    "Description": "The Strongest of the Elven races, The desert Elves are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, whose jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
     "Starter": "Yes",
     "Special": "Traveler's Luck: Bonus Survival Skill, and the ability to reroll Foraging dice.",
     "Pinterest_Inspo_Board": ""
@@ -230,7 +230,7 @@
     "Name": "Runetail",
     "Description": "Runetails are by far the most magically aligned of the lizardfolk. They range in appearance in their standard form from mostly human to mostly lizardfolk. The thing that they all have in common is a large mana filled flat lizard tail. Because of the amount of mana that flows through them, they are able to magically change their entire dna at will, meaning that they are excellent shape shifters, where their only limit is their imagination. It takes time for them to gain certain shifting skills though, upwards of 300 years, so make sure you ask the DM what you can and can not do beforehand. As a runetail, there is an unsatiated curiosity that instills their mind. They want to learn as much as they can. They also constantly have an itch to shift as they constantly fear that they will be caught and sniffed out if they stay in one form for too long.",
     "Starter": "No",
-    "Special": "Magic Born: Magic infused shape shifting allows Rune tail's to shape shift into any sentient race they've encountered or read about. Bigger races are excluded until they gain enough experience in shifting. Also shifting into another gender will be rather uncomfortable until they get used to it.",
+    "Special": "Magic Born: Magic infused shape shifting allows Runetail's to shape shift into any sentient race they've encountered or read about. Bigger races are excluded until they gain enough experience in shifting. Also shifting into another gender will be rather uncomfortable until they get used to it.",
     "Pinterest_Inspo_Board": ""
   },
   {
@@ -255,7 +255,7 @@
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
     "Name": "Green Lizardfolk",
-    "Description": "Green Lizardfolk are the most basic but the most diverse. They have so many more variants than any other lesser Lizardfolk. There are Axetails, whose tails are sharp and bony with what looks like an axe head made of bone. Frilled Lizardfolk that look like frilled lizards who have a hood they can raise to increase intimidation and gives a free soft fall, allowing survival from extreme heights. Whiptails have long slender tails that can be whipped to deal a little more ranged damage. Sickleclaws have long front claws that can act like blades when it comes to combat.",
+    "Description": "Green Lizardfolk are the most basic but the most diverse. They have so many more variants than any other lesser Lizardfolk. There are Axetails, whose tails are sharp and bony with what looks like an axe head made of bone. Frilled Lizardfolk that look like frilled lizards who have a hood they can raise to increase intimidation and give a free soft fall, allowing survival from extreme heights. Whiptails have long slender tails that can be whipped to deal a little more ranged damage. Sickleclaws have long front claws that can act like blades when it comes to combat.",
     "Starter": "Yes",
     "Special": "Scales of Fury: Gain natural weapons of a bite 1d10 & two claws 1d6 each.",
     "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
@@ -275,7 +275,7 @@
     "Name": "White Lizardfolk",
     "Description": "White Scales are also known as Albino Lizardfolk, they have a peculiar resilience to lightning and are capable of channeling it in a very unique capacity. Their body has the capacity to conduct and flow electricity through it, though are incapable of generating the power themselves, so must rely on exterior sources, such as lightning or Sparks magic to use their abilities.",
     "Starter": "Yes",
-    "Special": "Scales of Storms: gains sparks absorption 6, and they can store up to 60 points of it, but it will fade after two days if unused. They can expend these sparks points to unleash powers mimicing spells.",
+    "Special": "Scales of Storms: gains sparks absorption 6, and they can store up to 60 points of it, but it will fade after two days if unused. They can expend these sparks points to unleash powers mimicking spells.",
     "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
@@ -363,7 +363,7 @@
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Jinko",
-    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
+    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brushed by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -383,14 +383,14 @@
     "Name": "Kitsune",
     "Description": "Multi tailed fox folk. They can be fox folk or beastman like.",
     "Starter": "Yes",
-    "Special": "Multiplicitive Mana: These fox demons gain 20 mana per tail they have.",
+    "Special": "Multiplicative Mana: These fox demons gain 20 mana per tail they have.",
     "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Okami",
-    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
+    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revered warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -489,7 +489,7 @@
     "Campaign": "Scifi",
     "SubType": "Alien",
     "Name": "Ohmoud",
-    "Description": "The Ohmoud are a proud race that prides elegance and refinement over politics, money and war. They have a long history of artists, thinkers, philosophers and other kinds of artistic types. As a race that values finery, one would think that they’d get along with merchants and ways to connect them with the finery they desire so. One would be wrong; they hate the quinval and generally detest merchants in general. A historical weapon of the Ohmoud would be similar to a glaive, and the honor guard carry these weapons to this day.Part of the Ohmoud culture is a strict caste system divided by skin tone and profession. The hierarchy goes the red/military caste, then the yellow/ruling caste, and the most respected blue/artisan caste. The castes are considered equal in the respect that there is little to no discrimination between ohmoud castes, but an ohmoud generally does not marry outside a caste with exceptions to marry to and from the ruling caste. Red Ohmoud and blue Ohmoud cannot reproduce because it is a cultural taboo however. The origin of this taboo is when the ohmoud were four factions, the red, yellow, and blue had to group together in order to defeat the purple Ohmoud, which are stronger, faster, smarter, and far more bloodthirsty. Purple Ohmoud are always bloodthirsty warmongers regardless of how good their childhood is, and since they only come from unions of red/blue or purple/purple, modern Ohmoud enforce the marriage taboo. Since the caste system is dictated by skin color, an ohmoud cannot change castes unless they prove to be truly exemplary in the skills of a different caste, and even then they are not considered members of that caste because they become part of the small and unofficial “mentor caste”. No Ohmoud is born into the mentor caste, as the skills of a parent don’t always come to a child. The sole job of the mentor caste is to teach young ohmoud their trades and to keep the traditions of the castes going from generation to generation.",
+    "Description": "The Ohmoud are a proud race that prides elegance and refinement over politics, money and war. They have a long history of artists, thinkers, philosophers and other kinds of artistic types. As a race that values finery, one would think that they’d get along with merchants and ways to connect them with the finery they desire. One would be wrong; they hate the quinval and generally detest merchants in general. A historical weapon of the Ohmoud would be similar to a glaive, and the honor guard carry these weapons to this day.Part of the Ohmoud culture is a strict caste system divided by skin tone and profession. The hierarchy goes: the red/military caste, then the yellow/ruling caste, and the most respected blue/artisan caste. The castes are considered equal in the respect that there is little to no discrimination between ohmoud castes, but an ohmoud generally does not marry outside a caste with exceptions to marry to and from the ruling caste. Red Ohmoud and blue Ohmoud cannot reproduce because it is a cultural taboo however. The origin of this taboo is when the ohmoud were four factions, the red, yellow, and blue had to group together in order to defeat the purple Ohmoud, which are stronger, faster, smarter, and far more bloodthirsty. Purple Ohmoud are always bloodthirsty warmongers regardless of how good their childhood is, and since they only come from unions of red/blue or purple/purple, modern Ohmoud enforce the marriage taboo. Since the caste system is dictated by skin color, an ohmoud cannot change castes unless they prove to be truly exemplary in the skills of a different caste, and even then they are not considered members of that caste because they become part of the small and unofficial “mentor caste”. No Ohmoud is born into the mentor caste, as the skills of a parent don’t always come to a child. The sole job of the mentor caste is to teach young ohmoud their trades and to keep the traditions of the castes going from generation to generation.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -525,7 +525,7 @@
     "Campaign": "Scifi",
     "SubType": "Alien",
     "Name": "Urait",
-    "Description": "The Urait were found on accident, though since their discovery, they’ve been the ‘muscle’ of the Galactic council since. The Chaza and Tasawi both rely on these hulking crustacean tankers to handle some of the more Militant areas of the council’s affairs. The Urait species is unique in that their ‘shell’ are vehicles and temporary abodes that they reside in they each build them themselves and adjust them to their liking. These crabs aren’t nearly as common as they once were, many thousands died during the great war. They do have a cousin species that they aren’t particularly fond of, the Cl’rawdah, who lack ‘vehicle’ shells but are well nigh immortal to aging or disease. (and also the size of a metropolitan bus)",
+    "Description": "The Urait were found by accident, though since their discovery, they’ve been the ‘muscle’ of the Galactic council since. The Chaza and Tasawi both rely on these hulking crustacean tankers to handle some of the more Militant areas of the council’s affairs. The Urait species is unique in that their ‘shell’ are vehicles and temporary abodes that they reside in they each build them themselves and adjust them to their liking. These crabs aren’t nearly as common as they once were, many thousands died during the great war. They do have a cousin species that they aren’t particularly fond of, the Cl’rawdah, who lack ‘vehicle’ shells but are well nigh immortal to aging or disease. (and also the size of a metropolitan bus)",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -570,7 +570,7 @@
     "Campaign": "Scifi",
     "SubType": "Animalistic",
     "Name": "Ulfrend",
-    "Description": "The ulfrend are a barbaric newcomer race that has Recently shown itself to the galaxy, luckily it wasn’t a hostile interaction, namely due to the Ulfrend being a near perfect predator race. They are very blood thirsty and have a capacity for war unlike any other species. Their arrival while worrying also brought great relief to the council, as an untouched armada of soldiers has been in sore need for the constant pirate raids and sieges happening to the core. While their brutish and primitive nature makes them ‘less civilized’ it makes them ideal for handling. Any sort of violent problems Ulfrend are strange biologically, their distinctive biological cybernetics that are organic and grow with the Ulfrend as they age. Also there’s two types of Ulfrend; biologically bred and Spawn pit Ulfrend. Most of their race are born and raised in essentially horrific Spawn chambers, where they’re are built/grown. They all see each other as family and are incredibly loyal.",
+    "Description": "The ulfrend are a barbaric newcomer race that has recently shown itself to the galaxy, luckily it wasn’t a hostile interaction, namely due to the Ulfrend being a near perfect predator race. They are very blood thirsty and have a capacity for war unlike any other species. Their arrival while worrying also brought great relief to the council, as an untouched armada of soldiers has been in sore need for the constant pirate raids and sieges happening to the core. While their brutish and primitive nature makes them ‘less civilized’ it makes them ideal for handling. Any sort of violent problems Ulfrend are strange biologically, their distinctive biological cybernetics that are organic and grow with the Ulfrend as they age. Also there’s two types of Ulfrend; biologically bred and Spawn pit Ulfrend. Most of their race are born and raised in essentially horrific Spawn chambers, where they are built/grown. They all see each other as family and are incredibly loyal.",
     "Starter": "No",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -660,7 +660,7 @@
     "Campaign": "Scifi",
     "SubType": "Robotic",
     "Name": "Toiler",
-    "Description": "These robots were programmed to take inventory of the universe, and in order to do this job, they created warp gates. They did not speak to other races, and they must count everything. They destroy the necrananites when found however, because it messes with the numbers. Their records are now incomplete however, thanks to the great war followed immediately by the Great Catastrophe, which destroyed all stations outside of the Core as far as they know. Because of this there is a toiler delegation in the council of Civilized Races. Their greatest programmers also created a ‘update’ that expands the toiler’s views and ‘individuality’ so that they can better fulfill their task and interface with the other races of the galaxy. Will not kill any other toilers.",
+    "Description": "These robots were programmed to take inventory of the universe, and in order to do this job, they created warp gates. They did not speak to other races, and they must count everything. They destroy the necrananites when found however, because it messes with the numbers. Their records are now incomplete however, thanks to the great war followed immediately by the Great Catastrophe, which destroyed all stations outside of the Core as far as they know. Because of this there is a toiler delegation in the council of Civilized Races. Their greatest programmers also created an ‘update’ that expands the toiler’s views and ‘individuality’ so that they can better fulfill their task and interface with the other races of the galaxy. Will not kill any other toilers.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -687,7 +687,7 @@
     "Campaign": "Steampunk",
     "SubType": "Factioned Races",
     "Name": "Kenku",
-    "Description": "The Kenkus were the engineers for the Aarakocra. These avians lack the ability to fly, with the lack of wings, but they are covered in feathers and take appearances from corvids. Kenku are often much shorter than aarakocra, around 4.5-5.5 foot tall. They love their shiny things and often can let that distract them from their work.",
+    "Description": "The Kenkus were the engineers for the Aarakocra. These avians lack the ability to fly, with the lack of wings, but they are covered in feathers and take appearances from corvids. Kenku are often much shorter than aarakocra, around 4.5-5.5 feet tall. They love their shiny things and often can let that distract them from their work.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -741,7 +741,7 @@
     "Campaign": "Steampunk",
     "SubType": "Unfactioned Races",
     "Name": "Rodentfolk",
-    "Description": "Rodentfolk are nearly completely animalistic humaniods. These creatures were once feral and barbaric, however on the skylands, they have adapted to a more civilized life style. They are still seen as lowly creatures that are sly and criminalistic.",
+    "Description": "Rodentfolk are nearly completely animalistic humanoids. These creatures were once feral and barbaric, however on the skylands, they have adapted to a more civilized lifestyle. They are still seen as lowly creatures that are sly and criminalistic.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -822,7 +822,7 @@
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Jinko",
-    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
+    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldom leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brushed by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""
@@ -849,7 +849,7 @@
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Okami",
-    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
+    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revered warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
     "Starter": "Yes",
     "Special": "",
     "Pinterest_Inspo_Board": ""

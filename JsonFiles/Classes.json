@@ -135,6 +135,21 @@
     "StatFavor2": "Str"
   },
   {
+    "Classification": "Combat",
+    "ClassName": "Myrmidon",
+    "HitDie": "",
+    "ManaDie": "",
+    "ProficiencyCount": "",
+    "MagicBooks": "",
+    "Cantrips": "",
+    "Chances": "",
+    "Description": "If fireball were a mele attack",
+    "Starter": "No",
+    "SpellCastingModifier": "",
+    "StatFavor1": "",
+    "StatFavor2": ""
+  },
+  {
     "Classification": "Magic",
     "ClassName": "Bard",
     "HitDie": 8,
@@ -413,7 +428,7 @@
     "MagicBooks": 4,
     "Cantrips": 20,
     "Chances": 3,
-    "Description": "I know exactly what this is, and I can tell you right now, this belongs in an archive! Adventurer Scholars are those who use knowledge to assist their comrades in all manner of ways, having the unique benefit of having both practical and intellectual knowledge of whatever knowledges they know. They may not be the best but they are brave and will go on perilous adventurers to ensure the preservation of history and knowledge.",
+    "Description": "I know exactly what this is, and I can tell you right now, this belongs in an archive! Adventurer Scholars are those who use knowledge to assist their comrades in all manner of ways, having the unique benefit of having both practical and intellectual knowledge of whatever knowledges they know. They may not be the best in combat or magic but they are brave and will go on perilous adventurers to ensure the preservation of history and knowledge.",
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Wis",
@@ -448,6 +463,21 @@
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Str",
     "StatFavor2": "Wis"
+  },
+  {
+    "Classification": "Veteran",
+    "ClassName": "Sentinel",
+    "HitDie": 12,
+    "ManaDie": 4,
+    "ProficiencyCount": 4,
+    "MagicBooks": 1,
+    "Cantrips": 10,
+    "Chances": 6,
+    "Description": "Stand for what you need, but be always on the move. The Sentinel, is a far cry from a stationary defender, rather, they utilize rapid movement and the reach of their polearms to exploit enemies weaknesses and gaps in their defenses. They use throwing weapons to feign attacks and create openings for themselves to punch hard hitting strikes through the toughest opponents. Sentinels have different combat styles named after the old draconids: Dragon, Wyvern, Drake, and Wurm. Each of these pertain to how to utilize their weapons and skills, being ritual casters as well as adept masters at improvised tactics they can easily overwhelm those unfamiliar with the nuances of combat.",
+    "Starter": "No",
+    "SpellCastingModifier": "Int",
+    "StatFavor1": "Dex/Str",
+    "StatFavor2": "Str/Dex"
   },
   {
     "Classification": "Veteran",
@@ -490,7 +520,7 @@
     "Chances": 6,
     "Description": "Female only: Gypsy, Assassin, Ranger, Bard",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Cha",
     "StatFavor2": "Dex"
   },
@@ -520,7 +550,7 @@
     "Chances": 6,
     "Description": "Assassin, Rogue, Agent, Acrobat",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Dex",
     "StatFavor2": "Str"
   },
@@ -535,7 +565,7 @@
     "Chances": 2,
     "Description": "Ranger, cleric, healer, crusader",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Int",
     "StatFavor2": "Cha"
   },
@@ -550,7 +580,7 @@
     "Chances": 5,
     "Description": "Masterless samuri- barbarian, spellsword, brawler, Tracker",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Str",
     "StatFavor2": "Con"
   },
@@ -580,7 +610,7 @@
     "Chances": 7,
     "Description": "Knight, marksman, warden, battlemage",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Dex",
     "StatFavor2": "Str"
   },
@@ -595,7 +625,7 @@
     "Chances": 3,
     "Description": "Alchemist, summoner, enchanter, Conjurer",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Wis",
     "StatFavor2": "Con"
   },
@@ -610,9 +640,39 @@
     "Chances": 4,
     "Description": "Acrobat, pilgram, witch hunter, occultist",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Wis",
     "StatFavor2": "Str"
+  },
+  {
+    "Classification": "Eastern",
+    "ClassName": "Deviner",
+    "HitDie": "",
+    "ManaDie": "",
+    "ProficiencyCount": "",
+    "MagicBooks": "",
+    "Cantrips": "",
+    "Chances": "",
+    "Description": "Summoner",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "",
+    "StatFavor2": ""
+  },
+  {
+    "Classification": "Eastern",
+    "ClassName": "Apothecary",
+    "HitDie": "",
+    "ManaDie": "",
+    "ProficiencyCount": "",
+    "MagicBooks": "",
+    "Cantrips": "",
+    "Chances": "",
+    "Description": "Alchemist",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "",
+    "StatFavor2": ""
   },
   {
     "Classification": "Eastern",
@@ -625,7 +685,7 @@
     "Chances": 8,
     "Description": "Guardian, spellsword, Agent, Pilgram",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Int",
     "StatFavor2": "Dex"
   },
@@ -640,7 +700,7 @@
     "Chances": 3,
     "Description": "Male only: Historian but more wizardly- Mage, Summoner, Vigilant, bard",
     "Starter": "Yes",
-    "SpellCastingModifier": "",
+    "SpellCastingModifier": "N/A",
     "StatFavor1": "Int",
     "StatFavor2": "Wis"
   }

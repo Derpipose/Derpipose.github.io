@@ -466,21 +466,6 @@
   },
   {
     "Classification": "Veteran",
-    "ClassName": "Sentinel",
-    "HitDie": 12,
-    "ManaDie": 4,
-    "ProficiencyCount": 4,
-    "MagicBooks": 1,
-    "Cantrips": 10,
-    "Chances": 6,
-    "Description": "Stand for what you need, but be always on the move. The Sentinel, is a far cry from a stationary defender, rather, they utilize rapid movement and the reach of their polearms to exploit enemies weaknesses and gaps in their defenses. They use throwing weapons to feign attacks and create openings for themselves to punch hard hitting strikes through the toughest opponents. Sentinels have different combat styles named after the old draconids: Dragon, Wyvern, Drake, and Wurm. Each of these pertain to how to utilize their weapons and skills, being ritual casters as well as adept masters at improvised tactics they can easily overwhelm those unfamiliar with the nuances of combat.",
-    "Starter": "No",
-    "SpellCastingModifier": "Int",
-    "StatFavor1": "Dex/Str",
-    "StatFavor2": "Str/Dex"
-  },
-  {
-    "Classification": "Veteran",
     "ClassName": "Witch Hunter",
     "HitDie": 10,
     "ManaDie": 10,

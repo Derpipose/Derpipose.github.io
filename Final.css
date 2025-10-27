@@ -248,6 +248,9 @@
   .fantasy #spells{
     background-color: gold;
   }
+  .fantasy #weapons{
+    background-color: slategrey;
+  }
   .fantasy #veterans{
     background-color: seagreen;
   }

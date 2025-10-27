@@ -895,7 +895,7 @@ function Weapons(){
         .then((result) => result.json() 
             .then((sheet) => {
                 const classifications = [];
-                sheet.forEach(element => {if(element.Starter == "Yes"){if(classifications.includes(element.Weapon_Classification)){}else{classifications.push(element.Weapon_Classification);}}});
+                sheet.forEach(element => {if(classifications.includes(element.Weapon_Classification)){}else{classifications.push(element.Weapon_Classification);}});
                 var myDiv = document.getElementById("row2");
                 classifications.forEach(element => {
                     let label = document.createElement("label");
@@ -930,7 +930,7 @@ function WeaponSizes(classification){
         .then((result) => result.json() 
             .then((sheet) => {
                 const sizes = [];
-                sheet.forEach(element => {if(element.Starter == "Yes"){if(sizes.includes(element.Size)){}else if(element.Weapon_Classification == classification){sizes.push(element.Size);}}});
+                sheet.forEach(element => {if(sizes.includes(element.Size)){}else if(element.Weapon_Classification == classification){sizes.push(element.Size);}});
                 var myDiv = document.getElementById("row3");
                 sizes.forEach(element => {
                     let label = document.createElement("label");

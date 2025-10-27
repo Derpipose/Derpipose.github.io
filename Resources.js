@@ -2,6 +2,7 @@ window.onload = function (){
     document.getElementById("races").addEventListener("click", function(){Races()});
     document.getElementById("spells").addEventListener("click", function(){Spells()});
     document.getElementById("classes").addEventListener("click", function(){Classes()});
+    document.getElementById("weapons").addEventListener("click", function(){Weapons()});
     document.getElementById("veterans").addEventListener("click", function(){Vet()});
 
 }
@@ -501,8 +502,7 @@ function Vet(){
     classinput.id = "VetClasses";
     myDiv.appendChild(classinput);
     classes.addEventListener("click", function(){VetClasses()});
-    myDiv.appendChild(classes);classes
-    
+    myDiv.appendChild(classes);  
     
 }
 
@@ -876,7 +876,151 @@ function VetTypes(className){
     );
 }
 
+//Weapons
+function Weapons(){
+    //row 1
+    //clearing the lower rows
+    var row2 = document.getElementById("row2");
+    var row3 = document.getElementById("row3");
+    var row4 = document.getElementById("row4");
+    var row5 = document.getElementById("row5");
+    var row6 = document.getElementById("row6");
+    wipeRow(row2);
+    wipeRow(row3);
+    wipeRow(row4);
+    wipeRow(row5);
+    wipeRow(row6);
 
+    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
+        .then((result) => result.json() 
+            .then((sheet) => {
+                const classifications = [];
+                sheet.forEach(element => {if(element.Starter == "Yes"){if(classifications.includes(element.Weapon_Classification)){}else{classifications.push(element.Weapon_Classification);}}});
+                var myDiv = document.getElementById("row2");
+                classifications.forEach(element => {
+                    let label = document.createElement("label");
+                    label.innerText = element;
+                    label.htmlFor = element;
+                    let input = document.createElement("input");
+                    input.type = "radio";
+                    input.name = "row1";
+                    input.id = element;
+                    myDiv.appendChild(input);
+                    label.addEventListener("click", function(){WeaponSizes(element)});
+                    myDiv.appendChild(label);
+                });
+                console.log(classifications);
+            })
+        );
+}
+
+function WeaponSizes(classification){
+    //row 2
+    //clearing the lower rows
+    var row3 = document.getElementById("row3");
+    var row4 = document.getElementById("row4");
+    var row5 = document.getElementById("row5");
+    var row6 = document.getElementById("row6");
+    wipeRow(row3);
+    wipeRow(row4);
+    wipeRow(row5);
+    wipeRow(row6);
+
+    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
+        .then((result) => result.json() 
+            .then((sheet) => {
+                const sizes = [];
+                sheet.forEach(element => {if(element.Starter == "Yes"){if(sizes.includes(element.Size)){}else if(element.Weapon_Classification == classification){sizes.push(element.Size);}}});
+                var myDiv = document.getElementById("row3");
+                sizes.forEach(element => {
+                    let label = document.createElement("label");
+                    label.innerText = element;
+                    label.htmlFor = element + "_row2";
+                    let input = document.createElement("input");
+                    input.type = "radio";
+                    input.name = "row2";
+                    input.id = element + "_row2";
+                    myDiv.appendChild(input);
+                    label.addEventListener("click", function(){WeaponNames(classification, element)});
+                    myDiv.appendChild(label);
+                });
+                console.log(sizes);
+            })
+        );
+}
+
+function WeaponNames(classification, size){
+    //row 3
+    //clearing the lower rows
+    var row4 = document.getElementById("row4");
+    var row5 = document.getElementById("row5");
+    var row6 = document.getElementById("row6");
+    wipeRow(row4);
+    wipeRow(row5);
+    wipeRow(row6);
+    
+    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
+        .then((result) => result.json() 
+            .then((sheet) => {
+                const names = [];
+                sheet.forEach(element => {if(names.includes(element.Name)){}else if(element.Weapon_Classification == classification && element.Size == size){names.push(element.Name);}});
+                var myDiv = document.getElementById("row4");
+                names.forEach(element => {
+                    let label = document.createElement("label");
+                    label.innerText = element;
+                    label.htmlFor = element + "_row3";
+                    let input = document.createElement("input");
+                    input.type = "radio";
+                    input.name = "row3";
+                    input.id = element + "_row3";
+                    myDiv.appendChild(input);
+                    label.addEventListener("click", function(){WeaponInfo(classification, size, element)});
+                    myDiv.appendChild(label);
+                });
+                console.log(names);
+            })
+        );
+}
+
+function WeaponInfo(classification, size, name){
+    //row 4
+    //clearing the lower rows
+    var row5 = document.getElementById("row5");
+    var row6 = document.getElementById("row6");
+    wipeRow(row5);
+    wipeRow(row6);
+
+    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
+        .then((result) => result.json() 
+            .then((sheet) => {
+                sheet.forEach(element => {if(element.Weapon_Classification == classification && element.Size == size && element.Name == name){
+                    var myDiv = document.getElementById("row5");
+                    var p = document.createElement("p");
+                    p.innerHTML = "Name: " + element.Name;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Crit: " + element.Crit;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Crit Range: " + element.Crit_Range;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Range: " + element.Range;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Damage: " + element.Damage;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Damage Type: " + element.Damage_Type;
+                    myDiv.appendChild(p);
+                    var p = document.createElement("p");
+                    p.innerHTML = "Attack Stat: " + element.Attack_Stat;
+                    myDiv.appendChild(p);
+                    console.log(element);
+                }});
+            })
+        );
+}
 
 
 function wipeRow(row){

@@ -181,21 +181,6 @@
   },
   {
     "Classification": "Magic",
-    "ClassName": "Battlemage Mana",
-    "HitDie": 10,
-    "ManaDie": 12,
-    "ProficiencyCount": 4,
-    "MagicBooks": 5,
-    "Cantrips": 30,
-    "Chances": 3,
-    "Description": "Spells or sword? Both, both is good. The battle mage is what happens when a warrior teaches a mage. Battle Mages can often tank hit and deal that damage right on back. They are one of the odd mage classes that fit half way between combat and magic classes. There's two kinds of Battlemage, one that focuses on Health and one that focuses on Mana. Mana focused battlemages start with a D10 hit die and a D12 mana die.",
-    "Starter": "Yes",
-    "SpellCastingModifier": "Int/Wis",
-    "StatFavor1": "Str/Int",
-    "StatFavor2": "Con/Wis"
-  },
-  {
-    "Classification": "Magic",
     "ClassName": "Cleric",
     "HitDie": 8,
     "ManaDie": 10,

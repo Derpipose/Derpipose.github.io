@@ -221,37 +221,37 @@ const raceExplorer = new RaceExplorer(false); // Starter races
 const vetRaceExplorer = new RaceExplorer(true); // Veteran races
 
 // Legacy function wrappers for backward compatibility
-// function Races() {
-//     raceExplorer.loadCampaigns();
-// }
+function Races() {
+    raceExplorer.loadCampaigns();
+}
 
-// function Campaigns(campaign) {
-//     raceExplorer.loadSubraces(campaign);
-// }
+function Campaigns(campaign) {
+    raceExplorer.loadSubraces(campaign);
+}
 
-// function Subraces(campaign, subrace) {
-//     raceExplorer.loadRaceNames(campaign, subrace);
-// }
+function Subraces(campaign, subrace) {
+    raceExplorer.loadRaceNames(campaign, subrace);
+}
 
-// function RaceInformation(campaign, subrace, name) {
-//     raceExplorer.loadRaceInformation(campaign, subrace, name);
-// }
+function RaceInformation(campaign, subrace, name) {
+    raceExplorer.loadRaceInformation(campaign, subrace, name);
+}
 
-// function VetRaces() {
-//     vetRaceExplorer.loadCampaigns();
-// }
+function VetRaces() {
+    vetRaceExplorer.loadCampaigns();
+}
 
-// function VetCampaigns(campaign) {
-//     vetRaceExplorer.loadSubraces(campaign);
-// }
+function VetCampaigns(campaign) {
+    vetRaceExplorer.loadSubraces(campaign);
+}
 
-// function VetSubraces(campaign, subrace) {
-//     vetRaceExplorer.loadRaceNames(campaign, subrace);
-// }
+function VetSubraces(campaign, subrace) {
+    vetRaceExplorer.loadRaceNames(campaign, subrace);
+}
 
-// function VetRaceInformation(campaign, subrace, name) {
-//     vetRaceExplorer.loadRaceInformation(campaign, subrace, name);
-// }
+function VetRaceInformation(campaign, subrace, name) {
+    vetRaceExplorer.loadRaceInformation(campaign, subrace, name);
+}
 
 
 
@@ -483,38 +483,38 @@ class SpellExplorer {
 const spellExplorer = new SpellExplorer(false); // Starter spells
 const vetSpellExplorer = new SpellExplorer(true); // Veteran spells
 
-// // Legacy function wrappers for backward compatibility
-// function Spells() {
-//     spellExplorer.loadBranches();
-// }
+// Legacy function wrappers for backward compatibility
+function Spells() {
+    spellExplorer.loadBranches();
+}
 
-// function Branches(branch) {
-//     spellExplorer.loadBooks(branch);
-// }
+function Branches(branch) {
+    spellExplorer.loadBooks(branch);
+}
 
-// function Books(branch, book) {
-//     spellExplorer.loadSpellNames(branch, book);
-// }
+function Books(branch, book) {
+    spellExplorer.loadSpellNames(branch, book);
+}
 
-// function SpellInfo(branch, book, spell) {
-//     spellExplorer.loadSpellInfo(branch, book, spell);
-// }
+function SpellInfo(branch, book, spell) {
+    spellExplorer.loadSpellInfo(branch, book, spell);
+}
 
-// function VetSpells() {
-//     vetSpellExplorer.loadBranches();
-// }
+function VetSpells() {
+    vetSpellExplorer.loadBranches();
+}
 
-// function VetBranches(branch) {
-//     vetSpellExplorer.loadBooks(branch);
-// }
+function VetBranches(branch) {
+    vetSpellExplorer.loadBooks(branch);
+}
 
-// function VetBooks(branch, book) {
-//     vetSpellExplorer.loadSpellNames(branch, book);
-// }
+function VetBooks(branch, book) {
+    vetSpellExplorer.loadSpellNames(branch, book);
+}
 
-// function VetSpellInfo(branch, book, spell) {
-//     vetSpellExplorer.loadSpellInfo(branch, book, spell);
-// }
+function VetSpellInfo(branch, book, spell) {
+    vetSpellExplorer.loadSpellInfo(branch, book, spell);
+}
 
 
 //Classes
@@ -710,26 +710,26 @@ class ClassExplorer {
 const classExplorer = new ClassExplorer(false); // Starter classes
 const vetClassExplorer = new ClassExplorer(true); // Veteran classes
 
-// // Legacy function wrappers for backward compatibility
-// function Classes() {
-//     classExplorer.loadClassifications();
-// }
+// Legacy function wrappers for backward compatibility
+function Classes() {
+    classExplorer.loadClassifications();
+}
 
-// function Types(type) {
-//     classExplorer.loadClassNames(type);
-// }
+function Types(type) {
+    classExplorer.loadClassNames(type);
+}
 
-// function ClassInformation(type, className) {
-//     classExplorer.loadClassInformation(type, className);
-// }
+function ClassInformation(type, className) {
+    classExplorer.loadClassInformation(type, className);
+}
 
-// function VetClasses() {
-//     vetClassExplorer.loadClassNames(); // No classification needed for veteran
-// }
+function VetClasses() {
+    vetClassExplorer.loadClassNames(); // No classification needed for veteran
+}
 
-// function VetTypes(className) {
-//     vetClassExplorer.loadClassInformation(null, className);
-// }
+function VetTypes(className) {
+    vetClassExplorer.loadClassInformation(null, className);
+}
 
 
 //Vet Stuff
@@ -968,22 +968,22 @@ class WeaponExplorer {
 // Create global instance
 const weaponExplorer = new WeaponExplorer();
 
-// // Legacy function wrappers for backward compatibility
-// function Weapons() {
-//     weaponExplorer.loadClassifications();
-// }
+// Legacy function wrappers for backward compatibility
+function Weapons() {
+    weaponExplorer.loadClassifications();
+}
 
-// function WeaponSizes(classification) {
-//     weaponExplorer.loadSizes(classification);
-// }
+function WeaponSizes(classification) {
+    weaponExplorer.loadSizes(classification);
+}
 
-// function WeaponNames(classification, size) {
-//     weaponExplorer.loadNames(classification, size);
-// }
+function WeaponNames(classification, size) {
+    weaponExplorer.loadNames(classification, size);
+}
 
-// function WeaponInfo(classification, size, name) {
-//     weaponExplorer.loadWeaponInfo(classification, size, name);
-// }
+function WeaponInfo(classification, size, name) {
+    weaponExplorer.loadWeaponInfo(classification, size, name);
+}
 
 
 function wipeRow(row){

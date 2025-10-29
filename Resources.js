@@ -9,450 +9,727 @@ window.onload = function (){
 
 
 // Races
-function Races(){
-    //row 1
-    //clearing the lower rows
-    var row2 = document.getElementById("row2");
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row2);
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
+//Races - Refactored Version
+class RaceExplorer {
+    constructor(isVeteran = false) {
+        this.isVeteran = isVeteran;
+        this.config = {
+            apiUrl: 'https://derpipose.github.io/JsonFiles/Races.json',
+            rows: ['row1', 'row2', 'row3', 'row4', 'row5', 'row6']
+        };
+        this.cachedData = null;
+    }
 
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json() 
-        .then((sheet) => {
-            const campaigns = [];
-            // console.log("I am updated");
-            sheet.forEach(element => {if(element.Starter == "Yes"){ if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign)}}});
-            
-            var myDiv = document.getElementById("row2");
-            campaigns.forEach(element => {
+    async fetchRaceData() {
+        if (this.cachedData) return this.cachedData;
+        
+        try {
+            const response = await fetch(this.config.apiUrl);
+            this.cachedData = await response.json();
+            return this.cachedData;
+        } catch (error) {
+            console.error('Error fetching race data:', error);
+            throw error;
+        }
+    }
 
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row1";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){Campaigns(element)});
-                myDiv.appendChild(label);
+    clearRowsFrom(startRowIndex) {
+        for (let i = startRowIndex; i < this.config.rows.length; i++) {
+            const row = document.getElementById(this.config.rows[i]);
+            if (row) wipeRow(row);
+        }
+    }
 
-            });
-            console.log(campaigns);
-        })
-    );
-}
+    getFilteredData(data) {
+        const starterValue = this.isVeteran ? "No" : "Yes";
+        return data.filter(element => element.Starter === starterValue);
+    }
 
-function Campaigns(campaign){
-    //row 2
-    //clearing the lower rows
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json()
-        .then((sheet) =>{
-            const subraces = [];
-            sheet.forEach(element=> {if(element.Starter == "Yes"){if(subraces.includes(element.SubType)){}else if(element.Campaign == campaign){subraces.push(element.SubType);}}});
-            var myDiv = document.getElementById("row3");
-
-            subraces.forEach(element => {
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row2";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){Subraces(campaign, element)});
-                myDiv.appendChild(label);
-            });
-            console.log(subraces);
-        })
-    );
-}
-
-function Subraces(campaign, subrace){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    wipeRow(row4);
-    wipeRow(row5);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json()
-        .then((sheet) =>{
-            const subraces = [];
-            sheet.forEach(element=> {if(element.Starter == "Yes"){if(subraces.includes(element.Name)){}else if(element.Campaign == campaign && element.SubType == subrace){subraces.push(element.Name);}}
-            //     if(subraces.includes(element.Name)){}
-            // else if(element.Starter == "Yes"){
-            //     if(element.Campaign == campaign &&element.SubType == subrace)
-            //     {subraces.push(element.Name);}}
-            }
+    getUniqueValues(data, field, filters = {}) {
+        const values = [];
+        const filteredData = this.getFilteredData(data);
+        
+        filteredData.forEach(element => {
+            const value = element[field];
+            if (!values.includes(value)) {
+                const matchesFilters = Object.entries(filters).every(
+                    ([key, filterValue]) => element[key] === filterValue
                 );
-            var myDiv = document.getElementById("row4");
-                subraces.forEach(element => {
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row3";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row3";
-                    input.id = element + "_row3";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){RaceInformation(campaign, subrace, element)});
-                    myDiv.appendChild(label);
-                });
-            console.log(subraces.Starter);
-        })
-    );
+                if (matchesFilters) {
+                    values.push(value);
+                }
+            }
+        });
+        return values;
+    }
+
+    createRadioOption(text, id, name, clickHandler, targetRowId) {
+        const targetDiv = document.getElementById(targetRowId);
+        
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = name;
+        input.id = id;
+        
+        const label = document.createElement("label");
+        label.innerText = text;
+        label.htmlFor = id;
+        label.addEventListener("click", clickHandler);
+        
+        targetDiv.appendChild(input);
+        targetDiv.appendChild(label);
+    }
+
+    displayRaceInformation(race) {
+        const targetRowIndex = this.isVeteran ? 5 : 4; // row6 for veteran, row5 for starter
+        const targetDiv = document.getElementById(this.config.rows[targetRowIndex]);
+        
+        // Add Pinterest inspiration board link if available (starter races only)
+        if (!this.isVeteran && race.Pinterest_Inspo_Board && race.Pinterest_Inspo_Board !== "") {
+            const a = document.createElement("a");
+            a.href = race.Pinterest_Inspo_Board;
+            a.innerText = "Pinterest Inspiration Board Link";
+            a.className = "Row5-a-tag";
+            targetDiv.appendChild(a);
+        }
+        
+        // Add description
+        const p = document.createElement("p");
+        if (race.Description && race.Description !== "") {
+            p.innerHTML = race.Description;
+        } else {
+            p.innerHTML = "Race not yet worked on fully..... Please check back later. Thanks pal!";
+        }
+        targetDiv.appendChild(p);
+        
+        console.log(race);
+    }
+
+    async loadCampaigns() {
+        const startClearIndex = this.isVeteran ? 2 : 1; // Clear from row3 for veteran, row2 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchRaceData();
+            const campaigns = this.getUniqueValues(data, 'Campaign');
+            
+            const targetRowIndex = this.isVeteran ? 2 : 1; // row3 for veteran, row2 for starter
+            const namePrefix = "row1";
+            
+            campaigns.forEach(campaign => {
+                this.createRadioOption(
+                    campaign,
+                    campaign,
+                    namePrefix,
+                    () => this.loadSubraces(campaign),
+                    this.config.rows[targetRowIndex]
+                );
+            });
+            
+            console.log('Campaigns:', campaigns);
+        } catch (error) {
+            console.error('Error loading campaigns:', error);
+        }
+    }
+
+    async loadSubraces(campaign) {
+        const startClearIndex = this.isVeteran ? 3 : 2; // Clear from row4 for veteran, row3 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchRaceData();
+            const subtypes = this.getUniqueValues(data, 'SubType', { 'Campaign': campaign });
+            
+            const targetRowIndex = this.isVeteran ? 3 : 2; // row4 for veteran, row3 for starter
+            const namePrefix = "row2";
+            
+            subtypes.forEach(subtype => {
+                this.createRadioOption(
+                    subtype,
+                    subtype,
+                    namePrefix,
+                    () => this.loadRaceNames(campaign, subtype),
+                    this.config.rows[targetRowIndex]
+                );
+            });
+            
+            console.log('Subtypes:', subtypes);
+        } catch (error) {
+            console.error('Error loading subtypes:', error);
+        }
+    }
+
+    async loadRaceNames(campaign, subtype) {
+        const startClearIndex = this.isVeteran ? 4 : 3; // Clear from row5 for veteran, row4 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchRaceData();
+            const raceNames = this.getUniqueValues(data, 'Name', { 
+                'Campaign': campaign, 
+                'SubType': subtype 
+            });
+            
+            const targetRowIndex = this.isVeteran ? 4 : 3; // row5 for veteran, row4 for starter
+            const namePrefix = "row3";
+            
+            raceNames.forEach(raceName => {
+                const id = this.isVeteran ? 
+                    raceName : 
+                    `${raceName}_row3`;
+                
+                this.createRadioOption(
+                    raceName,
+                    id,
+                    namePrefix,
+                    () => this.loadRaceInformation(campaign, subtype, raceName),
+                    this.config.rows[targetRowIndex]
+                );
+            });
+            
+            console.log('Race Names:', raceNames);
+        } catch (error) {
+            console.error('Error loading race names:', error);
+        }
+    }
+
+    async loadRaceInformation(campaign, subtype, raceName) {
+        const startClearIndex = this.isVeteran ? 5 : 4; // Clear from row6 for veteran, row5 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchRaceData();
+            const filteredData = this.getFilteredData(data);
+            
+            const race = filteredData.find(element => 
+                element.Campaign === campaign && 
+                element.SubType === subtype && 
+                element.Name === raceName
+            );
+            
+            if (race) {
+                this.displayRaceInformation(race);
+            }
+        } catch (error) {
+            console.error('Error loading race information:', error);
+        }
+    }
 }
 
-function RaceInformation(campaign, subrace, name){
-    //row 4
-    //clearing the lower rows
-    var row5 = document.getElementById("row5");
-    wipeRow(row5);
+// Create global instances
+const raceExplorer = new RaceExplorer(false); // Starter races
+const vetRaceExplorer = new RaceExplorer(true); // Veteran races
 
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json()
-        .then((sheet) =>{
-            sheet.forEach(element=> {if(element.Name == name && campaign == element.Campaign && subrace==element.SubType){var myDiv = document.getElementById("row5");
-            var p = document.createElement("p");
-            if(element.Pinterest_Inspo_Board != "") {
-                var a = document.createElement("a");
-                a.href = element.Pinterest_Inspo_Board;
-                a.innerText = "Pinterest Inspiration Board Link";
-                a.className = "Row5-a-tag";
-                myDiv.appendChild(a);
-            }
-            if(element.Description != "") {
-                p.innerHTML = element.Description;
-            } else {
-                p.innerHTML = "Race not yet worked on fully..... Please check back later. Thanks pal!";
-            }
-            myDiv.appendChild(p);
-            console.log(element);
-        }else {}});
-            
-            
-            
-            
-        })
-    );
-}
+// Legacy function wrappers for backward compatibility
+// function Races() {
+//     raceExplorer.loadCampaigns();
+// }
+
+// function Campaigns(campaign) {
+//     raceExplorer.loadSubraces(campaign);
+// }
+
+// function Subraces(campaign, subrace) {
+//     raceExplorer.loadRaceNames(campaign, subrace);
+// }
+
+// function RaceInformation(campaign, subrace, name) {
+//     raceExplorer.loadRaceInformation(campaign, subrace, name);
+// }
+
+// function VetRaces() {
+//     vetRaceExplorer.loadCampaigns();
+// }
+
+// function VetCampaigns(campaign) {
+//     vetRaceExplorer.loadSubraces(campaign);
+// }
+
+// function VetSubraces(campaign, subrace) {
+//     vetRaceExplorer.loadRaceNames(campaign, subrace);
+// }
+
+// function VetRaceInformation(campaign, subrace, name) {
+//     vetRaceExplorer.loadRaceInformation(campaign, subrace, name);
+// }
 
 
 
 //spells
-function Spells(){
-    //row 1
-    //clearing the lower rows
-    var row2 = document.getElementById("row2");
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row2);
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
+//Spells - Refactored Version
+class SpellExplorer {
+    constructor(isVeteran = false) {
+        this.isVeteran = isVeteran;
+        this.config = {
+            apiUrl: 'https://derpipose.github.io/JsonFiles/Spells.json',
+            rows: ['row1', 'row2', 'row3', 'row4', 'row5', 'row6'],
+            displayFields: [
+                { key: 'SpellName', label: 'Name' },
+                { key: 'ManaCost', label: 'Mana Cost' },
+                { key: 'Range', label: 'Range' },
+                { key: 'HitDie', label: 'Hit Die' },
+                { key: 'DamageType', label: 'Type' },
+                { key: 'Durration', label: 'Duration' },
+                { key: 'Description', label: 'Description' }
+            ]
+        };
+        this.cachedData = null;
+    }
 
+    async fetchSpellData() {
+        if (this.cachedData) return this.cachedData;
+        
+        try {
+            const response = await fetch(this.config.apiUrl);
+            this.cachedData = await response.json();
+            return this.cachedData;
+        } catch (error) {
+            console.error('Error fetching spell data:', error);
+            throw error;
+        }
+    }
 
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
+    clearRowsFrom(startRowIndex) {
+        for (let i = startRowIndex; i < this.config.rows.length; i++) {
+            const row = document.getElementById(this.config.rows[i]);
+            if (row) wipeRow(row);
+        }
+    }
+
+    getFilteredData(data) {
+        const starterValue = this.isVeteran ? "No" : "Yes";
+        return data.filter(element => element.Starter === starterValue);
+    }
+
+    getUniqueValues(data, field, filters = {}) {
+        const values = [];
+        const filteredData = this.getFilteredData(data);
+        
+        filteredData.forEach(element => {
+            const value = element[field];
+            if (!values.includes(value)) {
+                const matchesFilters = Object.entries(filters).every(
+                    ([key, filterValue]) => element[key] === filterValue
+                );
+                if (matchesFilters) {
+                    values.push(value);
+                }
+            }
+        });
+        return values;
+    }
+
+    createRadioOption(text, id, name, clickHandler, targetRowId) {
+        const targetDiv = document.getElementById(targetRowId);
+        
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = name;
+        input.id = id;
+        
+        const label = document.createElement("label");
+        label.innerText = text;
+        label.htmlFor = id;
+        label.addEventListener("click", clickHandler);
+        
+        targetDiv.appendChild(input);
+        targetDiv.appendChild(label);
+    }
+
+    displaySpellInfo(spell) {
+        const targetRowIndex = this.isVeteran ? 5 : 4; // row6 for veteran, row5 for starter
+        const targetDiv = document.getElementById(this.config.rows[targetRowIndex]);
+        
+        this.config.displayFields.forEach(field => {
+            const p = document.createElement("p");
+            p.innerHTML = `${field.label}: ${spell[field.key]}`;
+            targetDiv.appendChild(p);
+        });
+        
+        console.log(spell);
+    }
+
+    async loadBranches() {
+        const startClearIndex = this.isVeteran ? 2 : 1; // Clear from row3 for veteran, row2 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchSpellData();
+            const branches = this.getUniqueValues(data, 'SpellBranch');
+            
+            const targetRowIndex = this.isVeteran ? 2 : 1; // row3 for veteran, row2 for starter
+            const namePrefix = this.isVeteran ? "row2" : "row1";
+            
+            branches.forEach(branch => {
+                this.createRadioOption(
+                    branch,
+                    branch,
+                    namePrefix,
+                    () => this.loadBooks(branch),
+                    this.config.rows[targetRowIndex]
+                );
+            });
+            
+            console.log('Branches:', branches);
+        } catch (error) {
+            console.error('Error loading branches:', error);
+        }
+    }
+
+    async loadBooks(branch) {
+        const startClearIndex = this.isVeteran ? 3 : 2; // Clear from row4 for veteran, row3 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchSpellData();
+            const filteredData = this.getFilteredData(data);
+            
+            // For starter spells, we need the full element for BookLevel info
+            const booksData = [];
+            filteredData.forEach(element => {
+                if (element.SpellBranch === branch) {
+                    const existingBook = booksData.find(book => book.SpellBook === element.SpellBook);
+                    if (!existingBook) {
+                        booksData.push(element);
+                    }
+                }
+            });
+            
+            const targetRowIndex = this.isVeteran ? 3 : 2; // row4 for veteran, row3 for starter
+            const namePrefix = this.isVeteran ? "row3" : "row2";
+            
+            booksData.forEach(element => {
+                const displayText = this.isVeteran ? 
+                    element.SpellBook : 
+                    `${element.SpellBook} : ${element.BookLevel}`;
                 
-                const branch = [];
-                sheet.forEach(element => {if(element.Starter == "Yes"){if(branch.includes(element.SpellBranch)){}else{branch.push(element.SpellBranch);}}});
-                var myDiv = document.getElementById("row2")
-                branch.forEach(element => {
-                    
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element;
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row1";
-                    input.id = element;
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){Branches(element)});
-                    myDiv.appendChild(label);
-
-
-                    // let label = document.createElement("label");
-                    // label.innerText = element;
-                    // label.htmlFor = element + "row1";
-                    // let input = document.createElement("input");
-                    // input.type = "radio";
-                    // input.name = "row1";
-                    // input.id = element;
-                    // myDiv.appendChild(input);
-                    // label.addEventListener("click", function(){Branches(element)});
-                    // myDiv.appendChild(label);
-                    // var button = document.createElement("BUTTON");
-                    // button.innerHTML = element;
-                    // myDiv.appendChild(button);
-                })
+                const id = this.isVeteran ? 
+                    `${element.SpellBook}_row3` : 
+                    `${element.SpellBook}_row2`;
                 
-                console.log(branch);
-        })
-    );
+                this.createRadioOption(
+                    displayText,
+                    id,
+                    namePrefix,
+                    () => this.loadSpellNames(branch, element.SpellBook),
+                    this.config.rows[targetRowIndex]
+                );
+            });
+            
+            console.log('Books:', booksData.map(b => b.SpellBook));
+        } catch (error) {
+            console.error('Error loading books:', error);
+        }
+    }
+
+    async loadSpellNames(branch, book) {
+        const startClearIndex = this.isVeteran ? 4 : 3; // Clear from row5 for veteran, row4 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchSpellData();
+            const spellNames = this.getUniqueValues(data, 'SpellName', { 
+                'SpellBranch': branch, 
+                'SpellBook': book 
+            });
+            
+            const targetRowIndex = this.isVeteran ? 4 : 3; // row5 for veteran, row4 for starter
+            const namePrefix = this.isVeteran ? "row4" : "row3";
+            
+            spellNames.forEach(spellName => {
+                const id = this.isVeteran ? 
+                    `${spellName}_row4` : 
+                    `${spellName}_row3`;
+                
+                this.createRadioOption(
+                    spellName,
+                    id,
+                    namePrefix,
+                    () => this.loadSpellInfo(branch, book, spellName),
+                    this.config.rows[targetRowIndex]
+                );
+            });
+            
+            console.log('Spell Names:', spellNames);
+        } catch (error) {
+            console.error('Error loading spell names:', error);
+        }
+    }
+
+    async loadSpellInfo(branch, book, spellName) {
+        const startClearIndex = this.isVeteran ? 5 : 4; // Clear from row6 for veteran, row5 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchSpellData();
+            const filteredData = this.getFilteredData(data);
+            
+            const spell = filteredData.find(element => 
+                element.SpellBranch === branch && 
+                element.SpellBook === book && 
+                element.SpellName === spellName
+            );
+            
+            if (spell) {
+                this.displaySpellInfo(spell);
+            }
+        } catch (error) {
+            console.error('Error loading spell info:', error);
+        }
+    }
 }
 
-function Branches(branch){
-    //row 2
-    //clearing the lower rows
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
+// Create global instances
+const spellExplorer = new SpellExplorer(false); // Starter spells
+const vetSpellExplorer = new SpellExplorer(true); // Veteran spells
 
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                
-                const book = [];
-                const working = [];
-                sheet.forEach(element => {if(element.Starter == "Yes"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook); working.push(element);}}});
-                var myDiv = document.getElementById("row3")
-                working.forEach(element => {
+// // Legacy function wrappers for backward compatibility
+// function Spells() {
+//     spellExplorer.loadBranches();
+// }
 
-                    let label = document.createElement("label");
-                    label.innerText = element.SpellBook + " : " + element.BookLevel;
-                    label.id = element.BookLevel.match(/\S+/g).join("");
-                    label.htmlFor = element.SpellBook + "_row2";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row2";
-                    input.id = element.SpellBook + "_row2";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){Books(branch, element.SpellBook)});
-                    myDiv.appendChild(label);
-                })
-                
-                console.log(book);
-        })
-    );
-}
+// function Branches(branch) {
+//     spellExplorer.loadBooks(branch);
+// }
 
-function Books(branch, book){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    wipeRow(row4);
-    wipeRow(row5);
-    
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                const spells = [];
-                sheet.forEach(element => {if(spells.includes(element.SpellName)){}else if(element.SpellBranch == branch && element.SpellBook == book){spells.push(element.SpellName);}});
-                var myDiv = document.getElementById("row4")
-                spells.forEach(element => {
-                    
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row3";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row3";
-                    input.id = element + "_row3";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){SpellInfo(branch, book, element)});
-                    myDiv.appendChild(label);
-                })
-                
-                console.log(spells);
-        })
-    );
-}
+// function Books(branch, book) {
+//     spellExplorer.loadSpellNames(branch, book);
+// }
 
-function SpellInfo(branch, book, spell){
-    //row 4
-    //clearing the lower rows
-    var row5 = document.getElementById("row5");
-    wipeRow(row5);
+// function SpellInfo(branch, book, spell) {
+//     spellExplorer.loadSpellInfo(branch, book, spell);
+// }
 
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                sheet.forEach(element => {if(element.SpellBranch == branch && element.SpellBook == book && element.SpellName == spell){
+// function VetSpells() {
+//     vetSpellExplorer.loadBranches();
+// }
 
-                    
-                    var myDiv = document.getElementById("row5");
-                    var p = document.createElement("p");
-                    p.innerHTML = "Name: " + element.SpellName;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Mana Cost: " + element.ManaCost;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Range: " + element.Range;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Hit Die: " + element.HitDie;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Type: " + element.DamageType;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Duration: " + element.Durration;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Description: " + element.Description;
-                    myDiv.appendChild(p);
-                    
-                    
-                    console.log(element);
-                }});
-        })
-    );
-}
+// function VetBranches(branch) {
+//     vetSpellExplorer.loadBooks(branch);
+// }
+
+// function VetBooks(branch, book) {
+//     vetSpellExplorer.loadSpellNames(branch, book);
+// }
+
+// function VetSpellInfo(branch, book, spell) {
+//     vetSpellExplorer.loadSpellInfo(branch, book, spell);
+// }
 
 
 //Classes
 
-function Classes(){
-    //row 1
-    //clearing the lower rows
-    var row2 = document.getElementById("row2");
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row2);
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
+//Classes - Refactored Version
+class ClassExplorer {
+    constructor(isVeteran = false) {
+        this.isVeteran = isVeteran;
+        this.config = {
+            apiUrl: 'https://derpipose.github.io/JsonFiles/Classes.json',
+            rows: ['row1', 'row2', 'row3', 'row4', 'row5', 'row6'],
+            displayFields: [
+                { key: 'ClassName', label: 'Name' },
+                { key: 'ManaDie', label: 'Mana Die', prefix: 'D' },
+                { key: 'HitDie', label: 'Hit Die', prefix: 'D' },
+                { key: 'MagicBooks', label: 'Magic Books' },
+                { key: 'Cantrips', label: 'Cantrips' },
+                { key: 'Chances', label: 'Chances' },
+                { key: 'ProficiencyCount', label: 'Skills' },
+                { key: 'Description', label: 'Description' }
+            ]
+        };
+        this.cachedData = null;
+    }
 
+    async fetchClassData() {
+        if (this.cachedData) return this.cachedData;
+        
+        try {
+            const response = await fetch(this.config.apiUrl);
+            this.cachedData = await response.json();
+            return this.cachedData;
+        } catch (error) {
+            console.error('Error fetching class data:', error);
+            throw error;
+        }
+    }
 
-    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
-        .then((result) => result.json() 
-        .then((sheet) => {
+    clearRowsFrom(startRowIndex) {
+        for (let i = startRowIndex; i < this.config.rows.length; i++) {
+            const row = document.getElementById(this.config.rows[i]);
+            if (row) wipeRow(row);
+        }
+    }
+
+    getFilteredData(data) {
+        const starterValue = this.isVeteran ? "No" : "Yes";
+        return data.filter(element => element.Starter === starterValue);
+    }
+
+    getUniqueValues(data, field, filters = {}) {
+        const values = [];
+        const filteredData = this.getFilteredData(data);
+        
+        filteredData.forEach(element => {
+            const value = element[field];
+            if (!values.includes(value)) {
+                const matchesFilters = Object.entries(filters).every(
+                    ([key, filterValue]) => element[key] === filterValue
+                );
+                if (matchesFilters) {
+                    values.push(value);
+                }
+            }
+        });
+        return values;
+    }
+
+    createRadioOption(text, id, name, clickHandler, targetRowId) {
+        const targetDiv = document.getElementById(targetRowId);
+        
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = name;
+        input.id = id;
+        
+        const label = document.createElement("label");
+        label.innerText = text;
+        label.htmlFor = id;
+        label.addEventListener("click", clickHandler);
+        
+        targetDiv.appendChild(input);
+        targetDiv.appendChild(label);
+    }
+
+    displayClassInformation(classData) {
+        const targetRowIndex = this.isVeteran ? 3 : 3; // row4 for both types
+        const targetDiv = document.getElementById(this.config.rows[targetRowIndex]);
+        
+        this.config.displayFields.forEach(field => {
+            const p = document.createElement("p");
+            const value = classData[field.key];
+            const prefix = field.prefix || '';
+            p.innerHTML = `${field.label}: ${prefix}${value}`;
+            targetDiv.appendChild(p);
+        });
+        
+        console.log(classData);
+    }
+
+    async loadClassifications() {
+        const startClearIndex = this.isVeteran ? 2 : 1; // Clear from row3 for veteran, row2 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchClassData();
+            const classifications = this.getUniqueValues(data, 'Classification');
             
-            const type = [];
-            sheet.forEach(element => {if(element.Starter == "Yes"){if(type.includes(element.Classification)){}else{type.push(element.Classification);}}});
-            var myDiv = document.getElementById("row2");
-            // var attribute = 0;
-            type.forEach(element => {
-
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row2";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){Types(element)});
-                myDiv.appendChild(label);
+            const targetRowIndex = this.isVeteran ? 2 : 1; // row3 for veteran, row2 for starter
+            const namePrefix = "row2";
+            
+            classifications.forEach(classification => {
+                this.createRadioOption(
+                    classification,
+                    classification,
+                    namePrefix,
+                    () => this.loadClassNames(classification),
+                    this.config.rows[targetRowIndex]
+                );
             });
             
-            
-            console.log(type);
-        })
-    );
-}
+            console.log('Classifications:', classifications);
+        } catch (error) {
+            console.error('Error loading classifications:', error);
+        }
+    }
 
-function Types(type){
-    //row 2
-    //clearing the lower rows
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
-        .then((result) => result.json() 
-        .then((sheet) => {
+    async loadClassNames(classification = null) {
+        const startClearIndex = this.isVeteran ? 3 : 2; // Clear from row4 for veteran, row3 for starter
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchClassData();
+            let classNames;
             
-            const classes = [];
-            sheet.forEach(element => {if(classes.includes(element.ClassName)){}else if(element.Classification == type){classes.push(element.ClassName);}});
-            var myDiv = document.getElementById("row3");
-            classes.forEach(element => {
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row3";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){ClassInformation(type, element)});
-                myDiv.appendChild(label);
+            if (this.isVeteran) {
+                // For veteran classes, load all class names directly (no classification filter)
+                classNames = this.getUniqueValues(data, 'ClassName');
+            } else {
+                // For starter classes, filter by classification
+                classNames = this.getUniqueValues(data, 'ClassName', { 'Classification': classification });
+            }
+            
+            const targetRowIndex = this.isVeteran ? 2 : 2; // row3 for both types
+            const namePrefix = "row3";
+            
+            classNames.forEach(className => {
+                this.createRadioOption(
+                    className,
+                    className,
+                    namePrefix,
+                    () => this.loadClassInformation(classification, className),
+                    this.config.rows[targetRowIndex]
+                );
             });
             
+            console.log('Class Names:', classNames);
+        } catch (error) {
+            console.error('Error loading class names:', error);
+        }
+    }
+
+    async loadClassInformation(classification, className) {
+        const startClearIndex = 3; // Clear from row4 for both types
+        this.clearRowsFrom(startClearIndex);
+        
+        try {
+            const data = await this.fetchClassData();
+            const filteredData = this.getFilteredData(data);
             
-            console.log(classes);
-        })
-    );
+            let classData;
+            if (this.isVeteran) {
+                // For veteran classes, just match by className
+                classData = filteredData.find(element => element.ClassName === className);
+            } else {
+                // For starter classes, match by both classification and className
+                classData = filteredData.find(element => 
+                    element.Classification === classification && 
+                    element.ClassName === className
+                );
+            }
+            
+            if (classData) {
+                this.displayClassInformation(classData);
+            }
+        } catch (error) {
+            console.error('Error loading class information:', error);
+        }
+    }
 }
 
-function ClassInformation(type, className){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    wipeRow(row4);
-    wipeRow(row5);
+// Create global instances
+const classExplorer = new ClassExplorer(false); // Starter classes
+const vetClassExplorer = new ClassExplorer(true); // Veteran classes
 
-    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
-        .then((result) => result.json() 
-        .then((sheet) => {
-            sheet.forEach(element => { if(element.Classification == type && element.ClassName==className){
-                var myDiv = document.getElementById("row4");
-                var p = document.createElement("p");
-                p.innerHTML = "Name: " + element.ClassName;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Mana Die: D" + element.ManaDie;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Hit Die: D" + element.HitDie;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Magic Books: " + element.MagicBooks;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Cantrips: " + element.Cantrips;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Chances: " + element.Chances;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Skills: " + element.ProficiencyCount;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Description: " + element.Description;
-                myDiv.appendChild(p);
-                console.log(element);
-            }});
-        })
-    );
-}
+// // Legacy function wrappers for backward compatibility
+// function Classes() {
+//     classExplorer.loadClassifications();
+// }
+
+// function Types(type) {
+//     classExplorer.loadClassNames(type);
+// }
+
+// function ClassInformation(type, className) {
+//     classExplorer.loadClassInformation(type, className);
+// }
+
+// function VetClasses() {
+//     vetClassExplorer.loadClassNames(); // No classification needed for veteran
+// }
+
+// function VetTypes(className) {
+//     vetClassExplorer.loadClassInformation(null, className);
+// }
 
 
 //Vet Stuff
@@ -507,520 +784,206 @@ function Vet(){
 }
 
 // Races
-function VetRaces(){
-    //row 2
-    //clearing the lower rows
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json() 
-        .then((sheet) => {
-            const campaigns = [];
-            // console.log("I am updated");
-            sheet.forEach(element => {if(element.Starter == "No"){ if(campaigns.includes(element.Campaign)){}else{campaigns.push(element.Campaign)}}});
-            
-            var myDiv = document.getElementById("row3");
-            campaigns.forEach(element => {
-
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row1";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){VetCampaigns(element)});
-                myDiv.appendChild(label);
-
-            });
-            console.log(campaigns);
-        })
-    );
-}
-
-function VetCampaigns(campaign){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json()
-        .then((sheet) =>{
-            const subraces = [];
-            sheet.forEach(element=> {if(element.Starter == "No"){if(subraces.includes(element.SubType)){}else if(element.Campaign == campaign){subraces.push(element.SubType);}}});
-            var myDiv = document.getElementById("row4");
-                subraces.forEach(element => {
-
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element;
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row2";
-                    input.id = element;
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){VetSubraces(campaign, element)});
-                    myDiv.appendChild(label);
-                });
-            console.log(subraces);
-        })
-    );
-}
-
-function VetSubraces(campaign, subrace){
-    //row 4
-    //clearing the lower rows
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json()
-        .then((sheet) =>{
-            const subraces = [];
-            sheet.forEach(element=> {if(element.Starter == "No"){if(subraces.includes(element.Name)){}else if(element.Campaign == campaign && element.SubType == subrace){subraces.push(element.Name);}}
-            //     if(subraces.includes(element.Name)){}
-            // else if(element.Starter == "Yes"){
-            //     if(element.Campaign == campaign &&element.SubType == subrace)
-            //     {subraces.push(element.Name);}}
-            }
-                );
-            var myDiv = document.getElementById("row5");
-                subraces.forEach(element => {
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element;
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row3";
-                    input.id = element;
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){VetRaceInformation(campaign, subrace, element)});
-                    myDiv.appendChild(label);
-                });
-            console.log(subraces.Starter);
-        })
-    );
-}
-
-function VetRaceInformation(campaign, subrace, name){
-    //row 5
-    //clearing the lower rows
-    var row5 = document.getElementById("row6");
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Races.json`)
-    .then((result) => result.json()
-        .then((sheet) =>{
-            sheet.forEach(element=> {if(element.Name == name && campaign == element.Campaign && subrace==element.SubType){var myDiv = document.getElementById("row6");
-            var p = document.createElement("p");
-            p.innerHTML = element.Description;
-            myDiv.appendChild(p);
-            console.log(element);
-        }else {}});
-        })
-    );
-}
-
-
 
 //spells
-function VetSpells(){
-    //row 1
-    //clearing the lower rows
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                
-                const branch = [];
-                sheet.forEach(element => {if(element.Starter == "No"){if(branch.includes(element.SpellBranch)){}else{branch.push(element.SpellBranch);}}});
-                var myDiv = document.getElementById("row3")
-                branch.forEach(element => {
-                    
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element;
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row2";
-                    input.id = element;
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){VetBranches(element)});
-                    myDiv.appendChild(label);
-                })
-                
-                console.log(branch);
-        })
-    );
-}
-
-function VetBranches(branch){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                
-                const book = [];
-                sheet.forEach(element => {if(element.Starter == "No"){if(book.includes(element.SpellBook)){}else if(element.SpellBranch == branch){book.push(element.SpellBook);}}});
-                var myDiv = document.getElementById("row4") 
-                book.forEach(element => {
-
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row3";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row3";
-                    input.id = element + "_row3";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){VetBooks(branch, element)});
-                    myDiv.appendChild(label);
-                })
-                
-                console.log(book);
-        })
-    );
-}
-
-function VetBooks(branch, book){
-    //row 4
-    //clearing the lower rows
-    var row4 = document.getElementById("row6");
-    var row5 = document.getElementById("row5");
-    wipeRow(row6);
-    wipeRow(row5);
-    
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                const spells = [];
-                sheet.forEach(element => {if(element.Starter == "No"){if(spells.includes(element.SpellName)){}else if(element.SpellBranch == branch && element.SpellBook == book){spells.push(element.SpellName);}}});
-                var myDiv = document.getElementById("row5")
-                spells.forEach(element => {
-
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row4";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row4";
-                    input.id = element + "_row4";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){VetSpellInfo(branch, book, element)});
-                    myDiv.appendChild(label);
-                })
-                
-                console.log(spells);
-        })
-    );
-}
-
-function VetSpellInfo(branch, book, spell){
-    //row 5
-    //clearing the lower rows
-    var row5 = document.getElementById("row6");
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Spells.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                sheet.forEach(element => {if(element.SpellBranch == branch && element.SpellBook == book && element.SpellName == spell){
-
-                    
-                    var myDiv = document.getElementById("row6");
-                    var p = document.createElement("p");
-                    p.innerHTML = "Name: " + element.SpellName;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Mana Cost: " + element.ManaCost;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Range: " + element.Range;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Hit Die: " + element.HitDie;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Type: " + element.DamageType;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Duration: " + element.Durration;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Description: " + element.Description;
-                    myDiv.appendChild(p);
-                    
-                    
-                    console.log(element);
-                }});
-        })
-    );
-}
-
 
 //Classes
 
-function VetClasses(){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
+//Weapons - Refactored Version
+class WeaponExplorer {
+    constructor() {
+        this.config = {
+            apiUrl: 'https://derpipose.github.io/JsonFiles/Weapons.json',
+            rows: ['row1', 'row2', 'row3', 'row4', 'row5', 'row6'],
+            displayFields: [
+                { key: 'Name', label: 'Name' },
+                { key: 'Crit', label: 'Crit' },
+                { key: 'Crit_Range', label: 'Crit Range' },
+                { key: 'Range', label: 'Range' },
+                { key: 'Damage', label: 'Damage' },
+                { key: 'Damage_Type', label: 'Damage Type' },
+                { key: 'Attack_Stat', label: 'Attack Stat' }
+            ]
+        };
+        this.cachedData = null;
+    }
 
-    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
-        .then((result) => result.json() 
-        .then((sheet) => {
+    async fetchWeaponData() {
+        if (this.cachedData) return this.cachedData;
+        
+        try {
+            const response = await fetch(this.config.apiUrl);
+            this.cachedData = await response.json();
+            return this.cachedData;
+        } catch (error) {
+            console.error('Error fetching weapon data:', error);
+            throw error;
+        }
+    }
+
+    clearRowsFrom(startRowIndex) {
+        for (let i = startRowIndex; i < this.config.rows.length; i++) {
+            const row = document.getElementById(this.config.rows[i]);
+            if (row) wipeRow(row);
+        }
+    }
+
+    getUniqueValues(data, field, filters = {}) {
+        const values = [];
+        data.forEach(element => {
+            const value = element[field];
+            if (!values.includes(value)) {
+                const matchesFilters = Object.entries(filters).every(
+                    ([key, filterValue]) => element[key] === filterValue
+                );
+                if (matchesFilters) {
+                    values.push(value);
+                }
+            }
+        });
+        return values;
+    }
+
+    createRadioOption(text, id, name, clickHandler, targetRowId) {
+        const targetDiv = document.getElementById(targetRowId);
+        
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = name;
+        input.id = id;
+        
+        const label = document.createElement("label");
+        label.innerText = text;
+        label.htmlFor = id;
+        label.addEventListener("click", clickHandler);
+        
+        targetDiv.appendChild(input);
+        targetDiv.appendChild(label);
+    }
+
+    displayWeaponInfo(weapon) {
+        const targetDiv = document.getElementById(this.config.rows[4]); // row5
+        
+        this.config.displayFields.forEach(field => {
+            const p = document.createElement("p");
+            p.innerHTML = `${field.label}: ${weapon[field.key]}`;
+            targetDiv.appendChild(p);
+        });
+        
+        console.log(weapon);
+    }
+
+    async loadClassifications() {
+        this.clearRowsFrom(1); // Clear rows 2-6
+        
+        try {
+            const data = await this.fetchWeaponData();
+            const classifications = this.getUniqueValues(data, 'Weapon_Classification');
             
-            const classes = [];
-            sheet.forEach(element => {if(element.Starter == "No"){if(classes.includes(element.ClassName)){}else {classes.push(element.ClassName);}}});
-            var myDiv = document.getElementById("row3");
-            classes.forEach(element => {
-                let label = document.createElement("label");
-                label.innerText = element;
-                label.htmlFor = element;
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "row3";
-                input.id = element;
-                myDiv.appendChild(input);
-                label.addEventListener("click", function(){VetTypes(element)});
-                myDiv.appendChild(label);
-                console.log(element);
+            classifications.forEach(classification => {
+                this.createRadioOption(
+                    classification,
+                    classification,
+                    "row1",
+                    () => this.loadSizes(classification),
+                    this.config.rows[1] // row2
+                );
             });
             
+            console.log('Classifications:', classifications);
+        } catch (error) {
+            console.error('Error loading classifications:', error);
+        }
+    }
+
+    async loadSizes(classification) {
+        this.clearRowsFrom(2); // Clear rows 3-6
+        
+        try {
+            const data = await this.fetchWeaponData();
+            const sizes = this.getUniqueValues(data, 'Size', { 'Weapon_Classification': classification });
             
-            console.log(classes);
-        })
-    );
+            sizes.forEach(size => {
+                this.createRadioOption(
+                    size,
+                    `${size}_row2`,
+                    "row2",
+                    () => this.loadNames(classification, size),
+                    this.config.rows[2] // row3
+                );
+            });
+            
+            console.log('Sizes:', sizes);
+        } catch (error) {
+            console.error('Error loading sizes:', error);
+        }
+    }
+
+    async loadNames(classification, size) {
+        this.clearRowsFrom(3); // Clear rows 4-6
+        
+        try {
+            const data = await this.fetchWeaponData();
+            const names = this.getUniqueValues(data, 'Name', { 
+                'Weapon_Classification': classification, 
+                'Size': size 
+            });
+            
+            names.forEach(name => {
+                this.createRadioOption(
+                    name,
+                    `${name}_row3`,
+                    "row3",
+                    () => this.loadWeaponInfo(classification, size, name),
+                    this.config.rows[3] // row4
+                );
+            });
+            
+            console.log('Names:', names);
+        } catch (error) {
+            console.error('Error loading names:', error);
+        }
+    }
+
+    async loadWeaponInfo(classification, size, name) {
+        this.clearRowsFrom(4); // Clear rows 5-6
+        
+        try {
+            const data = await this.fetchWeaponData();
+            const weapon = data.find(element => 
+                element.Weapon_Classification === classification && 
+                element.Size === size && 
+                element.Name === name
+            );
+            
+            if (weapon) {
+                this.displayWeaponInfo(weapon);
+            }
+        } catch (error) {
+            console.error('Error loading weapon info:', error);
+        }
+    }
 }
 
-function VetTypes(className){
-    //row 4
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
+// Create global instance
+const weaponExplorer = new WeaponExplorer();
 
-    fetch(`https://derpipose.github.io/JsonFiles/Classes.json`)
-        .then((result) => result.json() 
-        .then((sheet) => {
-            sheet.forEach(element => { if(element.ClassName==className){
-                var myDiv = document.getElementById("row4");
-                var p = document.createElement("p");
-                p.innerHTML = "Name: " + element.ClassName;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Mana Die: " + element.ManaDie;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Hit Die: " + element.HitDie;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Magic Books: " + element.MagicBooks;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Cantrips: " + element.Cantrips;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Chances: " + element.Chances;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Skills: " + element.ProficiencyCount;
-                myDiv.appendChild(p);
-                var p = document.createElement("p");
-                p.innerHTML = "Description: " + element.Description;
-                myDiv.appendChild(p);
-                console.log(element);
-            }});
-        })
-    );
-}
+// // Legacy function wrappers for backward compatibility
+// function Weapons() {
+//     weaponExplorer.loadClassifications();
+// }
 
-//Weapons
-function Weapons(){
-    //row 1
-    //clearing the lower rows
-    var row2 = document.getElementById("row2");
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row2);
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
+// function WeaponSizes(classification) {
+//     weaponExplorer.loadSizes(classification);
+// }
 
-    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                const classifications = [];
-                sheet.forEach(element => {if(classifications.includes(element.Weapon_Classification)){}else{classifications.push(element.Weapon_Classification);}});
-                var myDiv = document.getElementById("row2");
-                classifications.forEach(element => {
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element;
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row1";
-                    input.id = element;
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){WeaponSizes(element)});
-                    myDiv.appendChild(label);
-                });
-                console.log(classifications);
-            })
-        );
-}
+// function WeaponNames(classification, size) {
+//     weaponExplorer.loadNames(classification, size);
+// }
 
-function WeaponSizes(classification){
-    //row 2
-    //clearing the lower rows
-    var row3 = document.getElementById("row3");
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row3);
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                const sizes = [];
-                sheet.forEach(element => {if(sizes.includes(element.Size)){}else if(element.Weapon_Classification == classification){sizes.push(element.Size);}});
-                var myDiv = document.getElementById("row3");
-                sizes.forEach(element => {
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row2";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row2";
-                    input.id = element + "_row2";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){WeaponNames(classification, element)});
-                    myDiv.appendChild(label);
-                });
-                console.log(sizes);
-            })
-        );
-}
-
-function WeaponNames(classification, size){
-    //row 3
-    //clearing the lower rows
-    var row4 = document.getElementById("row4");
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row4);
-    wipeRow(row5);
-    wipeRow(row6);
-    
-    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                const names = [];
-                sheet.forEach(element => {if(names.includes(element.Name)){}else if(element.Weapon_Classification == classification && element.Size == size){names.push(element.Name);}});
-                var myDiv = document.getElementById("row4");
-                names.forEach(element => {
-                    let label = document.createElement("label");
-                    label.innerText = element;
-                    label.htmlFor = element + "_row3";
-                    let input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = "row3";
-                    input.id = element + "_row3";
-                    myDiv.appendChild(input);
-                    label.addEventListener("click", function(){WeaponInfo(classification, size, element)});
-                    myDiv.appendChild(label);
-                });
-                console.log(names);
-            })
-        );
-}
-
-function WeaponInfo(classification, size, name){
-    //row 4
-    //clearing the lower rows
-    var row5 = document.getElementById("row5");
-    var row6 = document.getElementById("row6");
-    wipeRow(row5);
-    wipeRow(row6);
-
-    fetch(`https://derpipose.github.io/JsonFiles/Weapons.json`)
-        .then((result) => result.json() 
-            .then((sheet) => {
-                sheet.forEach(element => {if(element.Weapon_Classification == classification && element.Size == size && element.Name == name){
-                    var myDiv = document.getElementById("row5");
-                    var p = document.createElement("p");
-                    p.innerHTML = "Name: " + element.Name;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Crit: " + element.Crit;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Crit Range: " + element.Crit_Range;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Range: " + element.Range;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Damage: " + element.Damage;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Damage Type: " + element.Damage_Type;
-                    myDiv.appendChild(p);
-                    var p = document.createElement("p");
-                    p.innerHTML = "Attack Stat: " + element.Attack_Stat;
-                    myDiv.appendChild(p);
-                    console.log(element);
-                }});
-            })
-        );
-}
+// function WeaponInfo(classification, size, name) {
+//     weaponExplorer.loadWeaponInfo(classification, size, name);
+// }
 
 
 function wipeRow(row){

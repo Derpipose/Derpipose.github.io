@@ -6729,7 +6729,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -6744,7 +6744,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -6759,7 +6759,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -6774,7 +6774,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -7149,7 +7149,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -7164,7 +7164,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -7179,7 +7179,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -7194,7 +7194,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""
@@ -7749,7 +7749,7 @@
     "DamageType": "",
     "Durration": "",
     "Description": "Disguise spell allowing you to shape shift into a different race, or even gender at any given time, but the options are limited",
-    "Starter": "",
+    "Starter": "No",
     "BookLevel": "",
     "ClassSpec1": "",
     "ClassSpec2": ""

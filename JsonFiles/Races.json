@@ -210,7 +210,7 @@
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Tiefling",
-    "Description": "Much like the Dragonborns, Tieflings are divided into two groups, noble and not noble tieflings. The noble Tieflings are usually quite polite, though they can be fairly snooty if they want to be.",
+    "Description": "Much like the Dragonborns, Tieflings are divided into two groups, noble and not noble tieflings. The noble Tieflings are usually quite polite, though they can be fairly snooty if they want to be. Non noble tieflings are those who have only two horns. They get 4 fiend racial spells, these are their heritages or lineage. If you are descendant from a pit fiend, you get the pit spell. Succubus or Incubus gets Allure, Spine devils get Spine.",
     "Starter": "Yes",
     "Special": "Fiendish Heritage; gets to pick 3 fiendish spells from a list provided by the DM.",
     "Pinterest_Inspo_Board": "https://pin.it/49rI6tl44"
@@ -280,6 +280,24 @@
   },
   {
     "Campaign": "Fantasy",
+    "SubType": "Oceanic",
+    "Name": "Merfolk",
+    "Description": "The kin of the Beastman, though instead of land going mammals the merfolk are all either fish based, oceanic mammal, or even reptillian. They are one of the oldest races and have ironically been used as a rosetta stone of sorts due ot the fact their language is one of the most stable in terms of it's longevity.",
+    "Starter": "Yes",
+    "Special": "Sea's Touch: Gain a bonus ability and skill based on which sea animal they are based on.",
+    "Pinterest_Inspo_Board": ""
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Oceanic",
+    "Name": "Selkie",
+    "Description": "Selkies are the sea's shapeshifters by nature. In the water they are seals and on land they look mostly human. These shapeshifters shed a seal skin coat when they go on land and require it to turn back into a seal when the time comes to go back into the water. If someone were to take the coat, the selkie is often bound to whoever has the coat, in hopes to get it back. For this reason, most tend to keep their coats near them at all times. As a human, selkies tend to display more grey or tanned skin with a grey to light brown hair color as well.",
+    "Starter": "Yes",
+    "Special": "Gain a swim speed of 45",
+    "Pinterest_Inspo_Board": ""
+  },
+  {
+    "Campaign": "Fantasy",
     "SubType": "Rare",
     "Name": "Anubi",
     "Description": "The Anubi, a regal race of jackals who prowl the deserts. They pride themselves on their knowledge and their skill in manipulating precious metals into something magical. Standing about the height of a tall human these Beastfolk adorn themselves in gold and silk, and build monuments to outlive the world. They have gained notoriety in their time as the builders of wonders, makers of artifacts, and the oracles of the future. Though this all comes at a cost, their nobility has led them to be shortsighted in terms of war, and have had many unnecessary losses over the years they’ve reigned the deserts, leaving them few in number.",
@@ -309,7 +327,7 @@
     "Campaign": "Fantasy",
     "SubType": "Rare",
     "Name": "Half Orc",
-    "Description": "",
+    "Description": "Half Orc's are the children of the crossing of breeds with orcs. The orc fathers are often still wild rampaging barbarians but their children, the victims of their plundering and pillaging are often left as long term scars on places they've touched. The Half orc's are strong and burly and come in a wide variety as orc's can breed with quite a few races much akin to elves and humans.",
     "Starter": "Yes",
     "Special": "Half Breed: Gains the special ability of one parent and the physical stats of the other.",
     "Pinterest_Inspo_Board": ""
@@ -321,6 +339,15 @@
     "Description": "These avians lack the ability to fly, with the lack of wings, but they are covered in feathers and take appearances from corvids. Kenku are often much shorter than aarakocra, around 4.5-5.5 foot tall. They love their shiny things and often can let that distract them from their work.",
     "Starter": "Yes",
     "Special": "Flutterfall + Perform: You have the equivalent of a built in featherfall for yourself.  You also gain a natural proficiency in performance.",
+    "Pinterest_Inspo_Board": ""
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Oceanic",
+    "Name": "Marrow",
+    "Description": "The Marrow are monsterous fish folk who once presented a massive danger to all sea going species now they are divided between those who have become civil and those who are wild and barbaric. They resemble full body sea beast folk with humanoid body shapes, they live alongside the merfolk and often bridge the gap between them and the land dwellers as the marrow have developed a second set of lungs from their constant raiding of the surface, now it serves a new purpose letting them walk the shores with normal people.",
+    "Starter": "No",
+    "Special": "Barbaric heritage: The Marrow have vestiges of their past, many can use some of the monsterous abilities of their progenitors, gaining specific abilities tied to what sea animal they primarily are. They also have a swim speed based off their sea beast.",
     "Pinterest_Inspo_Board": ""
   },
   {
@@ -753,33 +780,6 @@
     "Description": "Ulfgar are the wolven cousins of the houndsmen. They are often brutish and tend to be more barbaric than the other races. They honestly couldn’t care more about what crosses their path, they’d gladly take it out and use their bones as a nice chew toy. Their demeanor tends to trend more towards viking culture than anything else. It’s rare to have a socialized and friendly ulfgar.",
     "Starter": "Yes",
     "Special": "Olfrins Children: gain +2 chances, and natural intimidation, but vulnerability to fire",
-    "Pinterest_Inspo_Board": ""
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oceanic",
-    "Name": "Selkie",
-    "Description": "Selkies are the sea's shapeshifters by nature. In the water they are seals and on land they look mostly human. These shapeshifters shed a seal skin coat when they go on land and require it to turn back into a seal when the time comes to go back into the water. If someone were to take the coat, the selkie is often bound to whoever has the coat, in hopes to get it back. For this reason, most tend to keep their coats near them at all times. As a human, selkies tend to display more grey or tanned skin with a grey to light brown hair color as well.",
-    "Starter": "Yes",
-    "Special": "Gain a swim speed of 45",
-    "Pinterest_Inspo_Board": ""
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oceanic",
-    "Name": "Merfolk",
-    "Description": "",
-    "Starter": "Yes",
-    "Special": "",
-    "Pinterest_Inspo_Board": ""
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oceanic",
-    "Name": "Marrow",
-    "Description": "",
-    "Starter": "No",
-    "Special": "",
     "Pinterest_Inspo_Board": ""
   }
 ]

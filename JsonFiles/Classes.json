@@ -8,11 +8,12 @@
     "MagicBooks": 1,
     "Cantrips": 15,
     "Chances": 9,
-    "Description": "Eternal rage is a good rage. Barbarians have a couple of routes they can choose to follow. Way of the totem allows you choose an animal that you can share strength with. You turn into a half were-creature with that animal, calling upon it during your rage, imbuing your body with the totem's power. Next is the way of the berserker. The lower your health, the harder you hit. It's risky but could be worth the risk of your life.",
+    "Description": "Eternal rage is a good rage. Barbarians have a few routes they can choose to follow. Way of the totem allows you choose an animal that you can share strength with. You turn into a half were-creature with that animal, calling upon it during your rage, imbuing your body with the totem's power. Next is the way of the berserker. The lower your health, the harder you hit. It's risky but could be worth the risk of your life. Last is the path of Ink which involves coatign the barbairan's body with tattoo's laced with magic allowing far more potent abilities and added bonus of being able to store weapons into the tattoos.",
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Str",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -27,7 +28,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Str",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -38,11 +40,12 @@
     "MagicBooks": 3,
     "Cantrips": 15,
     "Chances": 5,
-    "Description": "Evil, undead, sickly creatures, all must be rid. Crusaders spend their time making sure that the world is cured from the sickness known as corruption. Wielding a white book or two known as Celestia, they are able to deal great amounts of damage to dark tainted creatures, such as undead. At half health, they regain all of their mana in a burst of energy.",
+    "Description": "Evil, undead, sickly creatures, all must be rid. Crusaders spend their time making sure that the world is cured from the sickness known as corruption. Wielding a white book or two known as Celestia, they are able to deal great amounts of damage to dark tainted creatures, such as undead. At half health, they regain all of their mana in a burst of energy. They have a unique relationship with Clerics and Healers, all three can utilize chapels based in certain virtues which can each teach them a special spell.",
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Int",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -57,7 +60,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Con",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -72,7 +76,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Str",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -87,7 +92,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -102,7 +108,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -117,7 +124,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
@@ -132,22 +140,24 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Con",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "No"
   },
   {
     "Classification": "Combat",
     "ClassName": "Myrmidon",
-    "HitDie": "",
-    "ManaDie": "",
-    "ProficiencyCount": "",
-    "MagicBooks": "",
-    "Cantrips": "",
-    "Chances": "",
+    "HitDie": 12,
+    "ManaDie": 8,
+    "ProficiencyCount": 2,
+    "MagicBooks": 2,
+    "Cantrips": 15,
+    "Chances": 8,
     "Description": "If fireball were a mele attack",
     "Starter": "No",
-    "SpellCastingModifier": "",
-    "StatFavor1": "",
-    "StatFavor2": ""
+    "SpellCastingModifier": "Int",
+    "StatFavor1": "Con",
+    "StatFavor2": "Str",
+    "WIP": "Yes"
   },
   {
     "Classification": "Magic",
@@ -158,11 +168,12 @@
     "MagicBooks": 3,
     "Cantrips": 30,
     "Chances": 2,
-    "Description": "When words fail, music speaks. Bards have no lack of implements for their spell casting. Any instrument that they spend enough time with, can become their implement if they so desired it to be. They spend most of their training learning how to please the ear with the music they produce. Not only can it be pleasing to the ear but it can have a unique boon to the spells cast by the bard.",
+    "Description": "When words fail, music speaks. Bards have no lack of implements for their spell casting. Any instrument that they spend enough time with, can become their implement if they so desired it to be. They spend most of their training learning how to please the ear with the music they produce. Not only can it be pleasing to the ear but it can have a unique boon to the spells cast by the bard. They have a large repitoire of unique music based spells only they can learn and utilize in combat, and outside combat.",
     "Starter": "Yes",
     "SpellCastingModifier": "Cha",
     "StatFavor1": "Cha",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -173,11 +184,28 @@
     "MagicBooks": 5,
     "Cantrips": 30,
     "Chances": 3,
-    "Description": "Spells or sword? Both, both is good. The battle mage is what happens when a warrior teaches a mage. Battle Mages can often tank hit and deal that damage right on back. They are one of the odd mage classes that fit half way between combat and magic classes. There's two kinds of Battlemage, one that focuses on Health and one that focuses on Mana. Health focused battlemages start with a D12 hit die and a D10 mana die. While Mana focused battlemages start with a D10 hit die and a D12 mana die.",
+    "Description": "Spells or sword? Both, both is good. The battle mage is what happens when a warrior teaches a mage. Battle Mages can often tank hit and deal that damage right on back. They are one of the odd mage classes that fit half way between combat and magic classes. There's two kinds of Battlemage, one that focuses on Health and one that focuses on Mana.",
     "Starter": "Yes",
     "SpellCastingModifier": "Int/Wis",
     "StatFavor1": "Str/Int",
-    "StatFavor2": "Con/Wis"
+    "StatFavor2": "Con/Wis",
+    "WIP": "No"
+  },
+  {
+    "Classification": "",
+    "ClassName": "",
+    "HitDie": "",
+    "ManaDie": "",
+    "ProficiencyCount": "",
+    "MagicBooks": "",
+    "Cantrips": "",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "",
+    "StatFavor2": "",
+    "WIP": ""
   },
   {
     "Classification": "Magic",
@@ -188,11 +216,12 @@
     "MagicBooks": 5,
     "Cantrips": 30,
     "Chances": 3,
-    "Description": "Don't take my kindness for weakness. Clerics both heal and deal damage. They aren't the most hearty of the casters but that doesn't stop them from often throwing themselves in danger just to save their party members. Most will focus heavily on two main magic branches, Life and Celestia, the two white magic branches.",
+    "Description": "Don't take my kindness for weakness. Clerics both heal and deal damage. They aren't the most hearty of the casters but that doesn't stop them from often throwing themselves in danger just to save their party members. Most will focus heavily on two main magic branches, Life and Celestia, the two white magic branches. They have a unique relationship with Crusaders and Healers, all three can utilize chapels based in certain virtues which can each teach them a special spell.",
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Wis",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -203,11 +232,12 @@
     "MagicBooks": 4,
     "Cantrips": 30,
     "Chances": 2,
-    "Description": "Healers are in the back, but far from unimportant. Less frequently known as white mages, Healers are specialized in books of Life, usually starting with the first two books. They spend their time tending and caring for those who can’t, oftentimes finding themselves beside clerics in abbeys, they find strength in praying to omuns for strength and guidance to heal their party members more. However, never take them for being helpless as they can employ a class specific spell called \"Evoke\".",
+    "Description": "Healers are in the back, but far from unimportant. Less frequently known as white mages, Healers are specialized in books of Life, usually starting with the first two books. They spend their time tending and caring for those who can’t, oftentimes finding themselves beside clerics in abbeys, they find strength in praying to omuns for strength and guidance to heal their party members more. However, never take them for being helpless as they can employ a class specific spell called \"Evoke\".They have a unique relationship with Crusaders and Clerics, all three can utilize chapels based in certain virtues which can each teach them a special spell.",
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Wis",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -218,11 +248,12 @@
     "MagicBooks": 6,
     "Cantrips": 30,
     "Chances": 2,
-    "Description": "A mage is only as good as their arsenal of spells. Adept at spellcasting, mages have spent their time learning from masters before them. Some chose to attend magic academies, while others may learn from a master or two. Either way, they earn books of worth, tomes that not only signify what they have accomplished, but also enable unique boons for the mage. Along with the books of worth, mages usually pick a pallet, a color of spellcasting that boosts certain abilities.",
+    "Description": "A mage is only as good as their arsenal of spells. Adept at spellcasting, mages have spent their time learning from masters before them. Some chose to attend magic academies, while others may learn from a master or two. Either way, they earn books of worth, tomes that not only signify what they have accomplished, but also enable unique boons for the mage. Along with the books of worth, they get more spell books and implements to do their job.",
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Int",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -237,7 +268,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Wis",
-    "StatFavor2": "Cha"
+    "StatFavor2": "Cha",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -248,11 +280,12 @@
     "MagicBooks": 4,
     "Cantrips": 30,
     "Chances": 3,
-    "Description": "A sword is as good as it's wielder, but it doesn't hurt to put a spell on it. Spellswords and Enchanters are one in the same, it just depends on where they place their spells. Enchanters tend to enchant and rune their armor. Spellswords on the other hand, enchant and rune their weapons. Both get a unique book that allows spells to become temporarily imbued into what they choose.",
+    "Description": "A sword is as good as it's wielder, but it doesn't hurt to put a spell on it. Spellswords and Enchanters are one in the same, it just depends on where they place their spells. Enchanters tend to enchant and rune their armor. Spellswords on the other hand, enchant and rune their weapons. Both get a unique book that allows spells to become temporarily imbued into what they choose. Enchanters also tend to enchant their comrades gear whereas spellsword fight one the frontlines instead of hiding in the back.",
     "Starter": "Yes",
     "SpellCastingModifier": "Wis/int",
     "StatFavor1": "Wis/Int",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -263,11 +296,12 @@
     "MagicBooks": 5,
     "Cantrips": 30,
     "Chances": 2,
-    "Description": "Having friends is useful, but summons and conjures are always there to back you up. Summoners can work in a few ways. Either they have formed a unique bond with each summon they possess or they managed to get their hands on a very rare Summons spell book. On the flip side, Conjurers summon constructions that they build from their own mana. Conjurers can imbue their contsructs with another spell to give the construct special effects.",
+    "Description": "Having friends is useful, but summons and conjures are always there to back you up. Summoners can work in a few ways. Either they have formed a unique bond with each summon they possess or they managed to get their hands on a very rare Summons spell book. There is a branch of summoners who instead of books rely on a comination of books, making pacts and using totems containing the spirit of powerful beasts and beings. On the flip side, conjurers can imbue their contsructs with another spell to give the construct special effects, these constructs are often being from elemental planes that serve the conjurer.",
     "Starter": "Yes",
     "SpellCastingModifier": "Wis/Int",
     "StatFavor1": "Wis/Int",
-    "StatFavor2": "Int/Wis"
+    "StatFavor2": "Int/Wis",
+    "WIP": "No"
   },
   {
     "Classification": "Magic",
@@ -282,7 +316,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Int",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -297,7 +332,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -312,7 +348,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Cha",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -327,7 +364,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Wis",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -342,7 +380,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -357,7 +396,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Cha"
+    "StatFavor2": "Cha",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -372,7 +412,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Dex",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -387,7 +428,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Any",
-    "StatFavor2": "Any"
+    "StatFavor2": "Any",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -402,7 +444,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Any",
-    "StatFavor2": "Any"
+    "StatFavor2": "Any",
+    "WIP": "No"
   },
   {
     "Classification": "Utility",
@@ -417,7 +460,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Wis",
-    "StatFavor2": "Cha"
+    "StatFavor2": "Cha",
+    "WIP": "Yes"
   },
   {
     "Classification": "Utility",
@@ -432,7 +476,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Int",
     "StatFavor1": "Dex",
-    "StatFavor2": "Any"
+    "StatFavor2": "Any",
+    "WIP": "No"
   },
   {
     "Classification": "Veteran",
@@ -447,7 +492,24 @@
     "Starter": "No",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Str",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Veteran",
+    "ClassName": "Sentinel",
+    "HitDie": 12,
+    "ManaDie": 4,
+    "ProficiencyCount": 4,
+    "MagicBooks": 1,
+    "Cantrips": 10,
+    "Chances": 6,
+    "Description": "Stand for what you need, but be always on the move. The Sentinel, is a far cry from a stationary defender, rather, they utilize rapid movement and the reach of their polearms to exploit enemies weaknesses and gaps in their defenses. They use throwing weapons to feign attacks and create openings for themselves to punch hard hitting strikes through the toughest opponents. Sentinels have different combat styles named after the old draconids: Dragon, Wyvern, Drake, and Wurm. Each of these pertain to how to utilize their weapons and skills, being ritual casters as well as adept masters at improvised tactics they can easily overwhelm those unfamiliar with the nuances of combat.",
+    "Starter": "No",
+    "SpellCastingModifier": "Int",
+    "StatFavor1": "Dex/Str",
+    "StatFavor2": "Str/Dex",
+    "WIP": "Yes"
   },
   {
     "Classification": "Veteran",
@@ -462,7 +524,8 @@
     "Starter": "No",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Wis",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -477,7 +540,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Con",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -492,7 +556,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Cha",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -507,7 +572,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Dex",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -522,7 +588,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Dex",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -537,7 +604,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Int",
-    "StatFavor2": "Cha"
+    "StatFavor2": "Cha",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -552,7 +620,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Str",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -567,7 +636,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "Wis",
     "StatFavor1": "Wis",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -582,7 +652,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Dex",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -597,7 +668,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Wis",
-    "StatFavor2": "Con"
+    "StatFavor2": "Con",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -612,7 +684,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Wis",
-    "StatFavor2": "Str"
+    "StatFavor2": "Str",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -627,7 +700,8 @@
     "Starter": "",
     "SpellCastingModifier": "",
     "StatFavor1": "",
-    "StatFavor2": ""
+    "StatFavor2": "",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -642,7 +716,8 @@
     "Starter": "",
     "SpellCastingModifier": "",
     "StatFavor1": "",
-    "StatFavor2": ""
+    "StatFavor2": "",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -657,7 +732,8 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Int",
-    "StatFavor2": "Dex"
+    "StatFavor2": "Dex",
+    "WIP": "Yes"
   },
   {
     "Classification": "Eastern",
@@ -672,6 +748,119 @@
     "Starter": "Yes",
     "SpellCastingModifier": "N/A",
     "StatFavor1": "Int",
-    "StatFavor2": "Wis"
+    "StatFavor2": "Wis",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "TECH(Technology & Hacking)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Int",
+    "StatFavor2": "",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "CBT(Combat)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Dex",
+    "StatFavor2": "",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "RCN(Reconnaissance)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Dex",
+    "StatFavor2": "",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "HCHM(Heavy combat & Hazardous Materials)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Str",
+    "StatFavor2": "",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "AMS (Assigned Medical Support)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Wis",
+    "StatFavor2": "",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "DRV (Driver Responsible for Vehicles)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Wis",
+    "StatFavor2": "",
+    "WIP": "Yes"
+  },
+  {
+    "Classification": "Sci fi",
+    "ClassName": "SFO (Satellite Fabricator Operator)",
+    "HitDie": "",
+    "ManaDie": "N/A",
+    "ProficiencyCount": "",
+    "MagicBooks": "N/A",
+    "Cantrips": "N/A",
+    "Chances": "",
+    "Description": "Equipped with the Fabri-tech Wrist Mounted Computer(WMC) paired with a Tactical Display visor both are  linked with the expensive Satellite Micro Fabricator, made by Mechanica & UGIS. Description- Personnel who are trained and capable of operating the WMC and Satellite micro Fabricator. Role:Orbital Support, Long term Salvaging and, Orbital offensive capability. The Fabri-tech wrist computer paired with a Tactical display visor allows the user to be able to send requests to the orbiting Satellite Fabricator and using them they can use the entire kit together to call in orbital strikes, defenses, turrets, spare parts the list goes on. This unholy combination of abilities is only limited to the creativity and ingenuity of the Person in charge of operating it, though it does require resources, that luckily can be found when scavenging and salvaging derelicts, wrecks and all sorts of debris left over by other people in the Dark zone.",
+    "Starter": "",
+    "SpellCastingModifier": "",
+    "StatFavor1": "Int",
+    "StatFavor2": "",
+    "WIP": "Yes"
   }
 ]

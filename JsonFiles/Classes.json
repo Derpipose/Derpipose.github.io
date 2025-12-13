@@ -192,22 +192,6 @@
     "WIP": "No"
   },
   {
-    "Classification": "",
-    "ClassName": "",
-    "HitDie": "",
-    "ManaDie": "",
-    "ProficiencyCount": "",
-    "MagicBooks": "",
-    "Cantrips": "",
-    "Chances": "",
-    "Description": "",
-    "Starter": "",
-    "SpellCastingModifier": "",
-    "StatFavor1": "",
-    "StatFavor2": "",
-    "WIP": ""
-  },
-  {
     "Classification": "Magic",
     "ClassName": "Cleric",
     "HitDie": 8,

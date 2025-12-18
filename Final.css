@@ -251,6 +251,9 @@
   .fantasy #weapons{
     background-color: slategrey;
   }
+  .fantasy #feats{
+    background-color: #FFB347;
+  }
   .fantasy #veterans{
     background-color: seagreen;
   }

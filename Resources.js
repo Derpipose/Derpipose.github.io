@@ -3,6 +3,7 @@ window.onload = function (){
     document.getElementById("spells").addEventListener("click", function(){Spells()});
     document.getElementById("classes").addEventListener("click", function(){Classes()});
     document.getElementById("weapons").addEventListener("click", function(){Weapons()});
+    document.getElementById("feats").addEventListener("click", function(){featExplorer.loadCategories()});
     document.getElementById("veterans").addEventListener("click", function(){Vet()});
 
 }
@@ -984,6 +985,166 @@ function WeaponNames(classification, size) {
 function WeaponInfo(classification, size, name) {
     weaponExplorer.loadWeaponInfo(classification, size, name);
 }
+
+
+//Feats - Refactored Version
+class FeatExplorer {
+    constructor() {
+        this.config = {
+            apiUrl: 'https://derpipose.github.io/JsonFiles/Feats.json',
+            rows: ['row1', 'row2', 'row3', 'row4', 'row5', 'row6'],
+            displayFields: [
+                { key: 'Feat', label: 'Feat' },
+                { key: 'Description', label: 'Description' },
+                { key: 'Skill', label: 'Skill' },
+                { key: 'Health', label: 'Health' },
+                { key: 'Mana', label: 'Mana' },
+                { key: 'Statchange', label: 'Stat Change' },
+                { key: 'Stat', label: 'Stat' },
+                { key: 'Spellbook', label: 'Spellbook' },
+                { key: 'Downside', label: 'Downside' },
+                { key: 'Item', label: 'Item' },
+                { key: 'Checks', label: 'Checks' }
+            ]
+        };
+        this.cachedData = null;
+    }
+
+    async fetchFeatData() {
+        if (this.cachedData) return this.cachedData;
+        
+        try {
+            const response = await fetch(this.config.apiUrl);
+            this.cachedData = await response.json();
+            return this.cachedData;
+        } catch (error) {
+            console.error('Error fetching feat data:', error);
+            throw error;
+        }
+    }
+
+    clearRowsFrom(startRowIndex) {
+        for (let i = startRowIndex; i < this.config.rows.length; i++) {
+            const row = document.getElementById(this.config.rows[i]);
+            if (row) wipeRow(row);
+        }
+    }
+
+    getUniqueValues(data, field, filters = {}) {
+        const values = [];
+        data.forEach(element => {
+            const value = element[field];
+            if (!values.includes(value) && value) {
+                const matchesFilters = Object.entries(filters).every(
+                    ([key, filterValue]) => element[key] === filterValue
+                );
+                if (matchesFilters) {
+                    values.push(value);
+                }
+            }
+        });
+        return values;
+    }
+
+    createRadioOption(text, id, name, clickHandler, targetRowId) {
+        const targetDiv = document.getElementById(targetRowId);
+        
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = name;
+        input.id = id;
+        
+        const label = document.createElement("label");
+        label.innerText = text;
+        label.htmlFor = id;
+        label.addEventListener("click", clickHandler);
+        
+        targetDiv.appendChild(input);
+        targetDiv.appendChild(label);
+    }
+
+    displayFeatInfo(feat) {
+        const targetDiv = document.getElementById(this.config.rows[3]); // row4
+        
+        this.config.displayFields.forEach(field => {
+            const value = feat[field.key];
+            if (value && value !== "") {
+                const p = document.createElement("p");
+                p.innerHTML = `${field.label}: ${value}`;
+                targetDiv.appendChild(p);
+            }
+        });
+        
+        console.log(feat);
+    }
+
+    async loadCategories() {
+        this.clearRowsFrom(1); // Clear rows 2-6
+        
+        try {
+            const data = await this.fetchFeatData();
+            const categories = this.getUniqueValues(data, 'Category');
+            
+            categories.forEach(category => {
+                this.createRadioOption(
+                    category,
+                    category,
+                    "row1",
+                    () => this.loadFeats(category),
+                    this.config.rows[1] // row2
+                );
+            });
+            
+            console.log('Categories:', categories);
+        } catch (error) {
+            console.error('Error loading categories:', error);
+        }
+    }
+
+    async loadFeats(category) {
+        this.clearRowsFrom(2); // Clear rows 3-6
+        
+        try {
+            const data = await this.fetchFeatData();
+            const feats = this.getUniqueValues(data, 'Feat', { 'Category': category });
+            
+            feats.forEach(feat => {
+                this.createRadioOption(
+                    feat,
+                    `${feat}_row2`,
+                    "row2",
+                    () => this.loadFeatInfo(category, feat),
+                    this.config.rows[2] // row3
+                );
+            });
+            
+            console.log('Feats:', feats);
+        } catch (error) {
+            console.error('Error loading feats:', error);
+        }
+    }
+
+    async loadFeatInfo(category, featName) {
+        this.clearRowsFrom(3); // Clear rows 4-6
+        
+        try {
+            const data = await this.fetchFeatData();
+            const feat = data.find(element => 
+                element.Category === category && 
+                element.Feat === featName
+            );
+            
+            if (feat) {
+                this.displayFeatInfo(feat);
+            }
+        } catch (error) {
+            console.error('Error loading feat info:', error);
+        }
+    }
+}
+
+// Create global instance
+const featExplorer = new FeatExplorer();
 
 
 function wipeRow(row){

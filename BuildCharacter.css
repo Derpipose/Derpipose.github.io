@@ -1,3 +1,10 @@
+/* ========== Body Background ========== */
+body {
+    background: linear-gradient(135deg, #f3e7ff 0%, #e7f3ff 100%);
+    min-height: 100vh;
+}
+
+/* ========== Display Controls ========== */
 #CampaignSelected{
     display: none;
 }
@@ -29,6 +36,7 @@
 #pick1-container{
     display: none;
 }
+
 #pick2-container{
     display: none;
 }
@@ -39,4 +47,302 @@
 
 #RaceInfo{
     display: none;
+}
+
+/* ========== Header Styling ========== */
+#CharacterBuilderHead {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#CharacterBuilderHead h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#CharacterBuilderHead h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.95;
+}
+
+/* ========== Body Container ========== */
+#CharacterBuilderBody {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ========== Form Styling ========== */
+#BuildCharacter,
+#FinishedCharacter {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Input Fields ========== */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+select {
+    cursor: pointer;
+    background-color: white;
+}
+
+/* ========== Labels ========== */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+/* ========== Radio Buttons ========== */
+input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input[type="radio"] + label {
+    display: inline;
+    margin: 0 20px 0 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* ========== Sections & Containers ========== */
+#Stats {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 20px 0;
+    border-left: 4px solid #667eea;
+}
+
+#Stats p {
+    color: #666;
+    font-size: 13px;
+    margin: 8px 0;
+}
+
+#Stats p:first-child {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+/* ========== Stat Inputs Grid ========== */
+#Stats > div:nth-child(n + 5) {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+#Stats label {
+    margin: 0;
+    margin-right: 10px;
+    min-width: 50px;
+}
+
+#Stats input[type="number"] {
+    width: 80px;
+    margin: 0 10px 0 0;
+}
+
+#Stats span {
+    font-weight: 600;
+    color: #667eea;
+    margin-right: 15px;
+}
+
+/* ========== Warning Messages ========== */
+#WarnStats p,
+#WarnRace p,
+#WarnClass p {
+    background: #fff3cd;
+    color: #856404;
+    padding: 12px;
+    border-radius: 4px;
+    border-left: 4px solid #ffc107;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+/* ========== Pick Containers ========== */
+#pick1-container,
+#pick2-container {
+    background: #f0f4ff;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    border: 1px solid #dde7f7;
+}
+
+#pick1-container p,
+#pick2-container p {
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+#pick1-container input[type="radio"],
+#pick2-container input[type="radio"] {
+    margin-right: 8px;
+}
+
+#pick1-container label,
+#pick2-container label {
+    display: inline;
+    margin: 0 15px 0 0;
+    font-weight: normal;
+}
+
+/* ========== Info Sections ========== */
+#RaceInfo,
+#ClassInfo {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+}
+
+#RaceInfo p,
+#ClassInfo p {
+    margin: 8px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+#RaceInfo span,
+#ClassInfo span {
+    font-weight: 600;
+    color: #667eea;
+}
+
+/* ========== Buttons ========== */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+#CreateCharacter {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#CreateCharacter:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+}
+
+#CreateCharacter:active {
+    transform: translateY(0);
+}
+
+#BackToBuild {
+    background: #6c757d;
+    color: white;
+    width: 100%;
+    padding: 12px;
+}
+
+#BackToBuild:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ========== Character Display ========== */
+#FinishedCharacter {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#FinishedCharacter h3 {
+    color: #667eea;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+#FinishedCharacter p {
+    padding: 8px 0;
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+}
+
+#FinishedCharacter span {
+    font-weight: 600;
+    color: #764ba2;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+    #CharacterBuilderHead {
+        padding: 20px 15px;
+    }
+
+    #CharacterBuilderHead h1 {
+        font-size: 22px;
+    }
+
+    #BuildCharacter,
+    #FinishedCharacter {
+        padding: 20px 15px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+        padding: 8px;
+    }
+
+    #Stats input[type="number"] {
+        width: 70px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
 }

@@ -536,7 +536,7 @@ function checkBuildConditions(){
     const cha = document.getElementById("Cha");
     var stats = false;
 
-    if(str.value == 0 || dex.value == 0 || con.value == 0 || int.value == 0 || wis.value == 0 || cha.value == 0){
+    if(str.value == "" || dex.value == "" || con.value == "" || int.value == "" || wis.value == "" || cha.value == "" || str.value == 0 || dex.value == 0 || con.value == 0 || int.value == 0 || wis.value == 0 || cha.value == 0){
         stats = false;
         console.log("There were blanks in the stats");
         showStatWarn();
@@ -622,6 +622,20 @@ function regulateStat(Stat){
         console.log("Chaotic stupid isn't an alignment.");
     }
     updateStatCalculations(Stat);
+    
+    // Check if all stats are filled in
+    const str = document.getElementById("Str");
+    const dex = document.getElementById("Dex");
+    const con = document.getElementById("Con");
+    const int = document.getElementById("Int");
+    const wis = document.getElementById("Wis");
+    const cha = document.getElementById("Cha");
+    
+    if(str.value != "" && str.value != 0 && dex.value != "" && dex.value != 0 && con.value != "" && con.value != 0 && int.value != "" && int.value != 0 && wis.value != "" && wis.value != 0 && cha.value != "" && cha.value != 0){
+        hideStatWarn();
+    } else {
+        showStatWarn();
+    }
 }
 
 function wipeCharacter(span){

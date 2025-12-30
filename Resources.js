@@ -270,7 +270,7 @@ class SpellExplorer {
                 { key: 'Range', label: 'Range' },
                 { key: 'HitDie', label: 'Hit Die' },
                 { key: 'DamageType', label: 'Type' },
-                { key: 'Durration', label: 'Duration' },
+                { key: 'Duration', label: 'Duration' },
                 { key: 'Description', label: 'Description' }
             ]
         };

@@ -3,7 +3,7 @@
     "Campaign": "Fantasy",
     "SubType": "Ancient",
     "Name": "Aedir",
-    "Description": "Aedir are angelfolk that are decendants from the great Justice herself. In modern times it is near impossible to find one unless some strange circumstance happened that somehow displaced them from their time. They were around during the time of the Fjordians.",
+    "Description": "Aedir are angelfolk that are descendants from the great Justice herself. In modern times it is near impossible to find one unless some strange circumstance happened that somehow displaced them from their time. They were around during the time of the Fjordians.",
     "Starter": "No",
     "Special": "Holy Children: start with Celestia and healing",
     "Str": 0,
@@ -21,13 +21,14 @@
     "AgeMax": 2400,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Ancient",
     "Name": "Sauran",
-    "Description": "One of the oldest and most historic races of the world, the Suran or Trogs as they’ve been called, are one of the predecessor races. They are the only still living race that wears that title, they are few in number and are spread thin. They cling to the wild untamed jungles, these monsters of strength and brute force in ages past made mockeries of mages and magic through sheer brute strength and power. Though era’s and ages have passed they remain, as a living reminder that Strength can fight magic.",
+    "Description": "One of the oldest and most historic races of the world, the Suran or Trogs as they’ve been called, are one of the predecessor races. They are the only still living race that wears that title, they are few in number and are spread thin. They cling to the wild untamed jungles, these monsters of strength and brute force in ages past made mockeries of mages and magic through sheer brute strength and power. Though eras and ages have passed they remain, as a living reminder that Strength can fight magic.",
     "Starter": "No",
     "Special": "Sauran Resilience, + 3 to one save and they take one dice less bleeding damage",
     "Str": 2,
@@ -45,7 +46,8 @@
     "AgeMax": 1000,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": "https://pin.it/y8czP8tsB"
   },
   {
     "Campaign": "Fantasy",
@@ -61,7 +63,7 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 25,
+    "BonusMana": 35,
     "AddOrMultMana": "Add",
     "Speed": 35,
     "Language": "Elvish",
@@ -69,7 +71,8 @@
     "AgeMax": 2000,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -77,7 +80,7 @@
     "Name": "Aarakocra",
     "Description": "The noble aarakocra. These avians descend from the true avians in the world as you know it. There is every bird under the sun that the aarakocra can wear the feathers of. These birds are equipped with flight but usually can’t fight. Their hollow bones allow for flight but in return, they are easily broken. There are some exceptions to this and those are the hawks and eagles who are usually protectors and defenders. Another thing to note is they tend to adhere to a hierarchy where the more noble birds, owls and eagles, lead, showy birds and songbirds follow. Along the bottom of the barrel corvids rank highest followed by vultures and finally the lowest of the birds, as far as the aarakocra are concerned, the pigeons and seagulls, sky rats. Although some of the aarakocra don’t care about this code, the highest avians see themselves as better than the rest.",
     "Starter": "Yes",
-    "Special": "Hollow bones mean that you should avoid combat, unless you are a raptor species. Mele will see your bones broken.",
+    "Special": "Hollow bones mean that you should avoid combat, unless you are a raptor species. Melee will see your bones broken.",
     "Str": 0,
     "Dex": 2,
     "Con": 0,
@@ -85,21 +88,22 @@
     "Int": 0,
     "Cha": 0,
     "Pick": 1,
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 5,
+    "AddOrMultMana": "Add",
     "Speed": 35,
     "Language": "Avian",
     "AdventuringAgeStart": 18,
     "AgeMax": 120,
     "HHCompat": "No",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2VYZlDwxG"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Beastial",
     "Name": "Dragonborn",
-    "Description": "A noble race famed for their kinship with the Dragons, no one know exactly how the dragonborn came to be but they persist and survive despite the world's constant tumultuous periods. They are one of the toughest races, and are blessed with wings or dragon breath, and in very rare cases both. They are a race that seeks to help the other nations of the world, rarely enough dragonborn around to have their own civilization. They tend to have one of two naming schemes. The first is reserved for nobles. Roll a D20 and come up with that many middle names that have some meaning to you or your family. These are your ancestors leading up to you. When writing your name, it is your first name, your parent's name and then your last name. If you are not noble, you only need one name. It can be very simple, like John or Millie.",
+    "Description": "A noble race famed for their kinship with the Dragons, no one knows exactly how the dragonborn came to be but they persist and survive despite the world's constant tumultuous periods. They are one of the toughest races, and are blessed with wings or dragon breath, and in very rare cases both. They are a race that seeks to help the other nations of the world, rarely enough dragonborn around to have their own civilization. They tend to have one of two naming schemes. The first is reserved for nobles. Roll a D20 and come up with that many middle names that have some meaning to you or your family. These are your ancestors leading up to you. When writing your name, it is your first name, your parent's name and then your last name. If you are not noble, you only need one name. It can be very simple, like John or Millie.",
     "Starter": "Yes",
     "Special": "Dragonkin: Dragonbreath & resistance",
     "Str": 0,
@@ -109,15 +113,16 @@
     "Int": 0,
     "Cha": 1,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 10,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Draconic",
     "AdventuringAgeStart": 18,
     "AgeMax": 200,
     "HHCompat": "No",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -133,15 +138,16 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": -5,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "",
     "AdventuringAgeStart": 18,
     "AgeMax": 100,
     "HHCompat": "No",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2dNzN9SKP"
   },
   {
     "Campaign": "Fantasy",
@@ -165,7 +171,8 @@
     "AgeMax": 140,
     "HHCompat": "No",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/5U8j1H9ct"
   },
   {
     "Campaign": "Fantasy",
@@ -181,7 +188,7 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 25,
+    "BonusMana": 15,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Draconic",
@@ -189,7 +196,8 @@
     "AgeMax": 120,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": "https://pin.it/U9CMPudrM"
   },
   {
     "Campaign": "Fantasy",
@@ -205,15 +213,16 @@
     "Int": 1,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 10,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Pasti",
     "AdventuringAgeStart": 18,
     "AgeMax": 150,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": "https://pin.it/eXUQtvln7"
   },
   {
     "Campaign": "Fantasy",
@@ -237,7 +246,8 @@
     "AgeMax": 140,
     "HHCompat": "Yes",
     "HECompat": "No",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -253,15 +263,16 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 10,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Dwarven",
     "AdventuringAgeStart": 19,
     "AgeMax": 550,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -277,15 +288,16 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 10,
+    "AddOrMultMana": "Add",
     "Speed": 25,
     "Language": "Dwarven",
     "AdventuringAgeStart": 18,
     "AgeMax": 500,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -301,21 +313,22 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 10,
+    "AddOrMultMana": "Add",
     "Speed": 25,
     "Language": "Dwarven",
     "AdventuringAgeStart": 20,
     "AgeMax": 600,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Elven",
     "Name": "Desert Elf",
-    "Description": "The Strongest of the Elven races, The desert Elve’s are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, who’s jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
+    "Description": "The Strongest of the Elven races, The desert Elves are clad in turbans and armor, to protect from their harsh environment but are skilled warriors and smiths, whose jewelry and blades marvel the world. They strive for excellence in strength of arms instead of magic, They survived by claiming the harshest cruelest land for themselves which no one else wanted. They often made large structures to show Their Power over their domain and land, which is why so many tombs scattered the sandy dunes.",
     "Starter": "Yes",
     "Special": "Traveler's Luck: Bonus Survival Skill, and the ability to reroll Foraging dice.",
     "Str": 2,
@@ -325,7 +338,7 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 10,
+    "BonusMana": 15,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Elvish",
@@ -333,7 +346,8 @@
     "AgeMax": 2000,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -341,7 +355,7 @@
     "Name": "Forest Elf",
     "Description": "The Forest elves are one of the most iconic groups of elves, Claiming wild forests, their homes and cities, they patrol them hunting monsters, and bandits with their trusted bows. These Elves have struggled to adapt with time but they’ve endured through sheer skill and Courage.",
     "Starter": "Yes",
-    "Special": "Forest Walkers: Gains profiency in most bow type weapons. Gains Hunting & Nature Skills .",
+    "Special": "Forest Walkers: Gains proficiency in most bow type weapons. Gains Hunting & Nature Skills.",
     "Str": 0,
     "Dex": 2,
     "Con": 0,
@@ -357,7 +371,8 @@
     "AgeMax": 2000,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -373,7 +388,7 @@
     "Int": 2,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 45,
+    "BonusMana": 60,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Elvish",
@@ -381,7 +396,8 @@
     "AgeMax": 3000,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -389,7 +405,7 @@
     "Name": "Ocean Elf",
     "Description": "The ocean elves, silver tongued sailors and pirates, born to sail the seas and to rule its waves, are known for their profound beauty and charm. Though make no mistake they are magical just like their kin, and will send you to the depths if you underestimate their mischievous tactics and ploys. They occupy coastal towns, floating cities and even the occasional City ship.",
     "Starter": "Yes",
-    "Special": "",
+    "Special": "Ocean's Chosen: Gain mariner proficiencies like acrobatics to climb ropes, Swimming, and one more of your choosing that makes sense on a ship.",
     "Str": 0,
     "Dex": 1,
     "Con": 0,
@@ -405,7 +421,8 @@
     "AgeMax": 2000,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -421,7 +438,7 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 25,
+    "BonusMana": 30,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Elvish",
@@ -429,7 +446,8 @@
     "AgeMax": 1500,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -437,7 +455,7 @@
     "Name": "Winter Elf",
     "Description": "The Winter elves Known for their innate winter magic, and their tolerance for the cold. Thrive in the coldest places, using their wisdom to guide and preserve their clans through toil and strive, they keep old tomes of history and wisdom to remind themselves of who they are, and what other races before them have tried and failed.",
     "Starter": "Yes",
-    "Special": "Children of Winter: Starts with Winter book, and Handle animal & Mytho's Skills.",
+    "Special": "Children of Winter: Starts with Winter book, and Handle animal & Mythos Skills.",
     "Str": 1,
     "Dex": 0,
     "Con": 2,
@@ -445,7 +463,7 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 30,
+    "BonusMana": 40,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Elvish",
@@ -453,13 +471,14 @@
     "AgeMax": 2500,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Beastman",
-    "Description": "A race that branched off of humanity many many years ago, they are mostly human with animal features that adorn their bodies, tails ears, stripes, wings, claws etc. They are humans who have an animal spirit bonded to them and it shows. They can be any land mammal, avian and rarely reptile and are just as capable as humans are, but their animal likeness gives them some benefits that normal humans don’t have. They do have an issue with a disease that only targets their race, known as the Feral syndrome, which makes them forced to fight the animal they’re bonded with. It's a painful brutal process and most come out of it fine. Though some lose themselves and become feral beastfolk.",
+    "Description": "A race that branched off of humanity many, many years ago, they are mostly human with animal features that adorn their bodies, tails ears, stripes, wings, claws etc. They are humans who have an animal spirit bonded to them and it shows. They can be any land mammal, avian and rarely reptile and are just as capable as humans are, but their animal likeness gives them some benefits that normal humans don’t have. They do have an issue with a disease that only targets their race, known as the Feral syndrome, which forces them to fight the animal they’re bonded with. It's a painful brutal process and most come out of it fine. Though, some lose themselves and become feral beastfolk.",
     "Starter": "Yes",
     "Special": "Animal Nature; Gains traits based on what animal they are.",
     "Str": 0,
@@ -477,13 +496,14 @@
     "AgeMax": 100,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": "https://pin.it/30zMZqGFw"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Half-elf",
-    "Description": "Helfs are hybrid between elves and other races, some take various forms since elves are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
+    "Description": "Half-elves are hybrids between elves and other races, some take various forms since elves are capable of having children with nearly any other race, though their own genes take a back seat in the long term, eventually breeding out and leaving the other races genes. They get to have a piece of both their parents, stats or abilities",
     "Starter": "Yes",
     "Special": "Half Breed: Gains the special ability of one parent and the physical stats of the other.",
     "Str": 0,
@@ -501,7 +521,8 @@
     "AgeMax": 1000,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -525,7 +546,8 @@
     "AgeMax": 150,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -533,7 +555,7 @@
     "Name": "Human",
     "Description": "Standard, basic but not really. Humans are versatile and adaptive. One of the greatest things about them is the fact that they adapt and change to whatever situation they find themselves in. They are highly proficient with spears, and can use them as if it was second nature to them, they have several special spears they've made and use; Glaives,, Boar Spears, and Longspears. Each has their own uses but all are deadly in the hands of a human who’s put the time and effort into mastering them.",
     "Starter": "Yes",
-    "Special": "Primal weapon; Gains profieceny with spears and is allowed to start with either a Glaive, a Longspear,or a Boarspear They also get to pick a region for their culture which diversifies them.",
+    "Special": "Primal weapon; Gains proficiency with spears and is allowed to start with either a Glaive, a Longspear, or a Boarspear. They also get to pick a region for their culture which diversifies them.",
     "Str": 0,
     "Dex": 0,
     "Con": 0,
@@ -549,13 +571,14 @@
     "AgeMax": 100,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Human",
     "Name": "Tiefling",
-    "Description": "Much like the Dragonborns, Tieflings are divided into two groups, noble and not noble tieflings. The noble Tieflings are usually quite polite, though they can be fairly snooty if they want to be. They have",
+    "Description": "Much like the Dragonborns, Tieflings are divided into two groups, noble and not noble tieflings. The noble Tieflings are usually quite polite, though they can be fairly snooty if they want to be. Non noble tieflings are those who have only two horns. They get 4 fiend racial spells, these are their heritages or lineage. If you are descendant from a pit fiend, you get the pit spell. Succubus or Incubus gets Allure, Spine devils get Spine.",
     "Starter": "Yes",
     "Special": "Fiendish Heritage; gets to pick 3 fiendish spells from a list provided by the DM.",
     "Str": 0,
@@ -565,7 +588,7 @@
     "Int": 0,
     "Cha": 0,
     "Pick": 1,
-    "BonusMana": 10,
+    "BonusMana": 20,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Infernal",
@@ -573,7 +596,8 @@
     "AgeMax": 200,
     "HHCompat": "Yes",
     "HECompat": "No",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": "https://pin.it/49rI6tl44"
   },
   {
     "Campaign": "Fantasy",
@@ -581,7 +605,7 @@
     "Name": "Feathered",
     "Description": "Feathered lizardfolk are some of the most regal of the lizardfolk. These are often trained in magery as they have a large surplus of mana and pick up on spells quickly. They are adorned with feathers all over, tucked between scale patches. They usually have a colorful array of feathers.",
     "Starter": "No",
-    "Special": "Feathered Landing: Feathered lizardfolk can use their copoous amounts of feathers to slow themselves mid-fall reducing fall damage greatly.",
+    "Special": "Feathered Landing: Feathered lizardfolk can use their copious amounts of feathers to slow themselves mid-fall reducing fall damage greatly.",
     "Str": 0,
     "Dex": 0,
     "Con": 0,
@@ -589,7 +613,7 @@
     "Int": 1,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": 25,
+    "BonusMana": 35,
     "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Toatalca",
@@ -597,7 +621,8 @@
     "AgeMax": 350,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
     "Campaign": "Fantasy",
@@ -605,7 +630,7 @@
     "Name": "Runetail",
     "Description": "Runetails are by far the most magically aligned of the lizardfolk. They range in appearance in their standard form from mostly human to mostly lizardfolk. The thing that they all have in common is a large mana filled flat lizard tail. Because of the amount of mana that flows through them, they are able to magically change their entire dna at will, meaning that they are excellent shape shifters, where their only limit is their imagination. It takes time for them to gain certain shifting skills though, upwards of 300 years, so make sure you ask the DM what you can and can not do beforehand. As a runetail, there is an unsatiated curiosity that instills their mind. They want to learn as much as they can. They also constantly have an itch to shift as they constantly fear that they will be caught and sniffed out if they stay in one form for too long.",
     "Starter": "No",
-    "Special": "Magic Born: Magic infused shape shifting allows Rune tail's to shape shift into any sentient race they've encountered or read about. Bigger races are excluded until they gain enough experience in shifting. Also shifting into another gender will be rather uncomfortable until they get used to it.",
+    "Special": "Magic Born: Magic infused shape shifting allows Runetail's to shape shift into any sentient race they've encountered or read about. Bigger races are excluded until they gain enough experience in shifting. Also shifting into another gender will be rather uncomfortable until they get used to it.",
     "Str": 0,
     "Dex": 0,
     "Con": 0,
@@ -621,7 +646,8 @@
     "AgeMax": 1000,
     "HHCompat": "Yes",
     "HECompat": "Yes",
-    "HOCompat": "Yes"
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -637,21 +663,22 @@
     "Int": -1,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": -15,
+    "AddOrMultMana": "Add",
     "Speed": 25,
     "Language": "Toatalca",
     "AdventuringAgeStart": 19,
     "AgeMax": 350,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
     "Name": "Blue Lizardfolk",
-    "Description": "Blue Lizardfolk are the swimmers of the Lizardfolk. There’s jet Lizardfolk that can shoot jets of water so they can travel faster in the water.",
+    "Description": "Blue Lizardfolk are the Fishermen of the tribe, often being solitary fishers swimming through the swamps or rivers near the tribe's camp. There’s water jets the Lizardfolk use to shoot jets of water so they can travel faster in the water.",
     "Starter": "Yes",
     "Special": "Sea Bound: They gain a 40 ft swim speed and get expertise in Fishing",
     "Str": 0,
@@ -661,21 +688,22 @@
     "Int": 0,
     "Cha": 1,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 5,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Toatalca",
     "AdventuringAgeStart": 19,
     "AgeMax": 350,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Lizardfolk Lesser",
     "Name": "Green Lizardfolk",
-    "Description": "Green Lizardfolk are the most basic but the most diverse. They have so many more variants than any other lesser Lizardfolk. There are Axetails, whose tails are sharp and bony with what looks like an axe head made of bone. Frilled Lizardfolk that look like frilled lizards who have a hood they can raise to increase intimidation and gives a free soft fall, allowing survival from extreme heights. Whiptails have long slender tails that can be whipped to deal a little more ranged damage. Sickleclaws have long front claws that can act like blades when it comes to combat.",
+    "Description": "Green Lizardfolk are the most basic but the most diverse. They have so many more variants than any other lesser Lizardfolk. There are Axetails, whose tails are sharp and bony with what looks like an axe head made of bone. Frilled Lizardfolk that look like frilled lizards who have a hood they can raise to increase intimidation and give a free soft fall, allowing survival from extreme heights. Whiptails have long slender tails that can be whipped to deal a little more ranged damage. Sickleclaws have long front claws that can act like blades when it comes to combat.",
     "Starter": "Yes",
     "Special": "Scales of Fury: Gain natural weapons of a bite 1d10 & two claws 1d6 each.",
     "Str": 0,
@@ -693,7 +721,8 @@
     "AgeMax": 350,
     "HHCompat": "No",
     "HECompat": "Yes",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
     "Campaign": "Fantasy",
@@ -709,15 +738,16 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 5,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Toatalca",
     "AdventuringAgeStart": 19,
     "AgeMax": 350,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
   },
   {
     "Campaign": "Fantasy",
@@ -725,7 +755,7 @@
     "Name": "White Lizardfolk",
     "Description": "White Scales are also known as Albino Lizardfolk, they have a peculiar resilience to lightning and are capable of channeling it in a very unique capacity. Their body has the capacity to conduct and flow electricity through it, though are incapable of generating the power themselves, so must rely on exterior sources, such as lightning or Sparks magic to use their abilities.",
     "Starter": "Yes",
-    "Special": "Scales of Storms: gains sparks absorption 6, and they can store up to 60 points of it, but it will fade after two days if unused. They can expend these sparks points to unleash powers mimicing spells.",
+    "Special": "Scales of Storms: gains sparks absorption 6, and they can store up to 60 points of it, but it will fade after two days if unused. They can expend these sparks points to unleash powers mimicking spells.",
     "Str": 0,
     "Dex": 2,
     "Con": 0,
@@ -733,15 +763,66 @@
     "Int": 0,
     "Cha": 0,
     "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 20,
+    "AddOrMultMana": "Add",
     "Speed": 30,
     "Language": "Toatalca",
     "AdventuringAgeStart": 19,
     "AgeMax": 350,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/2wACcJBfb"
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Oceanic",
+    "Name": "Merfolk",
+    "Description": "The kin of the Beastman, though instead of land going mammals the merfolk are all either fish based, oceanic mammal, or even reptillian. They are one of the oldest races and have ironically been used as a rosetta stone of sorts due ot the fact their language is one of the most stable in terms of it's longevity.",
+    "Starter": "Yes",
+    "Special": "Sea's Touch: Gain a bonus ability and skill based on which sea animal they are based on.",
+    "Str": 0,
+    "Dex": 1,
+    "Con": 0,
+    "Wis": 0,
+    "Int": 0,
+    "Cha": 0,
+    "Pick": 2,
+    "BonusMana": 15,
+    "AddOrMultMana": "Add",
+    "Speed": 30,
+    "Language": "",
+    "AdventuringAgeStart": 20,
+    "AgeMax": 1200,
+    "HHCompat": "Yes",
+    "HECompat": "Yes",
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Oceanic",
+    "Name": "Selkie",
+    "Description": "Selkies are the sea's shapeshifters by nature. In the water they are seals and on land they look mostly human. These shapeshifters shed a seal skin coat when they go on land and require it to turn back into a seal when the time comes to go back into the water. If someone were to take the coat, the selkie is often bound to whoever has the coat, in hopes to get it back. For this reason, most tend to keep their coats near them at all times. As a human, selkies tend to display more grey or tanned skin with a grey to light brown hair color as well.",
+    "Starter": "Yes",
+    "Special": "Gain a swim speed of 45",
+    "Str": 0,
+    "Dex": 2,
+    "Con": 0,
+    "Wis": 0,
+    "Int": 0,
+    "Cha": 1,
+    "Pick": "",
+    "BonusMana": 25,
+    "AddOrMultMana": "Add",
+    "Speed": 30,
+    "Language": "",
+    "AdventuringAgeStart": 18,
+    "AgeMax": 150,
+    "HHCompat": "Yes",
+    "HECompat": "No",
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -765,7 +846,8 @@
     "AgeMax": 1250,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": "https://pin.it/3Gf9ndM3H"
   },
   {
     "Campaign": "Fantasy",
@@ -785,11 +867,12 @@
     "AddOrMultMana": "",
     "Speed": 30,
     "Language": "",
-    "AdventuringAgeStart": "",
-    "AgeMax": "",
+    "AdventuringAgeStart": 15,
+    "AgeMax": 100000,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -813,13 +896,14 @@
     "AgeMax": 3000,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
     "SubType": "Rare",
     "Name": "Half Orc",
-    "Description": "These are still under construction. Please check back later.",
+    "Description": "Half Orc's are the children of the crossing of breeds with orcs. The orc fathers are often still wild rampaging barbarians but their children, the victims of their plundering and pillaging are often left as long term scars on places they've touched. The Half orc's are strong and burly and come in a wide variety as orc's can breed with quite a few races much akin to elves and humans.",
     "Starter": "Yes",
     "Special": "Half Breed: Gains the special ability of one parent and the physical stats of the other.",
     "Str": 3,
@@ -837,7 +921,8 @@
     "AgeMax": 120,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Fantasy",
@@ -853,15 +938,41 @@
     "Int": 0,
     "Cha": 0,
     "Pick": 2,
-    "BonusMana": "",
-    "AddOrMultMana": "",
+    "BonusMana": 15,
+    "AddOrMultMana": "Add",
     "Speed": 35,
     "Language": "Avian",
     "AdventuringAgeStart": 18,
     "AgeMax": 110,
     "HHCompat": "No",
     "HECompat": "No",
-    "HOCompat": "No"
+    "HOCompat": "No",
+    "Pinterest_Inspo_Board": ""
+  },
+  {
+    "Campaign": "Fantasy",
+    "SubType": "Oceanic",
+    "Name": "Marrow",
+    "Description": "The Marrow are monsterous fish folk who once presented a massive danger to all sea going species now they are divided between those who have become civil and those who are wild and barbaric. They resemble full body sea beast folk with humanoid body shapes, they live alongside the merfolk and often bridge the gap between them and the land dwellers as the marrow have developed a second set of lungs from their constant raiding of the surface, now it serves a new purpose letting them walk the shores with normal people.",
+    "Starter": "No",
+    "Special": "Barbaric heritage: The Marrow have vestiges of their past, many can use some of the monsterous abilities of their progenitors, gaining specific abilities tied to what sea animal they primarily are. They also have a swim speed based off their sea beast.",
+    "Str": 0,
+    "Dex": 0,
+    "Con": 2,
+    "Wis": 0,
+    "Int": 0,
+    "Cha": 0,
+    "Pick": 1,
+    "BonusMana": -5,
+    "AddOrMultMana": "Add",
+    "Speed": 30,
+    "Language": "",
+    "AdventuringAgeStart": 5,
+    "AgeMax": 3500,
+    "HHCompat": "Yes",
+    "HECompat": "Yes",
+    "HOCompat": "Yes",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -885,7 +996,8 @@
     "AgeMax": 2000,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -909,13 +1021,14 @@
     "AgeMax": 150,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Fusoan",
-    "Description": "Japan. The main tinkerers of the east. Don’t fuck with.",
+    "Description": "Japan. The main tinkerers of the east. Don’t fuck with. Very similar to beastman mixed with elves.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -933,7 +1046,8 @@
     "AgeMax": 300,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -957,13 +1071,14 @@
     "AgeMax": 110,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Jinko",
-    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brush by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
+    "Description": "A reclusive amazonian race of tigresses who are often overlooked as they keep to their monasteries to study and channel Ki. Jinko are one of the only races in the world who are given more Ki than other races, making them excellent Monks, Acolytes, and Sages. They seldomly leave their lands, but it’s not unheard of to see one in the west, often mistaken as a tiger beastman. Though their wisdom and patience make them brushed by comments from people who don’t know who they are. Many jinko try to pass on the teachings of Ki to others, to make more people aware of its influence in a person’s life.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -981,7 +1096,8 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -1005,7 +1121,8 @@
     "AgeMax": 10500,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -1013,7 +1130,7 @@
     "Name": "Kitsune",
     "Description": "Multi tailed fox folk. They can be fox folk or beastman like.",
     "Starter": "Yes",
-    "Special": "Multiplicitive Mana: These fox demons gain 20 mana per tail they have.",
+    "Special": "Multiplicative Mana: These fox demons gain 20 mana per tail they have.",
     "Str": 0,
     "Dex": 0,
     "Con": 0,
@@ -1029,13 +1146,14 @@
     "AgeMax": 4000,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
     "SubType": "Civilized",
     "Name": "Okami",
-    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revering warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
+    "Description": "The honorable Warrior clans of the Okami fight as warriors for the feudal lords of Fuso, a cousin of the ulfgar and houndsmen these honor revered warriors give their lives in the service of their lords and their duty. They aren’t as tall as their ulfgar cousins but the eastern wolf men are far tamer and manageable, those without lords wander the land as swordsmen fighting bandits and monsters wherever they go.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1053,7 +1171,8 @@
     "AgeMax": 250,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -1077,7 +1196,8 @@
     "AgeMax": 2800,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -1101,7 +1221,8 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Oriental",
@@ -1125,7 +1246,8 @@
     "AgeMax": 800,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1149,7 +1271,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1173,7 +1296,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1197,7 +1321,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1221,7 +1346,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1245,7 +1371,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1269,7 +1396,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1293,13 +1421,14 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
     "SubType": "Alien",
     "Name": "Ohmoud",
-    "Description": "The Ohmoud are a proud race that prides elegance and refinement over politics, money and war. They have a long history of artists, thinkers, philosophers and other kinds of artistic types. As a race that values finery, one would think that they’d get along with merchants and ways to connect them with the finery they desire so. One would be wrong; they hate the quinval and generally detest merchants in general. A historical weapon of the Ohmoud would be similar to a glaive, and the honor guard carry these weapons to this day.Part of the Ohmoud culture is a strict caste system divided by skin tone and profession. The hierarchy goes the red/military caste, then the yellow/ruling caste, and the most respected blue/artisan caste. The castes are considered equal in the respect that there is little to no discrimination between ohmoud castes, but an ohmoud generally does not marry outside a caste with exceptions to marry to and from the ruling caste. Red Ohmoud and blue Ohmoud cannot reproduce because it is a cultural taboo however. The origin of this taboo is when the ohmoud were four factions, the red, yellow, and blue had to group together in order to defeat the purple Ohmoud, which are stronger, faster, smarter, and far more bloodthirsty. Purple Ohmoud are always bloodthirsty warmongers regardless of how good their childhood is, and since they only come from unions of red/blue or purple/purple, modern Ohmoud enforce the marriage taboo. Since the caste system is dictated by skin color, an ohmoud cannot change castes unless they prove to be truly exemplary in the skills of a different caste, and even then they are not considered members of that caste because they become part of the small and unofficial “mentor caste”. No Ohmoud is born into the mentor caste, as the skills of a parent don’t always come to a child. The sole job of the mentor caste is to teach young ohmoud their trades and to keep the traditions of the castes going from generation to generation.",
+    "Description": "The Ohmoud are a proud race that prides elegance and refinement over politics, money and war. They have a long history of artists, thinkers, philosophers and other kinds of artistic types. As a race that values finery, one would think that they’d get along with merchants and ways to connect them with the finery they desire. One would be wrong; they hate the quinval and generally detest merchants in general. A historical weapon of the Ohmoud would be similar to a glaive, and the honor guard carry these weapons to this day.Part of the Ohmoud culture is a strict caste system divided by skin tone and profession. The hierarchy goes: the red/military caste, then the yellow/ruling caste, and the most respected blue/artisan caste. The castes are considered equal in the respect that there is little to no discrimination between ohmoud castes, but an ohmoud generally does not marry outside a caste with exceptions to marry to and from the ruling caste. Red Ohmoud and blue Ohmoud cannot reproduce because it is a cultural taboo however. The origin of this taboo is when the ohmoud were four factions, the red, yellow, and blue had to group together in order to defeat the purple Ohmoud, which are stronger, faster, smarter, and far more bloodthirsty. Purple Ohmoud are always bloodthirsty warmongers regardless of how good their childhood is, and since they only come from unions of red/blue or purple/purple, modern Ohmoud enforce the marriage taboo. Since the caste system is dictated by skin color, an ohmoud cannot change castes unless they prove to be truly exemplary in the skills of a different caste, and even then they are not considered members of that caste because they become part of the small and unofficial “mentor caste”. No Ohmoud is born into the mentor caste, as the skills of a parent don’t always come to a child. The sole job of the mentor caste is to teach young ohmoud their trades and to keep the traditions of the castes going from generation to generation.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1317,7 +1446,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1341,7 +1471,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1365,7 +1496,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1389,13 +1521,14 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
     "SubType": "Alien",
     "Name": "Urait",
-    "Description": "The Urait were found on accident, though since their discovery, they’ve been the ‘muscle’ of the Galactic council since. The Chaza and Tasawi both rely on these hulking crustacean tankers to handle some of the more Militant areas of the council’s affairs. The Urait species is unique in that their ‘shell’ are vehicles and temporary abodes that they reside in they each build them themselves and adjust them to their liking. These crabs aren’t nearly as common as they once were, many thousands died during the great war. They do have a cousin species that they aren’t particularly fond of, the Cl’rawdah, who lack ‘vehicle’ shells but are well nigh immortal to aging or disease. (and also the size of a metropolitan bus)",
+    "Description": "The Urait were found by accident, though since their discovery, they’ve been the ‘muscle’ of the Galactic council since. The Chaza and Tasawi both rely on these hulking crustacean tankers to handle some of the more Militant areas of the council’s affairs. The Urait species is unique in that their ‘shell’ are vehicles and temporary abodes that they reside in they each build them themselves and adjust them to their liking. These crabs aren’t nearly as common as they once were, many thousands died during the great war. They do have a cousin species that they aren’t particularly fond of, the Cl’rawdah, who lack ‘vehicle’ shells but are well nigh immortal to aging or disease. (and also the size of a metropolitan bus)",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1413,7 +1546,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1437,7 +1571,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1461,7 +1596,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1485,13 +1621,14 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
     "SubType": "Animalistic",
-    "Name": "Protogen",
-    "Description": "These are a doglike race that are more than obsessed with technology. Their houndlike demeanor gives them a dog’s features including a tail, ears and fur. One of the most distinctive things that is visible with the Protogen is their visors. They have a black visor that covers their entire face that kinda looks like their snout. It acts as a display screen for both those looking at the Protogen and the Protogen themself. For the protogen, the visor acts like a small personal computer that they can use like a HUD, with a basic scanner, minor data base or other such uses. Their love of technology doesn’t stop there though. They will constantly augment themselves with different stat augments. Some choose to have mobility upgrades that enhance their movement and speed, others will have intelligence augments that increase their memory and recall ability. The last thing about the Protogen is that they choose a symbol, like a rune. Usually it is something simple that has some meaning to the pup in question. They very rarely change it after they pick it when they are younger, mid to late teens.",
+    "Name": "Protis",
+    "Description": "These are a doglike race that are more than obsessed with technology. Their houndlike demeanor gives them a dog’s features including a tail, ears and fur. One of the most distinctive things that is visible with the Protis is their visors. They have a black visor that covers their entire face that kinda looks like their snout. It acts as a display screen for both those looking at the Protis and the Protis themself. For the Protis, the visor acts like a small personal computer that they can use like a HUD, with a basic scanner, minor data base or other such uses. Their love of technology doesn’t stop there though. They will constantly augment themselves with different stat augments. Some choose to have mobility upgrades that enhance their movement and speed, others will have intelligence augments that increase their memory and recall ability. The last thing about the Protis is that they choose a symbol, like a rune. Usually it is something simple that has some meaning to the pup in question. They very rarely change it after they pick it when they are younger, mid to late teens.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1509,13 +1646,14 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
     "SubType": "Animalistic",
     "Name": "Ulfrend",
-    "Description": "The ulfrend are a barbaric newcomer race that has Recently shown itself to the galaxy, luckily it wasn’t a hostile interaction, namely due to the Ulfrend being a near perfect predator race. They are very blood thirsty and have a capacity for war unlike any other species. Their arrival while worrying also brought great relief to the council, as an untouched armada of soldiers has been in sore need for the constant pirate raids and sieges happening to the core. While their brutish and primitive nature makes them ‘less civilized’ it makes them ideal for handling. Any sort of violent problems Ulfrend are strange biologically, their distinctive biological cybernetics that are organic and grow with the Ulfrend as they age. Also there’s two types of Ulfrend; biologically bred and Spawn pit Ulfrend. Most of their race are born and raised in essentially horrific Spawn chambers, where they’re are built/grown. They all see each other as family and are incredibly loyal.",
+    "Description": "The ulfrend are a barbaric newcomer race that has recently shown itself to the galaxy, luckily it wasn’t a hostile interaction, namely due to the Ulfrend being a near perfect predator race. They are very blood thirsty and have a capacity for war unlike any other species. Their arrival while worrying also brought great relief to the council, as an untouched armada of soldiers has been in sore need for the constant pirate raids and sieges happening to the core. While their brutish and primitive nature makes them ‘less civilized’ it makes them ideal for handling. Any sort of violent problems Ulfrend are strange biologically, their distinctive biological cybernetics that are organic and grow with the Ulfrend as they age. Also there’s two types of Ulfrend; biologically bred and Spawn pit Ulfrend. Most of their race are born and raised in essentially horrific Spawn chambers, where they are built/grown. They all see each other as family and are incredibly loyal.",
     "Starter": "No",
     "Special": "",
     "Str": 3,
@@ -1533,7 +1671,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1541,7 +1680,7 @@
     "Name": "Ashen",
     "Description": "Honor and strength based, distrusted except by Eliksni and Kroxsaurs. Not considered human. Need Ash in food, water, and air to live properly. The ashen are darn near impossible to kill, and their culture is very Knight-esque. This comes from a regression that happened to them technology wise when their colony ships crashed on a hostile volcano world: Cinis. One of the factions of Ashen scavenged all the helpful tech they could from the remains after seeing the infighting and leaving the other colonists. As a result, the two main factions: the knights; who are far more militaristic and crusader-esque, and the rogues; who adapted to be quick hunters and ingenious survivors, were created. There are four kinds of Ashen: the Knights, the Rogues, the Monks, and the Exiled. The exiled are not regarded as Ashen and are forbidden to use that term for themselves, despite the rest of the galaxy calling them Ashen. An Ashen becomes an Exile when they either take the title on themselves as a test of strength, or by dishonoring themselves or the Ashen race. Monks are a newer faction of the Ashen that are a combination of Knights and Rogues. The Monks are not a playable kind of Ashen. The Ashen will at times adventure to keep knowledge of the galaxy and their reputation as a race, when they do so they adopt different names: Paladins, Rangers, and Exiles.",
     "Starter": "No",
-    "Special": "these aren't the technical stats because ashen have racial limitations, so this is just in the place of stuff",
+    "Special": "These aren't the technical stats because ashen have racial limitations, so this is just in the place of stuff",
     "Str": 4,
     "Dex": 0,
     "Con": 4,
@@ -1557,7 +1696,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1581,7 +1721,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1605,7 +1746,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1629,7 +1771,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1653,7 +1796,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1677,13 +1821,14 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
     "SubType": "Humanoid",
     "Name": "Talvi",
-    "Description": "MIlitaristic, Exceptionally loyal to humanity. These ape-like demihumans were stranded in a war with the Zih-Zih on an icy planet, and injected themselves with the primitive formula used on the Beastra in order to survive the cold. This war was caused by the Zih-Zih’s attack on the Colossus, and the Talvi escort fleet told the Colossus to run, and so the Talvi fought their war. They won their small war with the zih-Zih, and managed to send a distress call, to which the humans came and found them. Afterwards, they found out the Colossus survived and became the race of the Nebulous, and so the two races have an almost inseparable bond.",
+    "Description": "Militaristic, Exceptionally loyal to humanity. These ape-like demihumans were stranded in a war with the Zih-Zih on an icy planet, and injected themselves with the primitive formula used on the Beastra in order to survive the cold. This war was caused by the Zih-Zih’s attack on the Colossus, and the Talvi escort fleet told the Colossus to run, and so the Talvi fought their war. They won their small war with the zih-Zih, and managed to send a distress call, to which the humans came and found them. Afterwards, they found out the Colossus survived and became the race of the Nebulous, and so the two races have an almost inseparable bond.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1701,7 +1846,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1725,7 +1871,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
@@ -1749,13 +1896,14 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Scifi",
     "SubType": "Robotic",
     "Name": "Toiler",
-    "Description": "These robots were programmed to take inventory of the universe, and in order to do this job, they created warp gates. They did not speak to other races, and they must count everything. They destroy the necrananites when found however, because it messes with the numbers. Their records are now incomplete however, thanks to the great war followed immediately by the Great Catastrophe, which destroyed all stations outside of the Core as far as they know. Because of this there is a toiler delegation in the council of Civilized Races. Their greatest programmers also created a ‘update’ that expands the toiler’s views and ‘individuality’ so that they can better fulfill their task and interface with the other races of the galaxy. Will not kill any other toilers.",
+    "Description": "These robots were programmed to take inventory of the universe, and in order to do this job, they created warp gates. They did not speak to other races, and they must count everything. They destroy the necrananites when found however, because it messes with the numbers. Their records are now incomplete however, thanks to the great war followed immediately by the Great Catastrophe, which destroyed all stations outside of the Core as far as they know. Because of this there is a toiler delegation in the council of Civilized Races. Their greatest programmers also created an ‘update’ that expands the toiler’s views and ‘individuality’ so that they can better fulfill their task and interface with the other races of the galaxy. Will not kill any other toilers.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1773,7 +1921,8 @@
     "AgeMax": "",
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -1797,7 +1946,8 @@
     "AgeMax": 220,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -1821,13 +1971,14 @@
     "AgeMax": 350,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
     "SubType": "Factioned Races",
     "Name": "Kenku",
-    "Description": "The Kenkus were the engineers for the Aarakocra. These avians lack the ability to fly, with the lack of wings, but they are covered in feathers and take appearances from corvids. Kenku are often much shorter than aarakocra, around 4.5-5.5 foot tall. They love their shiny things and often can let that distract them from their work.",
+    "Description": "The Kenkus were the engineers for the Aarakocra. These avians lack the ability to fly, with the lack of wings, but they are covered in feathers and take appearances from corvids. Kenku are often much shorter than aarakocra, around 4.5-5.5 feet tall. They love their shiny things and often can let that distract them from their work.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1845,7 +1996,8 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -1869,7 +2021,8 @@
     "AgeMax": 180,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -1893,15 +2046,16 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": "https://pin.it/eXUQtvln7"
   },
   {
     "Campaign": "Steampunk",
     "SubType": "Factioned Races",
     "Name": "Tiefling",
-    "Description": "These guys are the Germans of the world, from their accent to their culture, they like their control. Alongside them in this world, are the Strathund, who usually act as their engineers and builders. The tieflings are rather military inclined. On the matter of appearances, Tieflings are mostly shades of red but can be ther shades as well. Their horns can also say a lot about an individual. A tiefling’s horns are smooth until they meet a point in life where they make a large change with themselves, this creates a branch in their horns. The more branches and chaos in the horns, the more decisions they’ve had to make.",
+    "Description": "These guys are the Germans of the world, from their accent to their culture, they like their control. Alongside them in this world, are the Strathund, who usually act as their engineers and builders. The tieflings are rather military inclined. On the matter of appearances, Tieflings are mostly shades of red but can be other shades as well. Their horns can also say a lot about an individual. A tiefling’s horns are smooth until they meet a point in life where they make a large change with themselves, this creates a branch in their horns. The more branches and chaos in the horns, the more decisions they’ve had to make.",
     "Starter": "Yes",
-    "Special": "Fiendish Heritage; gets to pick 3 feindish spells from a list provided by the DM.",
+    "Special": "Fiendish Heritage; gets to pick 3 fiendish spells from a list provided by the DM.",
     "Str": 0,
     "Dex": 2,
     "Con": 0,
@@ -1917,7 +2071,8 @@
     "AgeMax": 300,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -1941,7 +2096,8 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -1965,13 +2121,14 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
     "SubType": "Unfactioned Races",
     "Name": "Rodentfolk",
-    "Description": "Rodentfolk are nearly completely animalistic humaniods. These creatures were once feral and barbaric, however on the skylands, they have adapted to a more civilized life style. They are still seen as lowly creatures that are sly and criminalistic.",
+    "Description": "Rodentfolk are nearly completely animalistic humanoids. These creatures were once feral and barbaric, however on the skylands, they have adapted to a more civilized lifestyle. They are still seen as lowly creatures that are sly and criminalistic.",
     "Starter": "Yes",
     "Special": "",
     "Str": 0,
@@ -1989,7 +2146,8 @@
     "AgeMax": 200,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   },
   {
     "Campaign": "Steampunk",
@@ -2013,78 +2171,7 @@
     "AgeMax": 400,
     "HHCompat": "",
     "HECompat": "",
-    "HOCompat": ""
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oceanic",
-    "Name": "Selkie",
-    "Description": "Selkies are the sea's shapeshifters by nature. In the water they are seals and on land they look mostly human. These shapeshifters shed a seal skin coat when they go on land and require it to turn back into a seal when the time comes to go back into the water. If someone were to take the coat, the selkie is often bound to whoever has the coat, in hopes to get it back. For this reason, most tend to keep their coats near them at all times. As a human, selkies tend to display more grey or tanned skin with a grey to light brown hair color as well.",
-    "Starter": "Yes",
-    "Special": "Gain a swim speed of 45",
-    "Str": 0,
-    "Dex": 2,
-    "Con": 0,
-    "Wis": 0,
-    "Int": 0,
-    "Cha": 1,
-    "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
-    "Speed": 30,
-    "Language": "",
-    "AdventuringAgeStart": 18,
-    "AgeMax": 150,
-    "HHCompat": "No",
-    "HECompat": "No",
-    "HOCompat": "No"
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oceanic",
-    "Name": "Merfolk",
-    "Description": "These are still under work. Please check back later",
-    "Starter": "Yes",
-    "Special": "",
-    "Str": "",
-    "Dex": "",
-    "Con": "",
-    "Wis": "",
-    "Int": "",
-    "Cha": "",
-    "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
-    "Speed": "",
-    "Language": "",
-    "AdventuringAgeStart": "",
-    "AgeMax": "",
-    "HHCompat": "",
-    "HECompat": "",
-    "HOCompat": ""
-  },
-  {
-    "Campaign": "Fantasy",
-    "SubType": "Oceanic",
-    "Name": "Marrow",
-    "Description": "These are still under work. Please check back later",
-    "Starter": "No",
-    "Special": "",
-    "Str": "",
-    "Dex": "",
-    "Con": "",
-    "Wis": "",
-    "Int": "",
-    "Cha": "",
-    "Pick": "",
-    "BonusMana": "",
-    "AddOrMultMana": "",
-    "Speed": "",
-    "Language": "",
-    "AdventuringAgeStart": "",
-    "AgeMax": "",
-    "HHCompat": "",
-    "HECompat": "",
-    "HOCompat": ""
+    "HOCompat": "",
+    "Pinterest_Inspo_Board": ""
   }
 ]

@@ -322,7 +322,7 @@ function LoadClasses(Campaign, playerStatus){
                     ClassList.push(element.ClassName);
                 }});
             } else{
-                sheet.forEach(element=> {if(ClassList.includes(element.ClassName)){}else if(element.Classification != "Eastern"){
+                sheet.forEach(element=> {if(ClassList.includes(element.ClassName)){}else if(element.Classification != "Eastern" && element.Classification != "Scifi"){
                     if(playerStatus != "Vet" && element.Classification == "Veteran"){
 
                     }else{

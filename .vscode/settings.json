@@ -19,5 +19,28 @@
         "titleBar.inactiveBackground": "#1e67ba99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "1e67ba"
+    "peacock.color": "1e67ba",
+    "cSpell.words": [
+        "Aarakocra",
+        "battlemage",
+        "Celestia",
+        "Cindercaster",
+        "Cindercasters",
+        "dragonborn",
+        "elven",
+        "ferals",
+        "Houndsman",
+        "Inspo",
+        "Lizardfolk",
+        "Mult",
+        "Omun",
+        "Omuns",
+        "praction",
+        "spellsword",
+        "Spellswords",
+        "Stonefist",
+        "ulfgar",
+        "unsatiated",
+        "Vigilants"
+    ]
 }

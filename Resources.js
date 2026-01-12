@@ -400,7 +400,8 @@ class SpellExplorer {
             const namePrefix = this.isVeteran ? "row3" : "row2";
             
             booksData.forEach(element => {
-                const displayText = `${element.SpellBook} : ${element.BookLevel}`;
+                // const displayText = `${element.SpellBook} : ${element.BookLevel}`;
+                const displayText = element.BookLevel !== "" ? `${element.SpellBook} : ${element.BookLevel}` : element.SpellBook;
                 
                 const id = this.isVeteran ? 
                     `${element.SpellBook}_row3` : 

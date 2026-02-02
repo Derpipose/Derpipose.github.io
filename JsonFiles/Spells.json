@@ -4641,7 +4641,7 @@
   },
   {
     "SpellBranch": "Wind",
-    "SpellBook": "Zepher",
+    "SpellBook": "Zephyr",
     "SpellName": "Tempest",
     "ManaCost": 11,
     "Range": "Field",
@@ -4657,7 +4657,7 @@
   },
   {
     "SpellBranch": "Wind",
-    "SpellBook": "Zepher",
+    "SpellBook": "Zephyr",
     "SpellName": "Flight",
     "ManaCost": 4,
     "Range": "Self",
@@ -4673,7 +4673,7 @@
   },
   {
     "SpellBranch": "Wind",
-    "SpellBook": "Zepher",
+    "SpellBook": "Zephyr",
     "SpellName": "Maelstrom",
     "ManaCost": 12,
     "Range": "AoE 3*3",

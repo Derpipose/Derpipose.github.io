@@ -51,12 +51,25 @@ class Cryptogram {
 
     createSubstitutionCipher() {
         const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-        const shuffled = [...alphabet]; // Copy the array
+        let shuffled = [...alphabet]; // Copy the array
         
-        // Fisher-Yates shuffle for proper randomization
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        // Keep shuffling until no letter maps to itself (derangement)
+        let hasMapping = true;
+        while (hasMapping) {
+            // Fisher-Yates shuffle for proper randomization
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            
+            // Check if any letter maps to itself
+            hasMapping = false;
+            for (let i = 0; i < alphabet.length; i++) {
+                if (alphabet[i] === shuffled[i]) {
+                    hasMapping = true;
+                    break;
+                }
+            }
         }
         
         const cipher = {};

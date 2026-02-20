@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Planet Cryptogram</title>
+    <link rel="stylesheet" href="Cryptogram.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Treasure Planet Cryptogram</h1>
+            <p>Solve the cipher to reveal the hidden message!</p>
+        </header>
+
+        <main>
+            <div class="content-wrapper">
+                <!-- Cryptogram Display (Left) -->
+                <section class="cryptogram-section">
+                    <h2>Encrypted Text</h2>
+                    <div id="cryptogramDisplay" class="cryptogram-display"></div>
+                </section>
+
+                <!-- Cipher Key (Right) -->
+                <section class="cipher-section">
+                    <h2>Decode the Letters</h2>
+                    <div id="cipherKey" class="cipher-key"></div>
+                </section>
+            </div>
+
+            <!-- Buttons -->
+            <section class="button-section">
+                <button id="verifyBtn" class="btn btn-primary">Verify Solution</button>
+                <button id="hintBtn" class="btn btn-secondary">Get Hint</button>
+                <button id="newCryptogramBtn" class="btn btn-secondary">New Cryptogram</button>
+                <button id="resetBtn" class="btn btn-secondary">Reset</button>
+            </section>
+
+            <!-- Feedback -->
+            <div id="feedback" class="feedback"></div>
+
+            <!-- Stats -->
+            <section class="stats-section">
+                <p>Letters decoded: <span id="letterCount">0</span> / <span id="totalLetters">0</span></p>
+                <p>Hints used: <span id="hintsUsed">0</span> / 3</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>From the screenplay by Joss Whedon | Cryptogram Challenge</p>
+        </footer>
+    </div>
+
+    <script src="Cryptogram.js"></script>
+</body>
+</html>

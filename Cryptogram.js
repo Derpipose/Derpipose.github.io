@@ -32,11 +32,11 @@ class Cryptogram {
     }
 
     extractRandomLines() {
-        const sentences = TREASURE_PLANET_TEXT.split(/(?<=[.!?])\s+/);
+        const lines = TREASURE_PLANET_TEXT.split('\n');
         const lineCount = Math.floor(Math.random() * 3) + 5; // 5-7 lines
-        const startIdx = Math.floor(Math.random() * (sentences.length - lineCount));
-        const selectedSentences = sentences.slice(startIdx, startIdx + lineCount);
-        return selectedSentences.join(' ').trim();
+        const startIdx = Math.floor(Math.random() * (lines.length - lineCount));
+        const selectedLines = lines.slice(startIdx, startIdx + lineCount);
+        return selectedLines.join('\n').trim();
     }
 
     generateNewCryptogram() {

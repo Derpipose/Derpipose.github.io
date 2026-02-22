@@ -128,7 +128,7 @@ class Cryptogram {
         
         words.forEach(word => {
             // Check if this is just punctuation
-            if (/^[.!?]+$/.test(word)) {
+            if (/^[.!?,\-—]+$/.test(word)) {
                 // Append to previous word's both solution and encrypted sections if it exists
                 if (lastWordContainer) {
                     const solutionDiv = lastWordContainer.querySelector('.word-solution');

@@ -108,7 +108,7 @@ section h2 {
 }
 
 .word-solution {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #28a745;
     font-weight: bold;
     letter-spacing: 2px;
@@ -116,7 +116,7 @@ section h2 {
 }
 
 .word-encrypted {
-    font-size: 0.95em;
+    font-size: 1em;
     color: #666;
     letter-spacing: 2px;
     min-height: 1.4em;

@@ -305,6 +305,10 @@ class Cryptogram {
             this.encryptedText.match(/[A-Z]/gi) || []
         )).sort();
 
+        // Compute rows for 3-column layout
+        const rows = Math.ceil(uniqueLetters.length / 3);
+        document.documentElement.style.setProperty('--cipher-rows', rows);
+
         uniqueLetters.forEach(encryptedLetter => {
             const div = document.createElement('div');
             div.className = 'letter-mapping';

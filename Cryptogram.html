@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treasure Planet Cryptogram</title>
+    <title>Cryptograms</title>
     <link rel="stylesheet" href="Cryptogram.css">
 </head>
 <body>
@@ -42,13 +42,22 @@
             <!-- Stats -->
             <section class="stats-section">
                 <p>Letters decoded: <span id="letterCount">0</span> / <span id="totalLetters">0</span></p>
-                <p>Hints used: <span id="hintsUsed">0</span> / 3</p>
+                <p>Hints used: <span id="hintsUsed">0</span></p>
+            </section>
+
+            <!-- Source Selection -->
+            <section class="source-selection">
+                <label>Select Source:</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="cryptogramSource" value="treasureplanet" checked> Treasure Planet
+                    </label>
+                    <label>
+                        <input type="radio" name="cryptogramSource" value="atlantis"> Atlantis
+                    </label>
+                </div>
             </section>
         </main>
-
-        <footer>
-            <p>From the screenplay by Joss Whedon | Cryptogram Challenge</p>
-        </footer>
     </div>
 
     <script src="Cryptogram.js"></script>

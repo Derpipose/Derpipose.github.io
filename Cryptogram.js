@@ -1,14 +1,23 @@
 // Cryptogram.js
 
 let TREASURE_PLANET_TEXT = '';
+let ATLANTIS_TEXT = '';
+let SELECTED_SOURCE = 'treasureplanet';
 
-// Load the treasure planet text from the file
-async function loadTreasurePlanetText() {
+// Load text files
+async function loadCryptogramTexts() {
     try {
-        const response = await fetch('CryptogramFiles/TreasurePlanet.txt');
-        TREASURE_PLANET_TEXT = await response.text();
+        const treasureResponse = await fetch('CryptogramFiles/TreasurePlanet.txt');
+        TREASURE_PLANET_TEXT = await treasureResponse.text();
     } catch (error) {
         console.error('Error loading Treasure Planet text:', error);
+    }
+
+    try {
+        const atlantisResponse = await fetch('CryptogramFiles/Atlantis.txt');
+        ATLANTIS_TEXT = await atlantisResponse.text();
+    } catch (error) {
+        console.error('Error loading Atlantis text:', error);
     }
 }
 
@@ -32,7 +41,8 @@ class Cryptogram {
     }
 
     extractRandomLines() {
-        const lines = TREASURE_PLANET_TEXT.split('\n');
+        const sourceText = SELECTED_SOURCE === 'atlantis' ? ATLANTIS_TEXT : TREASURE_PLANET_TEXT;
+        const lines = sourceText.split('\n');
         const lineCount = Math.floor(Math.random() * 3) + 5; // 5-7 lines
         const startIdx = Math.floor(Math.random() * (lines.length - lineCount));
         const selectedLines = lines.slice(startIdx, startIdx + lineCount);
@@ -171,6 +181,14 @@ class Cryptogram {
             this.hintsUsed = 0;
             this.render();
         });
+
+        // Setup source selection radio buttons
+        const radioButtons = document.querySelectorAll('input[name="cryptogramSource"]');
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                SELECTED_SOURCE = e.target.value;
+            });
+        });
         document.getElementById('hintBtn').addEventListener('click', () => this.giveHint());
     }
 
@@ -283,7 +301,13 @@ class Cryptogram {
         }, 4000);
     }
 
+    updateTitle() {
+        const titleText = SELECTED_SOURCE === 'atlantis' ? 'Atlantis Cryptogram' : 'Treasure Planet Cryptogram';
+        document.querySelector('header h1').textContent = titleText;
+    }
+
     render() {
+        this.updateTitle();
         this.renderCryptogram();
         this.renderCipherKey();
         this.updateUserDisplay();
@@ -351,6 +375,6 @@ class Cryptogram {
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', async () => {
-    await loadTreasurePlanetText();
+    await loadCryptogramTexts();
     new Cryptogram();
 });

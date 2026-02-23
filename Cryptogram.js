@@ -112,7 +112,7 @@ class Cryptogram {
     }
 
     decrypt() {
-        const wordRegex = /[A-Z']+|[.!?,\-—]/g;
+        const wordRegex = /[A-Z'0-9]+|[.!?,\-—]/g;
         const words = this.encryptedText.match(wordRegex) || [];
         return words;
     }

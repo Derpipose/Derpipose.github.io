@@ -46,7 +46,8 @@ class Cryptogram {
         const lineCount = Math.floor(Math.random() * 3) + 5; // 5-7 lines
         const startIdx = Math.floor(Math.random() * (lines.length - lineCount));
         const selectedLines = lines.slice(startIdx, startIdx + lineCount);
-        return selectedLines.join('\n').trim();
+        // const selectedLines = lines.slice(295, 300); // For testing with a specific passage
+        return selectedLines.join('\n').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     }
 
     generateNewCryptogram() {
@@ -112,7 +113,7 @@ class Cryptogram {
     }
 
     decrypt() {
-        const wordRegex = /[A-Z'0-9]+|[.!?,\-—]/g;
+        const wordRegex = /\d+\.\d+|\d+|[A-Z']+|[.!?,\-—]/g;
         const words = this.encryptedText.match(wordRegex) || [];
         return words;
     }

@@ -182,6 +182,7 @@ class Cryptogram {
             this.hintsUsed = 0;
             this.render();
         });
+        document.getElementById('copyEncryptedBtn').addEventListener('click', () => this.copyEncryptedText());
 
         // Setup source selection radio buttons
         const radioButtons = document.querySelectorAll('input[name="cryptogramSource"]');
@@ -291,6 +292,14 @@ class Cryptogram {
         } else {
             this.showFeedback('Not quite right. Keep trying!', 'error');
         }
+    }
+
+    copyEncryptedText() {
+        navigator.clipboard.writeText(this.encryptedText).then(() => {
+            this.showFeedback('Encrypted text copied to clipboard!', 'success');
+        }).catch(() => {
+            this.showFeedback('Failed to copy encrypted text.', 'error');
+        });
     }
 
     showFeedback(message, type) {

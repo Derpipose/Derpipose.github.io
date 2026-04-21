@@ -994,7 +994,6 @@ class FeatExplorer {
             rows: ['row1', 'row2', 'row3', 'row4', 'row5', 'row6'],
             displayFields: [
                 { key: 'Feat', label: 'Feat' },
-                { key: 'Description', label: 'Description' },
                 { key: 'Skill', label: 'Skill' },
                 { key: 'Health', label: 'Health' },
                 { key: 'Mana', label: 'Mana' },
@@ -1003,7 +1002,8 @@ class FeatExplorer {
                 { key: 'Spellbook', label: 'Spellbook' },
                 { key: 'Downside', label: 'Downside' },
                 { key: 'Item', label: 'Item' },
-                { key: 'Checks', label: 'Checks' }
+                { key: 'Checks', label: 'Checks' },
+                { key: 'Description', label: 'Description' }
             ]
         };
         this.cachedData = null;

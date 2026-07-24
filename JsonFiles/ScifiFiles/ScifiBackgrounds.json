@@ -112,7 +112,7 @@
     {
         "Background": "Hacker",
         "Description": "Someone associated with the dark arts of digital theft, no longer are pick-pockets necessary when a hacker is ever safer, sitting far away from prying eyes accessing things and digging around the Gal-net where the firewalls are weak and vulnerable.",
-        "Talent 1": 1337,
+        "Talent 1": "1337",
         "Talent 2": "White Hat",
         "ClassOverflow": "N",
         "Class Talent 1": "",

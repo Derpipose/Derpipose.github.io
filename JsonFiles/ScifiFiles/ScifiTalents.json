@@ -1,0 +1,292 @@
+[
+    {
+        "Talent": "Astrophysics",
+        "Description": "The science behind planetary bodies and how they interact.",
+        "Ability": "Allows the player to have advantage on checks regarding the planet or solar system they are in. Passively improves intersolar (in-system) navigation."
+    },
+    {
+        "Talent": "Chemistry",
+        "Description": "The art of physical science, compounds, chemicals, medicines, and more. Chemistry governs them all.",
+        "Ability": "Allows the player to use physical elements to create all manner of compounds and chemicals."
+    },
+    {
+        "Talent": "Discipline",
+        "Description": "The capacity to not lose focus or lose yourself when the fighting gets hard.",
+        "Ability": "In combat, you gain accuracy for each kill in a round, stacking up to a +6 bonus to hit."
+    },
+    {
+        "Talent": "Fitness",
+        "Description": "Strong, fit, athletic, and capable.",
+        "Ability": "Allows you to have an additional AP per turn."
+    },
+    {
+        "Talent": "Incapacitation",
+        "Description": "Sometimes, to win means beating them into submission, not killing them.",
+        "Ability": "Allows you to begin with and utilize nonlethal ammunition or methods to deal with your foes."
+    },
+    {
+        "Talent": "Outpost",
+        "Description": "Learning the ins and outs of prefab construction allows you to easily erect and set up outposts in inhospitable places.",
+        "Ability": "Can facilitate the construction of habitats and outpost structures on a variety of dangerous planets. Doing so provides large benefits to all operations on that planet and allows the party to set up resource-gathering systems to collect from later."
+    },
+    {
+        "Talent": "Repairing",
+        "Description": "When robots, vehicles, and most smaller equipment break down, you need someone who can get them going again.",
+        "Ability": "Allows repair checks to be made with an additional 1D8 added to the normal D20 roll."
+    },
+    {
+        "Talent": "Robotics",
+        "Description": "Robots are your friends and your weapons. Use them to crush your foes.",
+        "Ability": "Allows your robots and drones to have enhanced capabilities. They can regain charges for their special modifiers mid-fight unless otherwise specified."
+    },
+    {
+        "Talent": "Scanning",
+        "Description": "Scanning is an essential skill for those in the scientific community, as scanning can uncover all the secrets of the galaxy.",
+        "Ability": "Allows your scanning checks to pinpoint specific anomalies or sectors containing things of interest."
+    },
+    {
+        "Talent": "Trinketing",
+        "Description": "Trinketing is a term for looting the dead coined by mercenaries and is often attributed to their practice of looting and reusing whatever gear they scavenge.",
+        "Ability": "Any target looted by the owner of this perk rolls a secondary die to provide them with additional resources from enemies."
+    },
+    {
+        "Talent": "Vehicle Certified",
+        "Description": "While piloting starships is widely viewed as a major upgrade, vehicle certification represents experience driving ground-based vehicle platforms, from mechs to trucks and tanks.",
+        "Ability": "Allows a bonus modifier roll to be added to evasion checks while driving vehicles."
+    },
+    {
+        "Talent": "Antiquities",
+        "Description": "Weapons of antiquated varieties, also known as things that most consider obsolete.",
+        "Ability": "Allows weapons considered “antique” to gain bonuses and reroll 1s on damage dice."
+    },
+    {
+        "Talent": "Boxing",
+        "Description": "The ancient art of throwing hands still has a place in the modern age.",
+        "Ability": "Unarmed attacks deal double damage to opponents, and can deal damage through armor."
+    },
+    {
+        "Talent": "Demolitions",
+        "Description": "Bombs, explosives, and grenades all fall into this category of destructive devices. Demolitions governs and enhances them all.",
+        "Ability": "Provides a bonus to the damage and range of any explosives you use. Damage increases by adding an additional die, and range increases by 0.5×."
+    },
+    {
+        "Talent": "Heavy Weapons",
+        "Description": "Heavy weaponry is a mainstay of modern warfare, and its many varieties cover all fields and uses.",
+        "Ability": "You start with a heavy weapon, gain bonuses to armor piercing with heavy weapons, and can inflict the “Disabled” debuff on vehicles."
+    },
+    {
+        "Talent": "Resourcefulness",
+        "Description": "Being able to take what you have to make something to get you through the situation.",
+        "Ability": "You can use raw components out in the field to craft things quickly without any tools. like improvised explosives or armor patching using scrap."
+    },
+    {
+        "Talent": "Shotguns",
+        "Description": "The humble shotgun a cheap and effective weapon for anyone looking to defend themselves.",
+        "Ability": "Shotguns deal an extra dice of bonus damage, but if the target has armor it only deals half damage."
+    },
+    {
+        "Talent": "Starship Engineering",
+        "Description": "The engines and reactor of a starship at it's heart, and those who study enough to know how it all works are masters of ensuring they keep running optimally.",
+        "Ability": "Grants additional structural & armor when repairing starships or jury rigging things so they can work."
+    },
+    {
+        "Talent": "Tools",
+        "Description": "What is a tool is not a primitive weapon, from a simple hammer to mining laser Tools have been the foundation for new weapon ideas since time immemorial.",
+        "Ability": "Tool weapons have additional functionality pairing with the original function of the weapon, allows them to bypass certain restrictions and overclock them into more dangerous weaponry."
+    },
+    {
+        "Talent": "Weight Lifting",
+        "Description": "Heavy things are nothing for someone who's spent a lift lifting heavy things. You won't be over encumbered by heavy equipment.",
+        "Ability": "You are not over encumbered by heavy equipment that normally slows you down, ranging from heavy armor to heavy crew weapons."
+    },
+    {
+        "Talent": "Luck",
+        "Description": "Luck smiles on you, and allows your chances to be better in many circumstances.",
+        "Ability": "Luck will affect the DM's rolls against your character and often soften things to make your life a little better overall."
+    },
+    {
+        "Talent": "Pirates Life",
+        "Description": "Pirates have walked many paths allowing them to copy any other Talent's abilities.",
+        "Ability": "Pirates have walked many paths allowing them to copy any other Talent's abilities."
+    },
+    {
+        "Talent": "Suffering",
+        "Description": "Touching the darkness has caused an affliction upon yourself which will remain as long as you live.",
+        "Ability": "Discuss with DM for more details about your affliction."
+    },
+    {
+        "Talent": 1337,
+        "Description": "Hacker's often use numbers and numerals to denote themselves. They can hack and have a variety of quick use hacks to use on demand to help them in combat or help with certain types of enemies.",
+        "Ability": "They gain access to a small number of hacks that can be pre-coded to help them overcome technology based enemies namely robots drones and automated creatures. (Does not work on Toilers or Junkers)"
+    },
+    {
+        "Talent": "Astrodynamics",
+        "Description": "The proficiency and knowledge of FTL capabilities, and allowing others to benefit using your knowledge.",
+        "Ability": "Passive effect that allows further jumps using FTL and helps increase the capability of your ships engines."
+    },
+    {
+        "Talent": "Fabrication",
+        "Description": "Using chemicals and other scrap materials you can create all manner of incredibly needed components and items for your allies.",
+        "Ability": "Enables more crafting capabilities to create ammunition, and commons, and uncommon components."
+    },
+    {
+        "Talent": "Hazards",
+        "Description": "Mad science is also known as hazardous science, things that push the boundaries of both knowledge and morals.",
+        "Ability": "Lets you access and work on highly questionable research projects and methods."
+    },
+    {
+        "Talent": "Ingenuity",
+        "Description": "In science, even a failure always something to teach, the key is to learn from it.",
+        "Ability": "Every time you crit fail an int check or anything related to research or experimenting you can accrue a 'ingenuity' point ot reroll an int check later."
+    },
+    {
+        "Talent": "Medicine",
+        "Description": "A necessary skillset for anyone who seeks to fix wounds and keep people alive.",
+        "Ability": "Can use medical Resources to heal an ally for 2d12 HP, instead of the standard medpacks 1D20. Also allows you to get more used out of medical resources."
+    },
+    {
+        "Talent": "Research methods",
+        "Description": "Research methods are ways and avenues to research and study the world around you according to different intellectual studies, like botany, zoology, and all manner of other subdivisions of study.",
+        "Ability": "Studying different things using research methods allows you to find and learn new information about compounds, resources, materials, xenos, and all manner of different resources."
+    },
+    {
+        "Talent": "Scavenging",
+        "Description": "Salvaging destroyed things is a common and incredibly necessary skill.",
+        "Ability": "Roll on a secondary loot chart for unique or extra rare rewards for you and your crew whenever rolling for salvage."
+    },
+    {
+        "Talent": "Shields",
+        "Description": "Shields are a necessary part of space travel and protection, ensuring your shields are functioning to the best of their abilities ensures survival.",
+        "Ability": "Passively increase your ships shield recharge and regeneration rate to allow it to survive the harshest that the sea of stars can throw at you."
+    },
+    {
+        "Talent": "Surveying",
+        "Description": "Surveying the planets, moons and asteroids is a necessary part of space mining, and honestly it pays off. You never know what rare minerals, metals and other resources are lurking on any given planetary body.",
+        "Ability": "Surveying allows you to find and harvest resources veins and materials to better help and aid your party, or allow you to sell Surveying data to companies who have a great interest in finding new ores or minerals."
+    },
+    {
+        "Talent": "White Hat",
+        "Description": "The polar opposite of Offensive hacking, defensive hacking is one of the more important tasks with how much data exists on the Galnet.",
+        "Ability": "Gain access to a small number of defensive hacking options for your team, namely hacks that can easily temporarily shutting down or overrides for most conventional technology."
+    },
+    {
+        "Talent": "Ballistic",
+        "Description": "Ballistic weaponry never gets old.",
+        "Ability": "You have the capacity to utilize any ballistic weapon due to extensive ballistic weapons training. All ballistic weapons reroll one's on damage dice."
+    },
+    {
+        "Talent": "Carbines",
+        "Description": "Carbines and smgs fall into this category of weapon talent.",
+        "Ability": "Carbines and SMG's are more effective in your hands, you extend the range of said weapons to the next bracket, unless the weapons have restrictions."
+    },
+    {
+        "Talent": "Concealment",
+        "Description": "You can hide yourself from enemies with ease even in combat or in crowded areas, allowing you to preemptively eliminate or remove threats before they become a problem.",
+        "Ability": "Gain the capability to sneak attack your foes from concealment, attacking an unsuspecting enemy allows you to increase critical range by one and crit multiplier by one."
+    },
+    {
+        "Talent": "Dueling",
+        "Description": "Fighting with what another person one on one with a melee weapon is a time honored tradition of several races, and still has it's place in the modern day.",
+        "Ability": "Melee weapons function better in your hands, allowing you to access the special features of many hand weapons."
+    },
+    {
+        "Talent": "Energy",
+        "Description": "Energy weapons come in many varieties and flavors but all are serious contenders in the damage department.",
+        "Ability": "Whether by Blaze, Volt, Null, or Cryo, your proficiency in utilizing them pick one type and get enhances elemental effects of said weaponry."
+    },
+    {
+        "Talent": "Momentum",
+        "Description": "Learning to fire on the moe is essential for anyone who gets into trouble and has to keep moving.",
+        "Ability": "Every time you get shot you increase the speed at which you move around the battlefield. +5ft movement speed per kill, lasts till combat ends."
+    },
+    {
+        "Talent": "Piloting",
+        "Description": "Piloting starships is a skill that is taught everywhere, from backwater moons to metropolis worlds of the core, learning to fly starships usually starts early.",
+        "Ability": "When piloting starships you can gain stacks of Evasion to help prevent your vessel from being hit byt enemy fire, or craft."
+    },
+    {
+        "Talent": "Pistols",
+        "Description": "Handguns and pistols are a staple of personal protection and have accompanied many races as they'd become star faring races.",
+        "Ability": "When wielding any handgun or pistol type weapons you gain bonus's to firing your pistols from cover, allowing you to protect yourself while also returning fire at your enemies."
+    },
+    {
+        "Talent": "Precision",
+        "Description": "Taking your time and placing your shots where they do the most possible damage is key to victory.",
+        "Ability": "Allows you to target specific body parts or components easier, in order to hit your shots you have to roll 2D20's to hit, and if both exceed the target's AC you can cause significant damage, doubling your base damage dice."
+    },
+    {
+        "Talent": "Rifles",
+        "Description": "Energy or Ballistic, these things dominate modern warfare.",
+        "Ability": "Rifle weapons gain an increase in accuracy and the capability to armor pierce armored targets."
+    },
+    {
+        "Talent": "Sortie Experience",
+        "Description": "Flying sorties for Space fighters has shaped how you pilot starships. Now every ship feels like a brick, that you manage to coax impossible maneuvers out of.",
+        "Ability": "Gain a bonus to every time you gain evasion and allows your ship to preform more taxing maneuvers in space."
+    },
+    {
+        "Talent": "Armor",
+        "Description": "The only thing keeping you from being alive to dead.",
+        "Ability": "Provides  2 additional Armor durability and a extra point of Armor power."
+    },
+    {
+        "Talent": "Blood Rush",
+        "Description": "The rush of combat makes certain people feel alive, and that rush fuels them in combat.",
+        "Ability": "Every time you kill an enemy you gain a stack of blood rush, every stack of blood rush gives you an additional damage dice every attack roll. Lasts till combat ends."
+    },
+    {
+        "Talent": "Environmental Conditioning",
+        "Description": "Training and living in inhospitable environments is good for the body, and it can lead to a variety of bonuses.",
+        "Ability": "Gain an innate amount of hazard resistance as a passive bonus to your character."
+    },
+    {
+        "Talent": "EVA",
+        "Description": "The vastness of space and the only barrier between you and it is your space suit, and your training.",
+        "Ability": "EVA training allows you to move in Zero G without penalties and fully utilize boostpacks to their full capability."
+    },
+    {
+        "Talent": "Intimidation",
+        "Description": "Scare them, make them fear you, for fear is just another weapon in your arsenal.",
+        "Ability": "You gain a large bonus to intimidate others, and in combat you deal increased morale damage to your enemies."
+    },
+    {
+        "Talent": "Payloads",
+        "Description": "Every inch of a Starships hold matters, and that tonnage allows for more cargo, more everything.",
+        "Ability": "You can maximize the amount of cargo inside your ship, and through your knowledge be able to look over cargo manifests and find discrepancies."
+    },
+    {
+        "Talent": "Trauma",
+        "Description": "Battlefield trauma is all to common nowadays, but it can be used to fuel your blood rush to new heights.",
+        "Ability": "Doubles the normal damage bonus from blood rush and makes it even more potent, also gain DR from each kill."
+    },
+    {
+        "Talent": "Wellness",
+        "Description": "Keeping everyone healthy provides numerous benefits for your team and friends",
+        "Ability": "Passively increases everyone's health. Everyone gains a bonus Hit Dice of HP every time they rest."
+    },
+    {
+        "Talent": "Commands",
+        "Description": "Take command and lead your comrades.",
+        "Ability": "Giving orders allows you to aid your comrades during combat, providing small buffs to allies."
+    },
+    {
+        "Talent": "Deception",
+        "Description": "The art of deception is a crucial method to get things you want, or its a method of hiding the things you want and preventing others from finding them.",
+        "Ability": "Allows the creation of secret stashes that can only be uncovered by the player. These can function as loot stashes or a place to hide yourself and friends from enemies."
+    },
+    {
+        "Talent": "Persuasion",
+        "Description": "Talking things over is a handy skill to get your way. Especially using a silver tongue to get outta trouble.",
+        "Ability": "Provides 1 Free reroll during a persuasion check."
+    },
+    {
+        "Talent": "Augments",
+        "Description": "Cybernetics that improve stats.",
+        "Ability": "Cybernetics that improve stats."
+    },
+    {
+        "Talent": "Cybernetics",
+        "Description": "Cybernetics that improve stats.",
+        "Ability": "Cybernetics that improve stats."
+    }
+]

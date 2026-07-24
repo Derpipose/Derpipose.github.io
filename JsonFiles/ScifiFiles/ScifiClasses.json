@@ -1,0 +1,98 @@
+[
+    {
+        "Class": "Soldier",
+        "Hit Dice": "1D12",
+        "Description": "",
+        "Class Talent 1": "Ballistic",
+        "Class Talent 2": "Energy",
+        "Class Talent 3": "Blood Rush"
+    },
+    {
+        "Class": "Smuggler",
+        "Hit Dice": "1D10",
+        "Description": "",
+        "Class Talent 1": "Pistols",
+        "Class Talent 2": "Persuasion",
+        "Class Talent 3": "Momentum"
+    },
+    {
+        "Class": "Technician",
+        "Hit Dice": "1D8",
+        "Description": "",
+        "Class Talent 1": "Robotics",
+        "Class Talent 2": "Repairing",
+        "Class Talent 3": "Scavenging"
+    },
+    {
+        "Class": "Engineer",
+        "Hit Dice": "1D12",
+        "Description": "",
+        "Class Talent 1": "Shotguns",
+        "Class Talent 2": "Starship Engineering",
+        "Class Talent 3": "Demolitions"
+    },
+    {
+        "Class": "Spacefarer",
+        "Hit Dice": "1D10",
+        "Description": "",
+        "Class Talent 1": "Astrodynamics",
+        "Class Talent 2": "EVA",
+        "Class Talent 3": "Antiquities"
+    },
+    {
+        "Class": "Prospector",
+        "Hit Dice": "1D12",
+        "Description": "",
+        "Class Talent 1": "Tools",
+        "Class Talent 2": "Surveying",
+        "Class Talent 3": "Environmental Conditioning"
+    },
+    {
+        "Class": "Scientist",
+        "Hit Dice": "1D8",
+        "Description": "",
+        "Class Talent 1": "Research methods",
+        "Class Talent 2": "Astrophysics",
+        "Class Talent 3": "Scanning"
+    },
+    {
+        "Class": "Chemist",
+        "Hit Dice": "1D8",
+        "Description": "",
+        "Class Talent 1": "Chemistry",
+        "Class Talent 2": "Fabrication",
+        "Class Talent 3": "Wellness"
+    },
+    {
+        "Class": "Medic",
+        "Hit Dice": "1D10",
+        "Description": "",
+        "Class Talent 1": "Medicine",
+        "Class Talent 2": "Fitness",
+        "Class Talent 3": "Dueling"
+    },
+    {
+        "Class": "Mercenary",
+        "Hit Dice": "1D12",
+        "Description": "",
+        "Class Talent 1": "Rifles",
+        "Class Talent 2": "Intimidation",
+        "Class Talent 3": "Boxing"
+    },
+    {
+        "Class": "Pilot",
+        "Hit Dice": "1D8",
+        "Description": "",
+        "Class Talent 1": "Piloting",
+        "Class Talent 2": "Shields",
+        "Class Talent 3": "Payloads"
+    },
+    {
+        "Class": "Contractor",
+        "Hit Dice": "1D10",
+        "Description": "",
+        "Class Talent 1": "Carbines",
+        "Class Talent 2": "Incapacitation",
+        "Class Talent 3": "Concealment"
+    }
+]

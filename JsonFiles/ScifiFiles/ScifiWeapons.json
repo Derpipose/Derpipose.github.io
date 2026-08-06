@@ -7,7 +7,7 @@
     "Range": "Short",
     "CriticalRange": 20,
     "CriticalMultiplier": 2,
-    "AmmoType": "Primary-",
+    "AmmoType": "Generic",
     "Capacity": 24,
     "SpecialTraits": ""
   },
@@ -19,7 +19,7 @@
     "Range": "Short",
     "CriticalRange": 19,
     "CriticalMultiplier": 4,
-    "AmmoType": "Primary-",
+    "AmmoType": "Generic",
     "Capacity": 10,
     "SpecialTraits": ""
   },
@@ -31,7 +31,7 @@
     "Range": "Medium",
     "CriticalRange": 19,
     "CriticalMultiplier": 3,
-    "AmmoType": "Primary",
+    "AmmoType": "Greater Generic",
     "Capacity": 8,
     "SpecialTraits": ""
   },
@@ -43,7 +43,7 @@
     "Range": "Short",
     "CriticalRange": 20,
     "CriticalMultiplier": 2,
-    "AmmoType": "Primary",
+    "AmmoType": "Generic",
     "Capacity": 48,
     "SpecialTraits": ""
   },
@@ -55,7 +55,7 @@
     "Range": "Medium",
     "CriticalRange": 19,
     "CriticalMultiplier": 4,
-    "AmmoType": "Primary-",
+    "AmmoType": "Generic",
     "Capacity": 30,
     "SpecialTraits": ""
   },
@@ -67,7 +67,7 @@
     "Range": "Medium",
     "CriticalRange": 19,
     "CriticalMultiplier": 3,
-    "AmmoType": "Primary",
+    "AmmoType": "Common",
     "Capacity": 30,
     "SpecialTraits": ""
   },
@@ -79,7 +79,7 @@
     "Range": "Long",
     "CriticalRange": 19,
     "CriticalMultiplier": 4,
-    "AmmoType": "Primary",
+    "AmmoType": "Common",
     "Capacity": 36,
     "SpecialTraits": ""
   },
@@ -91,7 +91,7 @@
     "Range": "Long",
     "CriticalRange": 18,
     "CriticalMultiplier": 3,
-    "AmmoType": "Primary",
+    "AmmoType": "Common",
     "Capacity": 20,
     "SpecialTraits": ""
   },
@@ -103,7 +103,7 @@
     "Range": "Long",
     "CriticalRange": 19,
     "CriticalMultiplier": 5,
-    "AmmoType": "Secondary",
+    "AmmoType": "Greater Common",
     "Capacity": 10,
     "SpecialTraits": ""
   },
@@ -115,7 +115,7 @@
     "Range": "Medium",
     "CriticalRange": 18,
     "CriticalMultiplier": 6,
-    "AmmoType": "Secondary+",
+    "AmmoType": "Uncommon",
     "Capacity": 6,
     "SpecialTraits": ""
   },
@@ -127,7 +127,7 @@
     "Range": "Medium",
     "CriticalRange": 18,
     "CriticalMultiplier": 4,
-    "AmmoType": "Secondary+",
+    "AmmoType": "Uncommon",
     "Capacity": 2,
     "SpecialTraits": ""
   },
@@ -139,7 +139,7 @@
     "Range": "Short",
     "CriticalRange": 20,
     "CriticalMultiplier": 3,
-    "AmmoType": "Secondary+",
+    "AmmoType": "Uncommon",
     "Capacity": 12,
     "SpecialTraits": ""
   }

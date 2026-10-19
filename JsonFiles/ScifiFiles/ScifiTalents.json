@@ -121,7 +121,7 @@
     "Description": "Cybernetics that improve stats.",
     "Ability": "Mild stat improvement, but also mild EMP vulnerability increase",
     "Perk": "Stats",
-    "PerkAmount": 1,
+    "PerkAmount": "1",
     "WIP": "No",
     "Notes": ""
   },
@@ -211,7 +211,7 @@
     "Description": "Strong, fit, athletic, and capable.",
     "Ability": "Allows you to have an additional AP per turn.",
     "Perk": "AP",
-    "PerkAmount": 1,
+    "PerkAmount": "1",
     "WIP": "Yes",
     "Notes": ""
   },
@@ -562,7 +562,7 @@
     "Description": "While piloting starships is widely viewed as a major upgrade, vehicle certification represents experience driving ground-based vehicle platforms, from mechs to trucks and tanks.",
     "Ability": "Allows a flat +2 bonus modifier roll to be added to evasion checks while driving vehicles.",
     "Perk": "Driving",
-    "PerkAmount": 2,
+    "PerkAmount": "2",
     "WIP": "Yes",
     "Notes": ""
   },

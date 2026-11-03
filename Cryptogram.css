@@ -404,3 +404,330 @@ footer {
         grid-template-rows: auto;
     }
 }
+
+/* ===================== Klaus (Christmas) Theme ===================== */
+body.theme-klaus {
+    background: linear-gradient(135deg, #0f3d2e 0%, #7a1a1a 100%);
+}
+
+body.theme-klaus .container {
+    background: #fffaf3;
+}
+
+body.theme-klaus header {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 10% 20%, rgba(255,255,255,0.9) 0 2px, transparent 3px),
+        radial-gradient(circle at 30% 70%, rgba(255,255,255,0.8) 0 3px, transparent 4px),
+        radial-gradient(circle at 55% 30%, rgba(255,255,255,0.9) 0 2px, transparent 3px),
+        radial-gradient(circle at 75% 80%, rgba(255,255,255,0.7) 0 3px, transparent 4px),
+        radial-gradient(circle at 90% 25%, rgba(255,255,255,0.9) 0 2px, transparent 3px),
+        linear-gradient(135deg, #b3261e 0%, #7a1a1a 50%, #0f5132 100%);
+    background-size: 180px 120px, 220px 140px, 160px 100px, 240px 160px, 200px 130px, 100% 100%;
+    animation: klaus-snow 12s linear infinite;
+    border-bottom: 10px solid transparent;
+    border-image: repeating-linear-gradient(45deg, #c62828 0 14px, #ffffff 14px 28px) 10;
+}
+
+@keyframes klaus-snow {
+    from { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+    to   { background-position: 30px 120px, -20px 140px, 15px 100px, -30px 160px, 25px 130px, 0 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body.theme-klaus header { animation: none; }
+}
+
+body.theme-klaus header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #fff;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+body.theme-klaus section h2 {
+    color: #0f5132;
+    border-bottom-color: #c62828;
+}
+
+body.theme-klaus .source-selection,
+body.theme-klaus .cipher-key,
+body.theme-klaus .stats-section {
+    background: #eef6f0;
+}
+
+body.theme-klaus .source-selection,
+body.theme-klaus .cryptogram-display {
+    border-left-color: #c62828;
+}
+
+body.theme-klaus .source-selection label {
+    color: #0f5132;
+}
+
+body.theme-klaus .cryptogram-display {
+    background: #fdf6ec;
+}
+
+body.theme-klaus .word-solution {
+    color: #b3261e;
+}
+
+body.theme-klaus .word-encrypted {
+    color: #2f4f3f;
+}
+
+body.theme-klaus .letter-mapping {
+    border-color: #d8c9a8;
+}
+
+body.theme-klaus .encrypted-letter {
+    background: #0f5132;
+}
+
+body.theme-klaus .decrypted-input:focus {
+    border-color: #c62828;
+    box-shadow: 0 0 5px rgba(198, 40, 40, 0.35);
+}
+
+body.theme-klaus .btn-primary {
+    background: linear-gradient(135deg, #c62828 0%, #7a1a1a 100%);
+}
+
+body.theme-klaus .btn-primary:hover {
+    box-shadow: 0 5px 20px rgba(198, 40, 40, 0.4);
+}
+
+body.theme-klaus .btn-secondary {
+    background: #fffaf3;
+    border-color: #0f5132;
+    color: #0f5132;
+}
+
+body.theme-klaus .btn-secondary:hover {
+    background: #0f5132;
+    color: #fff;
+}
+
+/* ===================== Atlantis (Lost Empire / Undersea) Theme ===================== */
+body.theme-atlantis {
+    background: linear-gradient(180deg, #0a4f6b 0%, #04263a 60%, #021521 100%);
+}
+
+body.theme-atlantis .container {
+    background: #f2fbfb;
+}
+
+body.theme-atlantis header {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 15% 80%, rgba(180,255,255,0.55) 0 3px, transparent 4px),
+        radial-gradient(circle at 40% 60%, rgba(180,255,255,0.45) 0 5px, transparent 6px),
+        radial-gradient(circle at 65% 90%, rgba(180,255,255,0.5) 0 2px, transparent 3px),
+        radial-gradient(circle at 85% 70%, rgba(180,255,255,0.4) 0 4px, transparent 5px),
+        radial-gradient(ellipse at 50% -20%, rgba(90,230,255,0.45) 0%, transparent 60%),
+        linear-gradient(180deg, #0e6f8c 0%, #07405a 55%, #03263a 100%);
+    background-size: 200px 160px, 260px 200px, 180px 140px, 240px 180px, 100% 100%, 100% 100%;
+    animation: atlantis-bubbles 9s linear infinite;
+    border-bottom: 6px solid #b98a3e;
+    box-shadow: inset 0 -6px 18px rgba(0, 220, 255, 0.25);
+}
+
+@keyframes atlantis-bubbles {
+    from { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+    to   { background-position: 10px -160px, -15px -200px, 8px -140px, -10px -180px, 0 0, 0 0; }
+}
+
+body.theme-atlantis header h1 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    letter-spacing: 3px;
+    color: #e6fbff;
+    text-shadow: 0 0 10px rgba(80, 230, 255, 0.9), 0 0 24px rgba(0, 180, 255, 0.5);
+}
+
+body.theme-atlantis section h2 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #07405a;
+    border-bottom-color: #b98a3e;
+}
+
+body.theme-atlantis .source-selection,
+body.theme-atlantis .cipher-key,
+body.theme-atlantis .stats-section {
+    background: #e2f4f6;
+}
+
+body.theme-atlantis .source-selection,
+body.theme-atlantis .cryptogram-display {
+    border-left-color: #18b6d6;
+}
+
+body.theme-atlantis .source-selection label {
+    color: #07405a;
+}
+
+body.theme-atlantis .cryptogram-display {
+    background: #f6f1e4; /* explorer's journal parchment */
+}
+
+body.theme-atlantis .word-solution {
+    color: #0a8fae;
+    text-shadow: 0 0 6px rgba(24, 182, 214, 0.35);
+}
+
+body.theme-atlantis .word-encrypted {
+    color: #5a4a2e;
+}
+
+body.theme-atlantis .letter-mapping {
+    border-color: #b7dbe0;
+}
+
+body.theme-atlantis .encrypted-letter {
+    background: #07405a;
+    color: #9ff3ff;
+    box-shadow: 0 0 6px rgba(24, 182, 214, 0.5);
+}
+
+body.theme-atlantis .decrypted-input:focus {
+    border-color: #18b6d6;
+    box-shadow: 0 0 8px rgba(24, 182, 214, 0.55);
+}
+
+body.theme-atlantis .btn-primary {
+    background: linear-gradient(135deg, #18b6d6 0%, #07405a 100%);
+}
+
+body.theme-atlantis .btn-primary:hover {
+    box-shadow: 0 0 20px rgba(24, 182, 214, 0.6);
+}
+
+body.theme-atlantis .btn-secondary {
+    background: #f2fbfb;
+    border-color: #b98a3e;
+    color: #07405a;
+}
+
+body.theme-atlantis .btn-secondary:hover {
+    background: #07405a;
+    color: #9ff3ff;
+}
+
+/* ===================== Treasure Planet (Space Galleon) Theme ===================== */
+body.theme-treasureplanet {
+    background:
+        radial-gradient(ellipse at 20% 30%, rgba(160, 80, 200, 0.35) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 70%, rgba(40, 120, 220, 0.35) 0%, transparent 50%),
+        linear-gradient(135deg, #0b0a24 0%, #1b1240 50%, #2a0f3a 100%);
+}
+
+body.theme-treasureplanet .container {
+    background: #fbf6ea;
+}
+
+body.theme-treasureplanet header {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 12% 25%, #fff 0 1px, transparent 2px),
+        radial-gradient(circle at 35% 75%, #ffe9a8 0 1.5px, transparent 2.5px),
+        radial-gradient(circle at 58% 20%, #fff 0 1px, transparent 2px),
+        radial-gradient(circle at 78% 60%, #cfe3ff 0 1.5px, transparent 2.5px),
+        radial-gradient(circle at 92% 30%, #fff 0 1px, transparent 2px),
+        radial-gradient(ellipse at 75% 40%, rgba(255, 140, 60, 0.35) 0%, transparent 45%),
+        radial-gradient(ellipse at 25% 60%, rgba(150, 70, 210, 0.45) 0%, transparent 55%),
+        linear-gradient(135deg, #0b0a24 0%, #22175a 55%, #3a1450 100%);
+    background-size: 140px 90px, 190px 120px, 160px 100px, 210px 130px, 120px 80px, 100% 100%, 100% 100%, 100% 100%;
+    animation: tp-twinkle 4s ease-in-out infinite alternate;
+    border-bottom: 6px solid #c9a24a;
+}
+
+@keyframes tp-twinkle {
+    from { filter: brightness(0.95); }
+    to   { filter: brightness(1.15); }
+}
+
+body.theme-treasureplanet header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    color: #f5d77a;
+    text-shadow: 0 0 10px rgba(245, 215, 122, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+body.theme-treasureplanet header p {
+    color: #e8e0ff;
+}
+
+body.theme-treasureplanet section h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #2a1a5e;
+    border-bottom-color: #c9a24a;
+}
+
+body.theme-treasureplanet .source-selection,
+body.theme-treasureplanet .cipher-key,
+body.theme-treasureplanet .stats-section {
+    background: #ece8f7;
+}
+
+body.theme-treasureplanet .source-selection,
+body.theme-treasureplanet .cryptogram-display {
+    border-left-color: #c9a24a;
+}
+
+body.theme-treasureplanet .source-selection label {
+    color: #2a1a5e;
+}
+
+body.theme-treasureplanet .cryptogram-display {
+    background: #f4ead2; /* old treasure-map parchment */
+}
+
+body.theme-treasureplanet .word-solution {
+    color: #5b2a8c;
+}
+
+body.theme-treasureplanet .word-encrypted {
+    color: #6b4f2a;
+}
+
+body.theme-treasureplanet .letter-mapping {
+    border-color: #d9cfae;
+}
+
+body.theme-treasureplanet .encrypted-letter {
+    background: linear-gradient(135deg, #d8b45a 0%, #9c7428 100%);
+    color: #1b1240;
+}
+
+body.theme-treasureplanet .decrypted-input:focus {
+    border-color: #7a4fc4;
+    box-shadow: 0 0 6px rgba(122, 79, 196, 0.45);
+}
+
+body.theme-treasureplanet .btn-primary {
+    background: linear-gradient(135deg, #3a2a8a 0%, #1b1240 100%);
+    color: #f5d77a;
+    border: 2px solid #c9a24a;
+}
+
+body.theme-treasureplanet .btn-primary:hover {
+    box-shadow: 0 5px 20px rgba(201, 162, 74, 0.5);
+}
+
+body.theme-treasureplanet .btn-secondary {
+    background: #fbf6ea;
+    border-color: #c9a24a;
+    color: #2a1a5e;
+}
+
+body.theme-treasureplanet .btn-secondary:hover {
+    background: #2a1a5e;
+    color: #f5d77a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body.theme-atlantis header,
+    body.theme-treasureplanet header { animation: none; }
+}

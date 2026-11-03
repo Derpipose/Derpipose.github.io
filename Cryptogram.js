@@ -2,6 +2,7 @@
 
 let TREASURE_PLANET_TEXT = '';
 let ATLANTIS_TEXT = '';
+let KLAUS_TEXT = '';
 let SELECTED_SOURCE = 'treasureplanet';
 
 // Load text files
@@ -19,6 +20,25 @@ async function loadCryptogramTexts() {
     } catch (error) {
         console.error('Error loading Atlantis text:', error);
     }
+
+    try {
+        const klausResponse = await fetch('CryptogramFiles/Klaus.txt');
+        KLAUS_TEXT = await klausResponse.text();
+    } catch (error) {
+        console.error('Error loading Klaus text:', error);
+    }
+}
+
+const SOURCE_TITLES = {
+    treasureplanet: '🪐 Treasure Planet Cryptogram 🗺️',
+    atlantis: '🌊 Atlantis Cryptogram 💎',
+    klaus: '🎄 Klaus Cryptogram 🎁'
+};
+
+function getSourceText() {
+    if (SELECTED_SOURCE === 'atlantis') return ATLANTIS_TEXT;
+    if (SELECTED_SOURCE === 'klaus') return KLAUS_TEXT;
+    return TREASURE_PLANET_TEXT;
 }
 
 class Cryptogram {
@@ -41,13 +61,16 @@ class Cryptogram {
     }
 
     extractRandomLines() {
-        const sourceText = SELECTED_SOURCE === 'atlantis' ? ATLANTIS_TEXT : TREASURE_PLANET_TEXT;
+        const sourceText = getSourceText();
         const lines = sourceText.split('\n');
         const lineCount = Math.floor(Math.random() * 3) + 5; // 5-7 lines
         const startIdx = Math.floor(Math.random() * (lines.length - lineCount));
         const selectedLines = lines.slice(startIdx, startIdx + lineCount);
         // const selectedLines = lines.slice(295, 300); // For testing with a specific passage
-        return selectedLines.join('\n').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        return selectedLines.join('\n').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            .replace(/[\u2018\u2019]/g, "'")   // curly apostrophes -> straight
+            .replace(/[\u201c\u201d]/g, '"')   // curly double quotes -> straight
+            .replace(/\u2026/g, '...');         // ellipsis character -> three dots
     }
 
     generateNewCryptogram() {
@@ -312,8 +335,10 @@ class Cryptogram {
     }
 
     updateTitle() {
-        const titleText = SELECTED_SOURCE === 'atlantis' ? 'Atlantis Cryptogram' : 'Treasure Planet Cryptogram';
-        document.querySelector('header h1').textContent = titleText;
+        document.querySelector('header h1').textContent = SOURCE_TITLES[SELECTED_SOURCE] || SOURCE_TITLES.treasureplanet;
+        Object.keys(SOURCE_TITLES).forEach(source => {
+            document.body.classList.toggle(`theme-${source}`, source === SELECTED_SOURCE);
+        });
     }
 
     render() {

@@ -1,0 +1,314 @@
+[
+  {
+    "Name": "Appraise",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Awareness",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Bluff",
+    "SkillType": "Specialization",
+    "Primary": "Charisma",
+    "Secondary": ""
+  },
+  {
+    "Name": "Chemistry",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Climb",
+    "SkillType": "Specialization",
+    "Primary": "Strength",
+    "Secondary": ""
+  },
+  {
+    "Name": "Computer Use",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Craft",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Disable Device",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Disguise",
+    "SkillType": "Specialization",
+    "Primary": "Charisma",
+    "Secondary": ""
+  },
+  {
+    "Name": "Escape Artist",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Engineering",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Geography",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Geology",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Handle Animal",
+    "SkillType": "Specialization",
+    "Primary": "Charisma",
+    "Secondary": ""
+  },
+  {
+    "Name": "Herb Lore",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "History",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Intimidate",
+    "SkillType": "Specialization",
+    "Primary": "Charisma",
+    "Secondary": ""
+  },
+  {
+    "Name": "Linguistics",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Medicine",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Mysticism",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Perception",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Perform",
+    "SkillType": "Specialization",
+    "Primary": "Charisma",
+    "Secondary": ""
+  },
+  {
+    "Name": "Ride",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Robotics",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Sense Motive",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Sleight of Hand",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Stealth",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Survival",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Swim",
+    "SkillType": "Specialization",
+    "Primary": "Strength",
+    "Secondary": ""
+  },
+  {
+    "Name": "Metallurgy",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Xenology",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Communications",
+    "SkillType": "Specialization",
+    "Primary": "Charisma",
+    "Secondary": ""
+  },
+  {
+    "Name": "Mining",
+    "SkillType": "Specialization",
+    "Primary": "Constitution",
+    "Secondary": ""
+  },
+  {
+    "Name": "Forensics",
+    "SkillType": "Specialization",
+    "Primary": "Intelligence",
+    "Secondary": ""
+  },
+  {
+    "Name": "Cargo Handling",
+    "SkillType": "Specialization",
+    "Primary": "Strength",
+    "Secondary": ""
+  },
+  {
+    "Name": "Zero-G",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Vehicle Operation",
+    "SkillType": "Specialization",
+    "Primary": "Wisdom",
+    "Secondary": ""
+  },
+  {
+    "Name": "Ordnance",
+    "SkillType": "Specialization",
+    "Primary": "Dexterity",
+    "Secondary": ""
+  },
+  {
+    "Name": "Acrobatics",
+    "SkillType": "General",
+    "Primary": "Dexterity",
+    "Secondary": "Strength"
+  },
+  {
+    "Name": "Athletics",
+    "SkillType": "General",
+    "Primary": "Strength",
+    "Secondary": "Constitution"
+  },
+  {
+    "Name": "Culture",
+    "SkillType": "General",
+    "Primary": "Intelligence",
+    "Secondary": "Charisma"
+  },
+  {
+    "Name": "Deception",
+    "SkillType": "General",
+    "Primary": "Charisma",
+    "Secondary": "Intelligence"
+  },
+  {
+    "Name": "Diplomacy",
+    "SkillType": "General",
+    "Primary": "Charisma",
+    "Secondary": "Intelligence"
+  },
+  {
+    "Name": "Exploration",
+    "SkillType": "General",
+    "Primary": "Constitution",
+    "Secondary": "Wisdom"
+  },
+  {
+    "Name": "Life Science",
+    "SkillType": "General",
+    "Primary": "Intelligence",
+    "Secondary": "Wisdom"
+  },
+  {
+    "Name": "Mechanics",
+    "SkillType": "General",
+    "Primary": "Wisdom",
+    "Secondary": "Strength"
+  },
+  {
+    "Name": "Physical Science",
+    "SkillType": "General",
+    "Primary": "Wisdom",
+    "Secondary": "Intelligence"
+  },
+  {
+    "Name": "Technology",
+    "SkillType": "General",
+    "Primary": "Wisdom",
+    "Secondary": "Intelligence"
+  },
+  {
+    "Name": "Navigation",
+    "SkillType": "General",
+    "Primary": "Intelligence",
+    "Secondary": "Wisdom"
+  },
+  {
+    "Name": "Construction",
+    "SkillType": "General",
+    "Primary": "Constitution",
+    "Secondary": "Strength"
+  },
+  {
+    "Name": "Security",
+    "SkillType": "General",
+    "Primary": "Wisdom",
+    "Secondary": "Constitution"
+  },
+  {
+    "Name": "Commerce",
+    "SkillType": "General",
+    "Primary": "Charisma",
+    "Secondary": "Wisdom"
+  }
+]
